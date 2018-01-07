@@ -1,4 +1,4 @@
-# judgement
+# Judgement
 Judgement Warband Manager
 
 iPhone app to manage your warband for the MOBA inspired tabletop game Judgement.
