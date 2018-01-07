@@ -83,10 +83,7 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
         case IndexPathSections.header.rawValue:
             return 1
         case IndexPathSections.cancelArtefact.rawValue:
-            if self.dismissEnabled {
-                return 1
-            }
-            return 0
+            return self.dismissEnabled ? 1 : 0
         case IndexPathSections.cards.rawValue:
             return self.cardData?.count ?? 0
         default:
@@ -119,11 +116,7 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        if section == IndexPathSections.cards.rawValue {
-            return CGSize(width: self.view.bounds.width, height: 30)
-        } else {
-            return CGSize.zero
-        }
+        return (section == IndexPathSections.cards.rawValue) ? CGSize(width: self.view.bounds.width, height: 30) : CGSize.zero
     }
     
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
@@ -141,15 +134,9 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
         case IndexPathSections.header.rawValue:
             return CGSize(width: collectionView.bounds.width, height: 120)
         case IndexPathSections.cancelArtefact.rawValue:
-            if self.dismissEnabled {
-                return CGSize(width: collectionView.bounds.width, height: 50)
-            }
-            return CGSize.zero
+            return self.dismissEnabled ? CGSize(width: collectionView.bounds.width, height: 50) : CGSize.zero
         case IndexPathSections.cards.rawValue:
-            if self.enableCardSelection {
-                return CGSize(width: collectionView.bounds.width, height: 80)
-            }
-            return CGSize(width: collectionView.bounds.width, height: 50)
+            return self.enableCardSelection ? CGSize(width: collectionView.bounds.width, height: 80) : CGSize(width: collectionView.bounds.width, height: 50)
         default:
             return CGSize(width: collectionView.bounds.width, height: 50)
         }

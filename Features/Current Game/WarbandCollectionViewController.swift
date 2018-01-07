@@ -146,18 +146,18 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        if (indexPath.section == 0) {
+        switch (indexPath.section) {
+        case 0:
             return CGSize(width: collectionView.bounds.width, height: 130)
+        default:
+            return CGSize(width: collectionView.bounds.width, height: 410)
         }
-        
-        return CGSize(width: collectionView.bounds.width, height: 410)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
         switch section {
         case 0:
-            return CGSize()
-            
+            return CGSize.zero
         default:
             return CGSize(width: self.view.bounds.width, height: 30)
         }
