@@ -83,7 +83,7 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
         case IndexPathSections.header.rawValue:
             return 1
         case IndexPathSections.cancelArtefact.rawValue:
-            if self.enableCardSelection {
+            if self.dismissEnabled {
                 return 1
             }
             return 0
