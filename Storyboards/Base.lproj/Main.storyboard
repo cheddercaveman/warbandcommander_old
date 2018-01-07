@@ -87,8 +87,41 @@
                                 </constraints>
                                 <size key="customSize" width="375" height="120"/>
                             </collectionViewCell>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="dismissCell" id="UlU-On-REK">
+                                <rect key="frame" x="0.0" y="180" width="375" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Byw-e3-p7t">
+                                            <rect key="frame" x="20" y="15" width="335" height="30"/>
+                                            <state key="normal" title="Dismiss current"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                    <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                    <real key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="dismissButtonTouched:" destination="lSm-uS-Zqw" eventType="touchUpInside" id="Lmv-jP-1gb"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Byw-e3-p7t" secondAttribute="trailing" constant="20" id="FaN-1D-0If"/>
+                                    <constraint firstItem="Byw-e3-p7t" firstAttribute="centerY" secondItem="UlU-On-REK" secondAttribute="centerY" id="ILn-mj-TrQ"/>
+                                    <constraint firstItem="Byw-e3-p7t" firstAttribute="leading" secondItem="UlU-On-REK" secondAttribute="leading" constant="20" id="h9b-xk-fh6"/>
+                                </constraints>
+                            </collectionViewCell>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="characterCell" id="rKy-8j-CXe" customClass="CharacterCollectionViewCell" customModule="Judgement" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="180" width="375" height="80"/>
+                                <rect key="frame" x="0.0" y="250" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
@@ -121,7 +154,6 @@
                                                 </attributedString>
                                             </state>
                                             <connections>
-                                                <action selector="detailsButtonPressed:" destination="rKy-8j-CXe" eventType="touchUpInside" id="xIX-xs-yAd"/>
                                                 <segue destination="j5w-oN-LE7" kind="show" identifier="characterDetailSegue" id="mZM-bF-ugw"/>
                                             </connections>
                                         </button>
@@ -182,7 +214,7 @@
                                 </connections>
                             </collectionViewCell>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="monsterCell" id="z1h-TA-sCK" customClass="MonsterCollectionViewCell" customModule="Judgement" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="270" width="375" height="80"/>
+                                <rect key="frame" x="0.0" y="340" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
@@ -215,7 +247,6 @@
                                                 </attributedString>
                                             </state>
                                             <connections>
-                                                <action selector="detailsButtonPressed:" destination="z1h-TA-sCK" eventType="touchUpInside" id="dJL-6K-RBJ"/>
                                                 <segue destination="j5w-oN-LE7" kind="show" identifier="monsterDetailSegue" id="DTg-l1-fAk"/>
                                             </connections>
                                         </button>
@@ -275,7 +306,7 @@
                                 </connections>
                             </collectionViewCell>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artefactCell" id="A4h-uw-1hs" customClass="ArtefactCollectionViewCell" customModule="Judgement" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="360" width="375" height="78"/>
+                                <rect key="frame" x="0.0" y="430" width="375" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="78"/>
@@ -337,7 +368,6 @@
                                                 </attributedString>
                                             </state>
                                             <connections>
-                                                <action selector="detailsButtonPressed:" destination="A4h-uw-1hs" eventType="touchUpInside" id="szA-7i-OhU"/>
                                                 <segue destination="j5w-oN-LE7" kind="show" identifier="artefactDetailSegue" id="uOq-sh-vc9"/>
                                             </connections>
                                         </button>
@@ -366,7 +396,7 @@
                                 </connections>
                             </collectionViewCell>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="shrineCell" id="eDh-xu-GLg" customClass="ShrineCollectionViewCell" customModule="Judgement" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="448" width="375" height="80"/>
+                                <rect key="frame" x="0.0" y="518" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
@@ -428,7 +458,6 @@
                                                 </attributedString>
                                             </state>
                                             <connections>
-                                                <action selector="detailsButtonPressed:" destination="eDh-xu-GLg" eventType="touchUpInside" id="Byc-1E-eCg"/>
                                                 <segue destination="j5w-oN-LE7" kind="show" identifier="shrineDetailSegue" id="X2l-NG-NaV"/>
                                             </connections>
                                         </button>
@@ -490,7 +519,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3hf-y8-rrR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1945" y="866"/>
+            <point key="canvasLocation" x="1944.8" y="865.81709145427294"/>
         </scene>
         <!--About-->
         <scene sceneID="JIW-bb-aQg">
@@ -927,7 +956,6 @@
                                                 </attributedString>
                                             </state>
                                             <connections>
-                                                <action selector="detailsButtonTouched:" destination="sOR-gW-JFp" eventType="touchUpInside" id="X89-jq-iYh"/>
                                                 <segue destination="j5w-oN-LE7" kind="show" identifier="characterDetailSegue" id="pad-oE-Rcd"/>
                                             </connections>
                                         </button>
@@ -1176,7 +1204,6 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
-                                                <action selector="defensiveArtefactButtonTouched:" destination="sOR-gW-JFp" eventType="touchUpInside" id="Mif-Nm-qXT"/>
                                                 <segue destination="lSm-uS-Zqw" kind="show" identifier="defensiveArtefactSelectionSegue" id="p4r-G0-lhc"/>
                                             </connections>
                                         </button>
@@ -1204,7 +1231,6 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
-                                                <action selector="offensiveArtefactButtonTouched:" destination="sOR-gW-JFp" eventType="touchUpInside" id="69a-YB-W7S"/>
                                                 <segue destination="lSm-uS-Zqw" kind="show" identifier="offensiveArtefactSelectionSegue" id="phG-12-q6w"/>
                                             </connections>
                                         </button>
@@ -1281,7 +1307,6 @@
                                     </constraints>
                                     <state key="normal" title="Add"/>
                                     <connections>
-                                        <action selector="addButtonTouched:" destination="Vt2-Mt-pO5" eventType="touchUpInside" id="atf-UR-kgy"/>
                                         <segue destination="lSm-uS-Zqw" kind="show" identifier="characterSelectionSegue" id="aTS-pa-nor"/>
                                     </connections>
                                 </button>
@@ -1356,7 +1381,6 @@
                                                 </attributedString>
                                             </state>
                                             <connections>
-                                                <action selector="detailsButtonTouched:" destination="dcb-bs-nbJ" eventType="touchUpInside" id="QOi-Lv-pKV"/>
                                                 <segue destination="j5w-oN-LE7" kind="show" identifier="monsterDetailSegue" id="dTZ-hl-7wV"/>
                                             </connections>
                                         </button>
@@ -1596,7 +1620,6 @@
                                     </constraints>
                                     <state key="normal" title="Add"/>
                                     <connections>
-                                        <action selector="addButtonTouched:" destination="Iky-3P-gya" eventType="touchUpInside" id="ulB-yK-C3I"/>
                                         <segue destination="lSm-uS-Zqw" kind="show" identifier="monsterSelectionSegue" id="Qt4-Ln-Sah"/>
                                     </connections>
                                 </button>
@@ -1819,7 +1842,7 @@
         <image name="twitter.png" width="240" height="240"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="X2l-NG-NaV"/>
-        <segue reference="aTS-pa-nor"/>
+        <segue reference="dTZ-hl-7wV"/>
+        <segue reference="Qt4-Ln-Sah"/>
     </inferredMetricsTieBreakers>
 </document>

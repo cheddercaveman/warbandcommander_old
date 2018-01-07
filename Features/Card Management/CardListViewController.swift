@@ -11,12 +11,14 @@ import GRDB
 
 protocol CardListCollectionViewDelegate {
     func addToListButtonTouched(sender: UIButton, forCard card: CardBase?, withType viewType: CardListType)
+    func dismissButtonTouched(sender: UIButton, withType viewType: CardListType)
 }
 
-class CardListViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, UISearchResultsUpdating {
+class CardListViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     enum IndexPathSections : Int {
         case header = 0
-        case cards = 1
+        case cancelArtefact = 1
+        case cards = 2
     }
     
     private var headline: String?
@@ -24,6 +26,7 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
     var cardData: [CardBase]?
     private var filteredCardData: [CardBase]?
     private var cardCellType: CardCollectionViewCell.Type?
+    private var dismissEnabled: Bool = false
     
     private var _viewType: CardListType = .undefined
     var viewType: CardListType {
@@ -41,13 +44,18 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
                 self.enableCardSelection = false
             case .characterSelection(headline: let headline, cardCellIdentifier: let identifier, cardCellType: let celltype),
                  .monsterSelection(headline: let headline, cardCellIdentifier: let identifier, cardCellType: let celltype),
-                 .offensiveArtefactSelection(headline: let headline, cardCellIdentifier: let identifier, cardCellType: let celltype, referenceId: _),
-                 .defensiveArtefactSelection(headline: let headline, cardCellIdentifier: let identifier, cardCellType: let celltype, referenceId: _),
                  .shrineSelection(headline: let headline, cardCellIdentifier: let identifier, cardCellType: let celltype):
                 self.headline = headline
                 self.cardCellIdentifier = identifier
                 self.cardCellType = celltype
                 self.enableCardSelection = true
+            case .offensiveArtefactSelection(headline: let headline, cardCellIdentifier: let identifier, cardCellType: let celltype, enableDismiss: let dismissEnabled, referenceId: _),
+                 .defensiveArtefactSelection(headline: let headline, cardCellIdentifier: let identifier, cardCellType: let celltype, enableDismiss: let dismissEnabled, referenceId: _):
+                self.headline = headline
+                self.cardCellIdentifier = identifier
+                self.cardCellType = celltype
+                self.enableCardSelection = true
+                self.dismissEnabled = dismissEnabled
             default:
                 break
             }
@@ -59,10 +67,6 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let searchController = UISearchController(searchResultsController: self)
-        searchController.obscuresBackgroundDuringPresentation = false
-        searchController.searchBar.placeholder = "Search"
-        self.navigationItem.searchController = searchController
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -70,7 +74,7 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
     }
     
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 2
+        return 3
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -78,20 +82,16 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
         switch (section) {
         case IndexPathSections.header.rawValue:
             return 1
+        case IndexPathSections.cancelArtefact.rawValue:
+            if self.enableCardSelection {
+                return 1
+            }
+            return 0
         case IndexPathSections.cards.rawValue:
-            if self.isFiltering() {
-                if let count = self.filteredCardData?.count {
-                    return count
-                }
-            }
-            if let count = self.cardData?.count {
-                return count
-            }
+            return self.cardData?.count ?? 0
         default:
             return 0
         }
-        
-        return 0
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -99,6 +99,9 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
         switch (indexPath.section) {
         case IndexPathSections.header.rawValue:
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "headerCell", for: indexPath)
+            return cell
+        case IndexPathSections.cancelArtefact.rawValue:
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "dismissCell", for: indexPath)
             return cell
             
         case IndexPathSections.cards.rawValue:
@@ -116,20 +119,20 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        if section == 1 {
+        if section == IndexPathSections.cards.rawValue {
             return CGSize(width: self.view.bounds.width, height: 30)
+        } else {
+            return CGSize.zero
         }
-        
-        return CGSize()
     }
     
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        let supplementaryCell = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "headerView", for: indexPath) as! CardCollectionHeaderView
-        if indexPath.section == 1 {
+        if indexPath.section == IndexPathSections.cards.rawValue {
+            let supplementaryCell = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "headerView", for: indexPath) as! CardCollectionHeaderView
             supplementaryCell.setTitle(aTitle: self.headline!)
+            return supplementaryCell
         }
-        
-        return supplementaryCell
+        return UICollectionReusableView()
     }
     
     
@@ -137,6 +140,11 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
         switch (indexPath.section) {
         case IndexPathSections.header.rawValue:
             return CGSize(width: collectionView.bounds.width, height: 120)
+        case IndexPathSections.cancelArtefact.rawValue:
+            if self.dismissEnabled {
+                return CGSize(width: collectionView.bounds.width, height: 50)
+            }
+            return CGSize.zero
         case IndexPathSections.cards.rawValue:
             if self.enableCardSelection {
                 return CGSize(width: collectionView.bounds.width, height: 80)
@@ -162,29 +170,12 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
         }
     }
     
-    func searchBarIsEmpty() -> Bool {
-        return self.navigationItem.searchController?.searchBar.text?.isEmpty ?? true
-    }
-    
-    func isFiltering() -> Bool {
-        return (self.navigationItem.searchController?.isActive)! && !searchBarIsEmpty()
-    }
-    
-    func updateSearchResults(for searchController: UISearchController) {
-        guard let searchString = searchController.searchBar.text else {
-            return
-        }
-        
-        self.filteredCardData = self.cardData?.filter({( c : CardBase) -> Bool in
-            return c.name.lowercased().contains(searchString.lowercased())
-        })
-        
-        collectionView?.reloadData()
-        
-    }
-    
     @IBAction func addButtonTouched(_ sender: UIButton) {
         self.delegate?.addToListButtonTouched(sender: sender, forCard: self.cardData?[sender.tag], withType: self.viewType)
+    }
+    
+    @IBAction func dismissButtonTouched(_ sender: UIButton) {
+        self.delegate?.dismissButtonTouched(sender: sender, withType: self.viewType)
     }
 }
 

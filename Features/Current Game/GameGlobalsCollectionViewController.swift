@@ -121,5 +121,10 @@ class GameGlobalsCollectionViewController: UICollectionViewController, UICollect
     func addButtonTouched(sender: GenericCollectionHeaderView) {
         
     }
+    
+    func dismissButtonTouched(sender: UIButton, withType viewType: CardListType) {
+        
+    }
+
 }
 

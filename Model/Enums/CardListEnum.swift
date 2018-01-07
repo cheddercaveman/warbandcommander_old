@@ -16,8 +16,8 @@ enum CardListType {
     case shrinePreview(headline: String, cardCellIdentifier: String, cardCellType: CardCollectionViewCell.Type?)
     case characterSelection(headline: String, cardCellIdentifier: String, cardCellType: CardCollectionViewCell.Type?)
     case monsterSelection(headline: String, cardCellIdentifier: String, cardCellType: CardCollectionViewCell.Type?)
-    case offensiveArtefactSelection(headline: String, cardCellIdentifier: String, cardCellType: CardCollectionViewCell.Type?, referenceId: Int)
-    case defensiveArtefactSelection(headline: String, cardCellIdentifier: String, cardCellType: CardCollectionViewCell.Type?, referenceId: Int)
+    case offensiveArtefactSelection(headline: String, cardCellIdentifier: String, cardCellType: CardCollectionViewCell.Type?, enableDismiss: Bool, referenceId: Int)
+    case defensiveArtefactSelection(headline: String, cardCellIdentifier: String, cardCellType: CardCollectionViewCell.Type?, enableDismiss: Bool, referenceId: Int)
     case shrineSelection(headline: String, cardCellIdentifier: String, cardCellType: CardCollectionViewCell.Type?)
 }
 

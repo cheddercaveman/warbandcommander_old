@@ -35,7 +35,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
             let senderButton = sender as! UIButton
 
             destinationController.delegate = self
-            destinationController.viewType = .offensiveArtefactSelection(headline: "Select Artefact", cardCellIdentifier: "artefactCell", cardCellType: ArtefactCollectionViewCell.self, referenceId: senderButton.tag)
+            destinationController.viewType = .offensiveArtefactSelection(headline: "Select Artefact", cardCellIdentifier: "artefactCell", cardCellType: ArtefactCollectionViewCell.self, enableDismiss: (self.warband!.characters[senderButton.tag].offensiveArtefact != nil), referenceId: senderButton.tag)
 
             destinationController.cardData = DatabaseService.sharedInstance.Artefacts?.filter({ (a) -> Bool in
                 return a.trait == .offense
@@ -48,7 +48,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
             let senderButton = sender as! UIButton
 
             destinationController.delegate = self
-            destinationController.viewType = .defensiveArtefactSelection(headline: "Select Artefact", cardCellIdentifier: "artefactCell", cardCellType: ArtefactCollectionViewCell.self, referenceId: senderButton.tag)
+            destinationController.viewType = .defensiveArtefactSelection(headline: "Select Artefact", cardCellIdentifier: "artefactCell", cardCellType: ArtefactCollectionViewCell.self, enableDismiss: (self.warband!.characters[senderButton.tag].defensiveArtefact != nil), referenceId: senderButton.tag)
             
             destinationController.cardData = DatabaseService.sharedInstance.Artefacts?.filter({ (a) -> Bool in
                 return a.trait == .defense
@@ -167,10 +167,25 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         switch viewType {
         case .characterSelection(headline: _, cardCellIdentifier: _, cardCellType: _):
             self.warband?.addCharacter(aCharacter: card as! CharacterModel)
-        case .offensiveArtefactSelection(headline: _, cardCellIdentifier: _, cardCellType: _, referenceId: let index):
+        case .offensiveArtefactSelection(headline: _, cardCellIdentifier: _, cardCellType: _, enableDismiss: _,  referenceId: let index):
             self.warband?.characters[index].assignOffensiveArtefact(anArtefact: card as! ArtefactModel)
-        case .defensiveArtefactSelection(headline: _, cardCellIdentifier: _, cardCellType: _, referenceId: let index):
+        case .defensiveArtefactSelection(headline: _, cardCellIdentifier: _, cardCellType: _, enableDismiss: _, referenceId: let index):
             self.warband?.characters[index].assignDefensiveArtefact(anArtefact: card as! ArtefactModel)
+        default:
+            break
+        }
+        
+        PersistanceService.sharedInstance.persistGameState()
+        self.collectionView?.reloadData()
+        self.navigationController?.popViewController(animated: true)
+    }
+    
+    func dismissButtonTouched(sender: UIButton, withType viewType: CardListType) {
+        switch viewType {
+        case .offensiveArtefactSelection(headline: _, cardCellIdentifier: _, cardCellType: _, enableDismiss: _, referenceId: let index):
+            self.warband?.characters[index].removeOffensiveArtefact()
+        case .defensiveArtefactSelection(headline: _, cardCellIdentifier: _, cardCellType: _, enableDismiss: _, referenceId: let index):
+            self.warband?.characters[index].removeDefensiveArtefact()
         default:
             break
         }
