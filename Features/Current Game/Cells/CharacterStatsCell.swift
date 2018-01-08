@@ -37,6 +37,8 @@ class CharacterStatsCell: UICollectionViewCell {
             self.removeButton.tag = Int(self._indexPath)
             self.offensiveArtefactButton.tag = Int(self._indexPath)
             self.defensiveArtefactButton.tag = Int(self._indexPath)
+            self.offensiveArtefactDetailButton.tag = Int(self._indexPath)
+            self.defensiveArtefactDetailButton.tag = Int(self._indexPath)
         }
     }
 
@@ -87,12 +89,11 @@ class CharacterStatsCell: UICollectionViewCell {
         
         self.currentLevelLabel!.text = String(self.state!.currentLevel)
         
-        self.offensiveArtefactButton.isEnabled = self.state?.offensiveArtefact != nil
-        self.offensiveArtefactButton.titleLabel!.text = self.state?.offensiveArtefact?.name ?? "Offensive Artefact"
+        self.offensiveArtefactDetailButton.isEnabled = self.state?.offensiveArtefact != nil
+        self.offensiveArtefactButton.setTitle(self.state?.offensiveArtefact?.name ?? "Offensive Artefact", for: .normal)
         
-        
-        self.defensiveArtefactButton.isEnabled = self.state?.defensiveArtefact != nil
-        self.defensiveArtefactButton.titleLabel!.text = self.state?.defensiveArtefact?.name ?? "Defensive Artefact"
+        self.defensiveArtefactDetailButton.isEnabled = self.state?.defensiveArtefact != nil
+        self.defensiveArtefactButton.setTitle(self.state?.defensiveArtefact?.name ?? "Defensive Artefact", for: .normal)
         
         self.setNeedsDisplay()
     }

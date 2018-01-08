@@ -81,8 +81,7 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
     }
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        if section == 0 { return 1 }
-        return self.menuTitles.count
+        return section == 0 ? 1 : self.menuTitles.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -145,19 +144,11 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        if section == 0 {
-            return CGSize(width: self.view.bounds.width, height: 200)
-        }
-        
-        return CGSize()
+        return section == 0 ? CGSize(width: self.view.bounds.width, height: 200) : CGSize.zero
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
-        if section == 0 {
-            return CGSize()
-        }
-        
-        return CGSize(width: self.view.bounds.width, height: 50)
+        return section == 0 ? CGSize.zero : CGSize(width: self.view.bounds.width, height: 50)
     }
 }
 

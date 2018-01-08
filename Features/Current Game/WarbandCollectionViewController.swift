@@ -69,7 +69,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
             
             destinationController.setCard(aCard: self.warband!.characters[senderButton.tag].defensiveArtefact!)
         }
-}
+    }
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 2
@@ -164,7 +164,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         case 0:
             return CGSize(width: collectionView.bounds.width, height: 130)
         default:
-            return CGSize(width: collectionView.bounds.width, height: 410)
+            return CGSize(width: collectionView.bounds.width, height: 390)
         }
     }
     
@@ -177,21 +177,61 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         }
     }
     
+    private func askForArtefactDismissal(artefact anArtefact: ArtefactModel, handler: @escaping (_ alert: UIAlertAction) -> Void) {
+        let alert = UIAlertController(title: "Move Artefact", message: "Are you sure you want to move \(anArtefact.name)?", preferredStyle: .alert)
+        let clearAction = UIAlertAction(title: "Yes", style: .destructive, handler: handler)
+        let cancelAction = UIAlertAction(title: "No", style: .default) { (alert: UIAlertAction!) -> Void in
+        }
+        
+        alert.addAction(clearAction)
+        alert.addAction(cancelAction)
+        
+        present(alert, animated: true, completion:nil)
+
+    }
+    
     func addToListButtonTouched(sender: UIButton, forCard card: CardBase?, withType viewType: CardListType) {
         switch viewType {
         case .characterSelection(headline: _, cardCellIdentifier: _, cardCellType: _):
             self.warband?.addCharacter(aCharacter: card as! CharacterModel)
+            PersistanceService.sharedInstance.persistGameState()
+            self.collectionView?.reloadData()
+            self.navigationController?.popViewController(animated: true)
         case .offensiveArtefactSelection(headline: _, cardCellIdentifier: _, cardCellType: _, enableDismiss: _,  referenceId: let index):
-            self.warband?.characters[index].assignOffensiveArtefact(anArtefact: card as! ArtefactModel)
+            if self.warband!.artefactInUse(anArtefact: card as! ArtefactModel) {
+                self.askForArtefactDismissal(artefact: card as! ArtefactModel) { (alert: UIAlertAction) in
+                    self.warband!.dismissArtefact(anArtefact: card as! ArtefactModel)
+                    self.warband!.characters[index].offensiveArtefact = card as? ArtefactModel
+                    PersistanceService.sharedInstance.persistGameState()
+                    self.collectionView!.reloadData()
+                    self.navigationController?.popViewController(animated: true)
+                }
+            } else {
+                self.warband?.characters[index].assignOffensiveArtefact(anArtefact: card as! ArtefactModel)
+                PersistanceService.sharedInstance.persistGameState()
+                self.collectionView?.reloadData()
+                self.navigationController?.popViewController(animated: true)
+            }
         case .defensiveArtefactSelection(headline: _, cardCellIdentifier: _, cardCellType: _, enableDismiss: _, referenceId: let index):
-            self.warband?.characters[index].assignDefensiveArtefact(anArtefact: card as! ArtefactModel)
+            if self.warband!.artefactInUse(anArtefact: card as! ArtefactModel) {
+                self.askForArtefactDismissal(artefact: card as! ArtefactModel) { (alert: UIAlertAction) in
+                    self.warband!.dismissArtefact(anArtefact: card as! ArtefactModel)
+                    self.warband!.characters[index].defensiveArtefact = card as? ArtefactModel
+                    PersistanceService.sharedInstance.persistGameState()
+                    self.collectionView!.reloadData()
+                    self.navigationController?.popViewController(animated: true)
+                }
+            } else {
+                self.warband?.characters[index].assignDefensiveArtefact(anArtefact: card as! ArtefactModel)
+                PersistanceService.sharedInstance.persistGameState()
+                self.collectionView?.reloadData()
+                self.navigationController?.popViewController(animated: true)
+
+            }
         default:
             break
         }
         
-        PersistanceService.sharedInstance.persistGameState()
-        self.collectionView?.reloadData()
-        self.navigationController?.popViewController(animated: true)
     }
     
     func dismissButtonTouched(sender: UIButton, withType viewType: CardListType) {

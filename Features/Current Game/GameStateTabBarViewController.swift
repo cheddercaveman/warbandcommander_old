@@ -9,27 +9,6 @@
 import UIKit
 
 class GameStateTabBarViewController: UITabBarController {
-    
-    private func image(fromString: String) -> UIImage? {
-        
-        let symbol = NSAttributedString(string: fromString, attributes: [.foregroundColor: UIColor.black, .font: "rpg-awesome"])
-
-        let mutableSymbol = NSMutableAttributedString(attributedString: symbol)
-        let rect = CGRect(x: 0, y: 0, width: 32, height: 32)
- 
-        let paragraphStyle = NSMutableParagraphStyle()
-        paragraphStyle.alignment = .center
-
-        mutableSymbol.addAttribute(NSAttributedStringKey.paragraphStyle, value: paragraphStyle, range: NSMakeRange(0, mutableSymbol.length))
-
-        UIGraphicsBeginImageContextWithOptions(rect.size, false, 0.0)
-        mutableSymbol.draw(in: rect)
-        let image = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-
-        return image
-    }
-
     override func viewDidLoad() {
         super.viewDidLoad()
         

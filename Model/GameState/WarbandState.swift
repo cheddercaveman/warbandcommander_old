@@ -57,4 +57,25 @@ class WarbandState : Encodable, Decodable {
         
         return false
     }
+    
+    func artefactInUse(anArtefact: ArtefactModel) -> Bool {
+        for c in self.characters {
+            if c.offensiveArtefact == anArtefact ||
+                c.defensiveArtefact == anArtefact {
+                return true
+            }
+        }
+        return false
+    }
+    
+    func dismissArtefact(anArtefact: ArtefactModel) {
+        for c in self.characters {
+            if c.offensiveArtefact == anArtefact {
+                c.offensiveArtefact = nil
+            }
+            if c.defensiveArtefact == anArtefact {
+                c.defensiveArtefact = nil
+            }
+        }
+    }
 }
