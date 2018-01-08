@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WarbandCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, IngameCharacterCollectionViewCellDelegate, CardListCollectionViewDelegate {
+class WarbandCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, CharacterStatsCellDelegate, CardListCollectionViewDelegate {
     var warband: WarbandState?
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -23,7 +23,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         if segue.identifier == "characterSelectionSegue" {
             let destinationController = segue.destination as! CardListViewController
             destinationController.delegate = self
-            destinationController.viewType = .characterSelection(headline: "Select Character", cardCellIdentifier: "characterCell", cardCellType: CharacterCollectionViewCell.self)
+            destinationController.viewType = .characterSelection(headline: "Select Character", cardCellIdentifier: "characterCell", cardCellType: CharacterCardCell.self)
             
             destinationController.cardData = DatabaseService.sharedInstance.Characters?.filter({ (c) -> Bool in
                 return !(self.warband?.containsCharacter(aCharacter: c) ?? false)
@@ -35,7 +35,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
             let senderButton = sender as! UIButton
 
             destinationController.delegate = self
-            destinationController.viewType = .offensiveArtefactSelection(headline: "Select Artefact", cardCellIdentifier: "artefactCell", cardCellType: ArtefactCollectionViewCell.self, enableDismiss: (self.warband!.characters[senderButton.tag].offensiveArtefact != nil), referenceId: senderButton.tag)
+            destinationController.viewType = .offensiveArtefactSelection(headline: "Select Artefact", cardCellIdentifier: "artefactCell", cardCellType: ArtefactCardCell.self, enableDismiss: (self.warband!.characters[senderButton.tag].offensiveArtefact != nil), referenceId: senderButton.tag)
 
             destinationController.cardData = DatabaseService.sharedInstance.Artefacts?.filter({ (a) -> Bool in
                 return a.trait == .offense
@@ -48,14 +48,28 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
             let senderButton = sender as! UIButton
 
             destinationController.delegate = self
-            destinationController.viewType = .defensiveArtefactSelection(headline: "Select Artefact", cardCellIdentifier: "artefactCell", cardCellType: ArtefactCollectionViewCell.self, enableDismiss: (self.warband!.characters[senderButton.tag].defensiveArtefact != nil), referenceId: senderButton.tag)
+            destinationController.viewType = .defensiveArtefactSelection(headline: "Select Artefact", cardCellIdentifier: "artefactCell", cardCellType: ArtefactCardCell.self, enableDismiss: (self.warband!.characters[senderButton.tag].defensiveArtefact != nil), referenceId: senderButton.tag)
             
             destinationController.cardData = DatabaseService.sharedInstance.Artefacts?.filter({ (a) -> Bool in
                 return a.trait == .defense
             })
             
         }
-    }
+        
+        if segue.identifier == "offensiveArtefactDetailsSegue" {
+            let destinationController = segue.destination as! CardDetailsViewController
+            let senderButton = sender as! UIButton
+            
+            destinationController.setCard(aCard: self.warband!.characters[senderButton.tag].offensiveArtefact!)
+        }
+
+        if segue.identifier == "defensiveArtefactDetailsSegue" {
+            let destinationController = segue.destination as! CardDetailsViewController
+            let senderButton = sender as! UIButton
+            
+            destinationController.setCard(aCard: self.warband!.characters[senderButton.tag].defensiveArtefact!)
+        }
+}
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 2
@@ -79,7 +93,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
             return cell
 
         default:
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "characterCell", for: indexPath) as! IngameCharacterCollectionViewCell
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "characterCell", for: indexPath) as! CharacterStatsCell
             
             cell.initializeCell(withCharacter: self.warband!.characters[indexPath.item])
             cell.indexPath = indexPath.item
@@ -89,7 +103,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         }
     }
 
-    func deleteButtonTouched(sender aSender: IngameCharacterCollectionViewCell) {
+    func deleteButtonTouched(sender aSender: CharacterStatsCell) {
         let alert = UIAlertController(title: "Remove Character", message: "Are you sure you want to remove \(aSender.state!.character!.name)?", preferredStyle: .alert)
         let clearAction = UIAlertAction(title: "Remove", style: .destructive) { (alert: UIAlertAction!) -> Void in
             self.warband?.characters.remove(at: aSender.tag)
@@ -105,7 +119,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         present(alert, animated: true, completion:nil)
     }
     
-    func damageIncreased(sender aSender: IngameCharacterCollectionViewCell) {
+    func damageIncreased(sender aSender: CharacterStatsCell) {
         let character = self.warband?.characters.first { (c) -> Bool in
             return c.character!.id == aSender.state!.character!.id
         }
@@ -115,7 +129,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         PersistanceService.sharedInstance.persistGameState()
     }
     
-    func damageDecreased(sender aSender: IngameCharacterCollectionViewCell) {
+    func damageDecreased(sender aSender: CharacterStatsCell) {
         let character = self.warband?.characters.first { (c) -> Bool in
             return c.character!.id == aSender.state!.character!.id
         }
@@ -125,7 +139,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         PersistanceService.sharedInstance.persistGameState()
     }
     
-    func levelIncreased(sender aSender: IngameCharacterCollectionViewCell) {
+    func levelIncreased(sender aSender: CharacterStatsCell) {
         let character = self.warband?.characters.first { (c) -> Bool in
             return c.character!.id == aSender.state!.character!.id
         }
@@ -135,7 +149,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         PersistanceService.sharedInstance.persistGameState()
     }
     
-    func levelDecreased(sender aSender: IngameCharacterCollectionViewCell) {
+    func levelDecreased(sender aSender: CharacterStatsCell) {
         let character = self.warband?.characters.first { (c) -> Bool in
             return c.character!.id == aSender.state!.character!.id
         }

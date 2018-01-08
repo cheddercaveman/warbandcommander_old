@@ -25,7 +25,7 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
     private var cardCellIdentifier: String?
     var cardData: [CardBase]?
     private var filteredCardData: [CardBase]?
-    private var cardCellType: CardCollectionViewCell.Type?
+    private var cardCellType: BaseCardCell.Type?
     private var dismissEnabled: Bool = false
     
     private var _viewType: CardListType = .undefined
@@ -103,7 +103,7 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
             
         case IndexPathSections.cards.rawValue:
             if let card = self.cardData?[indexPath.item] {
-                if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: self.cardCellIdentifier!, for: indexPath) as? CardCollectionViewCell {
+                if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: self.cardCellIdentifier!, for: indexPath) as? BaseCardCell {
                     cell.setCard(aCard: card, forindex: indexPath.item)
                     return cell
                 }

@@ -1,6 +1,6 @@
 
 //
-//  IngameMonsterCollectionViewCell.swift
+//  MonsterStatsCell.swift
 //  Judgement
 //
 //  Created by Oliver Hauth on 29.12.17.
@@ -9,13 +9,13 @@
 
 import UIKit
 
-protocol IngameMonsterCollectionViewCellDelegate {
-    func deleteButtonTouched(sender aSender: IngameMonsterCollectionViewCell )
-    func damageIncreased(sender aSender: IngameMonsterCollectionViewCell )
-    func damageDecreased(sender aSender: IngameMonsterCollectionViewCell )
+protocol MonsterStatsCellDelegate {
+    func deleteButtonTouched(sender aSender: MonsterStatsCell )
+    func damageIncreased(sender aSender: MonsterStatsCell )
+    func damageDecreased(sender aSender: MonsterStatsCell )
 }
 
-class IngameMonsterCollectionViewCell: UICollectionViewCell {
+class MonsterStatsCell: UICollectionViewCell {
     var _state: MonsterState?
     var state: MonsterState? {
         get { return self._state }
@@ -37,7 +37,7 @@ class IngameMonsterCollectionViewCell: UICollectionViewCell {
         }
     }
     
-    var delegate: IngameMonsterCollectionViewCellDelegate?
+    var delegate: MonsterStatsCellDelegate?
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var traitLabel: UILabel!
@@ -71,12 +71,7 @@ class IngameMonsterCollectionViewCell: UICollectionViewCell {
         self.statLifeLeftLabel!.text = String(self.currentLifeLeft())
         
         self.damageTakenLabel!.text = String(self.state!.damageTaken)
-        switch (self.currentLifeLeft()) {
-        case 0:
-            self.statLifeLeftLabel!.textColor = .red
-        default:
-            self.statLifeLeftLabel!.textColor = .darkGray
-        }
+        self.statLifeLeftLabel!.textColor = (self.currentLifeLeft() == 0) ? UIColor.red : UIColor.darkGray
         self.statLifeLeftLabel!.text = String(self.currentLifeLeft())
         
         self.setNeedsDisplay()

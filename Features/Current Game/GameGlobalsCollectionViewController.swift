@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GameGlobalsCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, IngameMonsterCollectionViewCellDelegate, CardListCollectionViewDelegate {
+class GameGlobalsCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, MonsterStatsCellDelegate, CardListCollectionViewDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "monsterDetailSegue" {
@@ -21,7 +21,7 @@ class GameGlobalsCollectionViewController: UICollectionViewController, UICollect
         if segue.identifier == "monsterSelectionSegue" {
             let destinationController = segue.destination as! CardListViewController
             destinationController.delegate = self
-            destinationController.viewType = .monsterSelection(headline: "Select Monster", cardCellIdentifier: "monsterCell", cardCellType: MonsterCollectionViewCell.self)
+            destinationController.viewType = .monsterSelection(headline: "Select Monster", cardCellIdentifier: "monsterCell", cardCellType: MonsterCardCell.self)
             
             destinationController.cardData = DatabaseService.sharedInstance.Monsters
         }
@@ -37,7 +37,7 @@ class GameGlobalsCollectionViewController: UICollectionViewController, UICollect
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "monsterCell", for: indexPath) as! IngameMonsterCollectionViewCell
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "monsterCell", for: indexPath) as! MonsterStatsCell
             
             cell.initializeCell(withMonster: GameState.sharedInstance.monster[indexPath.item])
             cell.indexPath = indexPath.item
@@ -58,10 +58,10 @@ class GameGlobalsCollectionViewController: UICollectionViewController, UICollect
         
     }
     
-    func detailsButtonTouched(sender aSender: IngameMonsterCollectionViewCell) {
+    func detailsButtonTouched(sender aSender: MonsterStatsCell) {
     }
     
-    func deleteButtonTouched(sender aSender: IngameMonsterCollectionViewCell) {
+    func deleteButtonTouched(sender aSender: MonsterStatsCell) {
         let alert = UIAlertController(title: "Remove Monster", message: "Are you sure you want to remove \(aSender.state?.monster!.name ?? "this monster")?", preferredStyle: .alert)
         let clearAction = UIAlertAction(title: "Remove", style: .destructive) { (alert: UIAlertAction!) -> Void in
             GameState.sharedInstance.monster.remove(at: aSender.tag)
@@ -77,13 +77,13 @@ class GameGlobalsCollectionViewController: UICollectionViewController, UICollect
         present(alert, animated: true, completion:nil)
     }
     
-    func damageIncreased(sender aSender: IngameMonsterCollectionViewCell) {
+    func damageIncreased(sender aSender: MonsterStatsCell) {
         GameState.sharedInstance.monster[aSender.indexPath].increaseDamage()
         aSender.updateCell()
         PersistanceService.sharedInstance.persistGameState()
     }
     
-    func damageDecreased(sender aSender: IngameMonsterCollectionViewCell) {
+    func damageDecreased(sender aSender: MonsterStatsCell) {
         GameState.sharedInstance.monster[aSender.indexPath].decreaseDamage()
         aSender.updateCell()
         PersistanceService.sharedInstance.persistGameState()

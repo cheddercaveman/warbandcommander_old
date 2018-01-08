@@ -1,5 +1,5 @@
 //
-//  MonsterCollectionViewCell.swift
+//  MonsterCardCell.swift
 //  Judgement
 //
 //  Created by Oliver Hauth on 27.12.17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MonsterCollectionViewCell: CardCollectionViewCell {
+class MonsterCardCell: BaseCardCell {
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var traitLabel: UILabel!
@@ -18,16 +18,14 @@ class MonsterCollectionViewCell: CardCollectionViewCell {
     private var monster: MonsterModel?
     
     override func setCard(aCard: CardBase, forindex anIndex: Int) {
-        let aMonster: MonsterModel = aCard as! MonsterModel
+        self.monster = aCard as? MonsterModel
         
-        self.monster = aMonster
-        if (self.monster == nil) {
-            return
+        if (self.monster != nil) {
+            self.detailsButton!.tag = anIndex
+            self.addButton!.tag = anIndex
+            self.nameLabel!.text = self.monster!.name
+            self.traitLabel!.text = self.monster!.trait
         }
-        self.detailsButton!.tag = anIndex
-        self.addButton!.tag = anIndex
-        self.nameLabel!.text = self.monster!.name
-        self.traitLabel!.text = self.monster!.trait
     }
 
 }

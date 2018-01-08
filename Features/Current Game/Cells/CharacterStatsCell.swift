@@ -1,5 +1,5 @@
 //
-//  IngameCharacterCollectionViewCell.swift
+//  CharacterStatsCell.swift
 //  Judgement
 //
 //  Created by Oliver Hauth on 29.12.17.
@@ -8,15 +8,15 @@
 
 import UIKit
 
-protocol IngameCharacterCollectionViewCellDelegate {
-    func deleteButtonTouched(sender aSender: IngameCharacterCollectionViewCell )
-    func damageIncreased(sender aSender: IngameCharacterCollectionViewCell )
-    func damageDecreased(sender aSender: IngameCharacterCollectionViewCell )
-    func levelIncreased(sender aSender: IngameCharacterCollectionViewCell )
-    func levelDecreased(sender aSender: IngameCharacterCollectionViewCell )
+protocol CharacterStatsCellDelegate {
+    func deleteButtonTouched(sender aSender: CharacterStatsCell )
+    func damageIncreased(sender aSender: CharacterStatsCell )
+    func damageDecreased(sender aSender: CharacterStatsCell )
+    func levelIncreased(sender aSender: CharacterStatsCell )
+    func levelDecreased(sender aSender: CharacterStatsCell )
 }
 
-class IngameCharacterCollectionViewCell: UICollectionViewCell {
+class CharacterStatsCell: UICollectionViewCell {
     var _state: CharacterState?
     var state: CharacterState? {
         get { return self._state }
@@ -41,7 +41,7 @@ class IngameCharacterCollectionViewCell: UICollectionViewCell {
     }
 
 
-    var delegate: IngameCharacterCollectionViewCellDelegate?
+    var delegate: CharacterStatsCellDelegate?
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var roleLabel: UILabel!
@@ -64,6 +64,9 @@ class IngameCharacterCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var detailsButton: UIButton!
     @IBOutlet weak var removeButton: UIButton!
     
+    @IBOutlet weak var offensiveArtefactDetailButton: UIButton!
+    @IBOutlet weak var defensiveArtefactDetailButton: UIButton!
+    
     func updateCell() {
         self.nameLabel!.text = self.state!.character!.name
         self.roleLabel!.text = self.state!.character!.battlefieldRole.rawValue
@@ -79,27 +82,17 @@ class IngameCharacterCollectionViewCell: UICollectionViewCell {
         self.statLifeLeftLabel!.text = String(self.currentLifeLeft())
         
         self.damageTakenLabel!.text = String(self.state!.damageTaken)
-        switch (self.currentLifeLeft()) {
-        case 0:
-            self.statLifeLeftLabel!.textColor = .red
-        default:
-            self.statLifeLeftLabel!.textColor = .darkGray
-        }
+        self.statLifeLeftLabel!.textColor = (self.currentLifeLeft() == 0) ? UIColor.red : UIColor.darkGray
         self.statLifeLeftLabel!.text = String(self.currentLifeLeft())
         
         self.currentLevelLabel!.text = String(self.state!.currentLevel)
         
-        if let artefact = self.state?.offensiveArtefact {
-            self.offensiveArtefactButton.titleLabel!.text = "Offensive Artefact: \(artefact.name) / \(artefact.summary)"
-        } else {
-            self.offensiveArtefactButton.titleLabel!.text = "Offensive Artefact"
-        }
+        self.offensiveArtefactButton.isEnabled = self.state?.offensiveArtefact != nil
+        self.offensiveArtefactButton.titleLabel!.text = self.state?.offensiveArtefact?.name ?? "Offensive Artefact"
         
-        if let artefact = self.state?.defensiveArtefact {
-            self.defensiveArtefactButton.titleLabel!.text = "Defensive Artefact: \(artefact.name) / \(artefact.summary)"
-        } else {
-            self.defensiveArtefactButton.titleLabel!.text = "Defensive Artefact"
-        }
+        
+        self.defensiveArtefactButton.isEnabled = self.state?.defensiveArtefact != nil
+        self.defensiveArtefactButton.titleLabel!.text = self.state?.defensiveArtefact?.name ?? "Defensive Artefact"
         
         self.setNeedsDisplay()
     }

@@ -1,5 +1,5 @@
 //
-//  ShrineCollectionViewCell.swift
+//  ShrineCardCell.swift
 //  Judgement
 //
 //  Created by Oliver Hauth on 27.12.17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ShrineCollectionViewCell: CardCollectionViewCell {
+class ShrineCardCell: BaseCardCell {
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var traitLabel: UILabel!
@@ -18,16 +18,14 @@ class ShrineCollectionViewCell: CardCollectionViewCell {
     private var shrine: ShrineModel?
     
     override func setCard(aCard: CardBase, forindex anIndex: Int) {
-        let aShrine: ShrineModel = aCard as! ShrineModel
+        self.shrine = aCard as? ShrineModel
         
-        self.shrine = aShrine
-        if (self.shrine == nil) {
-            return
+        if (self.shrine != nil) {
+            self.detailsButton!.tag = anIndex
+            self.addButton!.tag = anIndex
+            self.nameLabel!.text = self.shrine!.name
+            self.traitLabel!.text = self.shrine!.trait
         }
-        self.detailsButton!.tag = anIndex
-        self.addButton!.tag = anIndex
-        self.nameLabel!.text = self.shrine!.name
-        self.traitLabel!.text = self.shrine!.trait
     }
     
 }

@@ -1,5 +1,5 @@
 //
-//  ArtefactCollectionViewCell.swift
+//  ArtefactCardCell.swift
 //  Judgement
 //
 //  Created by Oliver Hauth on 28.12.17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ArtefactCollectionViewCell: CardCollectionViewCell {
+class ArtefactCardCell: BaseCardCell {
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var traitLabel: UILabel!
@@ -18,16 +18,13 @@ class ArtefactCollectionViewCell: CardCollectionViewCell {
     private var artefact: ArtefactModel?
     
     override func setCard(aCard: CardBase, forindex anIndex: Int) {
-        let aArtefact: ArtefactModel = aCard as! ArtefactModel
-        
-        self.artefact = aArtefact
-        if (self.artefact == nil) {
-            return
+        self.artefact = aCard as? ArtefactModel
+        if (self.artefact != nil) {
+            self.detailsButton!.tag = anIndex
+            self.addButton!.tag = anIndex
+            self.nameLabel!.text = self.artefact!.name
+            self.traitLabel!.text = self.artefact!.trait.rawValue
         }
-        self.detailsButton!.tag = anIndex
-        self.addButton!.tag = anIndex
-        self.nameLabel!.text = self.artefact!.name
-        self.traitLabel!.text = self.artefact!.trait.rawValue
     }
     
 }

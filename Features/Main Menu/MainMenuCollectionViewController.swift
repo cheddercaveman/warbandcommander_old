@@ -53,19 +53,19 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
             switch (indexPath.item) {
             case 0:
                 let cardListController = segue.destination as! CardListViewController
-                cardListController.viewType = .characterPreview(headline: "Character", cardCellIdentifier: "characterCell", cardCellType: CharacterCollectionViewCell.self)
+                cardListController.viewType = .characterPreview(headline: "Character", cardCellIdentifier: "characterCell", cardCellType: CharacterCardCell.self)
                 cardListController.cardData = DatabaseService.sharedInstance.Characters
             case 1:
                 let cardListController = segue.destination as! CardListViewController
-                cardListController.viewType = .monsterPreview(headline: "Monster", cardCellIdentifier: "monsterCell", cardCellType: MonsterCollectionViewCell.self)
+                cardListController.viewType = .monsterPreview(headline: "Monster", cardCellIdentifier: "monsterCell", cardCellType: MonsterCardCell.self)
                 cardListController.cardData = DatabaseService.sharedInstance.Monsters
             case 2:
                 let cardListController = segue.destination as! CardListViewController
-                cardListController.viewType = .artefactPreview(headline: "Artefacts", cardCellIdentifier: "artefactCell", cardCellType: ArtefactCollectionViewCell.self)
+                cardListController.viewType = .artefactPreview(headline: "Artefacts", cardCellIdentifier: "artefactCell", cardCellType: ArtefactCardCell.self)
                 cardListController.cardData = DatabaseService.sharedInstance.Artefacts
             case 3:
                 let cardListController = segue.destination as! CardListViewController
-                cardListController.viewType = .shrinePreview(headline: "Shrines", cardCellIdentifier: "shrineCell", cardCellType: ShrineCollectionViewCell.self)
+                cardListController.viewType = .shrinePreview(headline: "Shrines", cardCellIdentifier: "shrineCell", cardCellType: ShrineCardCell.self)
                 cardListController.cardData = DatabaseService.sharedInstance.Shrines
             case 4:
                 let pdfViewController = segue.destination as! PDFReaderViewController
@@ -87,7 +87,7 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if (indexPath.section == 0) {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "mainMenuCurrentGame", for: indexPath) as! MainMenuCurrentGameCell
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "mainMenuCurrentGame", for: indexPath) as! MainMenuCollectionViewCell
             
             cell.titleLabel!.text = "Current Game"
             cell.iconLabel!.text = ""

@@ -1,5 +1,5 @@
 //
-//  CardCollectionViewCell.swift
+//  BaseCardCell.swift
 //  Judgement
 //
 //  Created by Oliver Hauth on 27.12.17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CardCollectionViewCell: UICollectionViewCell {
+class BaseCardCell: UICollectionViewCell {
     func setCard(aCard: CardBase, forindex anIndex: Int) {
     }
 }

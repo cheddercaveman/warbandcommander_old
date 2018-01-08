@@ -120,7 +120,7 @@
                                     <constraint firstItem="Byw-e3-p7t" firstAttribute="leading" secondItem="UlU-On-REK" secondAttribute="leading" constant="20" id="h9b-xk-fh6"/>
                                 </constraints>
                             </collectionViewCell>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="characterCell" id="rKy-8j-CXe" customClass="CharacterCollectionViewCell" customModule="Judgement" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="characterCell" id="rKy-8j-CXe" customClass="CharacterCardCell" customModule="Judgement" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="250" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -213,7 +213,7 @@
                                     <outlet property="traitLabel" destination="8zs-5q-e4h" id="iIw-wp-nZV"/>
                                 </connections>
                             </collectionViewCell>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="monsterCell" id="z1h-TA-sCK" customClass="MonsterCollectionViewCell" customModule="Judgement" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="monsterCell" id="z1h-TA-sCK" customClass="MonsterCardCell" customModule="Judgement" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="340" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -305,7 +305,7 @@
                                     <outlet property="traitLabel" destination="my6-69-8bJ" id="HcD-Hh-TKo"/>
                                 </connections>
                             </collectionViewCell>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artefactCell" id="A4h-uw-1hs" customClass="ArtefactCollectionViewCell" customModule="Judgement" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artefactCell" id="A4h-uw-1hs" customClass="ArtefactCardCell" customModule="Judgement" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="430" width="375" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -395,7 +395,7 @@
                                     <outlet property="traitLabel" destination="y2d-ct-dUt" id="tag-uB-JUA"/>
                                 </connections>
                             </collectionViewCell>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="shrineCell" id="eDh-xu-GLg" customClass="ShrineCollectionViewCell" customModule="Judgement" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="shrineCell" id="eDh-xu-GLg" customClass="ShrineCardCell" customModule="Judgement" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="518" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -925,7 +925,7 @@
                                 </view>
                                 <size key="customSize" width="375" height="135"/>
                             </collectionViewCell>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="characterCell" id="sOR-gW-JFp" customClass="IngameCharacterCollectionViewCell" customModule="Judgement" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="characterCell" id="sOR-gW-JFp" customClass="CharacterStatsCell" customModule="Judgement" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="195" width="375" height="411"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -1186,7 +1186,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rpm-5n-akE">
-                                            <rect key="frame" x="20" y="317" width="335" height="38"/>
+                                            <rect key="frame" x="20" y="318" width="280" height="38"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <state key="normal" title="Defensive Artefact">
@@ -1197,7 +1197,7 @@
                                                     <real key="value" value="5"/>
                                                 </userDefinedRuntimeAttribute>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                    <real key="value" value="2"/>
+                                                    <real key="value" value="1"/>
                                                 </userDefinedRuntimeAttribute>
                                                 <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                                     <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1208,7 +1208,7 @@
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Qn-kI-hNg">
-                                            <rect key="frame" x="20" y="280" width="335" height="38"/>
+                                            <rect key="frame" x="20" y="278" width="280" height="38"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <state key="normal" title="Offensive Artefact">
@@ -1227,7 +1227,7 @@
                                                     <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </userDefinedRuntimeAttribute>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                    <real key="value" value="2"/>
+                                                    <real key="value" value="1"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
@@ -1253,6 +1253,44 @@
                                                 <action selector="removeButtonTouched:" destination="sOR-gW-JFp" eventType="touchUpInside" id="dVt-sq-bk8"/>
                                             </connections>
                                         </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="og4-S5-CMC">
+                                            <rect key="frame" x="308" y="318" width="47" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" image="ic_search"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                    <real key="value" value="0.0"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                    <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <segue destination="j5w-oN-LE7" kind="show" identifier="defensiveArtefactDetailsSegue" id="5ve-NO-GCQ"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yY9-Zb-QX3">
+                                            <rect key="frame" x="308" y="278" width="47" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" image="ic_search"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                    <real key="value" value="0.0"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                    <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <segue destination="j5w-oN-LE7" kind="show" identifier="offensiveArtefactDetailsSegue" id="JO8-rC-F9n"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                 </view>
                                 <constraints>
@@ -1270,9 +1308,11 @@
                                     <outlet property="currentLevelLabel" destination="gjZ-DP-Fxx" id="LNu-Cl-aR2"/>
                                     <outlet property="damageTakenLabel" destination="baD-2l-kgM" id="BD0-1d-pCU"/>
                                     <outlet property="defensiveArtefactButton" destination="Rpm-5n-akE" id="AqT-P5-lCH"/>
+                                    <outlet property="defensiveArtefactDetailButton" destination="og4-S5-CMC" id="jyF-13-00g"/>
                                     <outlet property="detailsButton" destination="zhc-fY-lDi" id="nY2-S2-zyC"/>
                                     <outlet property="nameLabel" destination="iay-5n-bgC" id="yt8-BS-ILd"/>
                                     <outlet property="offensiveArtefactButton" destination="5Qn-kI-hNg" id="S4C-02-Y8c"/>
+                                    <outlet property="offensiveArtefactDetailButton" destination="yY9-Zb-QX3" id="4tk-WT-mVm"/>
                                     <outlet property="removeButton" destination="qPy-KF-lxO" id="Mxa-iJ-LIH"/>
                                     <outlet property="roleLabel" destination="Wql-J2-rva" id="fYB-cw-lXK"/>
                                     <outlet property="statAgiLabel" destination="rHL-3k-NiG" id="aYT-Ez-2GA"/>
@@ -1333,7 +1373,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wXC-Sg-ur2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-684" y="1800"/>
+            <point key="canvasLocation" x="-684" y="1799.5502248875564"/>
         </scene>
         <!--Global-->
         <scene sceneID="aLy-qw-B4v">
@@ -1350,7 +1390,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="monsterCell" id="dcb-bs-nbJ" customClass="IngameMonsterCollectionViewCell" customModule="Judgement" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="monsterCell" id="dcb-bs-nbJ" customClass="MonsterStatsCell" customModule="Judgement" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="50" width="375" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -1695,7 +1735,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" contentMode="center" reuseIdentifier="mainMenuCurrentGame" id="jgT-s6-0f8" userLabel="currentGameItem" customClass="MainMenuCurrentGameCell" customModule="Judgement" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" contentMode="center" reuseIdentifier="mainMenuCurrentGame" id="jgT-s6-0f8" userLabel="currentGameItem" customClass="MainMenuCollectionViewCell" customModule="Judgement" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="200" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -1843,6 +1883,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="dTZ-hl-7wV"/>
-        <segue reference="Qt4-Ln-Sah"/>
+        <segue reference="12a-Iw-iUV"/>
     </inferredMetricsTieBreakers>
 </document>
