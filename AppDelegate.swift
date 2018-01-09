@@ -3,7 +3,7 @@
 //  Judgement
 //
 //  Created by Oliver Hauth on 22.12.17.
-//  Copyright © 2017 Headblast Oberhausen e.V. All rights reserved.
+//  Copyright © 2018 nogoodname. All rights reserved.
 //
 
 import UIKit
@@ -12,7 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 

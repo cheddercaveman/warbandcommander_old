@@ -3,7 +3,7 @@
 //  Judgement
 //
 //  Created by Oliver Hauth on 25.12.17.
-//  Copyright © 2017 Headblast Oberhausen e.V. All rights reserved.
+//  Copyright © 2018 nogoodname. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,7 @@ class CardDetailsViewController: UIPageViewController, UIPageViewControllerDataS
     func setCard(aCard: CardBase) {
         self.card = aCard
         self.title = self.card!.name
+        self.dataSource = self
         
         self.cardViewControllers = initializeCardViewControllers(aCard: aCard)
         
