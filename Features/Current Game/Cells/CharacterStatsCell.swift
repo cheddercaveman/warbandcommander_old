@@ -3,7 +3,7 @@
 //  Judgement
 //
 //  Created by Oliver Hauth on 29.12.17.
-//  Copyright © 2017 Headblast Oberhausen e.V. All rights reserved.
+//  Copyright © 2018 nogoodname. All rights reserved.
 //
 
 import UIKit
