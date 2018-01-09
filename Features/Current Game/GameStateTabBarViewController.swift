@@ -38,4 +38,47 @@ class GameStateTabBarViewController: UITabBarController {
 
         self.viewControllers = [ownWarbandView, enemyWarbandView, globalView]
     }
+    
+    override var canBecomeFirstResponder: Bool {
+        get {
+            return true
+        }
+    }
+    
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            let alert = UIAlertController(title: "Reset Game State", message: "What to reset?", preferredStyle: .alert)
+            let resetAction = UIAlertAction(title: "Just reset", style: .destructive)  { (alert: UIAlertAction!) -> Void in
+                GameState.sharedInstance.resetCurrentGame()
+                PersistanceService.sharedInstance.persistGameState()
+                self.reloadSubviewData()
+            }
+            let keepMineAction = UIAlertAction(title: "Delete all but mine", style: .destructive)  { (alert: UIAlertAction!) -> Void in
+                GameState.sharedInstance.deleteCurrentGameButOwnWarband()
+                PersistanceService.sharedInstance.persistGameState()
+                self.reloadSubviewData()
+            }
+            let deleteAction = UIAlertAction(title: "Delete everything", style: .destructive)  { (alert: UIAlertAction!) -> Void in
+                GameState.sharedInstance.deleteCurrentGame()
+                PersistanceService.sharedInstance.persistGameState()
+                self.reloadSubviewData()
+            }
+            let cancelAction = UIAlertAction(title: "Cancel", style: .default, handler: nil)
+            
+            alert.addAction(resetAction)
+            alert.addAction(keepMineAction)
+            alert.addAction(deleteAction)
+            alert.addAction(cancelAction)
+            
+            present(alert, animated: true, completion:nil)
+        }
+    }
+    
+    func reloadSubviewData() {
+        if let vcs = self.viewControllers {
+            for vc in vcs {
+                (vc as? UICollectionViewController)?.collectionView?.reloadData()
+            }
+        }
+    }
 }

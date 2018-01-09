@@ -46,5 +46,38 @@ class GameState : Encodable, Decodable{
         self.monster.append(MonsterState(aMonster: monster))
     }
     
+    func resetCurrentGame() {
+        for c in self.ownWarband.characters {
+            c.damageTaken = 0
+            c.currentLevel = 1
+            c.offensiveArtefact = nil
+            c.defensiveArtefact = nil
+        }
+        for c in self.enemyWarband.characters {
+            c.damageTaken = 0
+            c.currentLevel = 1
+            c.offensiveArtefact = nil
+            c.defensiveArtefact = nil
+        }
+        for m in self.monster {
+            m.damageTaken = 0
+        }
+    }
     
+    func deleteCurrentGame() {
+        self.ownWarband.characters.removeAll()
+        self.enemyWarband.characters.removeAll()
+        self.monster = []
+    }
+    
+    func deleteCurrentGameButOwnWarband() {
+        for c in self.ownWarband.characters {
+            c.damageTaken = 0
+            c.currentLevel = 1
+            c.offensiveArtefact = nil
+            c.defensiveArtefact = nil
+        }
+        self.enemyWarband.characters.removeAll()
+        self.monster = []
+    }
 }
