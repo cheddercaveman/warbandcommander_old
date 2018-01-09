@@ -16,6 +16,7 @@ class CardDetailsViewController: UIPageViewController, UIPageViewControllerDataS
     func setCard(aCard: CardBase) {
         self.card = aCard
         self.title = self.card!.name
+        self.dataSource = self
         
         self.cardViewControllers = initializeCardViewControllers(aCard: aCard)
         
