@@ -646,7 +646,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="j_logo_single.png" translatesAutoresizingMaskIntoConstraints="NO" id="J1P-El-d6O">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="J_only_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="J1P-El-d6O">
                                                     <rect key="frame" x="16" y="11" width="64" height="64"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -1863,13 +1863,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="J_only_logo.png" width="1024" height="1024"/>
         <image name="email.png" width="240" height="240"/>
         <image name="facebook.png" width="240" height="240"/>
         <image name="hb_logo.png" width="1126" height="778"/>
         <image name="ic_delete" width="24" height="24"/>
         <image name="ic_search" width="24" height="24"/>
         <image name="instagram.png" width="240" height="240"/>
-        <image name="j_logo_single.png" width="1024" height="1024"/>
         <image name="judgement_logo.jpg" width="400" height="178"/>
         <image name="link.png" width="240" height="240"/>
         <image name="oliver.jpg" width="960" height="959"/>
