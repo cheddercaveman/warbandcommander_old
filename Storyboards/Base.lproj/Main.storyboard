@@ -1833,14 +1833,21 @@
                             <rect key="frame" x="0.0" y="385" width="375" height="50"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Headblast ❤️ Judgement" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tas-HY-VSl">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Headblast ❤️ Judgement" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tas-HY-VSl">
                                     <rect key="frame" x="0.0" y="-309" width="375" height="667"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="667" id="cDs-Uj-t6B"/>
+                                        <constraint firstAttribute="width" constant="375" id="eti-1G-bb2"/>
+                                    </constraints>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
+                            <constraints>
+                                <constraint firstItem="Tas-HY-VSl" firstAttribute="centerX" secondItem="bDJ-el-zvM" secondAttribute="centerX" id="9dX-Sq-bMj"/>
+                                <constraint firstItem="Tas-HY-VSl" firstAttribute="centerY" secondItem="bDJ-el-zvM" secondAttribute="centerY" id="of0-hg-vqO"/>
+                            </constraints>
                         </collectionReusableView>
                         <connections>
                             <outlet property="dataSource" destination="MOf-gA-sC2" id="674-t8-0N3"/>
@@ -1877,6 +1884,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="JO8-rC-F9n"/>
-        <segue reference="p4r-G0-lhc"/>
+        <segue reference="12a-Iw-iUV"/>
     </inferredMetricsTieBreakers>
 </document>
