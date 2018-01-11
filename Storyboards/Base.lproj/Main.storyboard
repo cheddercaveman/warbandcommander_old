@@ -95,7 +95,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Byw-e3-p7t">
-                                            <rect key="frame" x="20" y="15" width="335" height="30"/>
+                                            <rect key="frame" x="10" y="15" width="355" height="30"/>
                                             <state key="normal" title="Dismiss current"/>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -115,9 +115,9 @@
                                     </subviews>
                                 </view>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="Byw-e3-p7t" secondAttribute="trailing" constant="20" id="FaN-1D-0If"/>
+                                    <constraint firstAttribute="trailing" secondItem="Byw-e3-p7t" secondAttribute="trailing" constant="10" id="FaN-1D-0If"/>
                                     <constraint firstItem="Byw-e3-p7t" firstAttribute="centerY" secondItem="UlU-On-REK" secondAttribute="centerY" id="ILn-mj-TrQ"/>
-                                    <constraint firstItem="Byw-e3-p7t" firstAttribute="leading" secondItem="UlU-On-REK" secondAttribute="leading" constant="20" id="h9b-xk-fh6"/>
+                                    <constraint firstItem="Byw-e3-p7t" firstAttribute="leading" secondItem="UlU-On-REK" secondAttribute="leading" constant="10" id="h9b-xk-fh6"/>
                                 </constraints>
                             </collectionViewCell>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="characterCell" id="rKy-8j-CXe" customClass="CharacterCardCell" customModule="Judgement" customModuleProvider="target">
@@ -1186,9 +1186,11 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rpm-5n-akE">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rpm-5n-akE">
                                             <rect key="frame" x="20" y="310" width="280" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="dpy-bC-xTJ"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <state key="normal" title="Defensive Artefact"/>
                                             <userDefinedRuntimeAttributes>
@@ -1206,9 +1208,11 @@
                                                 <segue destination="lSm-uS-Zqw" kind="show" identifier="defensiveArtefactSelectionSegue" id="p4r-G0-lhc"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Qn-kI-hNg">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Qn-kI-hNg">
                                             <rect key="frame" x="20" y="278" width="280" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="K1j-qd-aJz"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <state key="normal" title="Offensive Artefact">
                                                 <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1228,9 +1232,12 @@
                                                 <segue destination="lSm-uS-Zqw" kind="show" identifier="offensiveArtefactSelectionSegue" id="phG-12-q6w"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qPy-KF-lxO">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qPy-KF-lxO">
                                             <rect key="frame" x="269" y="350" width="86" height="24"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="24" id="fLP-Fw-LG3"/>
+                                                <constraint firstAttribute="width" constant="86" id="j9s-g5-AlD"/>
+                                            </constraints>
                                             <state key="normal" image="ic_delete">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="Remove">
@@ -1247,9 +1254,12 @@
                                                 <action selector="removeButtonTouched:" destination="sOR-gW-JFp" eventType="touchUpInside" id="dVt-sq-bk8"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="og4-S5-CMC">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="og4-S5-CMC">
                                             <rect key="frame" x="308" y="310" width="47" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="3PW-6C-XrQ"/>
+                                                <constraint firstAttribute="width" constant="47" id="bT4-5p-9Rp"/>
+                                            </constraints>
                                             <state key="normal" image="ic_search"/>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -1266,9 +1276,12 @@
                                                 <segue destination="j5w-oN-LE7" kind="show" identifier="defensiveArtefactDetailsSegue" id="5ve-NO-GCQ"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yY9-Zb-QX3">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yY9-Zb-QX3">
                                             <rect key="frame" x="308" y="278" width="47" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="47" id="IOr-qD-ElR"/>
+                                                <constraint firstAttribute="height" constant="30" id="pZV-CG-Ozb"/>
+                                            </constraints>
                                             <state key="normal" image="ic_search"/>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -1288,15 +1301,28 @@
                                     </subviews>
                                 </view>
                                 <constraints>
+                                    <constraint firstItem="og4-S5-CMC" firstAttribute="leading" secondItem="Rpm-5n-akE" secondAttribute="trailing" constant="8" id="09p-fc-GVh"/>
+                                    <constraint firstAttribute="bottom" secondItem="qPy-KF-lxO" secondAttribute="bottom" constant="16" id="0My-tA-71N"/>
                                     <constraint firstItem="iay-5n-bgC" firstAttribute="leading" secondItem="sOR-gW-JFp" secondAttribute="leading" constant="15" id="3c4-pp-VjJ"/>
                                     <constraint firstItem="iay-5n-bgC" firstAttribute="top" secondItem="sOR-gW-JFp" secondAttribute="top" constant="20" id="54O-Wt-Url"/>
+                                    <constraint firstItem="5Qn-kI-hNg" firstAttribute="leading" secondItem="sOR-gW-JFp" secondAttribute="leading" constant="20" id="CrU-yz-okv"/>
+                                    <constraint firstAttribute="trailing" secondItem="qPy-KF-lxO" secondAttribute="trailing" constant="20" id="F26-HX-lGL"/>
                                     <constraint firstItem="Wql-J2-rva" firstAttribute="leading" secondItem="iay-5n-bgC" secondAttribute="trailing" constant="7" id="LkJ-MS-hUp"/>
                                     <constraint firstItem="iay-5n-bgC" firstAttribute="leading" secondItem="DZV-PL-5Va" secondAttribute="leading" id="Nf9-DC-6Pj"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="DZV-PL-5Va" secondAttribute="trailing" symbolic="YES" id="QXu-S6-SjI"/>
+                                    <constraint firstItem="og4-S5-CMC" firstAttribute="bottom" secondItem="Rpm-5n-akE" secondAttribute="bottom" id="Y12-k4-z8e"/>
+                                    <constraint firstItem="Rpm-5n-akE" firstAttribute="leading" secondItem="sOR-gW-JFp" secondAttribute="leading" constant="20" id="ajS-n3-d6l"/>
+                                    <constraint firstItem="yY9-Zb-QX3" firstAttribute="leading" secondItem="5Qn-kI-hNg" secondAttribute="trailing" constant="8" id="b1U-Pv-lKs"/>
+                                    <constraint firstItem="yY9-Zb-QX3" firstAttribute="bottom" secondItem="5Qn-kI-hNg" secondAttribute="bottom" id="bWV-hw-n5z"/>
+                                    <constraint firstItem="Rpm-5n-akE" firstAttribute="top" secondItem="5Qn-kI-hNg" secondAttribute="bottom" constant="2" id="c7P-Oo-2kh"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Wql-J2-rva" secondAttribute="trailing" symbolic="YES" id="hRH-K7-ftI"/>
+                                    <constraint firstItem="qPy-KF-lxO" firstAttribute="top" secondItem="og4-S5-CMC" secondAttribute="bottom" constant="10" id="iNb-iB-hOs"/>
+                                    <constraint firstAttribute="trailing" secondItem="yY9-Zb-QX3" secondAttribute="trailing" constant="20" id="kEw-kb-QAd"/>
+                                    <constraint firstItem="og4-S5-CMC" firstAttribute="top" secondItem="yY9-Zb-QX3" secondAttribute="bottom" constant="2" id="lbr-cn-kA8"/>
                                     <constraint firstItem="Wql-J2-rva" firstAttribute="top" secondItem="sOR-gW-JFp" secondAttribute="top" constant="20" id="mtP-c3-ICN"/>
                                     <constraint firstItem="DZV-PL-5Va" firstAttribute="leading" secondItem="sOR-gW-JFp" secondAttribute="leading" constant="15" id="rda-gH-1cz"/>
                                     <constraint firstItem="DZV-PL-5Va" firstAttribute="top" secondItem="iay-5n-bgC" secondAttribute="bottom" constant="4" id="uWq-fZ-nzq"/>
+                                    <constraint firstAttribute="trailing" secondItem="og4-S5-CMC" secondAttribute="trailing" constant="20" id="uxt-QX-QBh"/>
                                 </constraints>
                                 <size key="customSize" width="375" height="390"/>
                                 <connections>
@@ -1884,7 +1910,7 @@
         <image name="twitter.png" width="240" height="240"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uOq-sh-vc9"/>
-        <segue reference="12a-Iw-iUV"/>
+        <segue reference="JO8-rC-F9n"/>
+        <segue reference="p4r-G0-lhc"/>
     </inferredMetricsTieBreakers>
 </document>
