@@ -10,9 +10,10 @@
 import UIKit
 
 protocol MonsterStatsCellDelegate {
-    func deleteButtonTouched(sender aSender: MonsterStatsCell )
-    func damageIncreased(sender aSender: MonsterStatsCell )
-    func damageDecreased(sender aSender: MonsterStatsCell )
+    func deleteButtonTouched(sender aSender: MonsterStatsCell)
+    func damageIncreased(sender aSender: MonsterStatsCell)
+    func damageDecreased(sender aSender: MonsterStatsCell)
+    func revive(sender aSender: MonsterStatsCell)
 }
 
 class MonsterStatsCell: UICollectionViewCell {
@@ -55,24 +56,27 @@ class MonsterStatsCell: UICollectionViewCell {
     
     @IBOutlet weak var detailsButton: UIButton!
     @IBOutlet weak var removeButton: UIButton!
+    @IBOutlet weak var blurView: UIVisualEffectView!
     
     
     func updateCell() {
         self.nameLabel!.text = self.state!.monster!.name
         self.traitLabel!.text = self.state!.monster!.trait
         
-        self.statMovLabel!.text = self.state!.monster!.statMOV
-        self.statAgiLabel!.text = self.state!.monster!.statAGI
-        self.statResLabel!.text = self.state!.monster!.statRES
-        self.statMelLabel!.text = self.state!.monster!.statMEL
-        self.statMagLabel!.text = self.state!.monster!.statMAG
-        self.statRngLabel!.text = self.state!.monster!.statRNG
+        self.statMovLabel!.text = self.state!.monster!.statMOV ?? "-"
+        self.statAgiLabel!.text = self.state!.monster!.statAGI ?? "-"
+        self.statResLabel!.text = self.state!.monster!.statRES ?? "-"
+        self.statMelLabel!.text = self.state!.monster!.statMEL ?? "-"
+        self.statMagLabel!.text = self.state!.monster!.statMAG ?? "-"
+        self.statRngLabel!.text = self.state!.monster!.statRNG ?? "-"
         self.fateBountyLabel!.text = self.state!.monster!.fateBounty ?? ""
         self.statLifeLeftLabel!.text = String(self.currentLifeLeft())
         
         self.damageTakenLabel!.text = String(self.state!.damageTaken)
         self.statLifeLeftLabel!.textColor = (self.currentLifeLeft() == 0) ? UIColor.red : UIColor.lightGray
         self.statLifeLeftLabel!.text = String(self.currentLifeLeft())
+        
+        self.blurView.alpha = (self.currentLifeLeft() == 0) ? 1.0 : 0.0
         
         self.setNeedsDisplay()
     }
@@ -95,6 +99,10 @@ class MonsterStatsCell: UICollectionViewCell {
     
     @IBAction func damageIncrease(_ sender: UIButton) {
         self.delegate?.damageIncreased(sender: self)
+    }
+    
+    @IBAction func reviveButtonTouched(_ sender: UIButton) {
+        self.delegate?.revive(sender: self)
     }
 }
 

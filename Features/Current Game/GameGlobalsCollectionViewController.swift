@@ -73,6 +73,12 @@ class GameGlobalsCollectionViewController: UICollectionViewController, UICollect
         aSender.updateCell()
         PersistanceService.sharedInstance.persistGameState()
     }
+    
+    func revive(sender aSender: MonsterStatsCell) {
+        GameState.sharedInstance.monster[aSender.indexPath].damageTaken = GameState.sharedInstance.monster[aSender.indexPath].monster.reviveDamage
+        aSender.updateCell()
+        PersistanceService.sharedInstance.persistGameState()
+    }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: collectionView.bounds.width, height: 330)

@@ -81,6 +81,10 @@ class CharacterState : Encodable, Decodable {
         self.defensiveArtefact = nil
     }
     
+    func revive() {
+        self.damageTaken = 5
+    }
+    
     private enum CodingKeys: String, CodingKey {
         case characterReferenceId
         case damageTaken

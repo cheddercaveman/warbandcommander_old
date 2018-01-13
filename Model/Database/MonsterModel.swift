@@ -25,6 +25,7 @@ struct MonsterModel : CardBase, RowConvertible, TableMapping, Hashable, Equatabl
         static let statRNG = Column("stat_RNG")
         static let fateBounty = Column("stat_FateBounty")
         static let life = Column("life")
+        static let reviveDamage = Column("reviveDamage")
         static let cardBasename = Column("cardbasename")
         static let cardAmount = Column("cardamount")
     }
@@ -42,7 +43,8 @@ struct MonsterModel : CardBase, RowConvertible, TableMapping, Hashable, Equatabl
     var fateBounty: String?
     
     var life: Int = 0
-    
+    var reviveDamage: Int = 0
+
     var cardBasename: String = ""
     var cardAmount: Int = 0
     
@@ -61,6 +63,7 @@ struct MonsterModel : CardBase, RowConvertible, TableMapping, Hashable, Equatabl
         self.fateBounty = row[Columns.fateBounty]
         
         self.life = row[Columns.life]
+        self.reviveDamage = row[Columns.reviveDamage]
         
         self.cardBasename = row[Columns.cardBasename]
         self.cardAmount = row[Columns.cardAmount]

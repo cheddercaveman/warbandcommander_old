@@ -9,11 +9,12 @@
 import UIKit
 
 protocol CharacterStatsCellDelegate {
-    func deleteButtonTouched(sender aSender: CharacterStatsCell )
-    func damageIncreased(sender aSender: CharacterStatsCell )
-    func damageDecreased(sender aSender: CharacterStatsCell )
-    func levelIncreased(sender aSender: CharacterStatsCell )
-    func levelDecreased(sender aSender: CharacterStatsCell )
+    func deleteButtonTouched(sender aSender: CharacterStatsCell)
+    func damageIncreased(sender aSender: CharacterStatsCell)
+    func damageDecreased(sender aSender: CharacterStatsCell)
+    func levelIncreased(sender aSender: CharacterStatsCell)
+    func levelDecreased(sender aSender: CharacterStatsCell)
+    func revive(sender aSender: CharacterStatsCell)
 }
 
 class CharacterStatsCell: UICollectionViewCell {
@@ -68,19 +69,21 @@ class CharacterStatsCell: UICollectionViewCell {
     
     @IBOutlet weak var offensiveArtefactDetailButton: UIButton!
     @IBOutlet weak var defensiveArtefactDetailButton: UIButton!
+    @IBOutlet weak var blurView: UIVisualEffectView!
+    
     
     func updateCell() {
         self.nameLabel!.text = self.state!.character!.name
         self.roleLabel!.text = self.state!.character!.battlefieldRole.rawValue
         self.traitLabel!.text = self.state!.character!.trait
         
-        self.statMovLabel!.text = self.state!.character!.statMOV
-        self.statAgiLabel!.text = self.state!.character!.statAGI
-        self.statResLabel!.text = self.state!.character!.statRES
-        self.statMelLabel!.text = self.state!.character!.statMEL
-        self.statMagLabel!.text = self.state!.character!.statMAG
-        self.statRngLabel!.text = self.state!.character!.statRNG
-        self.statSoulHarvestLabel!.text = self.state!.character!.soulHarvest ?? ""
+        self.statMovLabel!.text = self.state!.character!.statMOV ?? "-"
+        self.statAgiLabel!.text = self.state!.character!.statAGI ?? "-"
+        self.statResLabel!.text = self.state!.character!.statRES ?? "-"
+        self.statMelLabel!.text = self.state!.character!.statMEL ?? "-"
+        self.statMagLabel!.text = self.state!.character!.statMAG ?? "-"
+        self.statRngLabel!.text = self.state!.character!.statRNG ?? "-"
+        self.statSoulHarvestLabel!.text = self.state!.character!.soulHarvest ?? "-"
         self.statLifeLeftLabel!.text = String(self.currentLifeLeft())
         
         self.damageTakenLabel!.text = String(self.state!.damageTaken)
@@ -94,6 +97,8 @@ class CharacterStatsCell: UICollectionViewCell {
         
         self.defensiveArtefactDetailButton.isEnabled = self.state?.defensiveArtefact != nil
         self.defensiveArtefactButton.setTitle(self.state?.defensiveArtefact?.name ?? "Defensive Artefact", for: .normal)
+        
+        self.blurView.alpha = (self.currentLifeLeft() == 0) ? 1.0 : 0.0
         
         self.setNeedsDisplay()
     }
@@ -135,5 +140,9 @@ class CharacterStatsCell: UICollectionViewCell {
     
     @IBAction func levelIncrease(_ sender: UIButton) {
         self.delegate?.levelIncreased(sender: self)
+    }
+    
+    @IBAction func reviveButtonTouched(_ sender: UIButton) {
+        self.delegate?.revive(sender: self)
     }
 }

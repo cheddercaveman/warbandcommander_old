@@ -126,10 +126,6 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         
         if let character = character {
             character.increaseDamage()
-            if character.currentLifeLeft() == 0 {
-                // #warning Missing Dead Screen
-                print("Dead..")
-            }
             aSender.updateCell()
             PersistanceService.sharedInstance.persistGameState()
         }
@@ -166,6 +162,18 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         
         if let character = character {
             character.decreaseLevel()
+            aSender.updateCell()
+            PersistanceService.sharedInstance.persistGameState()
+        }
+    }
+    
+    func revive(sender aSender: CharacterStatsCell) {
+        let character = self.warband?.characters.first { (c) -> Bool in
+            return c.character!.id == aSender.state!.character!.id
+        }
+        
+        if let character = character {
+            character.revive()
             aSender.updateCell()
             PersistanceService.sharedInstance.persistGameState()
         }
