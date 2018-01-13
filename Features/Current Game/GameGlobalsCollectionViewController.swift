@@ -46,21 +46,6 @@ class GameGlobalsCollectionViewController: UICollectionViewController, UICollect
             return cell
     }
     
-    override func collectionView(_ collectionView: UICollectionView, shouldShowMenuForItemAt indexPath: IndexPath) -> Bool {
-        return false
-    }
-    
-    override func collectionView(_ collectionView: UICollectionView, canPerformAction action: Selector, forItemAt indexPath: IndexPath, withSender sender: Any?) -> Bool {
-        return false
-    }
-    
-    override func collectionView(_ collectionView: UICollectionView, performAction action: Selector, forItemAt indexPath: IndexPath, withSender sender: Any?) {
-        
-    }
-    
-    func detailsButtonTouched(sender aSender: MonsterStatsCell) {
-    }
-    
     func deleteButtonTouched(sender aSender: MonsterStatsCell) {
         let alert = UIAlertController(title: "Remove Monster", message: "Are you sure you want to remove \(aSender.state?.monster!.name ?? "this monster")?", preferredStyle: .alert)
         let clearAction = UIAlertAction(title: "Remove", style: .destructive) { (alert: UIAlertAction!) -> Void in
@@ -90,7 +75,7 @@ class GameGlobalsCollectionViewController: UICollectionViewController, UICollect
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: collectionView.bounds.width, height: 280)
+        return CGSize(width: collectionView.bounds.width, height: 330)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {

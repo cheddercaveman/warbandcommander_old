@@ -18,7 +18,7 @@ class AboutTableViewController: UITableViewController {
         // Oliver
         self.socialMediaIcons[0] = [
             "",
-            "mailto:judgement@thenewdigital.de",
+            "mailto:judgement@nogoodname.net",
             "https://www.facebook.com/ohauth",
             "https://www.twitter.com/spielerview",
             ""

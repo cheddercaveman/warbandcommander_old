@@ -71,7 +71,7 @@ class MonsterStatsCell: UICollectionViewCell {
         self.statLifeLeftLabel!.text = String(self.currentLifeLeft())
         
         self.damageTakenLabel!.text = String(self.state!.damageTaken)
-        self.statLifeLeftLabel!.textColor = (self.currentLifeLeft() == 0) ? UIColor.red : UIColor.darkGray
+        self.statLifeLeftLabel!.textColor = (self.currentLifeLeft() == 0) ? UIColor.red : UIColor.lightGray
         self.statLifeLeftLabel!.text = String(self.currentLifeLeft())
         
         self.setNeedsDisplay()

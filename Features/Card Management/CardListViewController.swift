@@ -136,9 +136,9 @@ class CardListViewController: UICollectionViewController, UICollectionViewDelega
         case IndexPathSections.cancelArtefact.rawValue:
             return self.dismissEnabled ? CGSize(width: collectionView.bounds.width, height: 50) : CGSize.zero
         case IndexPathSections.cards.rawValue:
-            return self.enableCardSelection ? CGSize(width: collectionView.bounds.width, height: 90) : CGSize(width: collectionView.bounds.width, height: 50)
+            return self.enableCardSelection ? CGSize(width: collectionView.bounds.width, height: 90) : CGSize(width: collectionView.bounds.width, height: 54)
         default:
-            return CGSize(width: collectionView.bounds.width, height: 50)
+            return CGSize(width: collectionView.bounds.width, height: 54)
         }
     }
     
