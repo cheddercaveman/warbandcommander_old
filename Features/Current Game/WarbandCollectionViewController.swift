@@ -124,9 +124,14 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
             return c.character!.id == aSender.state!.character!.id
         }
         
-        character?.increaseDamage()
-        aSender.updateCell()
-        PersistanceService.sharedInstance.persistGameState()
+        if let character = character {
+            character.increaseDamage()
+            if character.currentLifeLeft() == 0 {
+                // #warning Missing Dead Screen
+            }
+            aSender.updateCell()
+            PersistanceService.sharedInstance.persistGameState()
+        }
     }
     
     func damageDecreased(sender aSender: CharacterStatsCell) {
@@ -134,9 +139,11 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
             return c.character!.id == aSender.state!.character!.id
         }
         
-        character?.decreaseDamage()
-        aSender.updateCell()
-        PersistanceService.sharedInstance.persistGameState()
+        if let character = character {
+            character.decreaseDamage()
+            aSender.updateCell()
+            PersistanceService.sharedInstance.persistGameState()
+        }
     }
     
     func levelIncreased(sender aSender: CharacterStatsCell) {
@@ -144,9 +151,11 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
             return c.character!.id == aSender.state!.character!.id
         }
         
-        character?.increaseLevel()
-        aSender.updateCell()
-        PersistanceService.sharedInstance.persistGameState()
+        if let character = character {
+            character.increaseLevel()
+            aSender.updateCell()
+            PersistanceService.sharedInstance.persistGameState()
+        }
     }
     
     func levelDecreased(sender aSender: CharacterStatsCell) {
@@ -154,9 +163,11 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
             return c.character!.id == aSender.state!.character!.id
         }
         
-        character?.decreaseLevel()
-        aSender.updateCell()
-        PersistanceService.sharedInstance.persistGameState()
+        if let character = character {
+            character.decreaseLevel()
+            aSender.updateCell()
+            PersistanceService.sharedInstance.persistGameState()
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
