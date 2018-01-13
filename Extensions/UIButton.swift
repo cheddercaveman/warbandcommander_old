@@ -38,13 +38,4 @@ extension UIButton {
             layer.borderColor = newValue?.cgColor
         }
     }
-    
-    @IBInspectable var backgroundClr: UIColor? {
-        get {
-            return UIColor(cgColor: layer.backgroundColor!)
-        }
-        set {
-            layer.backgroundColor = newValue?.cgColor
-        }
-    }
 }

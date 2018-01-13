@@ -128,6 +128,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
             character.increaseDamage()
             if character.currentLifeLeft() == 0 {
                 // #warning Missing Dead Screen
+                print("Dead..")
             }
             aSender.updateCell()
             PersistanceService.sharedInstance.persistGameState()
