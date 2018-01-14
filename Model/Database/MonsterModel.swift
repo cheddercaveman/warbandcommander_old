@@ -10,7 +10,7 @@ import Foundation
 import GRDB
 
 struct MonsterModel : CardBase, RowConvertible, TableMapping, Hashable, Equatable {
-    static var databaseTableName: String { return "masMonster" }
+    static var databaseTableName: String { return "Monsters" }
     static let databaseSelection: [SQLSelectable] = [AllColumns(), Column.rowID]
     
     enum Columns {
@@ -86,42 +86,3 @@ struct MonsterModel : CardBase, RowConvertible, TableMapping, Hashable, Equatabl
             lhs.id.hashValue == rhs.id.hashValue
     }
 }
-
-extension MonsterModel : StatsDataSource {
-    func getType() -> CardRefType {
-        return .monster
-    }
-    
-    func getMov() -> String? {
-        return self.statMOV
-    }
-    
-    func getAgi() -> String? {
-        return self.statAGI
-    }
-    
-    func getRes() -> String? {
-        return self.statRES
-    }
-    
-    func getMel() -> String? {
-        return self.statMEL
-    }
-    
-    func getMag() -> String? {
-        return self.statMAG
-    }
-    
-    func getRng() -> String? {
-        return self.statRNG
-    }
-    
-    func getExtra() -> String? {
-        return self.fateBounty
-    }
-    
-    func getLifeLeft() -> String? {
-        return self.getLifeLeft()
-    }
-}
-

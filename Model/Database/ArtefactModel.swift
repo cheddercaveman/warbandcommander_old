@@ -10,7 +10,7 @@ import Foundation
 import GRDB
 
 struct ArtefactModel : CardBase, RowConvertible, TableMapping, Hashable, Equatable {
-    static var databaseTableName: String { return "masArtefacts" }
+    static var databaseTableName: String { return "Artefacts" }
     static let databaseSelection: [SQLSelectable] = [AllColumns(), Column.rowID]
     
     enum Columns {

@@ -10,7 +10,7 @@ import Foundation
 import GRDB
 
 struct CharacterModel : CardBase, RowConvertible, TableMapping, Hashable, Equatable {
-    static var databaseTableName: String { return "masCharacters" }
+    static var databaseTableName: String { return "Characters" }
     static let databaseSelection: [SQLSelectable] = [AllColumns(), Column.rowID]
     
     enum Columns {
@@ -102,42 +102,3 @@ struct CharacterModel : CardBase, RowConvertible, TableMapping, Hashable, Equata
             lhs.id.hashValue == rhs.id.hashValue
     }
 }
-
-extension CharacterModel : StatsDataSource {
-    func getType() -> CardRefType {
-        return .character
-    }
-    
-    func getMov() -> String? {
-        return self.statMOV
-    }
-    
-    func getAgi() -> String? {
-        return self.statAGI
-    }
-    
-    func getRes() -> String? {
-        return self.statRES
-    }
-    
-    func getMel() -> String? {
-        return self.statMEL
-    }
-    
-    func getMag() -> String? {
-        return self.statMAG
-    }
-    
-    func getRng() -> String? {
-        return self.statRNG
-    }
-    
-    func getExtra() -> String? {
-        return self.soulHarvest
-    }
-    
-    func getLifeLeft() -> String? {
-        return self.getLifeLeft()
-    }
-}
-
