@@ -71,6 +71,9 @@ class CharacterStatsCell: UICollectionViewCell {
     @IBOutlet weak var defensiveArtefactDetailButton: UIButton!
     @IBOutlet weak var blurView: UIView!
     
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var statsView: UIView!
+    
     
     func updateCell() {
         self.nameLabel!.text = self.state!.character!.name
@@ -105,6 +108,8 @@ class CharacterStatsCell: UICollectionViewCell {
     
     func initializeCell(withCharacter aCharacter: CharacterState) {
         self.state = aCharacter
+        
+        //self.scrollView.contentSize = CGSize(width: self.statsView.bounds.width * CGFloat(2), height: 120)
     }
     
     func currentLifeLeft() -> Int {
