@@ -20,6 +20,7 @@ class DatabaseService {
     var Monsters: [MonsterModel]?
     var Shrines: [ShrineModel]?
     var Artefacts: [ArtefactModel]?
+    var Attacks: [AttackModel]?
 
     init() {
         var config = Configuration()
@@ -42,9 +43,21 @@ class DatabaseService {
         // Load static data
         do {
             try self.MasterDataQueue?.inDatabase { (db) in
+                self.Attacks = try AttackModel
+                    .order(AttackModel.Columns.cardRefType, AttackModel.Columns.cardRefId, AttackModel.Columns.order)
+                    .fetchAll(db)
+            }
+        }
+        catch
+        {}
+        do {
+            try self.MasterDataQueue?.inDatabase { (db) in
                 self.Characters = try CharacterModel
                     .order(CharacterModel.Columns.battlefieldRole, CharacterModel.Columns.name)
                     .fetchAll(db)
+            }
+            for i in 0 ..< self.Characters!.count {
+                self.Characters![i].loadAttacks(attacks: self.Attacks!)
             }
         }
         catch
@@ -63,6 +76,9 @@ class DatabaseService {
                 self.Shrines = try ShrineModel
                     .order(ShrineModel.Columns.name)
                     .fetchAll(db)
+            }
+            for var m in self.Monsters! {
+                m.loadAttacks(attacks: self.Attacks!)
             }
         }
         catch

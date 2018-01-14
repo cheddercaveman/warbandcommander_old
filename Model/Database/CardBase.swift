@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import GRDB
 
 protocol CardBase {
     var id: Int { get set }

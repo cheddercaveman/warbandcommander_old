@@ -59,6 +59,8 @@ struct CharacterModel : CardBase, RowConvertible, TableMapping, Hashable, Equata
     
     var dependsOn: Int32?
     
+    var attacks: [AttackModel] = []
+    
     init(row: Row) {
         self.id = row[Columns.id]
         
@@ -84,6 +86,12 @@ struct CharacterModel : CardBase, RowConvertible, TableMapping, Hashable, Equata
         self.cardBasename = row[Columns.cardBasename]
         self.cardAmount = row[Columns.cardAmount]
     }
+    
+    mutating func loadAttacks(attacks: [AttackModel]) {
+        self.attacks = attacks.filter({ (a) -> Bool in
+            return ((a.cardRefType == .character) && (a.cardRefId == self.id))
+        })
+    }
 
     public var hashValue: Int {
         return id.hashValue;
@@ -92,6 +100,44 @@ struct CharacterModel : CardBase, RowConvertible, TableMapping, Hashable, Equata
     static func == (lhs: CharacterModel, rhs: CharacterModel) -> Bool {
         return
             lhs.id.hashValue == rhs.id.hashValue
+    }
+}
+
+extension CharacterModel : StatsDataSource {
+    func getType() -> CardRefType {
+        return .character
+    }
+    
+    func getMov() -> String? {
+        return self.statMOV
+    }
+    
+    func getAgi() -> String? {
+        return self.statAGI
+    }
+    
+    func getRes() -> String? {
+        return self.statRES
+    }
+    
+    func getMel() -> String? {
+        return self.statMEL
+    }
+    
+    func getMag() -> String? {
+        return self.statMAG
+    }
+    
+    func getRng() -> String? {
+        return self.statRNG
+    }
+    
+    func getExtra() -> String? {
+        return self.soulHarvest
+    }
+    
+    func getLifeLeft() -> String? {
+        return self.getLifeLeft()
     }
 }
 

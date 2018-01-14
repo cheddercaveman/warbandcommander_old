@@ -47,7 +47,9 @@ struct MonsterModel : CardBase, RowConvertible, TableMapping, Hashable, Equatabl
 
     var cardBasename: String = ""
     var cardAmount: Int = 0
-    
+
+    var attacks: [AttackModel] = []
+
     init(row: Row) {
         self.id = row[Columns.id]
         
@@ -69,6 +71,12 @@ struct MonsterModel : CardBase, RowConvertible, TableMapping, Hashable, Equatabl
         self.cardAmount = row[Columns.cardAmount]
     }
     
+    mutating func loadAttacks(attacks: [AttackModel]) {
+        self.attacks = attacks.filter({ (a) -> Bool in
+            return ((a.cardRefType == .monster) && (a.cardRefId == self.id))
+        })
+    }
+    
     public var hashValue: Int {
         return id.hashValue;
     }
@@ -79,4 +87,41 @@ struct MonsterModel : CardBase, RowConvertible, TableMapping, Hashable, Equatabl
     }
 }
 
+extension MonsterModel : StatsDataSource {
+    func getType() -> CardRefType {
+        return .monster
+    }
+    
+    func getMov() -> String? {
+        return self.statMOV
+    }
+    
+    func getAgi() -> String? {
+        return self.statAGI
+    }
+    
+    func getRes() -> String? {
+        return self.statRES
+    }
+    
+    func getMel() -> String? {
+        return self.statMEL
+    }
+    
+    func getMag() -> String? {
+        return self.statMAG
+    }
+    
+    func getRng() -> String? {
+        return self.statRNG
+    }
+    
+    func getExtra() -> String? {
+        return self.fateBounty
+    }
+    
+    func getLifeLeft() -> String? {
+        return self.getLifeLeft()
+    }
+}
 
