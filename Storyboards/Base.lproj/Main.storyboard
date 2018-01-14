@@ -744,8 +744,8 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wargaming with Beer and App Developers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="huV-po-SFL">
-                                                    <rect key="frame" x="93" y="34" width="272" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wargaming, Beer and an App Developer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="huV-po-SFL">
+                                                    <rect key="frame" x="93" y="34" width="272" height="24"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -1396,6 +1396,11 @@
                                                 <constraint firstItem="MG6-Re-0US" firstAttribute="centerX" secondItem="XBF-jv-ESq" secondAttribute="centerX" id="kMD-HL-UkP"/>
                                                 <constraint firstItem="MG6-Re-0US" firstAttribute="top" secondItem="XBF-jv-ESq" secondAttribute="top" constant="5" id="sFK-3T-Zj7"/>
                                             </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="2"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nid-v3-bAR" userLabel="Separator">
                                             <rect key="frame" x="9" y="47" width="132.5" height="1"/>
@@ -1774,6 +1779,9 @@
                                                     <real key="value" value="2"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <segue destination="j5w-oN-LE7" kind="show" identifier="monsterDetailSegue" id="r43-2b-d5X"/>
+                                            </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15Z-je-5Y2">
                                             <rect key="frame" x="15" y="53" width="35.5" height="17"/>
@@ -2038,6 +2046,11 @@
                                                 <constraint firstItem="2hI-5Z-aF8" firstAttribute="top" secondItem="GsV-0S-A39" secondAttribute="bottom" constant="5" id="uPq-Q5-WIS"/>
                                                 <constraint firstItem="GsV-0S-A39" firstAttribute="top" secondItem="Dsb-cJ-nyr" secondAttribute="top" constant="5" id="xI7-fF-oPj"/>
                                             </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="2"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8pV-cI-b79" userLabel="Separator">
                                             <rect key="frame" x="9" y="47" width="87" height="1"/>
@@ -2458,6 +2471,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="5ve-NO-GCQ"/>
-        <segue reference="Qt4-Ln-Sah"/>
+        <segue reference="aTS-pa-nor"/>
     </inferredMetricsTieBreakers>
 </document>
