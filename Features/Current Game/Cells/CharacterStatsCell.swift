@@ -69,7 +69,7 @@ class CharacterStatsCell: UICollectionViewCell {
     
     @IBOutlet weak var offensiveArtefactDetailButton: UIButton!
     @IBOutlet weak var defensiveArtefactDetailButton: UIButton!
-    @IBOutlet weak var blurView: UIVisualEffectView!
+    @IBOutlet weak var blurView: UIView!
     
     
     func updateCell() {

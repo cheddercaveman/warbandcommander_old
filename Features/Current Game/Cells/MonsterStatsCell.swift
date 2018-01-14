@@ -56,7 +56,7 @@ class MonsterStatsCell: UICollectionViewCell {
     
     @IBOutlet weak var detailsButton: UIButton!
     @IBOutlet weak var removeButton: UIButton!
-    @IBOutlet weak var blurView: UIVisualEffectView!
+    @IBOutlet weak var blurView: UIView!
     
     
     func updateCell() {
