@@ -1835,7 +1835,7 @@
                                             </userDefinedRuntimeAttributes>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nid-v3-bAR" userLabel="Separator">
-                                            <rect key="frame" x="9" y="47" width="133" height="1"/>
+                                            <rect key="frame" x="9" y="43" width="133" height="1"/>
                                             <color key="backgroundColor" red="0.43137254899999999" green="0.62745098040000002" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="1" id="hma-Xx-jsH"/>
@@ -1930,7 +1930,7 @@
                                     <constraint firstItem="qPy-KF-lxO" firstAttribute="top" secondItem="og4-S5-CMC" secondAttribute="bottom" constant="10" id="iNb-iB-hOs"/>
                                     <constraint firstAttribute="trailing" secondItem="yY9-Zb-QX3" secondAttribute="trailing" constant="20" id="kEw-kb-QAd"/>
                                     <constraint firstItem="og4-S5-CMC" firstAttribute="top" secondItem="yY9-Zb-QX3" secondAttribute="bottom" constant="2" id="lbr-cn-kA8"/>
-                                    <constraint firstItem="nid-v3-bAR" firstAttribute="top" secondItem="iay-5n-bgC" secondAttribute="bottom" constant="-1" id="odW-fb-ZrV"/>
+                                    <constraint firstItem="nid-v3-bAR" firstAttribute="top" secondItem="iay-5n-bgC" secondAttribute="bottom" constant="-5" id="odW-fb-ZrV"/>
                                     <constraint firstAttribute="trailing" secondItem="zhc-fY-lDi" secondAttribute="trailing" constant="20" id="qz3-Uh-sxS"/>
                                     <constraint firstAttribute="bottom" secondItem="skO-Zq-S3v" secondAttribute="bottom" id="r1k-yh-wdq"/>
                                     <constraint firstItem="5Nm-KE-uUH" firstAttribute="top" secondItem="DZV-PL-5Va" secondAttribute="bottom" id="rXp-Dr-lVX"/>
@@ -2912,7 +2912,7 @@
                                             </userDefinedRuntimeAttributes>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8pV-cI-b79" userLabel="Separator">
-                                            <rect key="frame" x="9" y="47" width="87" height="1"/>
+                                            <rect key="frame" x="9" y="43" width="87" height="1"/>
                                             <color key="backgroundColor" red="0.43137254899999999" green="0.62745098040000002" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="1" id="uVi-Y3-s5t"/>
@@ -2991,7 +2991,7 @@
                                     <constraint firstAttribute="bottom" secondItem="GA5-IH-HC0" secondAttribute="bottom" id="ShT-wI-weJ"/>
                                     <constraint firstItem="GA5-IH-HC0" firstAttribute="centerX" secondItem="W5B-8r-ud5" secondAttribute="centerX" id="TS9-ZM-koG"/>
                                     <constraint firstItem="Dsb-cJ-nyr" firstAttribute="top" secondItem="hO8-of-blh" secondAttribute="bottom" constant="5" id="Wwk-5d-bHP"/>
-                                    <constraint firstItem="8pV-cI-b79" firstAttribute="top" secondItem="z1c-M5-mn1" secondAttribute="bottom" constant="-1" id="XdJ-eS-roX"/>
+                                    <constraint firstItem="8pV-cI-b79" firstAttribute="top" secondItem="z1c-M5-mn1" secondAttribute="bottom" constant="-5" id="XdJ-eS-roX"/>
                                     <constraint firstItem="P0Z-3N-7oQ" firstAttribute="bottom" secondItem="Dsb-cJ-nyr" secondAttribute="bottom" id="Xjq-KS-SKO"/>
                                     <constraint firstItem="Dsb-cJ-nyr" firstAttribute="leading" secondItem="z1c-M5-mn1" secondAttribute="leading" id="Z5f-Cs-Pyj"/>
                                     <constraint firstAttribute="trailing" secondItem="Hjb-GF-eTf" secondAttribute="trailing" constant="20" id="cCe-8k-2d3"/>
@@ -3303,7 +3303,7 @@
         <image name="twitter.png" width="240" height="240"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uOq-sh-vc9"/>
+        <segue reference="r43-2b-d5X"/>
         <segue reference="Qt4-Ln-Sah"/>
     </inferredMetricsTieBreakers>
 </document>
