@@ -54,6 +54,35 @@ class MonsterStatsCell: UICollectionViewCell {
     
     @IBOutlet weak var damageTakenLabel: UILabel!
     
+    
+    @IBOutlet weak var weapon1Name: UILabel!
+    @IBOutlet weak var weapon1Type: UILabel!
+    @IBOutlet weak var weapon1Cost: UILabel!
+    @IBOutlet weak var weapon1Range: UILabel!
+    @IBOutlet weak var weapon1Glance: UILabel!
+    @IBOutlet weak var weapon1Solid: UILabel!
+    @IBOutlet weak var weapon1Crit: UILabel!
+    
+    @IBOutlet weak var weapon2Name: UILabel!
+    @IBOutlet weak var weapon2Type: UILabel!
+    @IBOutlet weak var weapon2Cost: UILabel!
+    @IBOutlet weak var weapon2Range: UILabel!
+    @IBOutlet weak var weapon2Glance: UILabel!
+    @IBOutlet weak var weapon2Solid: UILabel!
+    @IBOutlet weak var weapon2Crit: UILabel!
+    
+    @IBOutlet weak var weapon3Name: UILabel!
+    @IBOutlet weak var weapon3Type: UILabel!
+    @IBOutlet weak var weapon3Cost: UILabel!
+    @IBOutlet weak var weapon3Range: UILabel!
+    @IBOutlet weak var weapon3Glance: UILabel!
+    @IBOutlet weak var weapon3Solid: UILabel!
+    @IBOutlet weak var weapon3Crit: UILabel!
+    
+    
+    var weaponRows: [WeaponRow] = []
+    
+    
     @IBOutlet weak var detailsButton: UIButton!
     @IBOutlet weak var removeButton: UIButton!
     @IBOutlet weak var blurView: UIView!
@@ -78,10 +107,26 @@ class MonsterStatsCell: UICollectionViewCell {
         
         self.blurView.alpha = (self.currentLifeLeft() == 0) ? 1.0 : 0.0
         
+        for i in 0 ..< weaponRows.count {
+            self.weaponRows[i].nameLabel.text = (self.state!.monster!.attacks.count > i) ? self.state!.monster!.attacks[i].name : ""
+            self.weaponRows[i].typeLabel.text = (self.state!.monster!.attacks.count > i) ? AttackTypeNames[self.state!.monster!.attacks[i].type.rawValue] : ""
+            self.weaponRows[i].costLabel.text = (self.state!.monster!.attacks.count > i) ? self.state!.monster!.attacks[i].cost : ""
+            self.weaponRows[i].rangeLabel.text = (self.state!.monster!.attacks.count > i) ? self.state!.monster!.attacks[i].range : ""
+            self.weaponRows[i].glanceLabel.text = (self.state!.monster!.attacks.count > i) ? self.state!.monster!.attacks[i].glanceDamage : ""
+            self.weaponRows[i].solidLabel.text = (self.state!.monster!.attacks.count > i) ? self.state!.monster!.attacks[i].solidDamage : ""
+            self.weaponRows[i].critLabel.text = (self.state!.monster!.attacks.count > i) ? self.state!.monster!.attacks[i].critDamage : ""
+        }
+        
         self.setNeedsDisplay()
     }
     
     func initializeCell(withMonster aMonster: MonsterState) {
+        self.weaponRows = [
+            WeaponRow(nameLabel: self.weapon1Name, typeLabel: self.weapon1Type, costLabel: self.weapon1Cost, rangeLabel: self.weapon1Range, glanceLabel: self.weapon1Glance, solidLabel: self.weapon1Solid, critLabel: self.weapon1Crit),
+            WeaponRow(nameLabel: self.weapon2Name, typeLabel: self.weapon2Type, costLabel: self.weapon2Cost, rangeLabel: self.weapon2Range, glanceLabel: self.weapon2Glance, solidLabel: self.weapon2Solid, critLabel: self.weapon2Crit),
+            WeaponRow(nameLabel: self.weapon3Name, typeLabel: self.weapon3Type, costLabel: self.weapon3Cost, rangeLabel: self.weapon3Range, glanceLabel: self.weapon3Glance, solidLabel: self.weapon3Solid, critLabel: self.weapon3Crit)
+        ]
+        
         self.state = aMonster
     }
     

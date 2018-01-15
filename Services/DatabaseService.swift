@@ -68,6 +68,9 @@ class DatabaseService {
                     .order(MonsterModel.Columns.name)
                     .fetchAll(db)
             }
+            for i in 0 ..< self.Monsters!.count {
+                self.Monsters![i].loadAttacks(attacks: self.Attacks!)
+            }
         }
         catch
         {}
