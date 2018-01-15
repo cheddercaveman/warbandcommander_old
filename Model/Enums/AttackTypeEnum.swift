@@ -8,6 +8,8 @@
 
 import Foundation
 
+let AttackTypeNames: [String] = ["Melee", "Magic", "Range"]
+
 enum AttackType: Int {
     case melee = 0
     case magic = 1
