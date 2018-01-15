@@ -1881,6 +1881,11 @@
                                                 <constraint firstItem="pYO-ar-dHZ" firstAttribute="top" secondItem="Vg2-ZJ-otM" secondAttribute="bottom" constant="20" id="rc3-lg-nLU"/>
                                                 <constraint firstItem="Vg2-ZJ-otM" firstAttribute="top" secondItem="jRc-Fv-au6" secondAttribute="top" constant="40" id="uSW-id-IZr"/>
                                             </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="2"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="skO-Zq-S3v" userLabel="Line">
                                             <rect key="frame" x="0.0" y="389" width="375" height="1"/>
@@ -2953,6 +2958,11 @@
                                                 <constraint firstItem="jyF-6O-zb6" firstAttribute="top" secondItem="P0Z-3N-7oQ" secondAttribute="top" constant="10" id="mZD-h7-gtu"/>
                                                 <constraint firstItem="jyF-6O-zb6" firstAttribute="centerX" secondItem="P0Z-3N-7oQ" secondAttribute="centerX" id="sLu-Ce-J2Z"/>
                                             </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="2"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GA5-IH-HC0" userLabel="Line">
                                             <rect key="frame" x="0.0" y="329" width="375" height="1"/>
@@ -3293,7 +3303,7 @@
         <image name="twitter.png" width="240" height="240"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uOq-sh-vc9"/>
+        <segue reference="5ve-NO-GCQ"/>
         <segue reference="p4r-G0-lhc"/>
     </inferredMetricsTieBreakers>
 </document>
