@@ -53,7 +53,7 @@ class DatabaseService {
         do {
             try self.MasterDataQueue?.inDatabase { (db) in
                 self.Characters = try CharacterModel
-                    .order(CharacterModel.Columns.battlefieldRole, CharacterModel.Columns.name)
+                    .order(CharacterModel.Columns.name)
                     .fetchAll(db)
             }
             for i in 0 ..< self.Characters!.count {
