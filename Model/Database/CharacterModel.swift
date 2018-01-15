@@ -10,7 +10,7 @@ import Foundation
 import GRDB
 
 struct CharacterModel : CardBase, RowConvertible, TableMapping, Hashable, Equatable {
-    static var databaseTableName: String { return "masCharacters" }
+    static var databaseTableName: String { return "Characters" }
     static let databaseSelection: [SQLSelectable] = [AllColumns(), Column.rowID]
     
     enum Columns {
@@ -59,6 +59,8 @@ struct CharacterModel : CardBase, RowConvertible, TableMapping, Hashable, Equata
     
     var dependsOn: Int32?
     
+    var attacks: [AttackModel] = []
+    
     init(row: Row) {
         self.id = row[Columns.id]
         
@@ -84,6 +86,12 @@ struct CharacterModel : CardBase, RowConvertible, TableMapping, Hashable, Equata
         self.cardBasename = row[Columns.cardBasename]
         self.cardAmount = row[Columns.cardAmount]
     }
+    
+    mutating func loadAttacks(attacks: [AttackModel]) {
+        self.attacks = attacks.filter({ (a) -> Bool in
+            return ((a.cardRefType == .character) && (a.cardRefId == self.id))
+        })
+    }
 
     public var hashValue: Int {
         return id.hashValue;
@@ -94,4 +102,3 @@ struct CharacterModel : CardBase, RowConvertible, TableMapping, Hashable, Equata
             lhs.id.hashValue == rhs.id.hashValue
     }
 }
-

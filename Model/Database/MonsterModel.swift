@@ -10,7 +10,7 @@ import Foundation
 import GRDB
 
 struct MonsterModel : CardBase, RowConvertible, TableMapping, Hashable, Equatable {
-    static var databaseTableName: String { return "masMonster" }
+    static var databaseTableName: String { return "Monsters" }
     static let databaseSelection: [SQLSelectable] = [AllColumns(), Column.rowID]
     
     enum Columns {
@@ -47,7 +47,9 @@ struct MonsterModel : CardBase, RowConvertible, TableMapping, Hashable, Equatabl
 
     var cardBasename: String = ""
     var cardAmount: Int = 0
-    
+
+    var attacks: [AttackModel] = []
+
     init(row: Row) {
         self.id = row[Columns.id]
         
@@ -69,6 +71,12 @@ struct MonsterModel : CardBase, RowConvertible, TableMapping, Hashable, Equatabl
         self.cardAmount = row[Columns.cardAmount]
     }
     
+    mutating func loadAttacks(attacks: [AttackModel]) {
+        self.attacks = attacks.filter({ (a) -> Bool in
+            return ((a.cardRefType == .monster) && (a.cardRefId == self.id))
+        })
+    }
+    
     public var hashValue: Int {
         return id.hashValue;
     }
@@ -78,5 +86,3 @@ struct MonsterModel : CardBase, RowConvertible, TableMapping, Hashable, Equatabl
             lhs.id.hashValue == rhs.id.hashValue
     }
 }
-
-
