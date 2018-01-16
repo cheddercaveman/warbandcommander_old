@@ -17,24 +17,21 @@ protocol MonsterStatsCellDelegate {
 }
 
 class MonsterStatsCell: UICollectionViewCell {
-    var _state: MonsterState?
-    var state: MonsterState? {
-        get { return self._state }
-        set {
-            self._state = newValue
-            updateCell()
+    var state: MonsterState? = nil {
+        didSet {
+            if self.state != nil {
+                updateCell()
+            }
         }
     }
     
-    var _indexPath: Int = 0
-    var indexPath: Int {
-        get { return self._indexPath }
-        set {
-            self._indexPath = newValue
-            
-            self.tag = Int(self._indexPath)
-            self.detailsButton.tag = Int(self._indexPath)
-            self.removeButton.tag = Int(self._indexPath)
+    var indexPath: Int? = nil {
+        didSet {
+            if let indexPath = self.indexPath {
+                self.tag = indexPath
+                self.detailsButton.tag = indexPath
+                self.removeButton.tag = indexPath
+            }
         }
     }
     

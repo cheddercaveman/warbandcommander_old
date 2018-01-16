@@ -63,19 +63,19 @@ class GameGlobalsCollectionViewController: UICollectionViewController, UICollect
     }
     
     func damageIncreased(sender aSender: MonsterStatsCell) {
-        GameState.sharedInstance.monster[aSender.indexPath].increaseDamage()
+        GameState.sharedInstance.monster[aSender.indexPath!].increaseDamage()
         aSender.updateCell()
         PersistanceService.sharedInstance.persistGameState()
     }
     
     func damageDecreased(sender aSender: MonsterStatsCell) {
-        GameState.sharedInstance.monster[aSender.indexPath].decreaseDamage()
+        GameState.sharedInstance.monster[aSender.indexPath!].decreaseDamage()
         aSender.updateCell()
         PersistanceService.sharedInstance.persistGameState()
     }
     
     func revive(sender aSender: MonsterStatsCell) {
-        GameState.sharedInstance.monster[aSender.indexPath].damageTaken = GameState.sharedInstance.monster[aSender.indexPath].monster.reviveDamage
+        GameState.sharedInstance.monster[aSender.indexPath!].damageTaken = GameState.sharedInstance.monster[aSender.indexPath!].monster.reviveDamage
         aSender.updateCell()
         PersistanceService.sharedInstance.persistGameState()
     }

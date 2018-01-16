@@ -18,28 +18,25 @@ protocol CharacterStatsCellDelegate {
 }
 
 class CharacterStatsCell: UICollectionViewCell {
-    var _state: CharacterState?
-    var state: CharacterState? {
-        get { return self._state }
-        set {
-            self._state = newValue
-            updateCell()
+    var state: CharacterState? = nil {
+        didSet {
+            if self.state != nil {
+                updateCell()
+            }
         }
     }
     
-    var _indexPath: Int = 0
-    var indexPath: Int {
-        get { return self._indexPath }
-        set {
-            self._indexPath = newValue
-            
-            self.tag = Int(self._indexPath)
-            self.detailsButton.tag = Int(self._indexPath)
-            self.removeButton.tag = Int(self._indexPath)
-            self.offensiveArtefactButton.tag = Int(self._indexPath)
-            self.defensiveArtefactButton.tag = Int(self._indexPath)
-            self.offensiveArtefactDetailButton.tag = Int(self._indexPath)
-            self.defensiveArtefactDetailButton.tag = Int(self._indexPath)
+    var indexPath: Int? = nil {
+        didSet {
+            if let indexPath = self.indexPath {
+                self.tag = indexPath
+                self.detailsButton.tag = indexPath
+                self.removeButton.tag = indexPath
+                self.offensiveArtefactButton.tag = indexPath
+                self.defensiveArtefactButton.tag = indexPath
+                self.offensiveArtefactDetailButton.tag = indexPath
+                self.defensiveArtefactDetailButton.tag = indexPath
+            }
         }
     }
 
