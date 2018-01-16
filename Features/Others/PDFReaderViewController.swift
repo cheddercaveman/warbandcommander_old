@@ -9,7 +9,7 @@
 import UIKit
 import WebKit
 
-class PDFReaderViewController: UIViewController {
+class PDFReaderViewController: UIViewController, WKNavigationDelegate {
     @IBOutlet weak var webView: WKWebView!
     
     private var _pdfName: String = ""
@@ -25,8 +25,11 @@ class PDFReaderViewController: UIViewController {
             }
         }
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        webView.navigationDelegate = self
         
         self.title = "Rulebook"
         
@@ -45,5 +48,14 @@ class PDFReaderViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        print(self.webView.scrollView.contentOffset.y)
+        TempSettings.sharedInstance.rulebookScrollPosition = Int(self.webView.scrollView.contentOffset.y)
+    }
+
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        webView.scrollView.contentOffset = CGPoint(x: 0, y: TempSettings.sharedInstance.rulebookScrollPosition)
     }
 }
