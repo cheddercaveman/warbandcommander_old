@@ -184,7 +184,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         case 0:
             return CGSize(width: collectionView.bounds.width, height: 130)
         default:
-            return CGSize(width: collectionView.bounds.width, height: 390)
+            return CGSize(width: collectionView.bounds.width, height: 380)
         }
     }
     
