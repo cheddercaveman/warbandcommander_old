@@ -3046,19 +3046,20 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEt-tA-Hsl">
-                                    <rect key="frame" x="8" y="14.5" width="41.5" height="21"/>
+                                    <rect key="frame" x="8" y="14.5" width="34.5" height="21"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="21" id="fYz-Mw-7KF"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-BoldItalic" family="Avenir Next Condensed" pointSize="20"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUb-ko-QW3">
-                                    <rect key="frame" x="320" y="10" width="39" height="30"/>
+                                    <rect key="frame" x="320" y="6.5" width="39" height="37"/>
                                     <constraints>
                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="39" id="oJ0-xy-gwD"/>
                                     </constraints>
+                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="18"/>
                                     <state key="normal" title="Add">
                                         <color key="titleColor" red="0.43137254899999999" green="0.62745098040000002" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
@@ -3303,7 +3304,7 @@
         <image name="twitter.png" width="240" height="240"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="pad-oE-Rcd"/>
-        <segue reference="phG-12-q6w"/>
+        <segue reference="r43-2b-d5X"/>
+        <segue reference="Qt4-Ln-Sah"/>
     </inferredMetricsTieBreakers>
 </document>
