@@ -103,8 +103,8 @@ class CharacterStatsCell: UICollectionViewCell {
     func updateCell() {
         self.nameLabel!.text = self.state!.character!.name
         self.roleLabel!.text = self.state!.character!.battlefieldRole.rawValue
-        self.traitLabel!.text = self.state!.character!.trait
-        
+        self.traitLabel!.text = String(format: "%@ %@", self.state!.character!.race, self.state!.character!.trait)
+
         self.statMovLabel!.text = self.state!.character!.statMOV ?? "-"
         self.statAgiLabel!.text = self.state!.character!.statAGI ?? "-"
         self.statResLabel!.text = self.state!.character!.statRES ?? "-"
