@@ -26,7 +26,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
             destinationController.viewType = .characterSelection(headline: "Select Character", cardCellIdentifier: "characterCell", cardCellType: CharacterCardCell.self)
             
             destinationController.cardData = DatabaseService.sharedInstance.Characters?.filter({ (c) -> Bool in
-                return !(self.warband?.containsCharacter(aCharacter: c) ?? false)
+                return ( (c.multipleAllowed) || (!(self.warband?.containsCharacter(aCharacter: c) ?? false)) )
             })
         }
         
@@ -120,63 +120,33 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
     }
     
     func damageIncreased(sender aSender: CharacterStatsCell) {
-        let character = self.warband?.characters.first { (c) -> Bool in
-            return c.character!.id == aSender.state!.character!.id
-        }
-        
-        if let character = character {
-            character.increaseDamage()
-            aSender.updateCell()
-            PersistanceService.sharedInstance.persistGameState()
-        }
+        self.warband!.characters[aSender.indexPath!].increaseDamage()
+        aSender.updateCell()
+        PersistanceService.sharedInstance.persistGameState()
     }
     
     func damageDecreased(sender aSender: CharacterStatsCell) {
-        let character = self.warband?.characters.first { (c) -> Bool in
-            return c.character!.id == aSender.state!.character!.id
-        }
-        
-        if let character = character {
-            character.decreaseDamage()
-            aSender.updateCell()
-            PersistanceService.sharedInstance.persistGameState()
-        }
+        self.warband!.characters[aSender.indexPath!].decreaseDamage()
+        aSender.updateCell()
+        PersistanceService.sharedInstance.persistGameState()
     }
     
     func levelIncreased(sender aSender: CharacterStatsCell) {
-        let character = self.warband?.characters.first { (c) -> Bool in
-            return c.character!.id == aSender.state!.character!.id
-        }
-        
-        if let character = character {
-            character.increaseLevel()
-            aSender.updateCell()
-            PersistanceService.sharedInstance.persistGameState()
-        }
+        self.warband!.characters[aSender.indexPath!].increaseLevel()
+        aSender.updateCell()
+        PersistanceService.sharedInstance.persistGameState()
     }
     
     func levelDecreased(sender aSender: CharacterStatsCell) {
-        let character = self.warband?.characters.first { (c) -> Bool in
-            return c.character!.id == aSender.state!.character!.id
-        }
-        
-        if let character = character {
-            character.decreaseLevel()
-            aSender.updateCell()
-            PersistanceService.sharedInstance.persistGameState()
-        }
+        self.warband!.characters[aSender.indexPath!].decreaseLevel()
+        aSender.updateCell()
+        PersistanceService.sharedInstance.persistGameState()
     }
     
     func revive(sender aSender: CharacterStatsCell) {
-        let character = self.warband?.characters.first { (c) -> Bool in
-            return c.character!.id == aSender.state!.character!.id
-        }
-        
-        if let character = character {
-            character.revive()
-            aSender.updateCell()
-            PersistanceService.sharedInstance.persistGameState()
-        }
+        self.warband!.characters[aSender.indexPath!].revive()
+        aSender.updateCell()
+        PersistanceService.sharedInstance.persistGameState()
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
