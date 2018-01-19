@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
+        UIApplication.shared.isIdleTimerDisabled = true
         self.window?.tintColor = UIColor(red:0.43, green:0.63, blue:0.76, alpha:1.0)
         return true
     }
