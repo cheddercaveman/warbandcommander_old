@@ -82,7 +82,7 @@ class CharacterState : Encodable, Decodable {
     }
     
     func revive() {
-        self.damageTaken = 5
+        self.damageTaken = self.character!.reviveDamage
     }
     
     private enum CodingKeys: String, CodingKey {

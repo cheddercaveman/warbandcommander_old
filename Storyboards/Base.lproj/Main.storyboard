@@ -1947,9 +1947,11 @@
                                     <outlet property="blurView" destination="jRc-Fv-au6" id="ktI-4b-dkk"/>
                                     <outlet property="currentLevelLabel" destination="gjZ-DP-Fxx" id="LNu-Cl-aR2"/>
                                     <outlet property="damageTakenLabel" destination="baD-2l-kgM" id="BD0-1d-pCU"/>
+                                    <outlet property="decreaseLevelButton" destination="aQc-lV-VX3" id="Rw7-5d-3T7"/>
                                     <outlet property="defensiveArtefactButton" destination="Rpm-5n-akE" id="AqT-P5-lCH"/>
                                     <outlet property="defensiveArtefactDetailButton" destination="og4-S5-CMC" id="jyF-13-00g"/>
                                     <outlet property="detailsButton" destination="zhc-fY-lDi" id="nY2-S2-zyC"/>
+                                    <outlet property="increaseLevelButton" destination="5YI-bf-PXC" id="XbR-zD-mBs"/>
                                     <outlet property="nameLabel" destination="iay-5n-bgC" id="yt8-BS-ILd"/>
                                     <outlet property="offensiveArtefactButton" destination="5Qn-kI-hNg" id="S4C-02-Y8c"/>
                                     <outlet property="offensiveArtefactDetailButton" destination="yY9-Zb-QX3" id="4tk-WT-mVm"/>
@@ -3304,7 +3306,7 @@
         <image name="twitter.png" width="240" height="240"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="r43-2b-d5X"/>
-        <segue reference="Qt4-Ln-Sah"/>
+        <segue reference="5ve-NO-GCQ"/>
+        <segue reference="p4r-G0-lhc"/>
     </inferredMetricsTieBreakers>
 </document>

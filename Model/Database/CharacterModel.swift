@@ -29,6 +29,7 @@ struct CharacterModel : CardBase, RowConvertible, TableMapping, Hashable, Equata
         static let lifeLevel1 = Column("life_Level1")
         static let lifeLevel2 = Column("life_Level2")
         static let lifeLevel3 = Column("life_Level3")
+        static let reviveDamage = Column("reviveDamage")
         static let canLevel = Column("canlevel")
         static let multipleAllowed = Column("multipleAllowed")
         static let cardBasename = Column("cardbasename")
@@ -52,6 +53,7 @@ struct CharacterModel : CardBase, RowConvertible, TableMapping, Hashable, Equata
     var lifeLevel1: Int = 0
     var lifeLevel2: Int = 0
     var lifeLevel3: Int = 0
+    var reviveDamage: Int = 5
     
     var canLevel: Bool = true
     
@@ -82,6 +84,7 @@ struct CharacterModel : CardBase, RowConvertible, TableMapping, Hashable, Equata
         self.lifeLevel1 = row[Columns.lifeLevel1]
         self.lifeLevel2 = row[Columns.lifeLevel2]
         self.lifeLevel3 = row[Columns.lifeLevel3]
+        self.reviveDamage = row[Columns.reviveDamage]
         
         self.canLevel = row[Columns.canLevel] as! Int64 == 0 ? false : true
         self.multipleAllowed = row[Columns.multipleAllowed] as! Int64 == 0 ? false : true

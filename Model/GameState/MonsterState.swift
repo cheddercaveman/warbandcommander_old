@@ -39,6 +39,10 @@ class MonsterState : Encodable, Decodable {
     func currentLifeLeft() -> Int {
         return self.monster.life - self.damageTaken
     }
+    
+    func revive() {
+        self.damageTaken = self.monster!.reviveDamage
+    }
 
     func increaseDamage() {
         if self.currentLifeLeft() > 0 {

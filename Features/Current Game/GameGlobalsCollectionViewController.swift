@@ -75,7 +75,7 @@ class GameGlobalsCollectionViewController: UICollectionViewController, UICollect
     }
     
     func revive(sender aSender: MonsterStatsCell) {
-        GameState.sharedInstance.monster[aSender.indexPath!].damageTaken = GameState.sharedInstance.monster[aSender.indexPath!].monster.reviveDamage
+        GameState.sharedInstance.monster[aSender.indexPath!].revive()
         aSender.updateCell()
         PersistanceService.sharedInstance.persistGameState()
     }

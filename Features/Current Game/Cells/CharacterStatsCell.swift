@@ -83,6 +83,8 @@ class CharacterStatsCell: UICollectionViewCell {
     
     var weaponRows: [WeaponRow] = []
     
+    @IBOutlet weak var decreaseLevelButton: UIButton!
+    @IBOutlet weak var increaseLevelButton: UIButton!
     
     @IBOutlet weak var currentLevelLabel: UILabel!
     @IBOutlet weak var damageTakenLabel: UILabel!
@@ -118,7 +120,10 @@ class CharacterStatsCell: UICollectionViewCell {
         self.statLifeLeftLabel!.textColor = (self.currentLifeLeft() == 0) ? UIColor.red : UIColor.lightGray
         self.statLifeLeftLabel!.text = String(self.currentLifeLeft())
         
-        self.currentLevelLabel!.text = String(self.state!.currentLevel)
+        self.increaseLevelButton.alpha = self.state!.character!.canLevel ? 1.0 : 0.0
+        self.decreaseLevelButton.alpha = self.state!.character!.canLevel ? 1.0 : 0.0
+        
+        self.currentLevelLabel!.text = self.state!.character!.canLevel ? String(self.state!.currentLevel) : "N/A"
         
         self.offensiveArtefactDetailButton.isEnabled = self.state?.offensiveArtefact != nil
         self.offensiveArtefactButton.setTitle(self.state?.offensiveArtefact?.name ?? "Offensive Artefact", for: .normal)
