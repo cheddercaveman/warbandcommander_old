@@ -78,4 +78,17 @@ class WarbandState : Encodable, Decodable {
             }
         }
     }
+    
+    func overallSouls() -> Int {
+        var overallSouls: Int = self.bankedSouls
+        for c in self.characters {
+            overallSouls += c.souls
+        }
+        
+        return overallSouls
+    }
+    
+    func bankSouls(amount: Int) {
+        self.bankedSouls += amount
+    }
 }

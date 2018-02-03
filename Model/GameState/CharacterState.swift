@@ -13,6 +13,7 @@ class CharacterState : Encodable, Decodable {
     var character: CharacterModel?
     var damageTaken: Int = 0
     var currentLevel: Int = 1
+    var souls: Int = 0
     var offensiveArtefact: ArtefactModel?
     var defensiveArtefact: ArtefactModel?
     
@@ -65,6 +66,16 @@ class CharacterState : Encodable, Decodable {
         }
     }
     
+    func addSoul() {
+        self.souls += 1
+    }
+    
+    func removeSoul() {
+        if (self.souls > 0) {
+            self.souls -= 1
+        }
+    }
+    
     func assignOffensiveArtefact(anArtefact: ArtefactModel) {
         self.offensiveArtefact = anArtefact
     }
@@ -89,6 +100,7 @@ class CharacterState : Encodable, Decodable {
         case characterReferenceId
         case damageTaken
         case currentLevel
+        case souls
         case offensiveArtefactReferenceId
         case defensiveArtefactReferenceId
     }
@@ -102,6 +114,8 @@ class CharacterState : Encodable, Decodable {
         
         self.damageTaken = try container.decode(Int.self, forKey: .damageTaken)
         self.currentLevel = try container.decode(Int.self, forKey: .currentLevel)
+        self.souls = try container.decode(Int?.self, forKey: .souls) ?? 0
+        
         if let offensiveArtefactId = try container.decodeIfPresent(Int.self, forKey: .offensiveArtefactReferenceId) {
             self.offensiveArtefact = DatabaseService.sharedInstance.Artefacts?.first(where: { (a) -> Bool in
                 return a.id == offensiveArtefactId
@@ -120,6 +134,7 @@ class CharacterState : Encodable, Decodable {
         try container.encode(self.character?.id, forKey: .characterReferenceId)
         try container.encode(self.damageTaken, forKey: .damageTaken)
         try container.encode(self.currentLevel, forKey: .currentLevel)
+        try container.encode(self.souls, forKey: .souls)
         try container.encodeIfPresent(self.offensiveArtefact?.id, forKey: .offensiveArtefactReferenceId)
         try container.encodeIfPresent(self.defensiveArtefact?.id, forKey: .defensiveArtefactReferenceId)
     }
