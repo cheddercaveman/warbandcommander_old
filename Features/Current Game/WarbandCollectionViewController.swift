@@ -144,9 +144,15 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
     }
     
     func revive(sender aSender: CharacterStatsCell) {
-        self.warband!.characters[aSender.indexPath!].revive()
-        aSender.updateCell()
-        PersistanceService.sharedInstance.persistGameState()
+        if (self.warband!.characters[aSender.indexPath!].defensiveArtefact?.id == Artefact.elixirOfLife.rawValue) {
+            self.warband!.characters[aSender.indexPath!].useElixirOfLife()
+            aSender.updateCell()
+            PersistanceService.sharedInstance.persistGameState()
+        } else {
+            self.warband!.characters[aSender.indexPath!].revive()
+            aSender.updateCell()
+            PersistanceService.sharedInstance.persistGameState()
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

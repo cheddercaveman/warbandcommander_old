@@ -10,7 +10,7 @@ import Foundation
 
 let AttackTypeNames: [String] = ["Melee", "Magic", "Range"]
 
-enum AttackType: Int {
+enum AttackType : Int {
     case melee = 0
     case magic = 1
     case range = 2

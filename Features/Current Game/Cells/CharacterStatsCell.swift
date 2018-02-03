@@ -85,6 +85,7 @@ class CharacterStatsCell: UICollectionViewCell {
     
     @IBOutlet weak var decreaseLevelButton: UIButton!
     @IBOutlet weak var increaseLevelButton: UIButton!
+    @IBOutlet weak var reviveButton: UIButton!
     
     @IBOutlet weak var currentLevelLabel: UILabel!
     @IBOutlet weak var damageTakenLabel: UILabel!
@@ -107,12 +108,32 @@ class CharacterStatsCell: UICollectionViewCell {
         self.roleLabel!.text = self.state!.character!.battlefieldRole.rawValue
         self.traitLabel!.text = String(format: "%@ %@", self.state!.character!.race, self.state!.character!.trait)
 
-        self.statMovLabel!.text = self.state!.character!.statMOV ?? "-"
-        self.statAgiLabel!.text = self.state!.character!.statAGI ?? "-"
-        self.statResLabel!.text = self.state!.character!.statRES ?? "-"
-        self.statMelLabel!.text = self.state!.character!.statMEL ?? "-"
-        self.statMagLabel!.text = self.state!.character!.statMAG ?? "-"
-        self.statRngLabel!.text = self.state!.character!.statRNG ?? "-"
+        let movStat = self.state!.get(stat: .mov)
+        self.statMovLabel!.text = movStat.value
+        self.statMovLabel!.textColor = movStat.color
+        
+        let agiStat = self.state!.get(stat: .agi)
+        self.statAgiLabel!.text = agiStat.value
+        self.statAgiLabel!.textColor = agiStat.color
+        
+        let resStat = self.state!.get(stat: .res)
+        self.statResLabel!.text = resStat.value
+        self.statResLabel!.textColor = resStat.color
+        
+        let melStat = self.state!.get(stat: .mel)
+        self.statMelLabel!.text = melStat.value
+        self.statMelLabel!.textColor = melStat.color
+        
+        let magStat = self.state!.get(stat: .mag)
+        self.statMagLabel!.text = magStat.value
+        self.statMagLabel!.textColor = magStat.color
+        
+        let rngStat = self.state!.get(stat: .rng)
+        self.statRngLabel!.text = rngStat.value
+        self.statRngLabel!.textColor = rngStat.color
+        
+        self.reviveButton.setTitle(self.state!.defensiveArtefact?.id == Artefact.elixirOfLife.rawValue ? "Use Elixir of Life" : "Revive", for: .normal)
+        
         self.statSoulHarvestLabel!.text = self.state!.character!.soulHarvest ?? "-"
         self.statLifeLeftLabel!.text = String(self.currentLifeLeft())
         

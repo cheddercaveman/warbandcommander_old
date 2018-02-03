@@ -18,7 +18,8 @@ struct ArtefactModel : CardBase, RowConvertible, TableMapping, Hashable, Equatab
         static let name = Column("name")
         static let trait = Column("traits")
         static let artefactRole = Column("role")
-        static let summary = Column("summary")
+        static let statModified = Column("statModified")
+        static let statModifiedAmount = Column("statModifiedAmount")
         static let cardBasename = Column("cardbasename")
         static let cardAmount = Column("cardamount")
     }
@@ -27,7 +28,9 @@ struct ArtefactModel : CardBase, RowConvertible, TableMapping, Hashable, Equatab
     var id: Int = 0
     var name: String = ""
     var trait: ArtefactTrait = .offense
-    var summary: String = ""
+    
+    var statModified: String? = ""
+    var statModifiedAmount: Int = 0
     
     var cardBasename: String = ""
     var cardAmount: Int = 0
@@ -38,7 +41,9 @@ struct ArtefactModel : CardBase, RowConvertible, TableMapping, Hashable, Equatab
         
         self.name = row[Columns.name]
         self.trait = ArtefactTrait(rawValue: row[Columns.trait])!
-        self.summary = row[Columns.summary]
+        
+        self.statModified = row[Columns.statModified]
+        self.statModifiedAmount = row[Columns.statModifiedAmount]
 
         self.cardBasename = row[Columns.cardBasename]
         self.cardAmount = row[Columns.cardAmount]

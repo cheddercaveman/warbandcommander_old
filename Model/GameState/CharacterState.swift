@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 import GRDB
 
 class CharacterState : Encodable, Decodable {
@@ -94,6 +95,58 @@ class CharacterState : Encodable, Decodable {
     
     func revive() {
         self.damageTaken = self.character!.reviveDamage
+    }
+    
+    func useElixirOfLife() {
+        self.defensiveArtefact = nil
+        self.damageTaken = self.currentMaxDamage() - 1
+    }
+    
+    func get(stat: StatValue) -> (value: String, color: UIColor) {
+        let unmodifiedColor: UIColor = .lightGray
+        let modifiedColor: UIColor = UIColor(red:0.96, green:0.64, blue:0.00, alpha:1.0)
+        
+        var currentStat = "0"
+        switch stat {
+        case .mov:
+            currentStat = self.character?.statMOV ?? "0"
+            break
+        case .agi:
+            currentStat = self.character?.statAGI ?? "0"
+            break
+        case .res:
+            currentStat = self.character?.statRES ?? "0"
+            break
+        case .mel:
+            currentStat = self.character?.statMEL ?? "0"
+            break
+        case .mag:
+            currentStat = self.character?.statMAG ?? "0"
+            break
+        case .rng:
+            currentStat = self.character?.statRNG ?? "0"
+            break
+        case .soulharvest:
+            currentStat = self.character?.soulHarvest ?? "0"
+            break
+        }
+        
+        if (stat.rawValue == self.offensiveArtefact?.statModified)
+            || (stat.rawValue == self.defensiveArtefact?.statModified) {
+            guard let currentStatInt = Int(currentStat) else {
+                return (value: currentStat, color: unmodifiedColor)
+            }
+
+            let finalStat = currentStatInt + (defensiveArtefact?.statModifiedAmount ?? 0)
+            
+            return (value: "\(finalStat)", color: modifiedColor)
+        }
+    
+        if currentStat == "0" {
+            currentStat = "-"
+        }
+
+        return (value: "\(currentStat)", color: unmodifiedColor)
     }
     
     private enum CodingKeys: String, CodingKey {

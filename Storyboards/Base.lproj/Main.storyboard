@@ -1956,6 +1956,7 @@
                                     <outlet property="offensiveArtefactButton" destination="5Qn-kI-hNg" id="S4C-02-Y8c"/>
                                     <outlet property="offensiveArtefactDetailButton" destination="yY9-Zb-QX3" id="4tk-WT-mVm"/>
                                     <outlet property="removeButton" destination="qPy-KF-lxO" id="Mxa-iJ-LIH"/>
+                                    <outlet property="reviveButton" destination="pYO-ar-dHZ" id="631-J0-nJN"/>
                                     <outlet property="roleLabel" destination="Wql-J2-rva" id="fYB-cw-lXK"/>
                                     <outlet property="scrollView" destination="5Nm-KE-uUH" id="GXo-cR-SYn"/>
                                     <outlet property="statAgiLabel" destination="rHL-3k-NiG" id="aYT-Ez-2GA"/>
