@@ -133,13 +133,18 @@ class CharacterState : Encodable, Decodable {
         
         if (stat.rawValue == self.offensiveArtefact?.statModified)
             || (stat.rawValue == self.defensiveArtefact?.statModified) {
-            guard let currentStatInt = Int(currentStat) else {
+            var currentStatInt = Int(currentStat)
+            if currentStatInt == nil {
                 return (value: currentStat, color: unmodifiedColor)
             }
 
-            let finalStat = currentStatInt + (defensiveArtefact?.statModifiedAmount ?? 0)
+            if (stat.rawValue == self.offensiveArtefact?.statModified) {
+                currentStatInt! += (offensiveArtefact?.statModifiedAmount ?? 0)
+            } else {
+                currentStatInt! += (defensiveArtefact?.statModifiedAmount ?? 0)
+            }
             
-            return (value: "\(finalStat)", color: modifiedColor)
+            return (value: "\(currentStatInt!)", color: modifiedColor)
         }
     
         if currentStat == "0" {
