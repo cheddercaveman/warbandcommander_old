@@ -15,7 +15,7 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
     var tapGestureRecognizer: UITapGestureRecognizer?
     
     let menuTitles: [String] = [
-        "Characters",
+        "Heroes",
         "Monsters",
         "Artefacts",
         "Shrines",
@@ -53,7 +53,7 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
             switch (indexPath.item) {
             case 0:
                 let cardListController = segue.destination as! CardListViewController
-                cardListController.viewType = .characterPreview(headline: "Character", cardCellIdentifier: "characterCell", cardCellType: CharacterCardCell.self)
+                cardListController.viewType = .characterPreview(headline: "Heroes", cardCellIdentifier: "characterCell", cardCellType: CharacterCardCell.self)
                 cardListController.cardData = DatabaseService.sharedInstance.Characters
             case 1:
                 let cardListController = segue.destination as! CardListViewController

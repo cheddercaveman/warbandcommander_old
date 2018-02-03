@@ -23,7 +23,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         if segue.identifier == "characterSelectionSegue" {
             let destinationController = segue.destination as! CardListViewController
             destinationController.delegate = self
-            destinationController.viewType = .characterSelection(headline: "Select Character", cardCellIdentifier: "characterCell", cardCellType: CharacterCardCell.self)
+            destinationController.viewType = .characterSelection(headline: "Select Hero", cardCellIdentifier: "characterCell", cardCellType: CharacterCardCell.self)
             
             destinationController.cardData = DatabaseService.sharedInstance.Characters?.filter({ (c) -> Bool in
                 return ( (c.multipleAllowed) || (!(self.warband?.containsCharacter(aCharacter: c) ?? false)) )
@@ -104,7 +104,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
     }
 
     func deleteButtonTouched(sender aSender: CharacterStatsCell) {
-        let alert = UIAlertController(title: "Remove Character", message: "Are you sure you want to remove \(aSender.state!.character!.name)?", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Remove Hero", message: "Are you sure you want to remove \(aSender.state!.character!.name)?", preferredStyle: .alert)
         let clearAction = UIAlertAction(title: "Remove", style: .destructive) { (alert: UIAlertAction!) -> Void in
             self.warband?.characters.remove(at: aSender.tag)
             PersistanceService.sharedInstance.persistGameState()
@@ -248,7 +248,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         let supplementaryCell = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "headerView", for: indexPath) as! GenericCollectionHeaderView
         if indexPath.section == 1 {
-            supplementaryCell.setTitle(aTitle: "Characters")
+            supplementaryCell.setTitle(aTitle: "Heroes")
         }
         
         return supplementaryCell

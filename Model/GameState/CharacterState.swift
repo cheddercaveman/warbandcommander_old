@@ -104,7 +104,7 @@ class CharacterState : Encodable, Decodable {
     
     func get(stat: StatValue) -> (value: String, color: UIColor) {
         let unmodifiedColor: UIColor = .lightGray
-        let modifiedColor: UIColor = UIColor(red:0.96, green:0.64, blue:0.00, alpha:1.0)
+        let modifiedColor: UIColor = UIColor(red:0.43, green:0.63, blue:0.76, alpha:1.0)
         
         var currentStat = "0"
         switch stat {
