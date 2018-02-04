@@ -106,29 +106,33 @@ class CharacterState : Encodable, Decodable {
         let unmodifiedColor: UIColor = .lightGray
         let modifiedColor: UIColor = UIColor(red:0.43, green:0.63, blue:0.76, alpha:1.0)
         
-        var currentStat = "0"
+        var currentStat = "-"
         switch stat {
         case .mov:
-            currentStat = self.character?.statMOV ?? "0"
+            currentStat = self.character?.statMOV ?? "-"
             break
         case .agi:
-            currentStat = self.character?.statAGI ?? "0"
+            currentStat = self.character?.statAGI ?? "-"
             break
         case .res:
-            currentStat = self.character?.statRES ?? "0"
+            currentStat = self.character?.statRES ?? "-"
             break
         case .mel:
-            currentStat = self.character?.statMEL ?? "0"
+            currentStat = self.character?.statMEL ?? "-"
             break
         case .mag:
-            currentStat = self.character?.statMAG ?? "0"
+            currentStat = self.character?.statMAG ?? "-"
             break
         case .rng:
-            currentStat = self.character?.statRNG ?? "0"
+            currentStat = self.character?.statRNG ?? "-"
             break
         case .soulharvest:
-            currentStat = self.character?.soulHarvest ?? "0"
+            currentStat = self.character?.soulHarvest ?? "-"
             break
+        }
+        
+        if (currentStat == "-") {
+            return (value: currentStat, color: unmodifiedColor)
         }
         
         if (stat.rawValue == self.offensiveArtefact?.statModified)
@@ -147,10 +151,6 @@ class CharacterState : Encodable, Decodable {
             return (value: "\(currentStatInt!)", color: modifiedColor)
         }
     
-        if currentStat == "0" {
-            currentStat = "-"
-        }
-
         return (value: "\(currentStat)", color: unmodifiedColor)
     }
     
