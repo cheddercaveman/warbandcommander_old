@@ -57,7 +57,7 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
                 cardListController.cardData = DatabaseService.sharedInstance.Characters
             case 1:
                 let cardListController = segue.destination as! CardListViewController
-                cardListController.viewType = .monsterPreview(headline: "Monster", cardCellIdentifier: "monsterCell", cardCellType: MonsterCardCell.self)
+                cardListController.viewType = .monsterPreview(headline: "Monsters", cardCellIdentifier: "monsterCell", cardCellType: MonsterCardCell.self)
                 cardListController.cardData = DatabaseService.sharedInstance.Monsters
             case 2:
                 let cardListController = segue.destination as! CardListViewController
