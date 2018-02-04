@@ -2,25 +2,20 @@
 //  CharacterStatsCell.swift
 //  Judgement
 //
-//  Created by Oliver Hauth on 29.12.17.
+//  Created by Oliver Hauth on 04.02.18.
 //  Copyright © 2018 nogoodname. All rights reserved.
 //
 
 import UIKit
 
-protocol CharacterStatsCellDelegate {
-    func deleteButtonTouched(sender aSender: CharacterStatsCell)
-    func damageIncreased(sender aSender: CharacterStatsCell)
-    func damageDecreased(sender aSender: CharacterStatsCell)
-    func levelIncreased(sender aSender: CharacterStatsCell)
-    func levelDecreased(sender aSender: CharacterStatsCell)
-    func revive(sender aSender: CharacterStatsCell)
-    func soulsIncreased(sender aSender: CharacterStatsCell)
-    func soulsDecreased(sender aSender: CharacterStatsCell)
-    func bankSouls(sender aSender: CharacterStatsCell)
+protocol FamiliarStatsCellDelegate {
+    func deleteButtonTouched(sender aSender: FamiliarStatsCell)
+    func damageIncreased(sender aSender: FamiliarStatsCell)
+    func damageDecreased(sender aSender: FamiliarStatsCell)
+    func revive(sender aSender: FamiliarStatsCell)
 }
 
-class CharacterStatsCell: UICollectionViewCell {
+class FamiliarStatsCell: UICollectionViewCell {
     var state: CharacterState? = nil {
         didSet {
             if self.state != nil {
@@ -35,16 +30,12 @@ class CharacterStatsCell: UICollectionViewCell {
                 self.tag = indexPath
                 self.detailsButton.tag = indexPath
                 self.removeButton.tag = indexPath
-                self.offensiveArtefactButton.tag = indexPath
-                self.defensiveArtefactButton.tag = indexPath
-                self.offensiveArtefactDetailButton.tag = indexPath
-                self.defensiveArtefactDetailButton.tag = indexPath
             }
         }
     }
-
-
-    var delegate: CharacterStatsCellDelegate?
+    
+    
+    var delegate: FamiliarStatsCellDelegate?
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var roleLabel: UILabel!
@@ -56,7 +47,6 @@ class CharacterStatsCell: UICollectionViewCell {
     @IBOutlet weak var statMelLabel: UILabel!
     @IBOutlet weak var statMagLabel: UILabel!
     @IBOutlet weak var statRngLabel: UILabel!
-    @IBOutlet weak var statSoulHarvestLabel: UILabel!
     @IBOutlet weak var statLifeLeftLabel: UILabel!
     
     @IBOutlet weak var weapon1Name: UILabel!
@@ -86,33 +76,21 @@ class CharacterStatsCell: UICollectionViewCell {
     
     var weaponRows: [WeaponRow] = []
     
-    @IBOutlet weak var decreaseLevelButton: UIButton!
-    @IBOutlet weak var increaseLevelButton: UIButton!
-    @IBOutlet weak var reviveButton: UIButton!
-    
-    @IBOutlet weak var currentLevelLabel: UILabel!
     @IBOutlet weak var damageTakenLabel: UILabel!
-    @IBOutlet weak var currentSoulsLabel: UILabel!
     
-    @IBOutlet weak var offensiveArtefactButton: UIButton!
-    @IBOutlet weak var defensiveArtefactButton: UIButton!
     @IBOutlet weak var detailsButton: UIButton!
     @IBOutlet weak var removeButton: UIButton!
     
-    @IBOutlet weak var offensiveArtefactDetailButton: UIButton!
-    @IBOutlet weak var defensiveArtefactDetailButton: UIButton!
     @IBOutlet weak var blurView: UIView!
     
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var statsView: UIView!
     
-    @IBOutlet weak var soulsView: UIView!
-    
     func updateCell() {
         self.nameLabel!.text = self.state!.character!.name
         self.roleLabel!.text = self.state!.character!.battlefieldRole.rawValue
         self.traitLabel!.text = String(format: "%@ %@", self.state!.character!.race, self.state!.character!.trait)
-
+        
         let movStat = self.state!.get(stat: .mov)
         self.statMovLabel!.text = movStat.value
         self.statMovLabel!.textColor = movStat.color
@@ -137,27 +115,11 @@ class CharacterStatsCell: UICollectionViewCell {
         self.statRngLabel!.text = rngStat.value
         self.statRngLabel!.textColor = rngStat.color
         
-        self.currentSoulsLabel!.text = String(self.state!.souls)
-        
-        self.reviveButton.setTitle(self.state!.defensiveArtefact?.id == Artefact.elixirOfLife.rawValue ? "Use Elixir of Life" : "Revive", for: .normal)
-        
-        self.statSoulHarvestLabel!.text = self.state!.character!.soulHarvest ?? "-"
         self.statLifeLeftLabel!.text = String(self.currentLifeLeft())
         
         self.damageTakenLabel!.text = String(self.state!.damageTaken)
         self.statLifeLeftLabel!.textColor = (self.currentLifeLeft() == 0) ? UIColor.red : UIColor.lightGray
         self.statLifeLeftLabel!.text = String(self.currentLifeLeft())
-        
-        self.increaseLevelButton.alpha = self.state!.character!.canLevel ? 1.0 : 0.0
-        self.decreaseLevelButton.alpha = self.state!.character!.canLevel ? 1.0 : 0.0
-        
-        self.currentLevelLabel!.text = self.state!.character!.canLevel ? String(self.state!.currentLevel) : "N/A"
-        
-        self.offensiveArtefactDetailButton.isEnabled = self.state?.offensiveArtefact != nil
-        self.offensiveArtefactButton.setTitle(self.state?.offensiveArtefact?.name ?? "Offensive Artefact", for: .normal)
-        
-        self.defensiveArtefactDetailButton.isEnabled = self.state?.defensiveArtefact != nil
-        self.defensiveArtefactButton.setTitle(self.state?.defensiveArtefact?.name ?? "Defensive Artefact", for: .normal)
         
         self.blurView.alpha = (self.currentLifeLeft() == 0) ? 1.0 : 0.0
         
@@ -171,8 +133,6 @@ class CharacterStatsCell: UICollectionViewCell {
             self.weaponRows[i].critLabel.text = (self.state!.character!.attacks.count > i) ? self.state!.character!.attacks[i].critDamage : ""
         }
         
-        self.soulsView.isHidden = self.state!.character?.soulHarvest == nil
-        
         self.setNeedsDisplay()
     }
     
@@ -182,7 +142,7 @@ class CharacterStatsCell: UICollectionViewCell {
             WeaponRow(nameLabel: self.weapon2Name, typeLabel: self.weapon2Type, costLabel: self.weapon2Cost, rangeLabel: self.weapon2Range, glanceLabel: self.weapon2Glance, solidLabel: self.weapon2Solid, critLabel: self.weapon2Crit),
             WeaponRow(nameLabel: self.weapon3Name, typeLabel: self.weapon3Type, costLabel: self.weapon3Cost, rangeLabel: self.weapon3Range, glanceLabel: self.weapon3Glance, solidLabel: self.weapon3Solid, critLabel: self.weapon3Crit)
         ]
-
+        
         self.state = aCharacter
     }
     
@@ -213,27 +173,8 @@ class CharacterStatsCell: UICollectionViewCell {
         self.delegate?.damageIncreased(sender: self)
     }
     
-    @IBAction func levelDecrease(_ sender: UIButton) {
-        self.delegate?.levelDecreased(sender: self)
-    }
-    
-    @IBAction func levelIncrease(_ sender: UIButton) {
-        self.delegate?.levelIncreased(sender: self)
-    }
-    
     @IBAction func reviveButtonTouched(_ sender: UIButton) {
         self.delegate?.revive(sender: self)
     }
-    
-    @IBAction func decreaseSoulsButtonTouched(_ sender: UIButton) {
-        self.delegate?.soulsDecreased(sender: self)
-    }
-    
-    @IBAction func increaseSoulsButtonTouched(_ sender: UIButton) {
-        self.delegate?.soulsIncreased(sender: self)
-    }
-    
-    @IBAction func bankSoulsButtonTouched(_ sender: UIButton) {
-        self.delegate?.bankSouls(sender: self)
-    }
 }
+

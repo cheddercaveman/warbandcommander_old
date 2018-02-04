@@ -77,6 +77,12 @@ class CharacterState : Encodable, Decodable {
         }
     }
     
+    func bankSouls() -> Int {
+        let tempSouls = self.souls
+        self.souls = 0
+        return tempSouls
+    }
+    
     func assignOffensiveArtefact(anArtefact: ArtefactModel) {
         self.offensiveArtefact = anArtefact
     }
