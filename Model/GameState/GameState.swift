@@ -47,15 +47,19 @@ class GameState : Encodable, Decodable{
     }
     
     func resetCurrentGame() {
+        self.ownWarband.bankedSouls = 0
         for c in self.ownWarband.characters {
             c.damageTaken = 0
             c.currentLevel = 1
+            c.souls = 0
             c.offensiveArtefact = nil
             c.defensiveArtefact = nil
         }
+        self.enemyWarband.bankedSouls = 0
         for c in self.enemyWarband.characters {
             c.damageTaken = 0
             c.currentLevel = 1
+            c.souls = 0
             c.offensiveArtefact = nil
             c.defensiveArtefact = nil
         }

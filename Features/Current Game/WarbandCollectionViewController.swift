@@ -335,9 +335,10 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         let supplementaryCell = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "headerView", for: indexPath) as! GenericCollectionHeaderView
         if indexPath.section == 0 {
             supplementaryCell.setTitle(aTitle: "Warband")
+            supplementaryCell.hideAddButton()
         }
         if indexPath.section == 1 {
-            supplementaryCell.setTitle(aTitle: "Heroes")
+            supplementaryCell.setTitle(aTitle: "Heroes & Familiars")
         }
         
         return supplementaryCell
