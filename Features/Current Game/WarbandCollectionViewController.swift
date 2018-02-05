@@ -339,6 +339,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         }
         if indexPath.section == 1 {
             supplementaryCell.setTitle(aTitle: "Heroes & Familiars")
+            supplementaryCell.showAddButton()
         }
         
         return supplementaryCell
