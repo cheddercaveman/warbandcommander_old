@@ -82,7 +82,10 @@ class WarbandState : Encodable, Decodable {
     func overallSouls() -> Int {
         var overallSouls: Int = self.bankedSouls
         for c in self.characters {
-            overallSouls += c.souls
+            if (c.currentLifeLeft() > 0)
+            || (c.defensiveArtefact?.id == Artefact.elixirOfLife.rawValue) {
+                overallSouls += c.souls
+            }
         }
         
         return overallSouls

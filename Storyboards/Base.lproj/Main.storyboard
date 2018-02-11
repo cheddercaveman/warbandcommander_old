@@ -4114,7 +4114,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEt-tA-Hsl">
-                                    <rect key="frame" x="8" y="14.5" width="34.5" height="21"/>
+                                    <rect key="frame" x="15" y="14.5" width="34.5" height="21"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="21" id="fYz-Mw-7KF"/>
                                     </constraints>
@@ -4140,7 +4140,7 @@
                             <constraints>
                                 <constraint firstItem="pUb-ko-QW3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Iky-3P-gya" secondAttribute="leading" constant="20" symbolic="YES" id="3dF-xv-tr1"/>
                                 <constraint firstAttribute="trailing" secondItem="pUb-ko-QW3" secondAttribute="trailing" constant="16" id="Aeh-CM-ba6"/>
-                                <constraint firstItem="QEt-tA-Hsl" firstAttribute="leading" secondItem="Iky-3P-gya" secondAttribute="leading" constant="8" id="U47-jo-PIg"/>
+                                <constraint firstItem="QEt-tA-Hsl" firstAttribute="leading" secondItem="Iky-3P-gya" secondAttribute="leading" constant="15" id="U47-jo-PIg"/>
                                 <constraint firstItem="pUb-ko-QW3" firstAttribute="centerY" secondItem="Iky-3P-gya" secondAttribute="centerY" id="XF6-lp-s5d"/>
                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QEt-tA-Hsl" secondAttribute="trailing" constant="20" symbolic="YES" id="nZN-ar-fxc"/>
                                 <constraint firstItem="QEt-tA-Hsl" firstAttribute="centerY" secondItem="Iky-3P-gya" secondAttribute="centerY" id="vE9-dC-bIY"/>
@@ -4372,7 +4372,7 @@
         <image name="twitter.png" width="240" height="240"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="VPl-mY-jp9"/>
-        <segue reference="aTS-pa-nor"/>
+        <segue reference="r43-2b-d5X"/>
+        <segue reference="Qt4-Ln-Sah"/>
     </inferredMetricsTieBreakers>
 </document>

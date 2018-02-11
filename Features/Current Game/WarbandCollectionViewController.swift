@@ -138,6 +138,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
     func damageIncreased(sender aSender: CharacterStatsCell) {
         self.warband!.characters[aSender.indexPath!].increaseDamage()
         aSender.updateCell()
+        self.globalCell?.updateCell()
         PersistanceService.sharedInstance.persistGameState()
     }
     
@@ -156,6 +157,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
     func levelDecreased(sender aSender: CharacterStatsCell) {
         self.warband!.characters[aSender.indexPath!].decreaseLevel()
         aSender.updateCell()
+        self.globalCell?.updateCell()
         PersistanceService.sharedInstance.persistGameState()
     }
     
@@ -163,10 +165,12 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
         if (self.warband!.characters[aSender.indexPath!].defensiveArtefact?.id == Artefact.elixirOfLife.rawValue) {
             self.warband!.characters[aSender.indexPath!].useElixirOfLife()
             aSender.updateCell()
+            self.globalCell?.updateCell()
             PersistanceService.sharedInstance.persistGameState()
         } else {
             self.warband!.characters[aSender.indexPath!].revive()
             aSender.updateCell()
+            self.globalCell?.updateCell()
             PersistanceService.sharedInstance.persistGameState()
         }
     }
@@ -223,6 +227,7 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
     func revive(sender aSender: FamiliarStatsCell) {
         self.warband!.characters[aSender.indexPath!].revive()
         aSender.updateCell()
+        self.globalCell?.updateCell()
         PersistanceService.sharedInstance.persistGameState()
     }
     

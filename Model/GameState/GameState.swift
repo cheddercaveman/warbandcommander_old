@@ -70,18 +70,23 @@ class GameState : Encodable, Decodable{
     
     func deleteCurrentGame() {
         self.ownWarband.characters.removeAll()
+        self.ownWarband.bankedSouls = 0
         self.enemyWarband.characters.removeAll()
+        self.enemyWarband.bankedSouls = 0
         self.monster = []
     }
     
     func deleteCurrentGameButOwnWarband() {
+        self.ownWarband.bankedSouls = 0
         for c in self.ownWarband.characters {
             c.damageTaken = 0
             c.currentLevel = 1
+            c.souls = 0
             c.offensiveArtefact = nil
             c.defensiveArtefact = nil
         }
         self.enemyWarband.characters.removeAll()
+        self.enemyWarband.bankedSouls = 0
         self.monster = []
     }
 }

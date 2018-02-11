@@ -101,6 +101,7 @@ class CharacterState : Encodable, Decodable {
     
     func revive() {
         self.damageTaken = self.character!.reviveDamage
+        self.souls = 0
     }
     
     func useElixirOfLife() {
