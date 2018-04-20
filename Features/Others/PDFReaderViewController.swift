@@ -26,6 +26,8 @@ class PDFReaderViewController: UIViewController, WKNavigationDelegate {
         }
     }
     
+    var scrollPositionKey : ScrollPosition = .rulebookScrollPosition
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -41,21 +43,17 @@ class PDFReaderViewController: UIViewController, WKNavigationDelegate {
                 }
             }
         }
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        print(self.webView.scrollView.contentOffset.y)
-        TempSettings.sharedInstance.rulebookScrollPosition = Int(self.webView.scrollView.contentOffset.y)
+        TempSettings.sharedInstance[self.scrollPositionKey] = Int(self.webView.scrollView.contentOffset.y)
     }
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        webView.scrollView.contentOffset = CGPoint(x: 0, y: TempSettings.sharedInstance.rulebookScrollPosition)
+        webView.scrollView.contentOffset = CGPoint(x: 0, y: TempSettings.sharedInstance[self.scrollPositionKey]!)
     }
 }

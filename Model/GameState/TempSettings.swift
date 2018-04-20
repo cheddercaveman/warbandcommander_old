@@ -9,7 +9,10 @@
 import Foundation
 
 class TempSettings {
-    static let sharedInstance: TempSettings = TempSettings()
+    static var sharedInstance: Dictionary<ScrollPosition, Int> = Dictionary()
     
-    var rulebookScrollPosition: Int = 0
+    init() {
+        TempSettings.sharedInstance[.rulebookScrollPosition] = 0
+        TempSettings.sharedInstance[.tournamentPackScrollPosition] = 0
+    }
 }
