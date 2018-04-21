@@ -20,7 +20,7 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
         "Artefacts",
         "Shrines",
         "Rulebook",
-        "About"
+        "Tournament Kit"
     ]
     
     let menuIcons: [String?] = [
@@ -29,7 +29,7 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
         "",
         "",
         "",
-        ""
+        ""
     ]
     
     let segues: [String] = [
@@ -38,7 +38,7 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
         "cardListSegue",
         "cardListSegue",
         "manualSegue",
-        "aboutSegue"
+        "manualSegue"
     ]
 
     override func viewDidLoad() {
@@ -82,11 +82,11 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
     }
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 2
+        return 3
     }
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return section == 0 ? 1 : self.menuTitles.count
+        return section == 1 ? self.menuTitles.count : 1
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -99,11 +99,20 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
             cell.layer.borderColor = UIColor.white.cgColor
             return cell
         }
-        else {
+        else if (indexPath.section == 1){
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "mainMenuEntry", for: indexPath) as! MainMenuCollectionViewCell
             
             cell.titleLabel!.text = self.menuTitles[indexPath.item]
             cell.iconLabel!.text = self.menuIcons[indexPath.item]
+            cell.layer.borderWidth = 1.0;
+            cell.layer.borderColor = UIColor.white.cgColor
+            return cell
+        }
+        else {
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "mainMenuCurrentGame", for: indexPath) as! MainMenuCollectionViewCell
+            
+            cell.titleLabel!.text = "About"
+            cell.iconLabel!.text = ""
             cell.layer.borderWidth = 1.0;
             cell.layer.borderColor = UIColor.white.cgColor
             return cell
@@ -135,13 +144,15 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
             if self.segues[indexPath.item] != "" {
                 performSegue(withIdentifier: self.segues[indexPath.item], sender: indexPath)
             }
+        case 2:
+            performSegue(withIdentifier: "aboutSegue", sender: indexPath)
         default:
             break
         }
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        if (indexPath.section == 0) {
+        if (indexPath.section != 1) {
             return CGSize(width: collectionView.bounds.width, height: 80)
         }
         
@@ -153,7 +164,7 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
-        return section == 0 ? CGSize.zero : CGSize(width: self.view.bounds.width, height: 50)
+        return section != 2 ? CGSize.zero : CGSize(width: self.view.bounds.width, height: 50)
     }
 }
 

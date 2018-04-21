@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kTy-aM-mLd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kTy-aM-mLd">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="AvenirNextCondensed.ttc">
-            <string>AvenirNextCondensed-Bold</string>
-            <string>AvenirNextCondensed-BoldItalic</string>
-            <string>AvenirNextCondensed-DemiBold</string>
-            <string>AvenirNextCondensed-DemiBoldItalic</string>
-            <string>AvenirNextCondensed-Italic</string>
-            <string>AvenirNextCondensed-Regular</string>
-        </array>
         <array key="rpgawesome-webfont.ttf">
             <string>rpg-awesome</string>
         </array>
@@ -4347,8 +4339,8 @@
                         <outlet property="mainMenuCollectionView" destination="DZi-qb-Ky1" id="WoQ-M4-3Us"/>
                         <segue destination="lSm-uS-Zqw" kind="show" identifier="cardListSegue" id="12a-Iw-iUV"/>
                         <segue destination="8nc-lM-lJL" kind="show" identifier="currentGameSegue" id="pun-OQ-KBA"/>
-                        <segue destination="2JI-ki-BVo" kind="show" identifier="aboutSegue" id="h3U-lF-8qS"/>
                         <segue destination="XBL-HG-fAn" kind="show" identifier="manualSegue" id="3go-lO-OZq"/>
+                        <segue destination="2JI-ki-BVo" kind="show" identifier="aboutSegue" id="Ms3-JB-csz"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SSF-Qh-Vi9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4373,6 +4365,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="r43-2b-d5X"/>
-        <segue reference="Qt4-Ln-Sah"/>
+        <segue reference="12a-Iw-iUV"/>
     </inferredMetricsTieBreakers>
 </document>

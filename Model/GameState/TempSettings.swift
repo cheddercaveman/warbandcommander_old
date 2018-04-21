@@ -9,10 +9,19 @@
 import Foundation
 
 class TempSettings {
-    static var sharedInstance: Dictionary<ScrollPosition, Int> = Dictionary()
+    private static var _sharedInstance: Dictionary<ScrollPosition, Int>?
     
-    init() {
-        TempSettings.sharedInstance[.rulebookScrollPosition] = 0
-        TempSettings.sharedInstance[.tournamentPackScrollPosition] = 0
+    static var sharedInstance: Dictionary<ScrollPosition, Int> {
+        get {
+            if TempSettings._sharedInstance == nil {
+                TempSettings._sharedInstance = Dictionary()
+                TempSettings._sharedInstance![.rulebookScrollPosition] = 0
+                TempSettings._sharedInstance![.tournamentPackScrollPosition] = 0
+            }
+            return TempSettings._sharedInstance!
+        }
+        set {
+            TempSettings._sharedInstance = newValue
+        }
     }
 }
