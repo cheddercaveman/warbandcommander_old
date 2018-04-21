@@ -20,7 +20,7 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
         "Artefacts",
         "Shrines",
         "Rulebook",
-        "Tournament Kit"
+        "Tournament Pack"
     ]
     
     let menuIcons: [String?] = [
