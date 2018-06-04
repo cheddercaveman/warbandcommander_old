@@ -1,0 +1,1460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80F8C7AC011E26F5FAF9D1FF /* Pods_Judgement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAA99B97ECB4F9AEB3DF51A /* Pods_Judgement.framework */; };
+		A70D8329200A4AC50090B1CE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70D8328200A4AC50090B1CE /* UIView.swift */; };
+		A71AFD3E20055E10006B8051 /* J_only_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AFD3D20055E0F006B8051 /* J_only_logo.png */; };
+		A73D8C0A207257CC006A155D /* bloodsucker1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C08207257C9006A155D /* bloodsucker1.jpg */; };
+		A73D8C0B207257CC006A155D /* minotauressence1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C09207257CB006A155D /* minotauressence1.jpg */; };
+		A73D8C1C20725DF6006A155D /* bastian2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C1420725DEC006A155D /* bastian2.jpg */; };
+		A73D8C1D20725DF6006A155D /* bastian3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C1520725DED006A155D /* bastian3.jpg */; };
+		A73D8C2020725DF6006A155D /* bastian4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C1820725DF1006A155D /* bastian4.jpg */; };
+		A73D8C2820725E01006A155D /* istariel4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C2420725DFC006A155D /* istariel4.jpg */; };
+		A73D8C2920725E01006A155D /* istariel2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C2520725DFD006A155D /* istariel2.jpg */; };
+		A73D8C2A20725E01006A155D /* istariel1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C2620725DFF006A155D /* istariel1.jpg */; };
+		A73D8C2B20725E01006A155D /* istariel3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C2720725E00006A155D /* istariel3.jpg */; };
+		A73D8C3A20725E29006A155D /* skoll1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C2C20725E16006A155D /* skoll1.jpg */; };
+		A73D8C3D20725E29006A155D /* styx1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C2F20725E1B006A155D /* styx1.jpg */; };
+		A73D8C3E20725E29006A155D /* styx2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C3020725E1C006A155D /* styx2.jpg */; };
+		A73D8C3F20725E29006A155D /* skoll2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C3120725E1E006A155D /* skoll2.jpg */; };
+		A73D8C4020725E29006A155D /* styx4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C3220725E1F006A155D /* styx4.jpg */; };
+		A73D8C4120725E29006A155D /* skoll5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C3320725E21006A155D /* skoll5.jpg */; };
+		A73D8C4220725E29006A155D /* styx3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C3420725E22006A155D /* styx3.jpg */; };
+		A73D8C4420725E29006A155D /* skoll4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C3620725E25006A155D /* skoll4.jpg */; };
+		A73D8C4520725E29006A155D /* skoll6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C3720725E26006A155D /* skoll6.jpg */; };
+		A73D8C4620725E29006A155D /* skoll3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C3820725E27006A155D /* skoll3.jpg */; };
+		A73D8C5520725E4B006A155D /* zaron1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C4920725E3C006A155D /* zaron1.jpg */; };
+		A73D8C5820725E4B006A155D /* zaron4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C4C20725E41006A155D /* zaron4.jpg */; };
+		A73D8C5C20725E4B006A155D /* zaron2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C5020725E46006A155D /* zaron2.jpg */; };
+		A73D8C5D20725E4B006A155D /* zaron3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C5120725E47006A155D /* zaron3.jpg */; };
+		A73D8C612072A1CB006A155D /* bastian1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C602072A1C8006A155D /* bastian1.jpg */; };
+		A74C673A1FFE7EBE00CCE2F9 /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C67391FFE7EBE00CCE2F9 /* PersistanceService.swift */; };
+		A74C674D1FFED75500CCE2F9 /* GameGlobalsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C674C1FFED75500CCE2F9 /* GameGlobalsCollectionViewController.swift */; };
+		A74C674F1FFED7AA00CCE2F9 /* MonsterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C674E1FFED7AA00CCE2F9 /* MonsterState.swift */; };
+		A74C67551FFFF8D500CCE2F9 /* PDFReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C67541FFFF8D500CCE2F9 /* PDFReaderViewController.swift */; };
+		A74C675D2000F3E600CCE2F9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74C675C2000F3E600CCE2F9 /* WebKit.framework */; };
+		A75C94A8200C887C005DA9A6 /* WeaponRowStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75C94A7200C887C005DA9A6 /* WeaponRowStruct.swift */; };
+		A75C94AE200C96DF005DA9A6 /* nephenee4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A75C94AA200C96DC005DA9A6 /* nephenee4.jpg */; };
+		A75C94AF200C96DF005DA9A6 /* nephenee1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A75C94AB200C96DD005DA9A6 /* nephenee1.jpg */; };
+		A75C94B0200C96DF005DA9A6 /* nephenee3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A75C94AC200C96DE005DA9A6 /* nephenee3.jpg */; };
+		A75C94B1200C96DF005DA9A6 /* nephenee2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A75C94AD200C96DF005DA9A6 /* nephenee2.jpg */; };
+		A761212120507947000DD4E4 /* kogan2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A761210D2050792C000DD4E4 /* kogan2.jpg */; };
+		A761212420507947000DD4E4 /* kogan4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A761211020507930000DD4E4 /* kogan4.jpg */; };
+		A761212520507947000DD4E4 /* gendris2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A761211120507931000DD4E4 /* gendris2.jpg */; };
+		A761212620507947000DD4E4 /* gendris4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A761211220507933000DD4E4 /* gendris4.jpg */; };
+		A761212720507947000DD4E4 /* svetlana3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A761211320507934000DD4E4 /* svetlana3.jpg */; };
+		A761212820507947000DD4E4 /* svetlana1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A761211420507935000DD4E4 /* svetlana1.jpg */; };
+		A761212920507947000DD4E4 /* svetlana2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A761211520507937000DD4E4 /* svetlana2.jpg */; };
+		A761212B20507947000DD4E4 /* svetlana4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A76121172050793A000DD4E4 /* svetlana4.jpg */; };
+		A761212D20507947000DD4E4 /* gendris1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A76121192050793E000DD4E4 /* gendris1.jpg */; };
+		A761212F20507947000DD4E4 /* kogan3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A761211B20507940000DD4E4 /* kogan3.jpg */; };
+		A761213120507947000DD4E4 /* gendris3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A761211D20507943000DD4E4 /* gendris3.jpg */; };
+		A761213320507947000DD4E4 /* kogan1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A761211F20507946000DD4E4 /* kogan1.jpg */; };
+		A78C999F20BC641600634B09 /* allandir1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A78C999B20BC641500634B09 /* allandir1.jpg */; };
+		A78C99A020BC641600634B09 /* allandir2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A78C999C20BC641500634B09 /* allandir2.jpg */; };
+		A78C99A120BC641600634B09 /* allandir4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A78C999D20BC641500634B09 /* allandir4.jpg */; };
+		A78C99A220BC641600634B09 /* allandir3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A78C999E20BC641500634B09 /* allandir3.jpg */; };
+		A78C99A720BC641C00634B09 /* zaffen3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A78C99A320BC641B00634B09 /* zaffen3.jpg */; };
+		A78C99A820BC641C00634B09 /* zaffen1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A78C99A420BC641B00634B09 /* zaffen1.jpg */; };
+		A78C99A920BC641C00634B09 /* zaffen4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A78C99A520BC641C00634B09 /* zaffen4.jpg */; };
+		A78C99AA20BC641C00634B09 /* zaffen2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A78C99A620BC641C00634B09 /* zaffen2.jpg */; };
+		A78E18F11FF6446300C37593 /* WarbandCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E18F01FF6446300C37593 /* WarbandCollectionViewController.swift */; };
+		A78E18FA1FF6F5C800C37593 /* CharacterStatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E18F91FF6F5C800C37593 /* CharacterStatsCell.swift */; };
+		A78E18FC1FF7924100C37593 /* CharacterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E18FB1FF7924100C37593 /* CharacterState.swift */; };
+		A78E18FE1FF7A8AF00C37593 /* WarbandState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E18FD1FF7A8AF00C37593 /* WarbandState.swift */; };
+		A78E19001FF7A92600C37593 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E18FF1FF7A92600C37593 /* GameState.swift */; };
+		A78E19021FF7F79E00C37593 /* GameStateTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E19011FF7F79E00C37593 /* GameStateTabBarViewController.swift */; };
+		A78E19041FF8109800C37593 /* MonsterStatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E19031FF8109800C37593 /* MonsterStatsCell.swift */; };
+		A78E19061FF8EC9800C37593 /* CardListEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E19051FF8EC9800C37593 /* CardListEnum.swift */; };
+		A78E19081FF902E200C37593 /* GenericCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E19071FF902E200C37593 /* GenericCollectionHeaderView.swift */; };
+		A792A20F1FF50FAF0062A9D1 /* oliver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A792A20E1FF50FAF0062A9D1 /* oliver.jpg */; };
+		A792A2111FF5108E0062A9D1 /* hb_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A792A2101FF5108E0062A9D1 /* hb_logo.png */; };
+		A792A2131FF510D10062A9D1 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A792A2121FF510D10062A9D1 /* AboutTableViewController.swift */; };
+		A792A21A1FF5134A0062A9D1 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = A792A2151FF513490062A9D1 /* facebook.png */; };
+		A792A21B1FF5134A0062A9D1 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = A792A2161FF513490062A9D1 /* twitter.png */; };
+		A792A21C1FF5134A0062A9D1 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = A792A2171FF513490062A9D1 /* email.png */; };
+		A792A21D1FF5134A0062A9D1 /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = A792A2181FF5134A0062A9D1 /* instagram.png */; };
+		A792A21E1FF5134A0062A9D1 /* link.png in Resources */ = {isa = PBXBuildFile; fileRef = A792A2191FF5134A0062A9D1 /* link.png */; };
+		A792A2201FF51C6A0062A9D1 /* SocialMediaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A792A21F1FF51C6A0062A9D1 /* SocialMediaEnum.swift */; };
+		A7957521204DE060009CF2BF /* vujasha2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A795751F204DE05D009CF2BF /* vujasha2.jpg */; };
+		A7957522204DE060009CF2BF /* vujasha1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7957520204DE05F009CF2BF /* vujasha1.jpg */; };
+		A7A246871FF4EEFE0048923D /* armourshredder1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A2467A1FF4EEFD0048923D /* armourshredder1.jpg */; };
+		A7A246881FF4EEFE0048923D /* giftofthegods1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A2467B1FF4EEFD0048923D /* giftofthegods1.jpg */; };
+		A7A246891FF4EEFE0048923D /* bootsofspeed1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A2467C1FF4EEFD0048923D /* bootsofspeed1.jpg */; };
+		A7A2468A1FF4EEFE0048923D /* bootsofagility1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A2467D1FF4EEFD0048923D /* bootsofagility1.jpg */; };
+		A7A2468B1FF4EEFE0048923D /* ringofpower1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A2467E1FF4EEFD0048923D /* ringofpower1.jpg */; };
+		A7A2468C1FF4EEFE0048923D /* healingsurge1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A2467F1FF4EEFD0048923D /* healingsurge1.jpg */; };
+		A7A2468F1FF4EEFE0048923D /* vorpalblade1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A246821FF4EEFE0048923D /* vorpalblade1.jpg */; };
+		A7A246901FF4EEFE0048923D /* bootsofelvenkind1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A246831FF4EEFE0048923D /* bootsofelvenkind1.jpg */; };
+		A7A246911FF4EEFE0048923D /* elixiroflife1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A246841FF4EEFE0048923D /* elixiroflife1.jpg */; };
+		A7A246921FF4EEFE0048923D /* glyphofwarding1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A246851FF4EEFE0048923D /* glyphofwarding1.jpg */; };
+		A7A246931FF4EEFE0048923D /* heartseeker1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A246861FF4EEFE0048923D /* heartseeker1.jpg */; };
+		A7A246951FF4F00C0048923D /* ArtefactTraitEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A246941FF4F00C0048923D /* ArtefactTraitEnum.swift */; };
+		A7A246971FF4F1390048923D /* ArtefactCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A246961FF4F1390048923D /* ArtefactCardCell.swift */; };
+		A7A2469B1FF4FC850048923D /* rpgawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A2469A1FF4FC850048923D /* rpgawesome-webfont.ttf */; };
+		A7A2469D1FF5004F0048923D /* LargeTitleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2469C1FF5004F0048923D /* LargeTitleNavigationController.swift */; };
+		A7A77A881FEFC2E8005579AF /* BattlefieldRoleEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A77A871FEFC2E8005579AF /* BattlefieldRoleEnum.swift */; };
+		A7A77A8A1FEFDA06005579AF /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A77A891FEFDA06005579AF /* DatabaseService.swift */; };
+		A7A77A921FF0F7D3005579AF /* CharacterCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A77A911FF0F7D3005579AF /* CharacterCardCell.swift */; };
+		A7A77A961FF19541005579AF /* judgement.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A7A77A951FF19541005579AF /* judgement.sqlite */; };
+		A7BCC82F1FF3A8F5009B791E /* rakkir3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7BCC82E1FF3A8F5009B791E /* rakkir3.jpg */; };
+		A7C7ACF3200BB60300A90CD5 /* AttackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7ACF2200BB60300A90CD5 /* AttackModel.swift */; };
+		A7C7ACF5200BC3BB00A90CD5 /* CardRefTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7ACF4200BC3BB00A90CD5 /* CardRefTypeEnum.swift */; };
+		A7C7ACF7200BC46800A90CD5 /* AttackTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7ACF6200BC46800A90CD5 /* AttackTypeEnum.swift */; };
+		A7C98796200DF79C00A04D19 /* TempSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C98795200DF79C00A04D19 /* TempSettings.swift */; };
+		A7C9FAA120307AB900DBE9C1 /* haksa2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C9FA8B20307A9C00DBE9C1 /* haksa2.jpg */; };
+		A7C9FAA220307AB900DBE9C1 /* haksa4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C9FA8C20307A9E00DBE9C1 /* haksa4.jpg */; };
+		A7C9FAA520307AB900DBE9C1 /* viktor2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C9FA8F20307AA100DBE9C1 /* viktor2.jpg */; };
+		A7C9FAA720307AB900DBE9C1 /* algarath1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C9FA9120307AA400DBE9C1 /* algarath1.jpg */; };
+		A7C9FAAA20307AB900DBE9C1 /* viktor4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C9FA9420307AA700DBE9C1 /* viktor4.jpg */; };
+		A7C9FAAD20307AB900DBE9C1 /* viktor3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C9FA9720307AAC00DBE9C1 /* viktor3.jpg */; };
+		A7C9FAAF20307AB900DBE9C1 /* haksa1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C9FA9920307AAE00DBE9C1 /* haksa1.jpg */; };
+		A7C9FAB020307AB900DBE9C1 /* haksa3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C9FA9A20307AB000DBE9C1 /* haksa3.jpg */; };
+		A7C9FAB120307AB900DBE9C1 /* viktor1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C9FA9B20307AB100DBE9C1 /* viktor1.jpg */; };
+		A7C9FAB620307AB900DBE9C1 /* algarath2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C9FAA020307AB800DBE9C1 /* algarath2.jpg */; };
+		A7CA2F5020279D73004A192F /* WarbandStatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CA2F4F20279D73004A192F /* WarbandStatsCell.swift */; };
+		A7CA2F522027A76C004A192F /* FamiliarStatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CA2F512027A76C004A192F /* FamiliarStatsCell.swift */; };
+		A7D7B80D1FEE5D1F00BCC8D4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A7D7B80C1FEE5D1F00BCC8D4 /* Podfile */; };
+		A7D89F1E2025AA0600C660C8 /* StatValueEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D89F1D2025AA0600C660C8 /* StatValueEnum.swift */; };
+		A7D89F202025B32D00C660C8 /* ArtefactEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D89F1F2025B32D00C660C8 /* ArtefactEnum.swift */; };
+		A7DB85751FED0FD60014D58F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DB85741FED0FD60014D58F /* AppDelegate.swift */; };
+		A7DB857A1FED0FD60014D58F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DB85781FED0FD60014D58F /* Main.storyboard */; };
+		A7DB857C1FED0FD60014D58F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DB857B1FED0FD60014D58F /* Assets.xcassets */; };
+		A7DB857F1FED0FD60014D58F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DB857D1FED0FD60014D58F /* LaunchScreen.storyboard */; };
+		A7DB85891FED10360014D58F /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DB85881FED10360014D58F /* CharacterModel.swift */; };
+		A7DB858B1FED10530014D58F /* ArtefactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DB858A1FED10530014D58F /* ArtefactModel.swift */; };
+		A7DC0D131FF3DEAE0072E17D /* inferno2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DC0D0C1FF3DEAD0072E17D /* inferno2.jpg */; };
+		A7DC0D141FF3DEAE0072E17D /* inferno1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DC0D0D1FF3DEAD0072E17D /* inferno1.jpg */; };
+		A7DC0D151FF3DEAE0072E17D /* gloom2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DC0D0E1FF3DEAD0072E17D /* gloom2.jpg */; };
+		A7DC0D161FF3DEAE0072E17D /* inferno3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DC0D0F1FF3DEAE0072E17D /* inferno3.jpg */; };
+		A7DC0D171FF3DEAE0072E17D /* gloom1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DC0D101FF3DEAE0072E17D /* gloom1.jpg */; };
+		A7DC0D181FF3DEAE0072E17D /* ashtooth2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DC0D111FF3DEAE0072E17D /* ashtooth2.jpg */; };
+		A7DC0D191FF3DEAE0072E17D /* ashtooth1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DC0D121FF3DEAE0072E17D /* ashtooth1.jpg */; };
+		A7DC0D1B1FF3DEC10072E17D /* MonsterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC0D1A1FF3DEC10072E17D /* MonsterModel.swift */; };
+		A7DC0D1D1FF43D6C0072E17D /* MonsterCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC0D1C1FF43D6C0072E17D /* MonsterCardCell.swift */; };
+		A7DC0D211FF442DC0072E17D /* CardCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC0D201FF442DC0072E17D /* CardCollectionHeaderView.swift */; };
+		A7DC0D231FF449CC0072E17D /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC0D221FF449CC0072E17D /* CardListViewController.swift */; };
+		A7DC0D251FF44DC70072E17D /* CardBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC0D241FF44DC70072E17D /* CardBase.swift */; };
+		A7DC0D271FF450E80072E17D /* BaseCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC0D261FF450E80072E17D /* BaseCardCell.swift */; };
+		A7DC0D291FF45B690072E17D /* ShrineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC0D281FF45B690072E17D /* ShrineModel.swift */; };
+		A7DC0D2E1FF45C1A0072E17D /* wellin1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DC0D2A1FF45C190072E17D /* wellin1.jpg */; };
+		A7DC0D2F1FF45C1A0072E17D /* arden1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DC0D2B1FF45C1A0072E17D /* arden1.jpg */; };
+		A7DC0D301FF45C1A0072E17D /* arden2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DC0D2C1FF45C1A0072E17D /* arden2.jpg */; };
+		A7DC0D311FF45C1A0072E17D /* wellin2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DC0D2D1FF45C1A0072E17D /* wellin2.jpg */; };
+		A7DC0D331FF45C320072E17D /* ShrineCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC0D321FF45C320072E17D /* ShrineCardCell.swift */; };
+		A7E27D212097519400D021D7 /* Judgement_RuleBook_V1.3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D1F2097519200D021D7 /* Judgement_RuleBook_V1.3.pdf */; };
+		A7E27D222097519400D021D7 /* Judgement_Battlefield_Maps_V1.1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D202097519300D021D7 /* Judgement_Battlefield_Maps_V1.1.pdf */; };
+		A7E27D272097533900D021D7 /* barnascus2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D232097533800D021D7 /* barnascus2.jpg */; };
+		A7E27D282097533900D021D7 /* barnascus4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D242097533800D021D7 /* barnascus4.jpg */; };
+		A7E27D292097533900D021D7 /* barnascus3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D252097533900D021D7 /* barnascus3.jpg */; };
+		A7E27D2A2097533900D021D7 /* barnascus1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D262097533900D021D7 /* barnascus1.jpg */; };
+		A7E27D2F2097534000D021D7 /* skye3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D2B2097533F00D021D7 /* skye3.jpg */; };
+		A7E27D302097534000D021D7 /* skye4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D2C2097534000D021D7 /* skye4.jpg */; };
+		A7E27D312097534000D021D7 /* skye1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D2D2097534000D021D7 /* skye1.jpg */; };
+		A7E27D322097534000D021D7 /* skye2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D2E2097534000D021D7 /* skye2.jpg */; };
+		A7E27D3B2097534800D021D7 /* xyvera2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D332097534700D021D7 /* xyvera2.jpg */; };
+		A7E27D3C2097534800D021D7 /* zhonyja2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D342097534700D021D7 /* zhonyja2.jpg */; };
+		A7E27D3D2097534800D021D7 /* zhonyja4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D352097534700D021D7 /* zhonyja4.jpg */; };
+		A7E27D3E2097534800D021D7 /* xyvera4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D362097534800D021D7 /* xyvera4.jpg */; };
+		A7E27D3F2097534800D021D7 /* zhonyja3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D372097534800D021D7 /* zhonyja3.jpg */; };
+		A7E27D402097534800D021D7 /* xyvera3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D382097534800D021D7 /* xyvera3.jpg */; };
+		A7E27D412097534800D021D7 /* zhonyja1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D392097534800D021D7 /* zhonyja1.jpg */; };
+		A7E27D422097534800D021D7 /* xyvera1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E27D3A2097534800D021D7 /* xyvera1.jpg */; };
+		A7E7521B208A81610051F0E8 /* Judgement_TournamentPack_v1.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A7E75219208A81600051F0E8 /* Judgement_TournamentPack_v1.0.pdf */; };
+		A7E7521E208A84C00051F0E8 /* ScrollPositionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E7521D208A84C00051F0E8 /* ScrollPositionEnum.swift */; };
+		A7FCC2071FF1A4D300B886DC /* brok2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2031FF1A4D300B886DC /* brok2.jpg */; };
+		A7FCC2081FF1A4D300B886DC /* brok4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2041FF1A4D300B886DC /* brok4.jpg */; };
+		A7FCC2091FF1A4D300B886DC /* brok1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2051FF1A4D300B886DC /* brok1.jpg */; };
+		A7FCC20A1FF1A4D300B886DC /* brok3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2061FF1A4D300B886DC /* brok3.jpg */; };
+		A7FCC20C1FF1A9E700B886DC /* judgement_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC20B1FF1A9E700B886DC /* judgement_logo.jpg */; };
+		A7FCC20E1FF1ADF400B886DC /* CardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCC20D1FF1ADF400B886DC /* CardDetailsViewController.swift */; };
+		A7FCC24D1FF25C4500B886DC /* doenrakkar4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2111FF25C3F00B886DC /* doenrakkar4.jpg */; };
+		A7FCC24E1FF25C4500B886DC /* rakkir1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2121FF25C3F00B886DC /* rakkir1.jpg */; };
+		A7FCC24F1FF25C4500B886DC /* thorgar1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2131FF25C3F00B886DC /* thorgar1.jpg */; };
+		A7FCC2521FF25C4500B886DC /* thorgar4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2161FF25C4000B886DC /* thorgar4.jpg */; };
+		A7FCC2531FF25C4500B886DC /* loribela2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2171FF25C4000B886DC /* loribela2.jpg */; };
+		A7FCC2551FF25C4500B886DC /* loribela1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2191FF25C4000B886DC /* loribela1.jpg */; };
+		A7FCC2571FF25C4500B886DC /* saiyin3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC21B1FF25C4000B886DC /* saiyin3.jpg */; };
+		A7FCC2581FF25C4500B886DC /* kvarto2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC21C1FF25C4000B886DC /* kvarto2.jpg */; };
+		A7FCC25A1FF25C4500B886DC /* zchild2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC21E1FF25C4000B886DC /* zchild2.jpg */; };
+		A7FCC25B1FF25C4500B886DC /* doenrakkar1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC21F1FF25C4000B886DC /* doenrakkar1.jpg */; };
+		A7FCC25C1FF25C4500B886DC /* piper1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2201FF25C4000B886DC /* piper1.jpg */; };
+		A7FCC25D1FF25C4500B886DC /* saiyin2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2211FF25C4000B886DC /* saiyin2.jpg */; };
+		A7FCC25E1FF25C4500B886DC /* saiyin4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2221FF25C4000B886DC /* saiyin4.jpg */; };
+		A7FCC2601FF25C4500B886DC /* kruul3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2241FF25C4100B886DC /* kruul3.jpg */; };
+		A7FCC2621FF25C4500B886DC /* marcus4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2261FF25C4100B886DC /* marcus4.jpg */; };
+		A7FCC2631FF25C4500B886DC /* kvarto1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2271FF25C4100B886DC /* kvarto1.jpg */; };
+		A7FCC2651FF25C4500B886DC /* zchild1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2291FF25C4100B886DC /* zchild1.jpg */; };
+		A7FCC2671FF25C4500B886DC /* doenrakkar3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC22B1FF25C4100B886DC /* doenrakkar3.jpg */; };
+		A7FCC2681FF25C4500B886DC /* rakkir2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC22C1FF25C4100B886DC /* rakkir2.jpg */; };
+		A7FCC2691FF25C4500B886DC /* rakkir4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC22D1FF25C4100B886DC /* rakkir4.jpg */; };
+		A7FCC26B1FF25C4500B886DC /* doenrakkar2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC22F1FF25C4200B886DC /* doenrakkar2.jpg */; };
+		A7FCC26C1FF25C4500B886DC /* piper4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2301FF25C4200B886DC /* piper4.jpg */; };
+		A7FCC26D1FF25C4500B886DC /* saiyin1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2311FF25C4200B886DC /* saiyin1.jpg */; };
+		A7FCC26E1FF25C4500B886DC /* thrommel1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2321FF25C4200B886DC /* thrommel1.jpg */; };
+		A7FCC26F1FF25C4500B886DC /* loribela4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2331FF25C4200B886DC /* loribela4.jpg */; };
+		A7FCC2701FF25C4500B886DC /* marcus1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2341FF25C4200B886DC /* marcus1.jpg */; };
+		A7FCC2711FF25C4500B886DC /* marcus2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2351FF25C4200B886DC /* marcus2.jpg */; };
+		A7FCC2721FF25C4500B886DC /* thrommel4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2361FF25C4200B886DC /* thrommel4.jpg */; };
+		A7FCC2731FF25C4500B886DC /* thrommel3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2371FF25C4300B886DC /* thrommel3.jpg */; };
+		A7FCC2741FF25C4500B886DC /* kruul4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2381FF25C4300B886DC /* kruul4.jpg */; };
+		A7FCC2751FF25C4500B886DC /* kruul1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2391FF25C4300B886DC /* kruul1.jpg */; };
+		A7FCC2771FF25C4500B886DC /* piper2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC23B1FF25C4300B886DC /* piper2.jpg */; };
+		A7FCC2791FF25C4500B886DC /* loribela3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC23D1FF25C4300B886DC /* loribela3.jpg */; };
+		A7FCC27A1FF25C4500B886DC /* kvarto3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC23E1FF25C4300B886DC /* kvarto3.jpg */; };
+		A7FCC27B1FF25C4500B886DC /* thrommel2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC23F1FF25C4300B886DC /* thrommel2.jpg */; };
+		A7FCC27C1FF25C4500B886DC /* thorgar3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2401FF25C4400B886DC /* thorgar3.jpg */; };
+		A7FCC27D1FF25C4500B886DC /* kruul2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2411FF25C4400B886DC /* kruul2.jpg */; };
+		A7FCC27E1FF25C4500B886DC /* thorgar2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2421FF25C4400B886DC /* thorgar2.jpg */; };
+		A7FCC27F1FF25C4500B886DC /* kvarto4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2431FF25C4400B886DC /* kvarto4.jpg */; };
+		A7FCC2831FF25C4500B886DC /* marcus3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2471FF25C4400B886DC /* marcus3.jpg */; };
+		A7FCC2851FF25C4500B886DC /* piper3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FCC2491FF25C4500B886DC /* piper3.jpg */; };
+		A7FCC28E1FF2E56A00B886DC /* MainMenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCC28D1FF2E56A00B886DC /* MainMenuCollectionViewController.swift */; };
+		A7FCC2901FF2E58100B886DC /* MainMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCC28F1FF2E58100B886DC /* MainMenuCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29E780CDDACB710A74531F2B /* Pods-Judgement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Judgement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Judgement/Pods-Judgement.debug.xcconfig"; sourceTree = "<group>"; };
+		A70D8328200A4AC50090B1CE /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		A71AFD3D20055E0F006B8051 /* J_only_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = J_only_logo.png; sourceTree = "<group>"; };
+		A73D8C08207257C9006A155D /* bloodsucker1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bloodsucker1.jpg; sourceTree = "<group>"; };
+		A73D8C09207257CB006A155D /* minotauressence1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minotauressence1.jpg; sourceTree = "<group>"; };
+		A73D8C1420725DEC006A155D /* bastian2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bastian2.jpg; sourceTree = "<group>"; };
+		A73D8C1520725DED006A155D /* bastian3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bastian3.jpg; sourceTree = "<group>"; };
+		A73D8C1820725DF1006A155D /* bastian4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bastian4.jpg; sourceTree = "<group>"; };
+		A73D8C2420725DFC006A155D /* istariel4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = istariel4.jpg; sourceTree = "<group>"; };
+		A73D8C2520725DFD006A155D /* istariel2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = istariel2.jpg; sourceTree = "<group>"; };
+		A73D8C2620725DFF006A155D /* istariel1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = istariel1.jpg; sourceTree = "<group>"; };
+		A73D8C2720725E00006A155D /* istariel3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = istariel3.jpg; sourceTree = "<group>"; };
+		A73D8C2C20725E16006A155D /* skoll1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skoll1.jpg; sourceTree = "<group>"; };
+		A73D8C2F20725E1B006A155D /* styx1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = styx1.jpg; sourceTree = "<group>"; };
+		A73D8C3020725E1C006A155D /* styx2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = styx2.jpg; sourceTree = "<group>"; };
+		A73D8C3120725E1E006A155D /* skoll2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skoll2.jpg; sourceTree = "<group>"; };
+		A73D8C3220725E1F006A155D /* styx4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = styx4.jpg; sourceTree = "<group>"; };
+		A73D8C3320725E21006A155D /* skoll5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skoll5.jpg; sourceTree = "<group>"; };
+		A73D8C3420725E22006A155D /* styx3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = styx3.jpg; sourceTree = "<group>"; };
+		A73D8C3620725E25006A155D /* skoll4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skoll4.jpg; sourceTree = "<group>"; };
+		A73D8C3720725E26006A155D /* skoll6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skoll6.jpg; sourceTree = "<group>"; };
+		A73D8C3820725E27006A155D /* skoll3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skoll3.jpg; sourceTree = "<group>"; };
+		A73D8C4920725E3C006A155D /* zaron1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zaron1.jpg; sourceTree = "<group>"; };
+		A73D8C4C20725E41006A155D /* zaron4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zaron4.jpg; sourceTree = "<group>"; };
+		A73D8C5020725E46006A155D /* zaron2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zaron2.jpg; sourceTree = "<group>"; };
+		A73D8C5120725E47006A155D /* zaron3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zaron3.jpg; sourceTree = "<group>"; };
+		A73D8C602072A1C8006A155D /* bastian1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bastian1.jpg; sourceTree = "<group>"; };
+		A74C67391FFE7EBE00CCE2F9 /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
+		A74C674C1FFED75500CCE2F9 /* GameGlobalsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameGlobalsCollectionViewController.swift; sourceTree = "<group>"; };
+		A74C674E1FFED7AA00CCE2F9 /* MonsterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterState.swift; sourceTree = "<group>"; };
+		A74C67541FFFF8D500CCE2F9 /* PDFReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReaderViewController.swift; sourceTree = "<group>"; };
+		A74C675C2000F3E600CCE2F9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A75C94A7200C887C005DA9A6 /* WeaponRowStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponRowStruct.swift; sourceTree = "<group>"; };
+		A75C94AA200C96DC005DA9A6 /* nephenee4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nephenee4.jpg; sourceTree = "<group>"; };
+		A75C94AB200C96DD005DA9A6 /* nephenee1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nephenee1.jpg; sourceTree = "<group>"; };
+		A75C94AC200C96DE005DA9A6 /* nephenee3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nephenee3.jpg; sourceTree = "<group>"; };
+		A75C94AD200C96DF005DA9A6 /* nephenee2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nephenee2.jpg; sourceTree = "<group>"; };
+		A761210D2050792C000DD4E4 /* kogan2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kogan2.jpg; sourceTree = "<group>"; };
+		A761211020507930000DD4E4 /* kogan4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kogan4.jpg; sourceTree = "<group>"; };
+		A761211120507931000DD4E4 /* gendris2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gendris2.jpg; sourceTree = "<group>"; };
+		A761211220507933000DD4E4 /* gendris4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gendris4.jpg; sourceTree = "<group>"; };
+		A761211320507934000DD4E4 /* svetlana3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = svetlana3.jpg; sourceTree = "<group>"; };
+		A761211420507935000DD4E4 /* svetlana1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = svetlana1.jpg; sourceTree = "<group>"; };
+		A761211520507937000DD4E4 /* svetlana2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = svetlana2.jpg; sourceTree = "<group>"; };
+		A76121172050793A000DD4E4 /* svetlana4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = svetlana4.jpg; sourceTree = "<group>"; };
+		A76121192050793E000DD4E4 /* gendris1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gendris1.jpg; sourceTree = "<group>"; };
+		A761211B20507940000DD4E4 /* kogan3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kogan3.jpg; sourceTree = "<group>"; };
+		A761211D20507943000DD4E4 /* gendris3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gendris3.jpg; sourceTree = "<group>"; };
+		A761211F20507946000DD4E4 /* kogan1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kogan1.jpg; sourceTree = "<group>"; };
+		A78C999B20BC641500634B09 /* allandir1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = allandir1.jpg; sourceTree = "<group>"; };
+		A78C999C20BC641500634B09 /* allandir2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = allandir2.jpg; sourceTree = "<group>"; };
+		A78C999D20BC641500634B09 /* allandir4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = allandir4.jpg; sourceTree = "<group>"; };
+		A78C999E20BC641500634B09 /* allandir3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = allandir3.jpg; sourceTree = "<group>"; };
+		A78C99A320BC641B00634B09 /* zaffen3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zaffen3.jpg; sourceTree = "<group>"; };
+		A78C99A420BC641B00634B09 /* zaffen1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zaffen1.jpg; sourceTree = "<group>"; };
+		A78C99A520BC641C00634B09 /* zaffen4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zaffen4.jpg; sourceTree = "<group>"; };
+		A78C99A620BC641C00634B09 /* zaffen2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zaffen2.jpg; sourceTree = "<group>"; };
+		A78E18F01FF6446300C37593 /* WarbandCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarbandCollectionViewController.swift; sourceTree = "<group>"; };
+		A78E18F91FF6F5C800C37593 /* CharacterStatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterStatsCell.swift; sourceTree = "<group>"; };
+		A78E18FB1FF7924100C37593 /* CharacterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterState.swift; sourceTree = "<group>"; };
+		A78E18FD1FF7A8AF00C37593 /* WarbandState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarbandState.swift; sourceTree = "<group>"; };
+		A78E18FF1FF7A92600C37593 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		A78E19011FF7F79E00C37593 /* GameStateTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateTabBarViewController.swift; sourceTree = "<group>"; };
+		A78E19031FF8109800C37593 /* MonsterStatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterStatsCell.swift; sourceTree = "<group>"; };
+		A78E19051FF8EC9800C37593 /* CardListEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListEnum.swift; sourceTree = "<group>"; };
+		A78E19071FF902E200C37593 /* GenericCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCollectionHeaderView.swift; sourceTree = "<group>"; };
+		A792A20E1FF50FAF0062A9D1 /* oliver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oliver.jpg; sourceTree = "<group>"; };
+		A792A2101FF5108E0062A9D1 /* hb_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hb_logo.png; sourceTree = "<group>"; };
+		A792A2121FF510D10062A9D1 /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		A792A2151FF513490062A9D1 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		A792A2161FF513490062A9D1 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		A792A2171FF513490062A9D1 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		A792A2181FF5134A0062A9D1 /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
+		A792A2191FF5134A0062A9D1 /* link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = link.png; sourceTree = "<group>"; };
+		A792A21F1FF51C6A0062A9D1 /* SocialMediaEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaEnum.swift; sourceTree = "<group>"; };
+		A795751F204DE05D009CF2BF /* vujasha2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vujasha2.jpg; sourceTree = "<group>"; };
+		A7957520204DE05F009CF2BF /* vujasha1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vujasha1.jpg; sourceTree = "<group>"; };
+		A7A2467A1FF4EEFD0048923D /* armourshredder1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = armourshredder1.jpg; sourceTree = "<group>"; };
+		A7A2467B1FF4EEFD0048923D /* giftofthegods1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giftofthegods1.jpg; sourceTree = "<group>"; };
+		A7A2467C1FF4EEFD0048923D /* bootsofspeed1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bootsofspeed1.jpg; sourceTree = "<group>"; };
+		A7A2467D1FF4EEFD0048923D /* bootsofagility1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bootsofagility1.jpg; sourceTree = "<group>"; };
+		A7A2467E1FF4EEFD0048923D /* ringofpower1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ringofpower1.jpg; sourceTree = "<group>"; };
+		A7A2467F1FF4EEFD0048923D /* healingsurge1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = healingsurge1.jpg; sourceTree = "<group>"; };
+		A7A246821FF4EEFE0048923D /* vorpalblade1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vorpalblade1.jpg; sourceTree = "<group>"; };
+		A7A246831FF4EEFE0048923D /* bootsofelvenkind1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bootsofelvenkind1.jpg; sourceTree = "<group>"; };
+		A7A246841FF4EEFE0048923D /* elixiroflife1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elixiroflife1.jpg; sourceTree = "<group>"; };
+		A7A246851FF4EEFE0048923D /* glyphofwarding1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = glyphofwarding1.jpg; sourceTree = "<group>"; };
+		A7A246861FF4EEFE0048923D /* heartseeker1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heartseeker1.jpg; sourceTree = "<group>"; };
+		A7A246941FF4F00C0048923D /* ArtefactTraitEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtefactTraitEnum.swift; sourceTree = "<group>"; };
+		A7A246961FF4F1390048923D /* ArtefactCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtefactCardCell.swift; sourceTree = "<group>"; };
+		A7A2469A1FF4FC850048923D /* rpgawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rpgawesome-webfont.ttf"; sourceTree = "<group>"; };
+		A7A2469C1FF5004F0048923D /* LargeTitleNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTitleNavigationController.swift; sourceTree = "<group>"; };
+		A7A77A871FEFC2E8005579AF /* BattlefieldRoleEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattlefieldRoleEnum.swift; sourceTree = "<group>"; };
+		A7A77A891FEFDA06005579AF /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		A7A77A911FF0F7D3005579AF /* CharacterCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardCell.swift; sourceTree = "<group>"; };
+		A7A77A951FF19541005579AF /* judgement.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = judgement.sqlite; sourceTree = "<group>"; };
+		A7BCC82E1FF3A8F5009B791E /* rakkir3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rakkir3.jpg; sourceTree = "<group>"; };
+		A7C7ACF2200BB60300A90CD5 /* AttackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackModel.swift; sourceTree = "<group>"; };
+		A7C7ACF4200BC3BB00A90CD5 /* CardRefTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRefTypeEnum.swift; sourceTree = "<group>"; };
+		A7C7ACF6200BC46800A90CD5 /* AttackTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackTypeEnum.swift; sourceTree = "<group>"; };
+		A7C98795200DF79C00A04D19 /* TempSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempSettings.swift; sourceTree = "<group>"; };
+		A7C9FA8B20307A9C00DBE9C1 /* haksa2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haksa2.jpg; sourceTree = "<group>"; };
+		A7C9FA8C20307A9E00DBE9C1 /* haksa4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haksa4.jpg; sourceTree = "<group>"; };
+		A7C9FA8F20307AA100DBE9C1 /* viktor2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = viktor2.jpg; sourceTree = "<group>"; };
+		A7C9FA9120307AA400DBE9C1 /* algarath1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = algarath1.jpg; sourceTree = "<group>"; };
+		A7C9FA9420307AA700DBE9C1 /* viktor4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = viktor4.jpg; sourceTree = "<group>"; };
+		A7C9FA9720307AAC00DBE9C1 /* viktor3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = viktor3.jpg; sourceTree = "<group>"; };
+		A7C9FA9920307AAE00DBE9C1 /* haksa1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haksa1.jpg; sourceTree = "<group>"; };
+		A7C9FA9A20307AB000DBE9C1 /* haksa3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haksa3.jpg; sourceTree = "<group>"; };
+		A7C9FA9B20307AB100DBE9C1 /* viktor1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = viktor1.jpg; sourceTree = "<group>"; };
+		A7C9FAA020307AB800DBE9C1 /* algarath2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = algarath2.jpg; sourceTree = "<group>"; };
+		A7CA2F4F20279D73004A192F /* WarbandStatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarbandStatsCell.swift; sourceTree = "<group>"; };
+		A7CA2F512027A76C004A192F /* FamiliarStatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamiliarStatsCell.swift; sourceTree = "<group>"; };
+		A7D7B80C1FEE5D1F00BCC8D4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7D89F1D2025AA0600C660C8 /* StatValueEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatValueEnum.swift; sourceTree = "<group>"; };
+		A7D89F1F2025B32D00C660C8 /* ArtefactEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtefactEnum.swift; sourceTree = "<group>"; };
+		A7DB85711FED0FD60014D58F /* Judgement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Judgement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DB85741FED0FD60014D58F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7DB85791FED0FD60014D58F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7DB857B1FED0FD60014D58F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7DB857E1FED0FD60014D58F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7DB85801FED0FD60014D58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7DB85881FED10360014D58F /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		A7DB858A1FED10530014D58F /* ArtefactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtefactModel.swift; sourceTree = "<group>"; };
+		A7DC0D0C1FF3DEAD0072E17D /* inferno2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inferno2.jpg; sourceTree = "<group>"; };
+		A7DC0D0D1FF3DEAD0072E17D /* inferno1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inferno1.jpg; sourceTree = "<group>"; };
+		A7DC0D0E1FF3DEAD0072E17D /* gloom2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gloom2.jpg; sourceTree = "<group>"; };
+		A7DC0D0F1FF3DEAE0072E17D /* inferno3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inferno3.jpg; sourceTree = "<group>"; };
+		A7DC0D101FF3DEAE0072E17D /* gloom1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gloom1.jpg; sourceTree = "<group>"; };
+		A7DC0D111FF3DEAE0072E17D /* ashtooth2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ashtooth2.jpg; sourceTree = "<group>"; };
+		A7DC0D121FF3DEAE0072E17D /* ashtooth1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ashtooth1.jpg; sourceTree = "<group>"; };
+		A7DC0D1A1FF3DEC10072E17D /* MonsterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterModel.swift; sourceTree = "<group>"; };
+		A7DC0D1C1FF43D6C0072E17D /* MonsterCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardCell.swift; sourceTree = "<group>"; };
+		A7DC0D201FF442DC0072E17D /* CardCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionHeaderView.swift; sourceTree = "<group>"; };
+		A7DC0D221FF449CC0072E17D /* CardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
+		A7DC0D241FF44DC70072E17D /* CardBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBase.swift; sourceTree = "<group>"; };
+		A7DC0D261FF450E80072E17D /* BaseCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCardCell.swift; sourceTree = "<group>"; };
+		A7DC0D281FF45B690072E17D /* ShrineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrineModel.swift; sourceTree = "<group>"; };
+		A7DC0D2A1FF45C190072E17D /* wellin1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wellin1.jpg; sourceTree = "<group>"; };
+		A7DC0D2B1FF45C1A0072E17D /* arden1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arden1.jpg; sourceTree = "<group>"; };
+		A7DC0D2C1FF45C1A0072E17D /* arden2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arden2.jpg; sourceTree = "<group>"; };
+		A7DC0D2D1FF45C1A0072E17D /* wellin2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wellin2.jpg; sourceTree = "<group>"; };
+		A7DC0D321FF45C320072E17D /* ShrineCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrineCardCell.swift; sourceTree = "<group>"; };
+		A7E27D1F2097519200D021D7 /* Judgement_RuleBook_V1.3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_RuleBook_V1.3.pdf; sourceTree = "<group>"; };
+		A7E27D202097519300D021D7 /* Judgement_Battlefield_Maps_V1.1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_Battlefield_Maps_V1.1.pdf; sourceTree = "<group>"; };
+		A7E27D232097533800D021D7 /* barnascus2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barnascus2.jpg; sourceTree = "<group>"; };
+		A7E27D242097533800D021D7 /* barnascus4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barnascus4.jpg; sourceTree = "<group>"; };
+		A7E27D252097533900D021D7 /* barnascus3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barnascus3.jpg; sourceTree = "<group>"; };
+		A7E27D262097533900D021D7 /* barnascus1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barnascus1.jpg; sourceTree = "<group>"; };
+		A7E27D2B2097533F00D021D7 /* skye3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skye3.jpg; sourceTree = "<group>"; };
+		A7E27D2C2097534000D021D7 /* skye4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skye4.jpg; sourceTree = "<group>"; };
+		A7E27D2D2097534000D021D7 /* skye1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skye1.jpg; sourceTree = "<group>"; };
+		A7E27D2E2097534000D021D7 /* skye2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skye2.jpg; sourceTree = "<group>"; };
+		A7E27D332097534700D021D7 /* xyvera2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xyvera2.jpg; sourceTree = "<group>"; };
+		A7E27D342097534700D021D7 /* zhonyja2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhonyja2.jpg; sourceTree = "<group>"; };
+		A7E27D352097534700D021D7 /* zhonyja4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhonyja4.jpg; sourceTree = "<group>"; };
+		A7E27D362097534800D021D7 /* xyvera4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xyvera4.jpg; sourceTree = "<group>"; };
+		A7E27D372097534800D021D7 /* zhonyja3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhonyja3.jpg; sourceTree = "<group>"; };
+		A7E27D382097534800D021D7 /* xyvera3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xyvera3.jpg; sourceTree = "<group>"; };
+		A7E27D392097534800D021D7 /* zhonyja1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhonyja1.jpg; sourceTree = "<group>"; };
+		A7E27D3A2097534800D021D7 /* xyvera1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xyvera1.jpg; sourceTree = "<group>"; };
+		A7E75219208A81600051F0E8 /* Judgement_TournamentPack_v1.0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_TournamentPack_v1.0.pdf; sourceTree = "<group>"; };
+		A7E7521D208A84C00051F0E8 /* ScrollPositionEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPositionEnum.swift; sourceTree = "<group>"; };
+		A7FCC2031FF1A4D300B886DC /* brok2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brok2.jpg; sourceTree = "<group>"; };
+		A7FCC2041FF1A4D300B886DC /* brok4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brok4.jpg; sourceTree = "<group>"; };
+		A7FCC2051FF1A4D300B886DC /* brok1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brok1.jpg; sourceTree = "<group>"; };
+		A7FCC2061FF1A4D300B886DC /* brok3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brok3.jpg; sourceTree = "<group>"; };
+		A7FCC20B1FF1A9E700B886DC /* judgement_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = judgement_logo.jpg; sourceTree = "<group>"; };
+		A7FCC20D1FF1ADF400B886DC /* CardDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailsViewController.swift; sourceTree = "<group>"; };
+		A7FCC2111FF25C3F00B886DC /* doenrakkar4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doenrakkar4.jpg; sourceTree = "<group>"; };
+		A7FCC2121FF25C3F00B886DC /* rakkir1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rakkir1.jpg; sourceTree = "<group>"; };
+		A7FCC2131FF25C3F00B886DC /* thorgar1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thorgar1.jpg; sourceTree = "<group>"; };
+		A7FCC2161FF25C4000B886DC /* thorgar4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thorgar4.jpg; sourceTree = "<group>"; };
+		A7FCC2171FF25C4000B886DC /* loribela2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loribela2.jpg; sourceTree = "<group>"; };
+		A7FCC2191FF25C4000B886DC /* loribela1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loribela1.jpg; sourceTree = "<group>"; };
+		A7FCC21B1FF25C4000B886DC /* saiyin3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saiyin3.jpg; sourceTree = "<group>"; };
+		A7FCC21C1FF25C4000B886DC /* kvarto2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kvarto2.jpg; sourceTree = "<group>"; };
+		A7FCC21E1FF25C4000B886DC /* zchild2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zchild2.jpg; sourceTree = "<group>"; };
+		A7FCC21F1FF25C4000B886DC /* doenrakkar1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doenrakkar1.jpg; sourceTree = "<group>"; };
+		A7FCC2201FF25C4000B886DC /* piper1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piper1.jpg; sourceTree = "<group>"; };
+		A7FCC2211FF25C4000B886DC /* saiyin2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saiyin2.jpg; sourceTree = "<group>"; };
+		A7FCC2221FF25C4000B886DC /* saiyin4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saiyin4.jpg; sourceTree = "<group>"; };
+		A7FCC2241FF25C4100B886DC /* kruul3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kruul3.jpg; sourceTree = "<group>"; };
+		A7FCC2261FF25C4100B886DC /* marcus4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marcus4.jpg; sourceTree = "<group>"; };
+		A7FCC2271FF25C4100B886DC /* kvarto1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kvarto1.jpg; sourceTree = "<group>"; };
+		A7FCC2291FF25C4100B886DC /* zchild1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zchild1.jpg; sourceTree = "<group>"; };
+		A7FCC22B1FF25C4100B886DC /* doenrakkar3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doenrakkar3.jpg; sourceTree = "<group>"; };
+		A7FCC22C1FF25C4100B886DC /* rakkir2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rakkir2.jpg; sourceTree = "<group>"; };
+		A7FCC22D1FF25C4100B886DC /* rakkir4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rakkir4.jpg; sourceTree = "<group>"; };
+		A7FCC22F1FF25C4200B886DC /* doenrakkar2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doenrakkar2.jpg; sourceTree = "<group>"; };
+		A7FCC2301FF25C4200B886DC /* piper4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piper4.jpg; sourceTree = "<group>"; };
+		A7FCC2311FF25C4200B886DC /* saiyin1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saiyin1.jpg; sourceTree = "<group>"; };
+		A7FCC2321FF25C4200B886DC /* thrommel1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thrommel1.jpg; sourceTree = "<group>"; };
+		A7FCC2331FF25C4200B886DC /* loribela4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loribela4.jpg; sourceTree = "<group>"; };
+		A7FCC2341FF25C4200B886DC /* marcus1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marcus1.jpg; sourceTree = "<group>"; };
+		A7FCC2351FF25C4200B886DC /* marcus2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marcus2.jpg; sourceTree = "<group>"; };
+		A7FCC2361FF25C4200B886DC /* thrommel4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thrommel4.jpg; sourceTree = "<group>"; };
+		A7FCC2371FF25C4300B886DC /* thrommel3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thrommel3.jpg; sourceTree = "<group>"; };
+		A7FCC2381FF25C4300B886DC /* kruul4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kruul4.jpg; sourceTree = "<group>"; };
+		A7FCC2391FF25C4300B886DC /* kruul1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kruul1.jpg; sourceTree = "<group>"; };
+		A7FCC23B1FF25C4300B886DC /* piper2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piper2.jpg; sourceTree = "<group>"; };
+		A7FCC23D1FF25C4300B886DC /* loribela3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loribela3.jpg; sourceTree = "<group>"; };
+		A7FCC23E1FF25C4300B886DC /* kvarto3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kvarto3.jpg; sourceTree = "<group>"; };
+		A7FCC23F1FF25C4300B886DC /* thrommel2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thrommel2.jpg; sourceTree = "<group>"; };
+		A7FCC2401FF25C4400B886DC /* thorgar3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thorgar3.jpg; sourceTree = "<group>"; };
+		A7FCC2411FF25C4400B886DC /* kruul2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kruul2.jpg; sourceTree = "<group>"; };
+		A7FCC2421FF25C4400B886DC /* thorgar2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thorgar2.jpg; sourceTree = "<group>"; };
+		A7FCC2431FF25C4400B886DC /* kvarto4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kvarto4.jpg; sourceTree = "<group>"; };
+		A7FCC2471FF25C4400B886DC /* marcus3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marcus3.jpg; sourceTree = "<group>"; };
+		A7FCC2491FF25C4500B886DC /* piper3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piper3.jpg; sourceTree = "<group>"; };
+		A7FCC28D1FF2E56A00B886DC /* MainMenuCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuCollectionViewController.swift; sourceTree = "<group>"; };
+		A7FCC28F1FF2E58100B886DC /* MainMenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF90AC8D9169819F262A2BC0 /* Pods-Judgement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Judgement.release.xcconfig"; path = "Pods/Target Support Files/Pods-Judgement/Pods-Judgement.release.xcconfig"; sourceTree = "<group>"; };
+		EEAA99B97ECB4F9AEB3DF51A /* Pods_Judgement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Judgement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7DB856E1FED0FD60014D58F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74C675D2000F3E600CCE2F9 /* WebKit.framework in Frameworks */,
+				80F8C7AC011E26F5FAF9D1FF /* Pods_Judgement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2101CD342A7A2E87CC9088DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A74C675C2000F3E600CCE2F9 /* WebKit.framework */,
+				EEAA99B97ECB4F9AEB3DF51A /* Pods_Judgement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52EDDCE357DE7336F5BBB4CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29E780CDDACB710A74531F2B /* Pods-Judgement.debug.xcconfig */,
+				BF90AC8D9169819F262A2BC0 /* Pods-Judgement.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A74C673F1FFE805B00CCE2F9 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC0D241FF44DC70072E17D /* CardBase.swift */,
+				A7DB85881FED10360014D58F /* CharacterModel.swift */,
+				A7DB858A1FED10530014D58F /* ArtefactModel.swift */,
+				A7DC0D281FF45B690072E17D /* ShrineModel.swift */,
+				A7DC0D1A1FF3DEC10072E17D /* MonsterModel.swift */,
+				A7C7ACF2200BB60300A90CD5 /* AttackModel.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		A74C67401FFE80DB00CCE2F9 /* GameState */ = {
+			isa = PBXGroup;
+			children = (
+				A78E18FF1FF7A92600C37593 /* GameState.swift */,
+				A78E18FB1FF7924100C37593 /* CharacterState.swift */,
+				A78E18FD1FF7A8AF00C37593 /* WarbandState.swift */,
+				A74C674E1FFED7AA00CCE2F9 /* MonsterState.swift */,
+				A7C98795200DF79C00A04D19 /* TempSettings.swift */,
+			);
+			path = GameState;
+			sourceTree = "<group>";
+		};
+		A74C67511FFFDC6A00CCE2F9 /* Rulebook */ = {
+			isa = PBXGroup;
+			children = (
+				A7E27D202097519300D021D7 /* Judgement_Battlefield_Maps_V1.1.pdf */,
+				A7E27D1F2097519200D021D7 /* Judgement_RuleBook_V1.3.pdf */,
+				A7E75219208A81600051F0E8 /* Judgement_TournamentPack_v1.0.pdf */,
+			);
+			path = Rulebook;
+			sourceTree = "<group>";
+		};
+		A74C67572000C9A300CCE2F9 /* StatCards */ = {
+			isa = PBXGroup;
+			children = (
+				A74C675B2000C9D200CCE2F9 /* Shrines */,
+				A74C675A2000C9C300CCE2F9 /* Artefacts */,
+				A74C67592000C9BA00CCE2F9 /* Monters */,
+				A74C67582000C9AD00CCE2F9 /* Characters */,
+			);
+			path = StatCards;
+			sourceTree = "<group>";
+		};
+		A74C67582000C9AD00CCE2F9 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				A7C9FA9120307AA400DBE9C1 /* algarath1.jpg */,
+				A7C9FAA020307AB800DBE9C1 /* algarath2.jpg */,
+				A78C999B20BC641500634B09 /* allandir1.jpg */,
+				A78C999C20BC641500634B09 /* allandir2.jpg */,
+				A78C999E20BC641500634B09 /* allandir3.jpg */,
+				A78C999D20BC641500634B09 /* allandir4.jpg */,
+				A78C99A420BC641B00634B09 /* zaffen1.jpg */,
+				A78C99A620BC641C00634B09 /* zaffen2.jpg */,
+				A78C99A320BC641B00634B09 /* zaffen3.jpg */,
+				A78C99A520BC641C00634B09 /* zaffen4.jpg */,
+				A7E27D262097533900D021D7 /* barnascus1.jpg */,
+				A7E27D232097533800D021D7 /* barnascus2.jpg */,
+				A7E27D252097533900D021D7 /* barnascus3.jpg */,
+				A7E27D242097533800D021D7 /* barnascus4.jpg */,
+				A73D8C2620725DFF006A155D /* istariel1.jpg */,
+				A73D8C2520725DFD006A155D /* istariel2.jpg */,
+				A73D8C2720725E00006A155D /* istariel3.jpg */,
+				A73D8C2420725DFC006A155D /* istariel4.jpg */,
+				A7E27D2D2097534000D021D7 /* skye1.jpg */,
+				A7E27D2E2097534000D021D7 /* skye2.jpg */,
+				A7E27D2B2097533F00D021D7 /* skye3.jpg */,
+				A7E27D2C2097534000D021D7 /* skye4.jpg */,
+				A7E27D3A2097534800D021D7 /* xyvera1.jpg */,
+				A7E27D332097534700D021D7 /* xyvera2.jpg */,
+				A7E27D382097534800D021D7 /* xyvera3.jpg */,
+				A7E27D362097534800D021D7 /* xyvera4.jpg */,
+				A7E27D392097534800D021D7 /* zhonyja1.jpg */,
+				A7E27D342097534700D021D7 /* zhonyja2.jpg */,
+				A7E27D372097534800D021D7 /* zhonyja3.jpg */,
+				A7E27D352097534700D021D7 /* zhonyja4.jpg */,
+				A73D8C2C20725E16006A155D /* skoll1.jpg */,
+				A73D8C3120725E1E006A155D /* skoll2.jpg */,
+				A73D8C3820725E27006A155D /* skoll3.jpg */,
+				A73D8C3620725E25006A155D /* skoll4.jpg */,
+				A73D8C3320725E21006A155D /* skoll5.jpg */,
+				A73D8C3720725E26006A155D /* skoll6.jpg */,
+				A73D8C4920725E3C006A155D /* zaron1.jpg */,
+				A73D8C5020725E46006A155D /* zaron2.jpg */,
+				A73D8C5120725E47006A155D /* zaron3.jpg */,
+				A73D8C4C20725E41006A155D /* zaron4.jpg */,
+				A73D8C2F20725E1B006A155D /* styx1.jpg */,
+				A73D8C3020725E1C006A155D /* styx2.jpg */,
+				A73D8C3420725E22006A155D /* styx3.jpg */,
+				A73D8C3220725E1F006A155D /* styx4.jpg */,
+				A73D8C602072A1C8006A155D /* bastian1.jpg */,
+				A73D8C1420725DEC006A155D /* bastian2.jpg */,
+				A73D8C1520725DED006A155D /* bastian3.jpg */,
+				A73D8C1820725DF1006A155D /* bastian4.jpg */,
+				A7C9FA9920307AAE00DBE9C1 /* haksa1.jpg */,
+				A7C9FA8B20307A9C00DBE9C1 /* haksa2.jpg */,
+				A7C9FA9A20307AB000DBE9C1 /* haksa3.jpg */,
+				A7C9FA8C20307A9E00DBE9C1 /* haksa4.jpg */,
+				A7C9FA9B20307AB100DBE9C1 /* viktor1.jpg */,
+				A7C9FA8F20307AA100DBE9C1 /* viktor2.jpg */,
+				A7C9FA9720307AAC00DBE9C1 /* viktor3.jpg */,
+				A7C9FA9420307AA700DBE9C1 /* viktor4.jpg */,
+				A76121192050793E000DD4E4 /* gendris1.jpg */,
+				A761211120507931000DD4E4 /* gendris2.jpg */,
+				A761211D20507943000DD4E4 /* gendris3.jpg */,
+				A761211220507933000DD4E4 /* gendris4.jpg */,
+				A761211F20507946000DD4E4 /* kogan1.jpg */,
+				A761210D2050792C000DD4E4 /* kogan2.jpg */,
+				A761211B20507940000DD4E4 /* kogan3.jpg */,
+				A761211020507930000DD4E4 /* kogan4.jpg */,
+				A761211420507935000DD4E4 /* svetlana1.jpg */,
+				A761211520507937000DD4E4 /* svetlana2.jpg */,
+				A761211320507934000DD4E4 /* svetlana3.jpg */,
+				A76121172050793A000DD4E4 /* svetlana4.jpg */,
+				A75C94AB200C96DD005DA9A6 /* nephenee1.jpg */,
+				A75C94AD200C96DF005DA9A6 /* nephenee2.jpg */,
+				A75C94AC200C96DE005DA9A6 /* nephenee3.jpg */,
+				A75C94AA200C96DC005DA9A6 /* nephenee4.jpg */,
+				A7FCC21F1FF25C4000B886DC /* doenrakkar1.jpg */,
+				A7FCC22F1FF25C4200B886DC /* doenrakkar2.jpg */,
+				A7FCC22B1FF25C4100B886DC /* doenrakkar3.jpg */,
+				A7FCC2111FF25C3F00B886DC /* doenrakkar4.jpg */,
+				A7FCC2391FF25C4300B886DC /* kruul1.jpg */,
+				A7FCC2411FF25C4400B886DC /* kruul2.jpg */,
+				A7FCC2241FF25C4100B886DC /* kruul3.jpg */,
+				A7FCC2381FF25C4300B886DC /* kruul4.jpg */,
+				A7FCC2271FF25C4100B886DC /* kvarto1.jpg */,
+				A7FCC21C1FF25C4000B886DC /* kvarto2.jpg */,
+				A7FCC23E1FF25C4300B886DC /* kvarto3.jpg */,
+				A7FCC2431FF25C4400B886DC /* kvarto4.jpg */,
+				A7FCC2191FF25C4000B886DC /* loribela1.jpg */,
+				A7FCC2171FF25C4000B886DC /* loribela2.jpg */,
+				A7FCC23D1FF25C4300B886DC /* loribela3.jpg */,
+				A7FCC2331FF25C4200B886DC /* loribela4.jpg */,
+				A7FCC2341FF25C4200B886DC /* marcus1.jpg */,
+				A7FCC2351FF25C4200B886DC /* marcus2.jpg */,
+				A7FCC2471FF25C4400B886DC /* marcus3.jpg */,
+				A7FCC2261FF25C4100B886DC /* marcus4.jpg */,
+				A7FCC2201FF25C4000B886DC /* piper1.jpg */,
+				A7FCC23B1FF25C4300B886DC /* piper2.jpg */,
+				A7FCC2491FF25C4500B886DC /* piper3.jpg */,
+				A7FCC2301FF25C4200B886DC /* piper4.jpg */,
+				A7FCC2121FF25C3F00B886DC /* rakkir1.jpg */,
+				A7FCC22C1FF25C4100B886DC /* rakkir2.jpg */,
+				A7BCC82E1FF3A8F5009B791E /* rakkir3.jpg */,
+				A7FCC22D1FF25C4100B886DC /* rakkir4.jpg */,
+				A7FCC2311FF25C4200B886DC /* saiyin1.jpg */,
+				A7FCC2211FF25C4000B886DC /* saiyin2.jpg */,
+				A7FCC21B1FF25C4000B886DC /* saiyin3.jpg */,
+				A7FCC2221FF25C4000B886DC /* saiyin4.jpg */,
+				A7FCC2131FF25C3F00B886DC /* thorgar1.jpg */,
+				A7FCC2421FF25C4400B886DC /* thorgar2.jpg */,
+				A7FCC2401FF25C4400B886DC /* thorgar3.jpg */,
+				A7FCC2161FF25C4000B886DC /* thorgar4.jpg */,
+				A7FCC2321FF25C4200B886DC /* thrommel1.jpg */,
+				A7FCC23F1FF25C4300B886DC /* thrommel2.jpg */,
+				A7FCC2371FF25C4300B886DC /* thrommel3.jpg */,
+				A7FCC2361FF25C4200B886DC /* thrommel4.jpg */,
+				A7FCC2291FF25C4100B886DC /* zchild1.jpg */,
+				A7FCC21E1FF25C4000B886DC /* zchild2.jpg */,
+				A7FCC20B1FF1A9E700B886DC /* judgement_logo.jpg */,
+				A7FCC2051FF1A4D300B886DC /* brok1.jpg */,
+				A7FCC2031FF1A4D300B886DC /* brok2.jpg */,
+				A7FCC2061FF1A4D300B886DC /* brok3.jpg */,
+				A7FCC2041FF1A4D300B886DC /* brok4.jpg */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		A74C67592000C9BA00CCE2F9 /* Monters */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC0D121FF3DEAE0072E17D /* ashtooth1.jpg */,
+				A7DC0D111FF3DEAE0072E17D /* ashtooth2.jpg */,
+				A7957520204DE05F009CF2BF /* vujasha1.jpg */,
+				A795751F204DE05D009CF2BF /* vujasha2.jpg */,
+				A7DC0D101FF3DEAE0072E17D /* gloom1.jpg */,
+				A7DC0D0E1FF3DEAD0072E17D /* gloom2.jpg */,
+				A7DC0D0D1FF3DEAD0072E17D /* inferno1.jpg */,
+				A7DC0D0C1FF3DEAD0072E17D /* inferno2.jpg */,
+				A7DC0D0F1FF3DEAE0072E17D /* inferno3.jpg */,
+			);
+			path = Monters;
+			sourceTree = "<group>";
+		};
+		A74C675A2000C9C300CCE2F9 /* Artefacts */ = {
+			isa = PBXGroup;
+			children = (
+				A73D8C08207257C9006A155D /* bloodsucker1.jpg */,
+				A73D8C09207257CB006A155D /* minotauressence1.jpg */,
+				A7A2467A1FF4EEFD0048923D /* armourshredder1.jpg */,
+				A7A2467D1FF4EEFD0048923D /* bootsofagility1.jpg */,
+				A7A246831FF4EEFE0048923D /* bootsofelvenkind1.jpg */,
+				A7A2467C1FF4EEFD0048923D /* bootsofspeed1.jpg */,
+				A7A246841FF4EEFE0048923D /* elixiroflife1.jpg */,
+				A7A2467B1FF4EEFD0048923D /* giftofthegods1.jpg */,
+				A7A246851FF4EEFE0048923D /* glyphofwarding1.jpg */,
+				A7A2467F1FF4EEFD0048923D /* healingsurge1.jpg */,
+				A7A246861FF4EEFE0048923D /* heartseeker1.jpg */,
+				A7A2467E1FF4EEFD0048923D /* ringofpower1.jpg */,
+				A7A246821FF4EEFE0048923D /* vorpalblade1.jpg */,
+			);
+			path = Artefacts;
+			sourceTree = "<group>";
+		};
+		A74C675B2000C9D200CCE2F9 /* Shrines */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC0D2B1FF45C1A0072E17D /* arden1.jpg */,
+				A7DC0D2C1FF45C1A0072E17D /* arden2.jpg */,
+				A7DC0D2A1FF45C190072E17D /* wellin1.jpg */,
+				A7DC0D2D1FF45C1A0072E17D /* wellin2.jpg */,
+			);
+			path = Shrines;
+			sourceTree = "<group>";
+		};
+		A75C94A9200C8BCB005DA9A6 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				A75C94A7200C887C005DA9A6 /* WeaponRowStruct.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		A7766807200179BD0056D59B /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A776680B200179E60056D59B /* Others */,
+				A776680A200179DF0056D59B /* Current Game */,
+				A7766809200179D10056D59B /* Card Management */,
+				A7766808200179CC0056D59B /* Main Menu */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A7766808200179CC0056D59B /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A776680F20017A620056D59B /* Cells */,
+				A7FCC28D1FF2E56A00B886DC /* MainMenuCollectionViewController.swift */,
+			);
+			path = "Main Menu";
+			sourceTree = "<group>";
+		};
+		A7766809200179D10056D59B /* Card Management */ = {
+			isa = PBXGroup;
+			children = (
+				A776680E20017A4F0056D59B /* Cells */,
+				A7FCC20D1FF1ADF400B886DC /* CardDetailsViewController.swift */,
+				A7DC0D221FF449CC0072E17D /* CardListViewController.swift */,
+			);
+			path = "Card Management";
+			sourceTree = "<group>";
+		};
+		A776680A200179DF0056D59B /* Current Game */ = {
+			isa = PBXGroup;
+			children = (
+				A776680C20017A3E0056D59B /* Cells */,
+				A78E19011FF7F79E00C37593 /* GameStateTabBarViewController.swift */,
+				A78E18F01FF6446300C37593 /* WarbandCollectionViewController.swift */,
+				A74C674C1FFED75500CCE2F9 /* GameGlobalsCollectionViewController.swift */,
+			);
+			path = "Current Game";
+			sourceTree = "<group>";
+		};
+		A776680B200179E60056D59B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				A776680D20017A480056D59B /* Cells */,
+				A7A2469C1FF5004F0048923D /* LargeTitleNavigationController.swift */,
+				A792A2121FF510D10062A9D1 /* AboutTableViewController.swift */,
+				A74C67541FFFF8D500CCE2F9 /* PDFReaderViewController.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		A776680C20017A3E0056D59B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A78E19071FF902E200C37593 /* GenericCollectionHeaderView.swift */,
+				A7CA2F4F20279D73004A192F /* WarbandStatsCell.swift */,
+				A78E18F91FF6F5C800C37593 /* CharacterStatsCell.swift */,
+				A7CA2F512027A76C004A192F /* FamiliarStatsCell.swift */,
+				A78E19031FF8109800C37593 /* MonsterStatsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A776680D20017A480056D59B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A776680E20017A4F0056D59B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC0D261FF450E80072E17D /* BaseCardCell.swift */,
+				A7A77A911FF0F7D3005579AF /* CharacterCardCell.swift */,
+				A7DC0D1C1FF43D6C0072E17D /* MonsterCardCell.swift */,
+				A7A246961FF4F1390048923D /* ArtefactCardCell.swift */,
+				A7DC0D321FF45C320072E17D /* ShrineCardCell.swift */,
+				A7DC0D201FF442DC0072E17D /* CardCollectionHeaderView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A776680F20017A620056D59B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A7FCC28F1FF2E58100B886DC /* MainMenuCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A776681020017AAD0056D59B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7A77A831FEFA1D9005579AF /* Database */,
+				A7A246991FF4FC770048923D /* Fonts */,
+				A7FCC1FA1FF1A48F00B886DC /* Images */,
+				A74C67511FFFDC6A00CCE2F9 /* Rulebook */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A776681120017ACD0056D59B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A7DB85781FED0FD60014D58F /* Main.storyboard */,
+				A7DB857D1FED0FD60014D58F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A782CBEC1FF5B10700AEFC7B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A70D8328200A4AC50090B1CE /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A792A2141FF5131D0062A9D1 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				A792A2171FF513490062A9D1 /* email.png */,
+				A792A2151FF513490062A9D1 /* facebook.png */,
+				A792A2181FF5134A0062A9D1 /* instagram.png */,
+				A792A2191FF5134A0062A9D1 /* link.png */,
+				A792A2161FF513490062A9D1 /* twitter.png */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		A7A246981FF4F7530048923D /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				A7A77A871FEFC2E8005579AF /* BattlefieldRoleEnum.swift */,
+				A7A246941FF4F00C0048923D /* ArtefactTraitEnum.swift */,
+				A792A21F1FF51C6A0062A9D1 /* SocialMediaEnum.swift */,
+				A78E19051FF8EC9800C37593 /* CardListEnum.swift */,
+				A7C7ACF4200BC3BB00A90CD5 /* CardRefTypeEnum.swift */,
+				A7C7ACF6200BC46800A90CD5 /* AttackTypeEnum.swift */,
+				A7D89F1D2025AA0600C660C8 /* StatValueEnum.swift */,
+				A7D89F1F2025B32D00C660C8 /* ArtefactEnum.swift */,
+				A7E7521D208A84C00051F0E8 /* ScrollPositionEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		A7A246991FF4FC770048923D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A7A2469A1FF4FC850048923D /* rpgawesome-webfont.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A7A77A831FEFA1D9005579AF /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				A7A77A951FF19541005579AF /* judgement.sqlite */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		A7A77A8F1FF0F5C6005579AF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A7A77A891FEFDA06005579AF /* DatabaseService.swift */,
+				A74C67391FFE7EBE00CCE2F9 /* PersistanceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A7DB85681FED0FD60014D58F = {
+			isa = PBXGroup;
+			children = (
+				A7DB85731FED0FD60014D58F /* Judgement */,
+				A7DB85721FED0FD60014D58F /* Products */,
+				A7D7B80C1FEE5D1F00BCC8D4 /* Podfile */,
+				52EDDCE357DE7336F5BBB4CD /* Pods */,
+				2101CD342A7A2E87CC9088DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7DB85721FED0FD60014D58F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7DB85711FED0FD60014D58F /* Judgement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7DB85731FED0FD60014D58F /* Judgement */ = {
+			isa = PBXGroup;
+			children = (
+				A776681020017AAD0056D59B /* Resources */,
+				A782CBEC1FF5B10700AEFC7B /* Extensions */,
+				A7DB85871FED0FF20014D58F /* Model */,
+				A7766807200179BD0056D59B /* Features */,
+				A7A77A8F1FF0F5C6005579AF /* Services */,
+				A776681120017ACD0056D59B /* Storyboards */,
+				A7DB857B1FED0FD60014D58F /* Assets.xcassets */,
+				A7DB85741FED0FD60014D58F /* AppDelegate.swift */,
+				A7DB85801FED0FD60014D58F /* Info.plist */,
+			);
+			path = Judgement;
+			sourceTree = "<group>";
+		};
+		A7DB85871FED0FF20014D58F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A74C67401FFE80DB00CCE2F9 /* GameState */,
+				A74C673F1FFE805B00CCE2F9 /* Database */,
+				A75C94A9200C8BCB005DA9A6 /* Structs */,
+				A7A246981FF4F7530048923D /* Enums */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7FCC1FA1FF1A48F00B886DC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A74C67572000C9A300CCE2F9 /* StatCards */,
+				A792A2141FF5131D0062A9D1 /* Social */,
+				A792A2101FF5108E0062A9D1 /* hb_logo.png */,
+				A792A20E1FF50FAF0062A9D1 /* oliver.jpg */,
+				A71AFD3D20055E0F006B8051 /* J_only_logo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7DB85701FED0FD60014D58F /* Judgement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DB85831FED0FD60014D58F /* Build configuration list for PBXNativeTarget "Judgement" */;
+			buildPhases = (
+				80BC05E46AD7C7F3E22E5A39 /* [CP] Check Pods Manifest.lock */,
+				A7DB856D1FED0FD60014D58F /* Sources */,
+				A7DB856E1FED0FD60014D58F /* Frameworks */,
+				A7DB856F1FED0FD60014D58F /* Resources */,
+				986AE18198975F63984D090E /* [CP] Embed Pods Frameworks */,
+				B8415A871C5223CC59641FC0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Judgement;
+			productName = Judgement;
+			productReference = A7DB85711FED0FD60014D58F /* Judgement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7DB85691FED0FD60014D58F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = nogoodname;
+				TargetAttributes = {
+					A7DB85701FED0FD60014D58F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A7DB856C1FED0FD60014D58F /* Build configuration list for PBXProject "Judgement" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7DB85681FED0FD60014D58F;
+			productRefGroup = A7DB85721FED0FD60014D58F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7DB85701FED0FD60014D58F /* Judgement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7DB856F1FED0FD60014D58F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A792A2111FF5108E0062A9D1 /* hb_logo.png in Resources */,
+				A7E27D312097534000D021D7 /* skye1.jpg in Resources */,
+				A73D8C2A20725E01006A155D /* istariel1.jpg in Resources */,
+				A7FCC2571FF25C4500B886DC /* saiyin3.jpg in Resources */,
+				A7DC0D131FF3DEAE0072E17D /* inferno2.jpg in Resources */,
+				A7A2468C1FF4EEFE0048923D /* healingsurge1.jpg in Resources */,
+				A761212420507947000DD4E4 /* kogan4.jpg in Resources */,
+				A7A2468A1FF4EEFE0048923D /* bootsofagility1.jpg in Resources */,
+				A7DC0D2E1FF45C1A0072E17D /* wellin1.jpg in Resources */,
+				A7FCC2671FF25C4500B886DC /* doenrakkar3.jpg in Resources */,
+				A73D8C0B207257CC006A155D /* minotauressence1.jpg in Resources */,
+				A7FCC2701FF25C4500B886DC /* marcus1.jpg in Resources */,
+				A73D8C5C20725E4B006A155D /* zaron2.jpg in Resources */,
+				A73D8C2920725E01006A155D /* istariel2.jpg in Resources */,
+				A73D8C4520725E29006A155D /* skoll6.jpg in Resources */,
+				A73D8C0A207257CC006A155D /* bloodsucker1.jpg in Resources */,
+				A7E27D412097534800D021D7 /* zhonyja1.jpg in Resources */,
+				A7DB857F1FED0FD60014D58F /* LaunchScreen.storyboard in Resources */,
+				A7FCC26F1FF25C4500B886DC /* loribela4.jpg in Resources */,
+				A7FCC26C1FF25C4500B886DC /* piper4.jpg in Resources */,
+				A7E7521B208A81610051F0E8 /* Judgement_TournamentPack_v1.0.pdf in Resources */,
+				A7FCC2521FF25C4500B886DC /* thorgar4.jpg in Resources */,
+				A73D8C3E20725E29006A155D /* styx2.jpg in Resources */,
+				A7FCC2751FF25C4500B886DC /* kruul1.jpg in Resources */,
+				A761212120507947000DD4E4 /* kogan2.jpg in Resources */,
+				A78C99A020BC641600634B09 /* allandir2.jpg in Resources */,
+				A75C94AE200C96DF005DA9A6 /* nephenee4.jpg in Resources */,
+				A7FCC25C1FF25C4500B886DC /* piper1.jpg in Resources */,
+				A792A21B1FF5134A0062A9D1 /* twitter.png in Resources */,
+				A7C9FAB620307AB900DBE9C1 /* algarath2.jpg in Resources */,
+				A7FCC20C1FF1A9E700B886DC /* judgement_logo.jpg in Resources */,
+				A7C9FAB120307AB900DBE9C1 /* viktor1.jpg in Resources */,
+				A73D8C5520725E4B006A155D /* zaron1.jpg in Resources */,
+				A73D8C1D20725DF6006A155D /* bastian3.jpg in Resources */,
+				A792A21E1FF5134A0062A9D1 /* link.png in Resources */,
+				A761212B20507947000DD4E4 /* svetlana4.jpg in Resources */,
+				A7FCC2771FF25C4500B886DC /* piper2.jpg in Resources */,
+				A7DC0D311FF45C1A0072E17D /* wellin2.jpg in Resources */,
+				A761212F20507947000DD4E4 /* kogan3.jpg in Resources */,
+				A7957522204DE060009CF2BF /* vujasha1.jpg in Resources */,
+				A792A21A1FF5134A0062A9D1 /* facebook.png in Resources */,
+				A7FCC26B1FF25C4500B886DC /* doenrakkar2.jpg in Resources */,
+				A7C9FAB020307AB900DBE9C1 /* haksa3.jpg in Resources */,
+				A73D8C5D20725E4B006A155D /* zaron3.jpg in Resources */,
+				A7FCC2791FF25C4500B886DC /* loribela3.jpg in Resources */,
+				A7FCC26D1FF25C4500B886DC /* saiyin1.jpg in Resources */,
+				A7E27D212097519400D021D7 /* Judgement_RuleBook_V1.3.pdf in Resources */,
+				A73D8C3D20725E29006A155D /* styx1.jpg in Resources */,
+				A761213320507947000DD4E4 /* kogan1.jpg in Resources */,
+				A73D8C4220725E29006A155D /* styx3.jpg in Resources */,
+				A7DB857C1FED0FD60014D58F /* Assets.xcassets in Resources */,
+				A7FCC27C1FF25C4500B886DC /* thorgar3.jpg in Resources */,
+				A7A2468B1FF4EEFE0048923D /* ringofpower1.jpg in Resources */,
+				A73D8C3F20725E29006A155D /* skoll2.jpg in Resources */,
+				A7FCC2651FF25C4500B886DC /* zchild1.jpg in Resources */,
+				A761212520507947000DD4E4 /* gendris2.jpg in Resources */,
+				A7FCC25D1FF25C4500B886DC /* saiyin2.jpg in Resources */,
+				A7FCC25B1FF25C4500B886DC /* doenrakkar1.jpg in Resources */,
+				A7D7B80D1FEE5D1F00BCC8D4 /* Podfile in Resources */,
+				A7A246921FF4EEFE0048923D /* glyphofwarding1.jpg in Resources */,
+				A7FCC2081FF1A4D300B886DC /* brok4.jpg in Resources */,
+				A7DB857A1FED0FD60014D58F /* Main.storyboard in Resources */,
+				A761212620507947000DD4E4 /* gendris4.jpg in Resources */,
+				A7FCC2531FF25C4500B886DC /* loribela2.jpg in Resources */,
+				A73D8C4620725E29006A155D /* skoll3.jpg in Resources */,
+				A7DC0D151FF3DEAE0072E17D /* gloom2.jpg in Resources */,
+				A7A246891FF4EEFE0048923D /* bootsofspeed1.jpg in Resources */,
+				A7FCC2601FF25C4500B886DC /* kruul3.jpg in Resources */,
+				A7C9FAA220307AB900DBE9C1 /* haksa4.jpg in Resources */,
+				A761212D20507947000DD4E4 /* gendris1.jpg in Resources */,
+				A7FCC2581FF25C4500B886DC /* kvarto2.jpg in Resources */,
+				A7E27D2A2097533900D021D7 /* barnascus1.jpg in Resources */,
+				A7E27D322097534000D021D7 /* skye2.jpg in Resources */,
+				A7FCC24F1FF25C4500B886DC /* thorgar1.jpg in Resources */,
+				A7FCC2741FF25C4500B886DC /* kruul4.jpg in Resources */,
+				A7FCC2071FF1A4D300B886DC /* brok2.jpg in Resources */,
+				A7C9FAA720307AB900DBE9C1 /* algarath1.jpg in Resources */,
+				A7FCC27E1FF25C4500B886DC /* thorgar2.jpg in Resources */,
+				A71AFD3E20055E10006B8051 /* J_only_logo.png in Resources */,
+				A7A246871FF4EEFE0048923D /* armourshredder1.jpg in Resources */,
+				A7DC0D301FF45C1A0072E17D /* arden2.jpg in Resources */,
+				A7C9FAAA20307AB900DBE9C1 /* viktor4.jpg in Resources */,
+				A7FCC27A1FF25C4500B886DC /* kvarto3.jpg in Resources */,
+				A7FCC2681FF25C4500B886DC /* rakkir2.jpg in Resources */,
+				A7C9FAA520307AB900DBE9C1 /* viktor2.jpg in Resources */,
+				A7DC0D2F1FF45C1A0072E17D /* arden1.jpg in Resources */,
+				A7E27D422097534800D021D7 /* xyvera1.jpg in Resources */,
+				A7A77A961FF19541005579AF /* judgement.sqlite in Resources */,
+				A73D8C4020725E29006A155D /* styx4.jpg in Resources */,
+				A7FCC2091FF1A4D300B886DC /* brok1.jpg in Resources */,
+				A7FCC2851FF25C4500B886DC /* piper3.jpg in Resources */,
+				A7E27D3B2097534800D021D7 /* xyvera2.jpg in Resources */,
+				A73D8C2820725E01006A155D /* istariel4.jpg in Resources */,
+				A7E27D3D2097534800D021D7 /* zhonyja4.jpg in Resources */,
+				A7E27D2F2097534000D021D7 /* skye3.jpg in Resources */,
+				A78C99A720BC641C00634B09 /* zaffen3.jpg in Resources */,
+				A7DC0D141FF3DEAE0072E17D /* inferno1.jpg in Resources */,
+				A761212720507947000DD4E4 /* svetlana3.jpg in Resources */,
+				A73D8C4420725E29006A155D /* skoll4.jpg in Resources */,
+				A7FCC27B1FF25C4500B886DC /* thrommel2.jpg in Resources */,
+				A73D8C2B20725E01006A155D /* istariel3.jpg in Resources */,
+				A78C99A820BC641C00634B09 /* zaffen1.jpg in Resources */,
+				A78C99A920BC641C00634B09 /* zaffen4.jpg in Resources */,
+				A761212820507947000DD4E4 /* svetlana1.jpg in Resources */,
+				A7FCC2731FF25C4500B886DC /* thrommel3.jpg in Resources */,
+				A792A21D1FF5134A0062A9D1 /* instagram.png in Resources */,
+				A792A20F1FF50FAF0062A9D1 /* oliver.jpg in Resources */,
+				A7FCC2711FF25C4500B886DC /* marcus2.jpg in Resources */,
+				A7C9FAA120307AB900DBE9C1 /* haksa2.jpg in Resources */,
+				A73D8C2020725DF6006A155D /* bastian4.jpg in Resources */,
+				A7E27D292097533900D021D7 /* barnascus3.jpg in Resources */,
+				A7957521204DE060009CF2BF /* vujasha2.jpg in Resources */,
+				A7DC0D181FF3DEAE0072E17D /* ashtooth2.jpg in Resources */,
+				A7FCC2721FF25C4500B886DC /* thrommel4.jpg in Resources */,
+				A7FCC2831FF25C4500B886DC /* marcus3.jpg in Resources */,
+				A7E27D282097533900D021D7 /* barnascus4.jpg in Resources */,
+				A75C94B1200C96DF005DA9A6 /* nephenee2.jpg in Resources */,
+				A7FCC2691FF25C4500B886DC /* rakkir4.jpg in Resources */,
+				A7A246931FF4EEFE0048923D /* heartseeker1.jpg in Resources */,
+				A73D8C3A20725E29006A155D /* skoll1.jpg in Resources */,
+				A7FCC27D1FF25C4500B886DC /* kruul2.jpg in Resources */,
+				A7FCC2631FF25C4500B886DC /* kvarto1.jpg in Resources */,
+				A7FCC27F1FF25C4500B886DC /* kvarto4.jpg in Resources */,
+				A7FCC24D1FF25C4500B886DC /* doenrakkar4.jpg in Resources */,
+				A7E27D302097534000D021D7 /* skye4.jpg in Resources */,
+				A7C9FAAD20307AB900DBE9C1 /* viktor3.jpg in Resources */,
+				A78C99A120BC641600634B09 /* allandir4.jpg in Resources */,
+				A73D8C4120725E29006A155D /* skoll5.jpg in Resources */,
+				A75C94B0200C96DF005DA9A6 /* nephenee3.jpg in Resources */,
+				A7C9FAAF20307AB900DBE9C1 /* haksa1.jpg in Resources */,
+				A7FCC26E1FF25C4500B886DC /* thrommel1.jpg in Resources */,
+				A792A21C1FF5134A0062A9D1 /* email.png in Resources */,
+				A7A2469B1FF4FC850048923D /* rpgawesome-webfont.ttf in Resources */,
+				A7FCC2621FF25C4500B886DC /* marcus4.jpg in Resources */,
+				A7E27D3C2097534800D021D7 /* zhonyja2.jpg in Resources */,
+				A7DC0D171FF3DEAE0072E17D /* gloom1.jpg in Resources */,
+				A7BCC82F1FF3A8F5009B791E /* rakkir3.jpg in Resources */,
+				A761213120507947000DD4E4 /* gendris3.jpg in Resources */,
+				A7DC0D191FF3DEAE0072E17D /* ashtooth1.jpg in Resources */,
+				A7A2468F1FF4EEFE0048923D /* vorpalblade1.jpg in Resources */,
+				A7FCC25E1FF25C4500B886DC /* saiyin4.jpg in Resources */,
+				A7E27D402097534800D021D7 /* xyvera3.jpg in Resources */,
+				A7A246911FF4EEFE0048923D /* elixiroflife1.jpg in Resources */,
+				A7E27D3E2097534800D021D7 /* xyvera4.jpg in Resources */,
+				A7A246881FF4EEFE0048923D /* giftofthegods1.jpg in Resources */,
+				A7E27D222097519400D021D7 /* Judgement_Battlefield_Maps_V1.1.pdf in Resources */,
+				A7E27D3F2097534800D021D7 /* zhonyja3.jpg in Resources */,
+				A7FCC20A1FF1A4D300B886DC /* brok3.jpg in Resources */,
+				A7E27D272097533900D021D7 /* barnascus2.jpg in Resources */,
+				A73D8C5820725E4B006A155D /* zaron4.jpg in Resources */,
+				A7FCC2551FF25C4500B886DC /* loribela1.jpg in Resources */,
+				A78C99A220BC641600634B09 /* allandir3.jpg in Resources */,
+				A78C999F20BC641600634B09 /* allandir1.jpg in Resources */,
+				A7DC0D161FF3DEAE0072E17D /* inferno3.jpg in Resources */,
+				A7A246901FF4EEFE0048923D /* bootsofelvenkind1.jpg in Resources */,
+				A73D8C612072A1CB006A155D /* bastian1.jpg in Resources */,
+				A7FCC25A1FF25C4500B886DC /* zchild2.jpg in Resources */,
+				A73D8C1C20725DF6006A155D /* bastian2.jpg in Resources */,
+				A78C99AA20BC641C00634B09 /* zaffen2.jpg in Resources */,
+				A75C94AF200C96DF005DA9A6 /* nephenee1.jpg in Resources */,
+				A761212920507947000DD4E4 /* svetlana2.jpg in Resources */,
+				A7FCC24E1FF25C4500B886DC /* rakkir1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80BC05E46AD7C7F3E22E5A39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Judgement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		986AE18198975F63984D090E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Judgement/Pods-Judgement-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GRDB.swift/GRDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Judgement/Pods-Judgement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8415A871C5223CC59641FC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Judgement/Pods-Judgement-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7DB856D1FED0FD60014D58F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FCC20E1FF1ADF400B886DC /* CardDetailsViewController.swift in Sources */,
+				A78E18F11FF6446300C37593 /* WarbandCollectionViewController.swift in Sources */,
+				A78E19041FF8109800C37593 /* MonsterStatsCell.swift in Sources */,
+				A7DC0D231FF449CC0072E17D /* CardListViewController.swift in Sources */,
+				A70D8329200A4AC50090B1CE /* UIView.swift in Sources */,
+				A7D89F202025B32D00C660C8 /* ArtefactEnum.swift in Sources */,
+				A7DB85891FED10360014D58F /* CharacterModel.swift in Sources */,
+				A7C7ACF7200BC46800A90CD5 /* AttackTypeEnum.swift in Sources */,
+				A792A2201FF51C6A0062A9D1 /* SocialMediaEnum.swift in Sources */,
+				A792A2131FF510D10062A9D1 /* AboutTableViewController.swift in Sources */,
+				A7C7ACF5200BC3BB00A90CD5 /* CardRefTypeEnum.swift in Sources */,
+				A7A77A881FEFC2E8005579AF /* BattlefieldRoleEnum.swift in Sources */,
+				A78E18FC1FF7924100C37593 /* CharacterState.swift in Sources */,
+				A7A246971FF4F1390048923D /* ArtefactCardCell.swift in Sources */,
+				A78E19081FF902E200C37593 /* GenericCollectionHeaderView.swift in Sources */,
+				A7A246951FF4F00C0048923D /* ArtefactTraitEnum.swift in Sources */,
+				A74C674F1FFED7AA00CCE2F9 /* MonsterState.swift in Sources */,
+				A78E19021FF7F79E00C37593 /* GameStateTabBarViewController.swift in Sources */,
+				A7E7521E208A84C00051F0E8 /* ScrollPositionEnum.swift in Sources */,
+				A74C674D1FFED75500CCE2F9 /* GameGlobalsCollectionViewController.swift in Sources */,
+				A7DC0D1D1FF43D6C0072E17D /* MonsterCardCell.swift in Sources */,
+				A7C98796200DF79C00A04D19 /* TempSettings.swift in Sources */,
+				A7DC0D211FF442DC0072E17D /* CardCollectionHeaderView.swift in Sources */,
+				A74C67551FFFF8D500CCE2F9 /* PDFReaderViewController.swift in Sources */,
+				A7DB85751FED0FD60014D58F /* AppDelegate.swift in Sources */,
+				A78E19001FF7A92600C37593 /* GameState.swift in Sources */,
+				A74C673A1FFE7EBE00CCE2F9 /* PersistanceService.swift in Sources */,
+				A7DC0D331FF45C320072E17D /* ShrineCardCell.swift in Sources */,
+				A7DC0D291FF45B690072E17D /* ShrineModel.swift in Sources */,
+				A7CA2F522027A76C004A192F /* FamiliarStatsCell.swift in Sources */,
+				A7FCC2901FF2E58100B886DC /* MainMenuCollectionViewCell.swift in Sources */,
+				A7DC0D1B1FF3DEC10072E17D /* MonsterModel.swift in Sources */,
+				A7FCC28E1FF2E56A00B886DC /* MainMenuCollectionViewController.swift in Sources */,
+				A7D89F1E2025AA0600C660C8 /* StatValueEnum.swift in Sources */,
+				A75C94A8200C887C005DA9A6 /* WeaponRowStruct.swift in Sources */,
+				A7C7ACF3200BB60300A90CD5 /* AttackModel.swift in Sources */,
+				A7A2469D1FF5004F0048923D /* LargeTitleNavigationController.swift in Sources */,
+				A78E18FA1FF6F5C800C37593 /* CharacterStatsCell.swift in Sources */,
+				A78E19061FF8EC9800C37593 /* CardListEnum.swift in Sources */,
+				A78E18FE1FF7A8AF00C37593 /* WarbandState.swift in Sources */,
+				A7DC0D271FF450E80072E17D /* BaseCardCell.swift in Sources */,
+				A7CA2F5020279D73004A192F /* WarbandStatsCell.swift in Sources */,
+				A7DC0D251FF44DC70072E17D /* CardBase.swift in Sources */,
+				A7DB858B1FED10530014D58F /* ArtefactModel.swift in Sources */,
+				A7A77A921FF0F7D3005579AF /* CharacterCardCell.swift in Sources */,
+				A7A77A8A1FEFDA06005579AF /* DatabaseService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7DB85781FED0FD60014D58F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7DB85791FED0FD60014D58F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7DB857D1FED0FD60014D58F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7DB857E1FED0FD60014D58F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7DB85811FED0FD60014D58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7DB85821FED0FD60014D58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7DB85841FED0FD60014D58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E780CDDACB710A74531F2B /* Pods-Judgement.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NE593S3TXA;
+				INFOPLIST_FILE = Judgement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.nogoodname.Judgement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A7DB85851FED0FD60014D58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF90AC8D9169819F262A2BC0 /* Pods-Judgement.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NE593S3TXA;
+				INFOPLIST_FILE = Judgement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.nogoodname.Judgement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7DB856C1FED0FD60014D58F /* Build configuration list for PBXProject "Judgement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DB85811FED0FD60014D58F /* Debug */,
+				A7DB85821FED0FD60014D58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DB85831FED0FD60014D58F /* Build configuration list for PBXNativeTarget "Judgement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DB85841FED0FD60014D58F /* Debug */,
+				A7DB85851FED0FD60014D58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7DB85691FED0FD60014D58F /* Project object */;
+}
