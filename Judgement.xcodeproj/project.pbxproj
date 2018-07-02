@@ -12,6 +12,7 @@
 		A71AFD3E20055E10006B8051 /* J_only_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AFD3D20055E0F006B8051 /* J_only_logo.png */; };
 		A73D8C0A207257CC006A155D /* bloodsucker1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C08207257C9006A155D /* bloodsucker1.jpg */; };
 		A73D8C0B207257CC006A155D /* minotauressence1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A73D8C09207257CB006A155D /* minotauressence1.jpg */; };
+		A745403120E9E4E700740C86 /* judgement_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A745403020E9E4E700740C86 /* judgement_logo.jpg */; };
 		A74C673A1FFE7EBE00CCE2F9 /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C67391FFE7EBE00CCE2F9 /* PersistanceService.swift */; };
 		A74C674D1FFED75500CCE2F9 /* GameGlobalsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C674C1FFED75500CCE2F9 /* GameGlobalsCollectionViewController.swift */; };
 		A74C674F1FFED7AA00CCE2F9 /* MonsterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C674E1FFED7AA00CCE2F9 /* MonsterState.swift */; };
@@ -53,10 +54,10 @@
 		A7A2469D1FF5004F0048923D /* LargeTitleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2469C1FF5004F0048923D /* LargeTitleNavigationController.swift */; };
 		A7A26A1520E95998006FF308 /* inferno3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A26A0C20E95996006FF308 /* inferno3.jpg */; };
 		A7A26A1620E95998006FF308 /* ashtooth2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A26A0D20E95996006FF308 /* ashtooth2.jpg */; };
-		A7A26A1720E95998006FF308 /* vajusha2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A26A0E20E95996006FF308 /* vajusha2.jpg */; };
+		A7A26A1720E95998006FF308 /* vujasha2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A26A0E20E95996006FF308 /* vujasha2.jpg */; };
 		A7A26A1820E95998006FF308 /* ashtooth1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A26A0F20E95996006FF308 /* ashtooth1.jpg */; };
 		A7A26A1920E95998006FF308 /* gloom1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A26A1020E95997006FF308 /* gloom1.jpg */; };
-		A7A26A1A20E95998006FF308 /* vajusha1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A26A1120E95997006FF308 /* vajusha1.jpg */; };
+		A7A26A1A20E95998006FF308 /* vujasha1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A26A1120E95997006FF308 /* vujasha1.jpg */; };
 		A7A26A1B20E95998006FF308 /* inferno2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A26A1220E95998006FF308 /* inferno2.jpg */; };
 		A7A26A1C20E95998006FF308 /* gloom2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A26A1320E95998006FF308 /* gloom2.jpg */; };
 		A7A26A1D20E95998006FF308 /* inferno1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A26A1420E95998006FF308 /* inferno1.jpg */; };
@@ -224,6 +225,7 @@
 		A71AFD3D20055E0F006B8051 /* J_only_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = J_only_logo.png; sourceTree = "<group>"; };
 		A73D8C08207257C9006A155D /* bloodsucker1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bloodsucker1.jpg; sourceTree = "<group>"; };
 		A73D8C09207257CB006A155D /* minotauressence1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minotauressence1.jpg; sourceTree = "<group>"; };
+		A745403020E9E4E700740C86 /* judgement_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = judgement_logo.jpg; sourceTree = "<group>"; };
 		A74C67391FFE7EBE00CCE2F9 /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
 		A74C674C1FFED75500CCE2F9 /* GameGlobalsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameGlobalsCollectionViewController.swift; sourceTree = "<group>"; };
 		A74C674E1FFED7AA00CCE2F9 /* MonsterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterState.swift; sourceTree = "<group>"; };
@@ -265,10 +267,10 @@
 		A7A2469C1FF5004F0048923D /* LargeTitleNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTitleNavigationController.swift; sourceTree = "<group>"; };
 		A7A26A0C20E95996006FF308 /* inferno3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inferno3.jpg; sourceTree = "<group>"; };
 		A7A26A0D20E95996006FF308 /* ashtooth2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ashtooth2.jpg; sourceTree = "<group>"; };
-		A7A26A0E20E95996006FF308 /* vajusha2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vajusha2.jpg; sourceTree = "<group>"; };
+		A7A26A0E20E95996006FF308 /* vujasha2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vujasha2.jpg; sourceTree = "<group>"; };
 		A7A26A0F20E95996006FF308 /* ashtooth1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ashtooth1.jpg; sourceTree = "<group>"; };
 		A7A26A1020E95997006FF308 /* gloom1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gloom1.jpg; sourceTree = "<group>"; };
-		A7A26A1120E95997006FF308 /* vajusha1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vajusha1.jpg; sourceTree = "<group>"; };
+		A7A26A1120E95997006FF308 /* vujasha1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vujasha1.jpg; sourceTree = "<group>"; };
 		A7A26A1220E95998006FF308 /* inferno2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inferno2.jpg; sourceTree = "<group>"; };
 		A7A26A1320E95998006FF308 /* gloom2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gloom2.jpg; sourceTree = "<group>"; };
 		A7A26A1420E95998006FF308 /* inferno1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inferno1.jpg; sourceTree = "<group>"; };
@@ -646,8 +648,8 @@
 				A7A26A1420E95998006FF308 /* inferno1.jpg */,
 				A7A26A1220E95998006FF308 /* inferno2.jpg */,
 				A7A26A0C20E95996006FF308 /* inferno3.jpg */,
-				A7A26A1120E95997006FF308 /* vajusha1.jpg */,
-				A7A26A0E20E95996006FF308 /* vajusha2.jpg */,
+				A7A26A1120E95997006FF308 /* vujasha1.jpg */,
+				A7A26A0E20E95996006FF308 /* vujasha2.jpg */,
 			);
 			path = Monters;
 			sourceTree = "<group>";
@@ -916,6 +918,7 @@
 				A74C67572000C9A300CCE2F9 /* StatCards */,
 				A792A2141FF5131D0062A9D1 /* Social */,
 				A792A2101FF5108E0062A9D1 /* hb_logo.png */,
+				A745403020E9E4E700740C86 /* judgement_logo.jpg */,
 				A792A20E1FF50FAF0062A9D1 /* oliver.jpg */,
 				A71AFD3D20055E0F006B8051 /* J_only_logo.png */,
 			);
@@ -1101,19 +1104,20 @@
 				A7A26AB920E95F69006FF308 /* gendris2.jpg in Resources */,
 				A7A26ADA20E95F69006FF308 /* saiyin1.jpg in Resources */,
 				A7A26AFB20E95F69006FF308 /* xyvera1.jpg in Resources */,
-				A7A26A1A20E95998006FF308 /* vajusha1.jpg in Resources */,
+				A7A26A1A20E95998006FF308 /* vujasha1.jpg in Resources */,
 				A7A26B0320E95F69006FF308 /* viktor4.jpg in Resources */,
 				A7DC0D301FF45C1A0072E17D /* arden2.jpg in Resources */,
 				A7DC0D2F1FF45C1A0072E17D /* arden1.jpg in Resources */,
 				A7A77A961FF19541005579AF /* judgement.sqlite in Resources */,
 				A7A26AF820E95F69006FF308 /* svetlana2.jpg in Resources */,
-				A7A26A1720E95998006FF308 /* vajusha2.jpg in Resources */,
+				A7A26A1720E95998006FF308 /* vujasha2.jpg in Resources */,
 				A7A26A9520E95F69006FF308 /* kogan2.jpg in Resources */,
 				A7A26AF620E95F69006FF308 /* svetlana1.jpg in Resources */,
 				A7A26AAF20E95F69006FF308 /* thorgar3.jpg in Resources */,
 				A7A26AAD20E95F69006FF308 /* loribela3.jpg in Resources */,
 				A792A21D1FF5134A0062A9D1 /* instagram.png in Resources */,
 				A792A20F1FF50FAF0062A9D1 /* oliver.jpg in Resources */,
+				A745403120E9E4E700740C86 /* judgement_logo.jpg in Resources */,
 				A7A246931FF4EEFE0048923D /* heartseeker1.jpg in Resources */,
 				A7A26AA520E95F69006FF308 /* nephenee3.jpg in Resources */,
 				A7A26AAC20E95F69006FF308 /* zaron4.jpg in Resources */,
