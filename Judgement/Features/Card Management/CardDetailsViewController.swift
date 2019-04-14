@@ -38,7 +38,10 @@ class CardDetailsViewController: UIPageViewController, UIPageViewControllerDataS
         for i in 1 ... aCard.cardAmount {
             let viewController = UIViewController()
 
-            let imageFileName = String(format: "%@%u.jpg", aCard.cardBasename, i)
+            var imageFileName = String(format: "%@%u.jpg", aCard.cardBasename, i)
+            if (i == 1) {
+                imageFileName = String(format: "%@.jpg", aCard.cardBasename)
+            }
             let image = UIImage(named: imageFileName)
 
             let imageView = UIImageView()

@@ -37,6 +37,14 @@ class GameStateTabBarViewController: UITabBarController {
         globalView.tabBarItem.image = #imageLiteral(resourceName: "gameGlobals")
 
         self.viewControllers = [ownWarbandView, enemyWarbandView, globalView]
+        
+        let viewReference = UIBarButtonItem(title: "Reference", style: .plain, target: self, action: #selector(viewReferenceTapped))
+        
+        navigationItem.rightBarButtonItems = [viewReference]
+    }
+    
+    @objc func viewReferenceTapped() {
+        performSegue(withIdentifier: "showPdfSegue", sender: self)
     }
     
     override var canBecomeFirstResponder: Bool {
@@ -45,7 +53,16 @@ class GameStateTabBarViewController: UITabBarController {
         }
     }
     
-    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showPdfSegue" {
+            let pdfViewController = segue.destination as! PDFReaderViewController
+            pdfViewController.pdfName = "Judgement_Rules_Reference_V1.4"
+            pdfViewController.scrolling = false
+            pdfViewController.title = "Rules Reference"
+        }
+    }
+    
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         if motion == .motionShake {
             let alert = UIAlertController(title: "Reset Game State", message: "What to reset?", preferredStyle: .alert)
             let resetAction = UIAlertAction(title: "Just reset", style: .destructive)  { (alert: UIAlertAction!) -> Void in

@@ -9,7 +9,7 @@
 import Foundation
 import GRDB
 
-struct ShrineModel : CardBase, RowConvertible, TableMapping, Hashable, Equatable {
+struct ShrineModel : CardBase, FetchableRecord, TableRecord, Hashable, Equatable {
     static var databaseTableName: String { return "Shrines" }
     static let databaseSelection: [SQLSelectable] = [AllColumns(), Column.rowID]
     

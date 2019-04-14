@@ -43,6 +43,8 @@ class CharacterStatsCell: UICollectionViewCell {
         }
     }
 
+    @IBOutlet weak var withSoulsConstraint: NSLayoutConstraint!    
+    @IBOutlet weak var withoutSoulsConstraint: NSLayoutConstraint!
 
     var delegate: CharacterStatsCellDelegate?
     
@@ -170,9 +172,7 @@ class CharacterStatsCell: UICollectionViewCell {
             self.weaponRows[i].solidLabel.text = (self.state!.character!.attacks.count > i) ? self.state!.character!.attacks[i].solidDamage : ""
             self.weaponRows[i].critLabel.text = (self.state!.character!.attacks.count > i) ? self.state!.character!.attacks[i].critDamage : ""
         }
-        
-        self.soulsView.isHidden = self.state!.character?.soulHarvest == nil
-        
+
         self.setNeedsDisplay()
     }
     
@@ -184,6 +184,12 @@ class CharacterStatsCell: UICollectionViewCell {
         ]
 
         self.state = aCharacter
+        
+        if self.state!.character?.soulHarvest == nil {
+            self.soulsView.removeFromSuperview()
+            self.withoutSoulsConstraint.isActive = true
+            self.withSoulsConstraint.isActive = false
+        }
     }
     
     func currentLifeLeft() -> Int {

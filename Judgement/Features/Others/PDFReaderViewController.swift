@@ -26,20 +26,28 @@ class PDFReaderViewController: UIViewController, WKNavigationDelegate {
         }
     }
     
+    private var _scrolling: Bool = true
+    var scrolling: Bool {
+        get { return self._scrolling }
+        set {
+            self._scrolling = newValue
+            self.webView?.scrollView.isScrollEnabled = self._scrolling
+        }
+    }
+    
     var scrollPositionKey : ScrollPosition = .rulebookScrollPosition
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         webView.navigationDelegate = self
-        
-        self.title = "Rulebook"
-        
+                
         if self._pdfName != "" {
             if let documentURL = Bundle.main.url(forResource: self._pdfName, withExtension: ".pdf") {
                 let urlRequest = URLRequest(url: documentURL)
                 if let webView = self.webView {
                     webView.load(urlRequest)
+                    webView.scrollView.isScrollEnabled = self._scrolling
                 }
             }
         }

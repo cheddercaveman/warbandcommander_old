@@ -69,12 +69,14 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
                 cardListController.cardData = DatabaseService.sharedInstance.Shrines
             case 4:
                 let pdfViewController = segue.destination as! PDFReaderViewController
-                pdfViewController.pdfName = "Judgement_RuleBook_V1.3"
+                pdfViewController.pdfName = "Judgement_RuleBook_V1.6"
                 pdfViewController.scrollPositionKey = .rulebookScrollPosition
+                pdfViewController.title = "Rulebook"
             case 5:
                 let pdfViewController = segue.destination as! PDFReaderViewController
-                pdfViewController.pdfName = "Judgement_TournamentPack_v1.0"
+                pdfViewController.pdfName = "Judgement_TournamentPack_v1.2"
                 pdfViewController.scrollPositionKey = .tournamentPackScrollPosition
+                pdfViewController.title = "Tournament Pack"
             default:
                 break
             }
@@ -123,11 +125,11 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         
         switch (kind) {
-        case UICollectionElementKindSectionHeader:
+        case UICollectionView.elementKindSectionHeader:
             let supplementaryCell = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "mainMenuHeader", for: indexPath)
             
             return supplementaryCell
-        case UICollectionElementKindSectionFooter:
+        case UICollectionView.elementKindSectionFooter:
             let supplementaryCell = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "mainMenuFooter", for: indexPath)
             
             return supplementaryCell

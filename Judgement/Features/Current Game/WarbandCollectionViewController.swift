@@ -254,6 +254,9 @@ class WarbandCollectionViewController: UICollectionViewController, UICollectionV
             if self.warband!.characters[indexPath.item].character!.battlefieldRole == .familiar {
                 return CGSize(width: collectionView.bounds.width, height: 325)
             }
+            if self.warband!.characters[indexPath.item].character!.soulHarvest == nil {
+                return CGSize(width: collectionView.bounds.width, height: 382)
+            }
             return CGSize(width: collectionView.bounds.width, height: 465)
         default:
             return CGSize.zero

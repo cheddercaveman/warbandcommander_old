@@ -9,7 +9,7 @@
 import Foundation
 import GRDB
 
-struct MonsterModel : CardBase, RowConvertible, TableMapping, Hashable, Equatable {
+struct MonsterModel : CardBase, FetchableRecord, TableRecord, Hashable, Equatable {
     static var databaseTableName: String { return "Monsters" }
     static let databaseSelection: [SQLSelectable] = [AllColumns(), Column.rowID]
     

@@ -20,7 +20,7 @@ class AboutTableViewController: UITableViewController {
             "",
             "mailto:judgement@nogoodname.net",
             "https://www.facebook.com/ohauth",
-            "https://www.twitter.com/spielerview",
+            "https://www.twitter.com/spielervier",
             ""
         ]
         
@@ -55,7 +55,7 @@ class AboutTableViewController: UITableViewController {
     @IBAction func mailButtonTouched(_ sender: UIButton) {
         if let address = self.socialMediaIcons[sender.tag]?[SocialMediaEnum.email.rawValue] {
             if address != "" {
-                UIApplication.shared.open(URL(string: address)!, options: [:], completionHandler: nil)
+                UIApplication.shared.open(URL(string: address)!, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
             }
         }
     }
@@ -63,7 +63,7 @@ class AboutTableViewController: UITableViewController {
     @IBAction func webButtonTouched(_ sender: UIButton) {
         if let address = self.socialMediaIcons[sender.tag]?[SocialMediaEnum.website.rawValue] {
             if address != "" {
-                UIApplication.shared.open(URL(string: address)!, options: [:], completionHandler: nil)
+                UIApplication.shared.open(URL(string: address)!, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
             }
         }
     }
@@ -71,7 +71,7 @@ class AboutTableViewController: UITableViewController {
     @IBAction func facebookButtonTouched(_ sender: UIButton) {
         if let address = self.socialMediaIcons[sender.tag]?[SocialMediaEnum.facebook.rawValue] {
             if address != "" {
-                UIApplication.shared.open(URL(string: address)!, options: [:], completionHandler: nil)
+                UIApplication.shared.open(URL(string: address)!, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
             }
         }
     }
@@ -79,7 +79,7 @@ class AboutTableViewController: UITableViewController {
     @IBAction func twitterButtonTouched(_ sender: UIButton) {
         if let address = self.socialMediaIcons[sender.tag]?[SocialMediaEnum.twitter.rawValue] {
             if address != "" {
-                UIApplication.shared.open(URL(string: address)!, options: [:], completionHandler: nil)
+                UIApplication.shared.open(URL(string: address)!, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
             }
         }
     }
@@ -87,8 +87,13 @@ class AboutTableViewController: UITableViewController {
     @IBAction func instagramButtonTouched(_ sender: UIButton) {
         if let address = self.socialMediaIcons[sender.tag]?[SocialMediaEnum.instragram.rawValue] {
             if address != "" {
-                UIApplication.shared.open(URL(string: address)!, options: [:], completionHandler: nil)
+                UIApplication.shared.open(URL(string: address)!, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
             }
         }
     }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToUIApplicationOpenExternalURLOptionsKeyDictionary(_ input: [String: Any]) -> [UIApplication.OpenExternalURLOptionsKey: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map { key, value in (UIApplication.OpenExternalURLOptionsKey(rawValue: key), value)})
 }

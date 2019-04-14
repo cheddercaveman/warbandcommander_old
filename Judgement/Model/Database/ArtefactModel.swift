@@ -9,7 +9,7 @@
 import Foundation
 import GRDB
 
-struct ArtefactModel : CardBase, RowConvertible, TableMapping, Hashable, Equatable {
+struct ArtefactModel : CardBase, FetchableRecord, TableRecord, Hashable, Equatable {
     static var databaseTableName: String { return "Artefacts" }
     static let databaseSelection: [SQLSelectable] = [AllColumns(), Column.rowID]
     

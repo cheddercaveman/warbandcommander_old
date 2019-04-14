@@ -9,7 +9,7 @@
 import Foundation
 import GRDB
 
-struct AttackModel : RowConvertible, TableMapping, Hashable, Equatable {
+struct AttackModel : FetchableRecord, TableRecord, Hashable, Equatable {
     static var databaseTableName: String { return "Attacks" }
     static let databaseSelection: [SQLSelectable] = [AllColumns(), Column.rowID]
     
