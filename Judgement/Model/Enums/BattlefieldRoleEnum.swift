@@ -15,4 +15,5 @@ enum BattlefieldRole : String {
     case soulgazer = "Soulgazer"
     case hybrid = "Hybrid"
     case familiar = "Familiar"
+    case champion = "Champion"
 }
