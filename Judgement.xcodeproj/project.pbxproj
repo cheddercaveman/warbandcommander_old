@@ -676,6 +676,8 @@
 				A727A51322B50F62009B10AA /* Sharn2.jpg */,
 				A727A50F22B50F61009B10AA /* Sharn3.jpg */,
 				A727A51222B50F62009B10AA /* Sharn4.jpg */,
+				A727A4B822B50E51009B10AA /* Skeleton.jpg */,
+				A727A4B522B50E51009B10AA /* Skeleton2.jpg */,
 				A727A51D22B50F63009B10AA /* Skoll.jpg */,
 				A727A51522B50F62009B10AA /* Skoll2.jpg */,
 				A727A51F22B50F63009B10AA /* Skoll3.jpg */,
@@ -694,6 +696,9 @@
 				A727A53422B50FA4009B10AA /* Svetlana2.jpg */,
 				A727A53922B50FA5009B10AA /* Svetlana3.jpg */,
 				A727A53D22B50FA5009B10AA /* Svetlana4.jpg */,
+				A727A4B922B50E51009B10AA /* Terra.jpg */,
+				A727A4B622B50E51009B10AA /* Terra2.jpg */,
+				A727A4B722B50E51009B10AA /* Terra3.jpg */,
 				A727A53822B50FA4009B10AA /* Thorgar.jpg */,
 				A727A53C22B50FA5009B10AA /* Thorgar2.jpg */,
 				A727A53B22B50FA5009B10AA /* Thorgar3.jpg */,
@@ -741,11 +746,6 @@
 				A7DD907F2236E23600516584 /* Inferno.jpg */,
 				A7DD907B2236E23500516584 /* Inferno2.jpg */,
 				A7DD907E2236E23600516584 /* Inferno3.jpg */,
-				A727A4B822B50E51009B10AA /* Skeleton.jpg */,
-				A727A4B522B50E51009B10AA /* Skeleton2.jpg */,
-				A727A4B922B50E51009B10AA /* Terra.jpg */,
-				A727A4B622B50E51009B10AA /* Terra2.jpg */,
-				A727A4B722B50E51009B10AA /* Terra3.jpg */,
 				A7DD907D2236E23600516584 /* Vujasha.jpg */,
 				A7DD907C2236E23500516584 /* Vujasha2.jpg */,
 			);
@@ -1070,7 +1070,7 @@
 				TargetAttributes = {
 					A7DB85701FED0FD60014D58F = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1542,7 +1542,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = game.judgement.warbandcommander;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1561,7 +1561,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = game.judgement.warbandcommander;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

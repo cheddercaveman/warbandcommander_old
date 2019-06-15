@@ -58,7 +58,7 @@ class CardDetailsViewController: UIPageViewController, UIPageViewControllerDataS
     }
 
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
-        guard let viewControllerIndex = self.cardViewControllers.index(of: viewController) else {
+        guard let viewControllerIndex = self.cardViewControllers.firstIndex(of: viewController) else {
             return nil
         }
         
@@ -72,7 +72,7 @@ class CardDetailsViewController: UIPageViewController, UIPageViewControllerDataS
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        guard let viewControllerIndex = self.cardViewControllers.index(of: viewController) else {
+        guard let viewControllerIndex = self.cardViewControllers.firstIndex(of: viewController) else {
             return nil
         }
         
