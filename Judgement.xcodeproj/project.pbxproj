@@ -132,8 +132,6 @@
 		A7889A902155540C002FD37C /* Arden2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7889A8C2155540B002FD37C /* Arden2.jpg */; };
 		A7889A912155540C002FD37C /* Wellin2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7889A8D2155540B002FD37C /* Wellin2.jpg */; };
 		A7889A922155540C002FD37C /* Wellin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7889A8E2155540C002FD37C /* Wellin.jpg */; };
-		A7889AA821555475002FD37C /* GiftOfTheGods.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7889A932155546F002FD37C /* GiftOfTheGods.jpg */; };
-		A7889AAA21555475002FD37C /* BracersOfDisruption.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7889A9521555470002FD37C /* BracersOfDisruption.jpg */; };
 		A7889AAB21555475002FD37C /* BloodSucker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7889A9621555470002FD37C /* BloodSucker.jpg */; };
 		A7889AAE21555475002FD37C /* BootsOfAgility.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7889A9921555471002FD37C /* BootsOfAgility.jpg */; };
 		A7889AB021555475002FD37C /* HuntersKnife.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7889A9B21555471002FD37C /* HuntersKnife.jpg */; };
@@ -193,6 +191,10 @@
 		A7C9803C233A9F770087998A /* Dorgokaan_Summoned.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98038233A9F770087998A /* Dorgokaan_Summoned.jpg */; };
 		A7C9803D233A9F770087998A /* Dorgokaan_Summoned3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98039233A9F770087998A /* Dorgokaan_Summoned3.jpg */; };
 		A7C9803E233A9F770087998A /* Dorgokaan_Summoned2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C9803A233A9F770087998A /* Dorgokaan_Summoned2.jpg */; };
+		A7C98040233A9FD80087998A /* AstralStasisPotion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C9803F233A9FD80087998A /* AstralStasisPotion.jpg */; };
+		A7C98042233A9FE50087998A /* BracersOfDisruption.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98041233A9FE40087998A /* BracersOfDisruption.jpg */; };
+		A7C98044233A9FF10087998A /* GiftOfTheGods.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98043233A9FF10087998A /* GiftOfTheGods.jpg */; };
+		A7C98046233A9FFE0087998A /* RingOfInvisibility.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98045233A9FFE0087998A /* RingOfInvisibility.jpg */; };
 		A7C98796200DF79C00A04D19 /* TempSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C98795200DF79C00A04D19 /* TempSettings.swift */; };
 		A7CA2F5020279D73004A192F /* WarbandStatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CA2F4F20279D73004A192F /* WarbandStatsCell.swift */; };
 		A7CA2F522027A76C004A192F /* FamiliarStatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CA2F512027A76C004A192F /* FamiliarStatsCell.swift */; };
@@ -221,10 +223,8 @@
 		A7DD90852236E23600516584 /* Inferno3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DD907E2236E23600516584 /* Inferno3.jpg */; };
 		A7DD90862236E23600516584 /* Inferno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DD907F2236E23600516584 /* Inferno.jpg */; };
 		A7DD90872236E23600516584 /* Ashtooth2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DD90802236E23600516584 /* Ashtooth2.jpg */; };
-		A7DD90892236E27F00516584 /* AstralStasisPotion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DD90882236E27F00516584 /* AstralStasisPotion.jpg */; };
 		A7DD908B2236E2AC00516584 /* HealingSurge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DD908A2236E2AC00516584 /* HealingSurge.jpg */; };
 		A7DD908E2236E2FE00516584 /* PotionOfOgreStrength.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DD908C2236E2FE00516584 /* PotionOfOgreStrength.jpg */; };
-		A7DD908F2236E2FE00516584 /* RingOfInvisibility.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DD908D2236E2FE00516584 /* RingOfInvisibility.jpg */; };
 		A7DD90922236E30600516584 /* TomeOfExperience.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DD90902236E30600516584 /* TomeOfExperience.jpg */; };
 		A7DD90932236E30600516584 /* RingOfTeleportation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DD90912236E30600516584 /* RingOfTeleportation.jpg */; };
 		A7DD90A02236E57F00516584 /* Brok4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7DD909C2236E57E00516584 /* Brok4.jpg */; };
@@ -383,8 +383,6 @@
 		A7889A8C2155540B002FD37C /* Arden2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arden2.jpg; sourceTree = "<group>"; };
 		A7889A8D2155540B002FD37C /* Wellin2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wellin2.jpg; sourceTree = "<group>"; };
 		A7889A8E2155540C002FD37C /* Wellin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wellin.jpg; sourceTree = "<group>"; };
-		A7889A932155546F002FD37C /* GiftOfTheGods.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GiftOfTheGods.jpg; sourceTree = "<group>"; };
-		A7889A9521555470002FD37C /* BracersOfDisruption.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BracersOfDisruption.jpg; sourceTree = "<group>"; };
 		A7889A9621555470002FD37C /* BloodSucker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BloodSucker.jpg; sourceTree = "<group>"; };
 		A7889A9921555471002FD37C /* BootsOfAgility.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BootsOfAgility.jpg; sourceTree = "<group>"; };
 		A7889A9B21555471002FD37C /* HuntersKnife.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HuntersKnife.jpg; sourceTree = "<group>"; };
@@ -444,6 +442,10 @@
 		A7C98038233A9F770087998A /* Dorgokaan_Summoned.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dorgokaan_Summoned.jpg; path = ../../../../../../../../Downloads/NextPatchCards/Monsters/Dorgokaan_Summoned.jpg; sourceTree = "<group>"; };
 		A7C98039233A9F770087998A /* Dorgokaan_Summoned3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dorgokaan_Summoned3.jpg; path = ../../../../../../../../Downloads/NextPatchCards/Monsters/Dorgokaan_Summoned3.jpg; sourceTree = "<group>"; };
 		A7C9803A233A9F770087998A /* Dorgokaan_Summoned2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dorgokaan_Summoned2.jpg; path = ../../../../../../../../Downloads/NextPatchCards/Monsters/Dorgokaan_Summoned2.jpg; sourceTree = "<group>"; };
+		A7C9803F233A9FD80087998A /* AstralStasisPotion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AstralStasisPotion.jpg; sourceTree = "<group>"; };
+		A7C98041233A9FE40087998A /* BracersOfDisruption.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BracersOfDisruption.jpg; sourceTree = "<group>"; };
+		A7C98043233A9FF10087998A /* GiftOfTheGods.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GiftOfTheGods.jpg; sourceTree = "<group>"; };
+		A7C98045233A9FFE0087998A /* RingOfInvisibility.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RingOfInvisibility.jpg; sourceTree = "<group>"; };
 		A7C98795200DF79C00A04D19 /* TempSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempSettings.swift; sourceTree = "<group>"; };
 		A7CA2F4F20279D73004A192F /* WarbandStatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarbandStatsCell.swift; sourceTree = "<group>"; };
 		A7CA2F512027A76C004A192F /* FamiliarStatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamiliarStatsCell.swift; sourceTree = "<group>"; };
@@ -474,10 +476,8 @@
 		A7DD907E2236E23600516584 /* Inferno3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Inferno3.jpg; sourceTree = "<group>"; };
 		A7DD907F2236E23600516584 /* Inferno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Inferno.jpg; sourceTree = "<group>"; };
 		A7DD90802236E23600516584 /* Ashtooth2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ashtooth2.jpg; sourceTree = "<group>"; };
-		A7DD90882236E27F00516584 /* AstralStasisPotion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AstralStasisPotion.jpg; sourceTree = "<group>"; };
 		A7DD908A2236E2AC00516584 /* HealingSurge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HealingSurge.jpg; sourceTree = "<group>"; };
 		A7DD908C2236E2FE00516584 /* PotionOfOgreStrength.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PotionOfOgreStrength.jpg; sourceTree = "<group>"; };
-		A7DD908D2236E2FE00516584 /* RingOfInvisibility.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RingOfInvisibility.jpg; sourceTree = "<group>"; };
 		A7DD90902236E30600516584 /* TomeOfExperience.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TomeOfExperience.jpg; sourceTree = "<group>"; };
 		A7DD90912236E30600516584 /* RingOfTeleportation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RingOfTeleportation.jpg; sourceTree = "<group>"; };
 		A7DD909C2236E57E00516584 /* Brok4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brok4.jpg; sourceTree = "<group>"; };
@@ -759,15 +759,15 @@
 			isa = PBXGroup;
 			children = (
 				A7889AA521555474002FD37C /* ArmourShredder.jpg */,
-				A7DD90882236E27F00516584 /* AstralStasisPotion.jpg */,
+				A7C9803F233A9FD80087998A /* AstralStasisPotion.jpg */,
 				A7889A9621555470002FD37C /* BloodSucker.jpg */,
 				A7889A9921555471002FD37C /* BootsOfAgility.jpg */,
 				A7889AA021555473002FD37C /* BootsOfElvenkind.jpg */,
 				A7889A9C21555472002FD37C /* BootsOfSpeed.jpg */,
 				A7889AA121555473002FD37C /* BootsOfStability.jpg */,
-				A7889A9521555470002FD37C /* BracersOfDisruption.jpg */,
+				A7C98041233A9FE40087998A /* BracersOfDisruption.jpg */,
 				A7889AA221555473002FD37C /* ElixirOfLife.jpg */,
-				A7889A932155546F002FD37C /* GiftOfTheGods.jpg */,
+				A7C98043233A9FF10087998A /* GiftOfTheGods.jpg */,
 				A7889AA421555474002FD37C /* GlyphOfWarding.jpg */,
 				A7DD908A2236E2AC00516584 /* HealingSurge.jpg */,
 				A7889A9F21555473002FD37C /* HeartSeeker.jpg */,
@@ -775,7 +775,7 @@
 				A7889AA721555475002FD37C /* MinotaurEssence.jpg */,
 				A727A4A922B50DCA009B10AA /* NullStone.jpg */,
 				A7DD908C2236E2FE00516584 /* PotionOfOgreStrength.jpg */,
-				A7DD908D2236E2FE00516584 /* RingOfInvisibility.jpg */,
+				A7C98045233A9FFE0087998A /* RingOfInvisibility.jpg */,
 				A7889A9D21555472002FD37C /* RingOfPower.jpg */,
 				A7DD90912236E30600516584 /* RingOfTeleportation.jpg */,
 				A7DD90902236E30600516584 /* TomeOfExperience.jpg */,
@@ -1106,13 +1106,13 @@
 				A727A4D422B50E91009B10AA /* Bastian.jpg in Resources */,
 				A7DD90DA2236E5FB00516584 /* Thrommel.jpg in Resources */,
 				A727A4FA22B50EF6009B10AA /* Kogan.jpg in Resources */,
+				A7C98044233A9FF10087998A /* GiftOfTheGods.jpg in Resources */,
 				A727A50D22B50F11009B10AA /* Nephenee4.jpg in Resources */,
 				A727A4AE22B50E3B009B10AA /* Algarath2.jpg in Resources */,
 				A727A50522B50EF6009B10AA /* Jaegar.jpg in Resources */,
 				A727A54522B50FA5009B10AA /* Svetlana3.jpg in Resources */,
 				A727A4E522B50EC5009B10AA /* Fazeal3.jpg in Resources */,
 				A727A55F22B50FE4009B10AA /* Zhonyja2.jpg in Resources */,
-				A7889AA821555475002FD37C /* GiftOfTheGods.jpg in Resources */,
 				A7DD908E2236E2FE00516584 /* PotionOfOgreStrength.jpg in Resources */,
 				A727A4B422B50E46009B10AA /* Dorgokaan3.jpg in Resources */,
 				A727A54422B50FA5009B10AA /* Thorgar.jpg in Resources */,
@@ -1149,7 +1149,6 @@
 				A727A4AA22B50DCA009B10AA /* NullStone.jpg in Resources */,
 				A727A52E22B50F64009B10AA /* Rakkir4.jpg in Resources */,
 				A727A54822B50FA5009B10AA /* Thorgar2.jpg in Resources */,
-				A7DD908F2236E2FE00516584 /* RingOfInvisibility.jpg in Resources */,
 				A7DD90EF2236E61E00516584 /* Zaffen3.jpg in Resources */,
 				A727A55222B50FBE009B10AA /* Viktor2.jpg in Resources */,
 				A727A55722B50FD1009B10AA /* Zaron3.jpg in Resources */,
@@ -1201,7 +1200,7 @@
 				A727A54922B50FA5009B10AA /* Svetlana4.jpg in Resources */,
 				A727A4D822B50E91009B10AA /* Barnascus4.jpg in Resources */,
 				A7C9803B233A9F770087998A /* Dorgokaan_Summoned4.jpg in Resources */,
-				A7889AAA21555475002FD37C /* BracersOfDisruption.jpg in Resources */,
+				A7C98040233A9FD80087998A /* AstralStasisPotion.jpg in Resources */,
 				A727A50422B50EF6009B10AA /* Haksa4.jpg in Resources */,
 				A7889AB721555475002FD37C /* ElixirOfLife.jpg in Resources */,
 				A7DD90CA2236E5D400516584 /* Skye2.jpg in Resources */,
@@ -1219,9 +1218,11 @@
 				A727A50222B50EF6009B10AA /* Istariel.jpg in Resources */,
 				A7889AB121555475002FD37C /* BootsOfSpeed.jpg in Resources */,
 				A727A52222B50F63009B10AA /* Saiyin.jpg in Resources */,
+				A7C98042233A9FE50087998A /* BracersOfDisruption.jpg in Resources */,
 				A727A4E222B50EC5009B10AA /* Fazeal.jpg in Resources */,
 				A72C96372155552000FFEDC8 /* Marcus2.jpg in Resources */,
 				A727A52622B50F63009B10AA /* Saiyin4.jpg in Resources */,
+				A7C98046233A9FFE0087998A /* RingOfInvisibility.jpg in Resources */,
 				A727A4F922B50EF6009B10AA /* Jaegar2.jpg in Resources */,
 				A792A21D1FF5134A0062A9D1 /* instagram.png in Resources */,
 				A727A53022B50F64009B10AA /* Rakkir.jpg in Resources */,
@@ -1248,7 +1249,6 @@
 				A727A52422B50F63009B10AA /* Sharn4.jpg in Resources */,
 				A7C98036233A9F520087998A /* Terra2.jpg in Resources */,
 				A745403120E9E4E700740C86 /* judgement_logo.jpg in Resources */,
-				A7DD90892236E27F00516584 /* AstralStasisPotion.jpg in Resources */,
 				A727A4A722B50D7F009B10AA /* Eldir.jpg in Resources */,
 				A7C9803E233A9F770087998A /* Dorgokaan_Summoned2.jpg in Resources */,
 				A7DD90EB2236E61E00516584 /* Xyvera4.jpg in Resources */,
