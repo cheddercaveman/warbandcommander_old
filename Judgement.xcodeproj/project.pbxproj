@@ -188,9 +188,6 @@
 		A7C98035233A9F520087998A /* Terra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98032233A9F520087998A /* Terra.jpg */; };
 		A7C98036233A9F520087998A /* Terra2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98033233A9F520087998A /* Terra2.jpg */; };
 		A7C9803B233A9F770087998A /* Dorgokaan_Summoned4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98037233A9F770087998A /* Dorgokaan_Summoned4.jpg */; };
-		A7C9803C233A9F770087998A /* Dorgokaan_Summoned.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98038233A9F770087998A /* Dorgokaan_Summoned.jpg */; };
-		A7C9803D233A9F770087998A /* Dorgokaan_Summoned3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98039233A9F770087998A /* Dorgokaan_Summoned3.jpg */; };
-		A7C9803E233A9F770087998A /* Dorgokaan_Summoned2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C9803A233A9F770087998A /* Dorgokaan_Summoned2.jpg */; };
 		A7C98040233A9FD80087998A /* AstralStasisPotion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C9803F233A9FD80087998A /* AstralStasisPotion.jpg */; };
 		A7C98042233A9FE50087998A /* BracersOfDisruption.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98041233A9FE40087998A /* BracersOfDisruption.jpg */; };
 		A7C98044233A9FF10087998A /* GiftOfTheGods.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98043233A9FF10087998A /* GiftOfTheGods.jpg */; };
@@ -439,9 +436,6 @@
 		A7C98032233A9F520087998A /* Terra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terra.jpg; sourceTree = "<group>"; };
 		A7C98033233A9F520087998A /* Terra2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terra2.jpg; sourceTree = "<group>"; };
 		A7C98037233A9F770087998A /* Dorgokaan_Summoned4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan_Summoned4.jpg; sourceTree = "<group>"; };
-		A7C98038233A9F770087998A /* Dorgokaan_Summoned.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dorgokaan_Summoned.jpg; path = ../../../../../../../../Downloads/NextPatchCards/Monsters/Dorgokaan_Summoned.jpg; sourceTree = "<group>"; };
-		A7C98039233A9F770087998A /* Dorgokaan_Summoned3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dorgokaan_Summoned3.jpg; path = ../../../../../../../../Downloads/NextPatchCards/Monsters/Dorgokaan_Summoned3.jpg; sourceTree = "<group>"; };
-		A7C9803A233A9F770087998A /* Dorgokaan_Summoned2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dorgokaan_Summoned2.jpg; path = ../../../../../../../../Downloads/NextPatchCards/Monsters/Dorgokaan_Summoned2.jpg; sourceTree = "<group>"; };
 		A7C9803F233A9FD80087998A /* AstralStasisPotion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AstralStasisPotion.jpg; sourceTree = "<group>"; };
 		A7C98041233A9FE40087998A /* BracersOfDisruption.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BracersOfDisruption.jpg; sourceTree = "<group>"; };
 		A7C98043233A9FF10087998A /* GiftOfTheGods.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GiftOfTheGods.jpg; sourceTree = "<group>"; };
@@ -614,9 +608,6 @@
 				A70CD79021C6AA3B009ABE11 /* Doenrakkar2.jpg */,
 				A70CD78E21C6AA3B009ABE11 /* Doenrakkar3.jpg */,
 				A70CD78D21C6AA3B009ABE11 /* Doenrakkar4.jpg */,
-				A7C98038233A9F770087998A /* Dorgokaan_Summoned.jpg */,
-				A7C9803A233A9F770087998A /* Dorgokaan_Summoned2.jpg */,
-				A7C98039233A9F770087998A /* Dorgokaan_Summoned3.jpg */,
 				A7C98037233A9F770087998A /* Dorgokaan_Summoned4.jpg */,
 				A727A4DD22B50EC4009B10AA /* Fazeal.jpg */,
 				A727A4E122B50EC4009B10AA /* Fazeal2.jpg */,
@@ -1174,7 +1165,6 @@
 				A7DD90ED2236E61E00516584 /* Zaffen2.jpg in Resources */,
 				A7DD90A82236E58E00516584 /* Gendris3.jpg in Resources */,
 				A7889A912155540C002FD37C /* Wellin2.jpg in Resources */,
-				A7C9803C233A9F770087998A /* Dorgokaan_Summoned.jpg in Resources */,
 				A7D7B80D1FEE5D1F00BCC8D4 /* Podfile in Resources */,
 				A72C96482155552000FFEDC8 /* Marcus.jpg in Resources */,
 				A727A4A422B50D15009B10AA /* Judgement_RuleBook_V1.7.pdf in Resources */,
@@ -1238,7 +1228,6 @@
 				A7B376AF2236FA8B00235DAD /* Piper3.jpg in Resources */,
 				A727A4B322B50E46009B10AA /* Dorgokaan.jpg in Resources */,
 				A727A54222B50FA5009B10AA /* Styx.jpg in Resources */,
-				A7C9803D233A9F770087998A /* Dorgokaan_Summoned3.jpg in Resources */,
 				A7B376B22236FA8B00235DAD /* Piper4.jpg in Resources */,
 				A727A4DA22B50E91009B10AA /* Allandir4.jpg in Resources */,
 				A7889A902155540C002FD37C /* Arden2.jpg in Resources */,
@@ -1250,7 +1239,6 @@
 				A7C98036233A9F520087998A /* Terra2.jpg in Resources */,
 				A745403120E9E4E700740C86 /* judgement_logo.jpg in Resources */,
 				A727A4A722B50D7F009B10AA /* Eldir.jpg in Resources */,
-				A7C9803E233A9F770087998A /* Dorgokaan_Summoned2.jpg in Resources */,
 				A7DD90EB2236E61E00516584 /* Xyvera4.jpg in Resources */,
 				A72C964D2155552000FFEDC8 /* Kvarto4.jpg in Resources */,
 				A7DD90A92236E58E00516584 /* Gendris4.jpg in Resources */,
