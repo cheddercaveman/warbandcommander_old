@@ -192,6 +192,9 @@
 		A7C98042233A9FE50087998A /* BracersOfDisruption.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98041233A9FE40087998A /* BracersOfDisruption.jpg */; };
 		A7C98044233A9FF10087998A /* GiftOfTheGods.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98043233A9FF10087998A /* GiftOfTheGods.jpg */; };
 		A7C98046233A9FFE0087998A /* RingOfInvisibility.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98045233A9FFE0087998A /* RingOfInvisibility.jpg */; };
+		A7C9804A233AA0CE0087998A /* Dorgokaan_Summoned2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98047233AA0CD0087998A /* Dorgokaan_Summoned2.jpg */; };
+		A7C9804B233AA0CE0087998A /* Dorgokaan_Summoned3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98048233AA0CD0087998A /* Dorgokaan_Summoned3.jpg */; };
+		A7C9804C233AA0CE0087998A /* Dorgokaan_Summoned.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7C98049233AA0CE0087998A /* Dorgokaan_Summoned.jpg */; };
 		A7C98796200DF79C00A04D19 /* TempSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C98795200DF79C00A04D19 /* TempSettings.swift */; };
 		A7CA2F5020279D73004A192F /* WarbandStatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CA2F4F20279D73004A192F /* WarbandStatsCell.swift */; };
 		A7CA2F522027A76C004A192F /* FamiliarStatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CA2F512027A76C004A192F /* FamiliarStatsCell.swift */; };
@@ -440,6 +443,9 @@
 		A7C98041233A9FE40087998A /* BracersOfDisruption.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BracersOfDisruption.jpg; sourceTree = "<group>"; };
 		A7C98043233A9FF10087998A /* GiftOfTheGods.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GiftOfTheGods.jpg; sourceTree = "<group>"; };
 		A7C98045233A9FFE0087998A /* RingOfInvisibility.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RingOfInvisibility.jpg; sourceTree = "<group>"; };
+		A7C98047233AA0CD0087998A /* Dorgokaan_Summoned2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan_Summoned2.jpg; sourceTree = "<group>"; };
+		A7C98048233AA0CD0087998A /* Dorgokaan_Summoned3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan_Summoned3.jpg; sourceTree = "<group>"; };
+		A7C98049233AA0CE0087998A /* Dorgokaan_Summoned.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan_Summoned.jpg; sourceTree = "<group>"; };
 		A7C98795200DF79C00A04D19 /* TempSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempSettings.swift; sourceTree = "<group>"; };
 		A7CA2F4F20279D73004A192F /* WarbandStatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarbandStatsCell.swift; sourceTree = "<group>"; };
 		A7CA2F512027A76C004A192F /* FamiliarStatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamiliarStatsCell.swift; sourceTree = "<group>"; };
@@ -608,6 +614,9 @@
 				A70CD79021C6AA3B009ABE11 /* Doenrakkar2.jpg */,
 				A70CD78E21C6AA3B009ABE11 /* Doenrakkar3.jpg */,
 				A70CD78D21C6AA3B009ABE11 /* Doenrakkar4.jpg */,
+				A7C98049233AA0CE0087998A /* Dorgokaan_Summoned.jpg */,
+				A7C98047233AA0CD0087998A /* Dorgokaan_Summoned2.jpg */,
+				A7C98048233AA0CD0087998A /* Dorgokaan_Summoned3.jpg */,
 				A7C98037233A9F770087998A /* Dorgokaan_Summoned4.jpg */,
 				A727A4DD22B50EC4009B10AA /* Fazeal.jpg */,
 				A727A4E122B50EC4009B10AA /* Fazeal2.jpg */,
@@ -1102,6 +1111,7 @@
 				A727A4AE22B50E3B009B10AA /* Algarath2.jpg in Resources */,
 				A727A50522B50EF6009B10AA /* Jaegar.jpg in Resources */,
 				A727A54522B50FA5009B10AA /* Svetlana3.jpg in Resources */,
+				A7C9804C233AA0CE0087998A /* Dorgokaan_Summoned.jpg in Resources */,
 				A727A4E522B50EC5009B10AA /* Fazeal3.jpg in Resources */,
 				A727A55F22B50FE4009B10AA /* Zhonyja2.jpg in Resources */,
 				A7DD908E2236E2FE00516584 /* PotionOfOgreStrength.jpg in Resources */,
@@ -1228,7 +1238,9 @@
 				A7B376AF2236FA8B00235DAD /* Piper3.jpg in Resources */,
 				A727A4B322B50E46009B10AA /* Dorgokaan.jpg in Resources */,
 				A727A54222B50FA5009B10AA /* Styx.jpg in Resources */,
+				A7C9804B233AA0CE0087998A /* Dorgokaan_Summoned3.jpg in Resources */,
 				A7B376B22236FA8B00235DAD /* Piper4.jpg in Resources */,
+				A7C9804A233AA0CE0087998A /* Dorgokaan_Summoned2.jpg in Resources */,
 				A727A4DA22B50E91009B10AA /* Allandir4.jpg in Resources */,
 				A7889A902155540C002FD37C /* Arden2.jpg in Resources */,
 				A7889AB021555475002FD37C /* HuntersKnife.jpg in Resources */,
