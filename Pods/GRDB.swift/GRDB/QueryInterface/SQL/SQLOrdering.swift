@@ -23,7 +23,7 @@ public protocol SQLOrderingTerm {
 
 // MARK: - SQLOrdering
 
-enum SQLOrdering : SQLOrderingTerm {
+enum SQLOrdering: SQLOrderingTerm {
     case asc(SQLExpression)
     case desc(SQLExpression)
     
@@ -39,9 +39,9 @@ enum SQLOrdering : SQLOrderingTerm {
     func orderingTermSQL(_ context: inout SQLGenerationContext) -> String {
         switch self {
         case .asc(let expression):
-            return expression.expressionSQL(&context) + " ASC"
+            return expression.expressionSQL(&context, wrappedInParenthesis: false) + " ASC"
         case .desc(let expression):
-            return expression.expressionSQL(&context) + " DESC"
+            return expression.expressionSQL(&context, wrappedInParenthesis: false) + " DESC"
         }
     }
     

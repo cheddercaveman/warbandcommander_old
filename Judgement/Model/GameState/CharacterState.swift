@@ -157,6 +157,12 @@ class CharacterState : Encodable, Decodable {
             
             return (value: "\(currentStatInt!)", color: modifiedColor)
         }
+        
+        // Kruul skill to have +1 DEF when having a soul bound
+        if ( (stat == .res) && (self.character?.name == "Kruul") && (self.souls >= 1) ) {
+            let currentStatInt = Int(currentStat)! + 1
+            return (value: "\(currentStatInt)", color: modifiedColor)
+        }
     
         return (value: "\(currentStat)", color: unmodifiedColor)
     }

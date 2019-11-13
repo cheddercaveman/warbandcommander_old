@@ -69,7 +69,7 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
                 cardListController.cardData = DatabaseService.sharedInstance.Shrines
             case 4:
                 let pdfViewController = segue.destination as! PDFReaderViewController
-                pdfViewController.pdfName = "Judgement_RuleBook_V1.7"
+                pdfViewController.pdfName = "Judgement_RuleBook_V1.8"
                 pdfViewController.scrollPositionKey = .rulebookScrollPosition
                 pdfViewController.title = "Rulebook"
             case 5:
