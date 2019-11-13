@@ -145,6 +145,7 @@
 		A76D2EA8237CA90E0098CA2B /* Allandir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A76D2EA4237CA90E0098CA2B /* Allandir.jpg */; };
 		A76D2EA9237CA90E0098CA2B /* Allandir2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A76D2EA5237CA90E0098CA2B /* Allandir2.jpg */; };
 		A76D2EAA237CA90E0098CA2B /* Allandir3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A76D2EA6237CA90E0098CA2B /* Allandir3.jpg */; };
+		A76D2EAC237CB3A30098CA2B /* Bale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A76D2EAB237CB3A30098CA2B /* Bale.jpg */; };
 		A779BE8521C6A9A7008DCEEF /* Judgement_TournamentPack_v1.2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A779BE8421C6A9A7008DCEEF /* Judgement_TournamentPack_v1.2.pdf */; };
 		A7889A8F2155540C002FD37C /* Arden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7889A8B2155540B002FD37C /* Arden.jpg */; };
 		A7889A902155540C002FD37C /* Arden2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7889A8C2155540B002FD37C /* Arden2.jpg */; };
@@ -397,6 +398,7 @@
 		A76D2EA4237CA90E0098CA2B /* Allandir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Allandir.jpg; path = "../../../../../../../../Downloads/drive-download-20191113T205306Z-001/Heroes/Allandir.jpg"; sourceTree = "<group>"; };
 		A76D2EA5237CA90E0098CA2B /* Allandir2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Allandir2.jpg; path = "../../../../../../../../Downloads/drive-download-20191113T205306Z-001/Heroes/Allandir2.jpg"; sourceTree = "<group>"; };
 		A76D2EA6237CA90E0098CA2B /* Allandir3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Allandir3.jpg; path = "../../../../../../../../Downloads/drive-download-20191113T205306Z-001/Heroes/Allandir3.jpg"; sourceTree = "<group>"; };
+		A76D2EAB237CB3A30098CA2B /* Bale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bale.jpg; sourceTree = "<group>"; };
 		A779BE8421C6A9A7008DCEEF /* Judgement_TournamentPack_v1.2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_TournamentPack_v1.2.pdf; sourceTree = "<group>"; };
 		A7889A8B2155540B002FD37C /* Arden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arden.jpg; sourceTree = "<group>"; };
 		A7889A8C2155540B002FD37C /* Arden2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arden2.jpg; sourceTree = "<group>"; };
@@ -600,6 +602,7 @@
 				A76D2EA5237CA90E0098CA2B /* Allandir2.jpg */,
 				A76D2EA6237CA90E0098CA2B /* Allandir3.jpg */,
 				A76D2EA3237CA90D0098CA2B /* Allandir4.jpg */,
+				A76D2EAB237CB3A30098CA2B /* Bale.jpg */,
 				A76D2DF1237CA72B0098CA2B /* Bale2.jpg */,
 				A76D2DEF237CA72B0098CA2B /* Bale3.jpg */,
 				A76D2DF0237CA72B0098CA2B /* Bale4.jpg */,
@@ -1275,6 +1278,7 @@
 				A7C98034233A9F520087998A /* Terra3.jpg in Resources */,
 				A727A4D222B50E91009B10AA /* Barnascus3.jpg in Resources */,
 				A7A2469B1FF4FC850048923D /* rpgawesome-webfont.ttf in Resources */,
+				A76D2EAC237CB3A30098CA2B /* Bale.jpg in Resources */,
 				A76D2E4D237CA81E0098CA2B /* Nephenee2.jpg in Resources */,
 				A727A4AD22B50E3B009B10AA /* Algarath.jpg in Resources */,
 				A72C967C2155552000FFEDC8 /* Kvarto3.jpg in Resources */,
