@@ -49,7 +49,6 @@
 		A74C67551FFFF8D500CCE2F9 /* PDFReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C67541FFFF8D500CCE2F9 /* PDFReaderViewController.swift */; };
 		A74C675D2000F3E600CCE2F9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74C675C2000F3E600CCE2F9 /* WebKit.framework */; };
 		A75C94A8200C887C005DA9A6 /* WeaponRowStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75C94A7200C887C005DA9A6 /* WeaponRowStruct.swift */; };
-		A76D2DE2237CA3CA0098CA2B /* Judgement_Rules_Reference_v1.6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A76D2DE1237CA3CA0098CA2B /* Judgement_Rules_Reference_v1.6.pdf */; };
 		A76D2DE4237CA42F0098CA2B /* Judgement_RuleBook_V1.8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A76D2DE3237CA42F0098CA2B /* Judgement_RuleBook_V1.8.pdf */; };
 		A76D2DF2237CA72C0098CA2B /* Bale3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A76D2DEF237CA72B0098CA2B /* Bale3.jpg */; };
 		A76D2DF3237CA72C0098CA2B /* Bale4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A76D2DF0237CA72B0098CA2B /* Bale4.jpg */; };
@@ -182,6 +181,7 @@
 		A792A21D1FF5134A0062A9D1 /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = A792A2181FF5134A0062A9D1 /* instagram.png */; };
 		A792A21E1FF5134A0062A9D1 /* link.png in Resources */ = {isa = PBXBuildFile; fileRef = A792A2191FF5134A0062A9D1 /* link.png */; };
 		A792A2201FF51C6A0062A9D1 /* SocialMediaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A792A21F1FF51C6A0062A9D1 /* SocialMediaEnum.swift */; };
+		A79D321C237D297600D73D07 /* Judgement_Rules_Reference_v1.6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A79D321B237D297600D73D07 /* Judgement_Rules_Reference_v1.6.pdf */; };
 		A7A246951FF4F00C0048923D /* ArtefactTraitEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A246941FF4F00C0048923D /* ArtefactTraitEnum.swift */; };
 		A7A246971FF4F1390048923D /* ArtefactCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A246961FF4F1390048923D /* ArtefactCardCell.swift */; };
 		A7A2469B1FF4FC850048923D /* rpgawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A2469A1FF4FC850048923D /* rpgawesome-webfont.ttf */; };
@@ -302,7 +302,6 @@
 		A74C67541FFFF8D500CCE2F9 /* PDFReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReaderViewController.swift; sourceTree = "<group>"; };
 		A74C675C2000F3E600CCE2F9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		A75C94A7200C887C005DA9A6 /* WeaponRowStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponRowStruct.swift; sourceTree = "<group>"; };
-		A76D2DE1237CA3CA0098CA2B /* Judgement_Rules_Reference_v1.6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_Rules_Reference_v1.6.pdf; sourceTree = "<group>"; };
 		A76D2DE3237CA42F0098CA2B /* Judgement_RuleBook_V1.8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_RuleBook_V1.8.pdf; sourceTree = "<group>"; };
 		A76D2DEF237CA72B0098CA2B /* Bale3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bale3.jpg; sourceTree = "<group>"; };
 		A76D2DF0237CA72B0098CA2B /* Bale4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bale4.jpg; sourceTree = "<group>"; };
@@ -435,6 +434,7 @@
 		A792A2181FF5134A0062A9D1 /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
 		A792A2191FF5134A0062A9D1 /* link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = link.png; sourceTree = "<group>"; };
 		A792A21F1FF51C6A0062A9D1 /* SocialMediaEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaEnum.swift; sourceTree = "<group>"; };
+		A79D321B237D297600D73D07 /* Judgement_Rules_Reference_v1.6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_Rules_Reference_v1.6.pdf; sourceTree = "<group>"; };
 		A7A246941FF4F00C0048923D /* ArtefactTraitEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtefactTraitEnum.swift; sourceTree = "<group>"; };
 		A7A246961FF4F1390048923D /* ArtefactCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtefactCardCell.swift; sourceTree = "<group>"; };
 		A7A2469A1FF4FC850048923D /* rpgawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rpgawesome-webfont.ttf"; sourceTree = "<group>"; };
@@ -576,7 +576,7 @@
 			isa = PBXGroup;
 			children = (
 				A76D2DE3237CA42F0098CA2B /* Judgement_RuleBook_V1.8.pdf */,
-				A76D2DE1237CA3CA0098CA2B /* Judgement_Rules_Reference_v1.6.pdf */,
+				A79D321B237D297600D73D07 /* Judgement_Rules_Reference_v1.6.pdf */,
 				A779BE8421C6A9A7008DCEEF /* Judgement_TournamentPack_v1.2.pdf */,
 			);
 			path = Rulebook;
@@ -1108,6 +1108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A76D2EA2237CA8CD0098CA2B /* Zaron2.jpg in Resources */,
+				A79D321C237D297600D73D07 /* Judgement_Rules_Reference_v1.6.pdf in Resources */,
 				A76D2E5B237CA8550098CA2B /* Sharn3.jpg in Resources */,
 				A7DD90932236E30600516584 /* RingOfTeleportation.jpg in Resources */,
 				A76D2DF2237CA72C0098CA2B /* Bale3.jpg in Resources */,
@@ -1136,7 +1137,6 @@
 				A76D2E87237CA89A0098CA2B /* Thrommel.jpg in Resources */,
 				A7889AB521555475002FD37C /* BootsOfElvenkind.jpg in Resources */,
 				A76D2E5C237CA8550098CA2B /* Sharn.jpg in Resources */,
-				A76D2DE2237CA3CA0098CA2B /* Judgement_Rules_Reference_v1.6.pdf in Resources */,
 				A7889AB421555475002FD37C /* HeartSeeker.jpg in Resources */,
 				A7C9802F233A9F3C0087998A /* Skeleton.jpg in Resources */,
 				A76D2E26237CA7BA0098CA2B /* Istariel.jpg in Resources */,
@@ -1547,7 +1547,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = U3XWEZGFJ5;
 				INFOPLIST_FILE = Judgement/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -1568,7 +1568,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = U3XWEZGFJ5;
 				INFOPLIST_FILE = Judgement/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;

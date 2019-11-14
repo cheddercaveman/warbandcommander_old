@@ -38,9 +38,10 @@ class GameStateTabBarViewController: UITabBarController {
 
         self.viewControllers = [ownWarbandView, enemyWarbandView, globalView]
         
+        /*
         let viewReference = UIBarButtonItem(title: "Reference", style: .plain, target: self, action: #selector(viewReferenceTapped))
         
-        navigationItem.rightBarButtonItems = [viewReference]
+        navigationItem.rightBarButtonItems = [viewReference]*/
     }
     
     @objc func viewReferenceTapped() {
@@ -57,7 +58,7 @@ class GameStateTabBarViewController: UITabBarController {
         if segue.identifier == "showPdfSegue" {
             let pdfViewController = segue.destination as! PDFReaderViewController
             pdfViewController.pdfName = "Judgement_Rules_Reference_V1.6"
-            pdfViewController.scrolling = false
+            pdfViewController.scrolling = true
             pdfViewController.title = "Rules Reference"
         }
     }
