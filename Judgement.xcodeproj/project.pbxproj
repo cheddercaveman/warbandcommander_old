@@ -184,6 +184,10 @@
 		A7A2469D1FF5004F0048923D /* LargeTitleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2469C1FF5004F0048923D /* LargeTitleNavigationController.swift */; };
 		A7A3365C2381E9CC006D7EBB /* Sarna2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A3365A2381E9CC006D7EBB /* Sarna2.jpg */; };
 		A7A3365D2381E9CC006D7EBB /* Sarna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A3365B2381E9CC006D7EBB /* Sarna.jpg */; };
+		A7A336622381EB92006D7EBB /* Allandir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A3365E2381EB92006D7EBB /* Allandir.jpg */; };
+		A7A336632381EB92006D7EBB /* Allandir2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A3365F2381EB92006D7EBB /* Allandir2.jpg */; };
+		A7A336642381EB92006D7EBB /* Allandir4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A336602381EB92006D7EBB /* Allandir4.jpg */; };
+		A7A336652381EB92006D7EBB /* Allandir3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A336612381EB92006D7EBB /* Allandir3.jpg */; };
 		A7A77A881FEFC2E8005579AF /* BattlefieldRoleEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A77A871FEFC2E8005579AF /* BattlefieldRoleEnum.swift */; };
 		A7A77A8A1FEFDA06005579AF /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A77A891FEFDA06005579AF /* DatabaseService.swift */; };
 		A7A77A921FF0F7D3005579AF /* CharacterCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A77A911FF0F7D3005579AF /* CharacterCardCell.swift */; };
@@ -435,6 +439,10 @@
 		A7A2469C1FF5004F0048923D /* LargeTitleNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTitleNavigationController.swift; sourceTree = "<group>"; };
 		A7A3365A2381E9CC006D7EBB /* Sarna2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sarna2.jpg; sourceTree = "<group>"; };
 		A7A3365B2381E9CC006D7EBB /* Sarna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sarna.jpg; sourceTree = "<group>"; };
+		A7A3365E2381EB92006D7EBB /* Allandir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Allandir.jpg; path = "../../../../../../../../Downloads/drive-download-20191117T205514Z-001/Allandir.jpg"; sourceTree = "<group>"; };
+		A7A3365F2381EB92006D7EBB /* Allandir2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Allandir2.jpg; path = "../../../../../../../../Downloads/drive-download-20191117T205514Z-001/Allandir2.jpg"; sourceTree = "<group>"; };
+		A7A336602381EB92006D7EBB /* Allandir4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Allandir4.jpg; path = "../../../../../../../../Downloads/drive-download-20191117T205514Z-001/Allandir4.jpg"; sourceTree = "<group>"; };
+		A7A336612381EB92006D7EBB /* Allandir3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Allandir3.jpg; path = "../../../../../../../../Downloads/drive-download-20191117T205514Z-001/Allandir3.jpg"; sourceTree = "<group>"; };
 		A7A77A871FEFC2E8005579AF /* BattlefieldRoleEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattlefieldRoleEnum.swift; sourceTree = "<group>"; };
 		A7A77A891FEFDA06005579AF /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 		A7A77A911FF0F7D3005579AF /* CharacterCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardCell.swift; sourceTree = "<group>"; };
@@ -594,6 +602,10 @@
 			children = (
 				A727A4AB22B50E3B009B10AA /* Algarath.jpg */,
 				A727A4AC22B50E3B009B10AA /* Algarath2.jpg */,
+				A7A3365E2381EB92006D7EBB /* Allandir.jpg */,
+				A7A3365F2381EB92006D7EBB /* Allandir2.jpg */,
+				A7A336612381EB92006D7EBB /* Allandir3.jpg */,
+				A7A336602381EB92006D7EBB /* Allandir4.jpg */,
 				A76D2EAB237CB3A30098CA2B /* Bale.jpg */,
 				A76D2DF1237CA72B0098CA2B /* Bale2.jpg */,
 				A76D2DEF237CA72B0098CA2B /* Bale3.jpg */,
@@ -1144,6 +1156,7 @@
 				A7C98030233A9F3C0087998A /* Skeleton2.jpg in Resources */,
 				A76D2E25237CA7BA0098CA2B /* Istariel3.jpg in Resources */,
 				A72C96512155552000FFEDC8 /* Kvarto.jpg in Resources */,
+				A7A336642381EB92006D7EBB /* Allandir4.jpg in Resources */,
 				A7DD90872236E23600516584 /* Ashtooth2.jpg in Resources */,
 				A7DD90F12236E61E00516584 /* Zaffen4.jpg in Resources */,
 				A779BE8521C6A9A7008DCEEF /* Judgement_TournamentPack_v1.2.pdf in Resources */,
@@ -1162,6 +1175,7 @@
 				A76D2E71237CA87C0098CA2B /* Skoll3.jpg in Resources */,
 				A76D2E4C237CA81E0098CA2B /* Marcus2.jpg in Resources */,
 				A7C98035233A9F520087998A /* Terra.jpg in Resources */,
+				A7A336652381EB92006D7EBB /* Allandir3.jpg in Resources */,
 				A7DD90AA2236E58E00516584 /* Gendris2.jpg in Resources */,
 				A7B376B02236FA8B00235DAD /* Piper.jpg in Resources */,
 				A7889AB321555475002FD37C /* VorpalBlade.jpg in Resources */,
@@ -1268,6 +1282,8 @@
 				A792A21C1FF5134A0062A9D1 /* email.png in Resources */,
 				A7C98034233A9F520087998A /* Terra3.jpg in Resources */,
 				A727A4D222B50E91009B10AA /* Barnascus3.jpg in Resources */,
+				A7A336632381EB92006D7EBB /* Allandir2.jpg in Resources */,
+				A7A336622381EB92006D7EBB /* Allandir.jpg in Resources */,
 				A7A3365C2381E9CC006D7EBB /* Sarna2.jpg in Resources */,
 				A7A2469B1FF4FC850048923D /* rpgawesome-webfont.ttf in Resources */,
 				A76D2EAC237CB3A30098CA2B /* Bale.jpg in Resources */,
