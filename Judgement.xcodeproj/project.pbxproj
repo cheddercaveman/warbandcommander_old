@@ -611,7 +611,7 @@
 			children = (
 				A74C675B2000C9D200CCE2F9 /* Shrines */,
 				A74C675A2000C9C300CCE2F9 /* Artefacts */,
-				A74C67592000C9BA00CCE2F9 /* Monters */,
+				A74C67592000C9BA00CCE2F9 /* Monsters */,
 				A74C67582000C9AD00CCE2F9 /* Characters */,
 			);
 			path = StatCards;
@@ -778,7 +778,7 @@
 			path = Characters;
 			sourceTree = "<group>";
 		};
-		A74C67592000C9BA00CCE2F9 /* Monters */ = {
+		A74C67592000C9BA00CCE2F9 /* Monsters */ = {
 			isa = PBXGroup;
 			children = (
 				A7DD907A2236E23500516584 /* Ashtooth.jpg */,
@@ -794,7 +794,7 @@
 				A7C9802B233A9F210087998A /* Vujasha.jpg */,
 				A7DD907C2236E23500516584 /* Vujasha2.jpg */,
 			);
-			path = Monters;
+			path = Monsters;
 			sourceTree = "<group>";
 		};
 		A74C675A2000C9C300CCE2F9 /* Artefacts */ = {
