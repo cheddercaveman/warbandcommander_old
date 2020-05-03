@@ -19,10 +19,10 @@
 		294A199B245EF8D3001715E1 /* Cradol5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 294A1990245EF8D3001715E1 /* Cradol5.jpg */; };
 		294A199C245EF8D3001715E1 /* Terra_Summoned3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 294A1991245EF8D3001715E1 /* Terra_Summoned3.jpg */; };
 		294A199D245EF8D3001715E1 /* Cradol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 294A1992245EF8D3001715E1 /* Cradol.jpg */; };
+		294A199F245EFE92001715E1 /* Judgement_RuleBook_V1.10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 294A199E245EFE92001715E1 /* Judgement_RuleBook_V1.10.pdf */; };
 		80F8C7AC011E26F5FAF9D1FF /* Pods_Judgement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAA99B97ECB4F9AEB3DF51A /* Pods_Judgement.framework */; };
 		A70D8329200A4AC50090B1CE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70D8328200A4AC50090B1CE /* UIView.swift */; };
 		A71AFD3E20055E10006B8051 /* J_only_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AFD3D20055E0F006B8051 /* J_only_logo.png */; };
-		A725A03B23AB6B16008ECC2B /* Judgement_RuleBook_V1.9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A725A03A23AB6B16008ECC2B /* Judgement_RuleBook_V1.9.pdf */; };
 		A725A04023AB6B68008ECC2B /* Dorgokaan_Summoned3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A725A03C23AB6B68008ECC2B /* Dorgokaan_Summoned3.jpg */; };
 		A725A04123AB6B68008ECC2B /* Dorgokaan_Summoned.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A725A03D23AB6B68008ECC2B /* Dorgokaan_Summoned.jpg */; };
 		A725A04223AB6B68008ECC2B /* Dorgokaan_Summoned2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A725A03E23AB6B68008ECC2B /* Dorgokaan_Summoned2.jpg */; };
@@ -293,10 +293,10 @@
 		294A1990245EF8D3001715E1 /* Cradol5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cradol5.jpg; sourceTree = "<group>"; };
 		294A1991245EF8D3001715E1 /* Terra_Summoned3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terra_Summoned3.jpg; sourceTree = "<group>"; };
 		294A1992245EF8D3001715E1 /* Cradol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cradol.jpg; sourceTree = "<group>"; };
+		294A199E245EFE92001715E1 /* Judgement_RuleBook_V1.10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_RuleBook_V1.10.pdf; sourceTree = "<group>"; };
 		29E780CDDACB710A74531F2B /* Pods-Judgement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Judgement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Judgement/Pods-Judgement.debug.xcconfig"; sourceTree = "<group>"; };
 		A70D8328200A4AC50090B1CE /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		A71AFD3D20055E0F006B8051 /* J_only_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = J_only_logo.png; sourceTree = "<group>"; };
-		A725A03A23AB6B16008ECC2B /* Judgement_RuleBook_V1.9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_RuleBook_V1.9.pdf; sourceTree = "<group>"; };
 		A725A03C23AB6B68008ECC2B /* Dorgokaan_Summoned3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan_Summoned3.jpg; sourceTree = "<group>"; };
 		A725A03D23AB6B68008ECC2B /* Dorgokaan_Summoned.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan_Summoned.jpg; sourceTree = "<group>"; };
 		A725A03E23AB6B68008ECC2B /* Dorgokaan_Summoned2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan_Summoned2.jpg; sourceTree = "<group>"; };
@@ -617,7 +617,7 @@
 		A74C67511FFFDC6A00CCE2F9 /* Rulebook */ = {
 			isa = PBXGroup;
 			children = (
-				A725A03A23AB6B16008ECC2B /* Judgement_RuleBook_V1.9.pdf */,
+				294A199E245EFE92001715E1 /* Judgement_RuleBook_V1.10.pdf */,
 				A79D321B237D297600D73D07 /* Judgement_Rules_Reference_v1.6.pdf */,
 				A779BE8421C6A9A7008DCEEF /* Judgement_TournamentPack_v1.2.pdf */,
 			);
@@ -1232,6 +1232,7 @@
 				A7889AB921555475002FD37C /* GlyphOfWarding.jpg in Resources */,
 				A727A4AA22B50DCA009B10AA /* NullStone.jpg in Resources */,
 				A725A05B23AB6C0D008ECC2B /* Bale3.jpg in Resources */,
+				294A199F245EFE92001715E1 /* Judgement_RuleBook_V1.10.pdf in Resources */,
 				A725A06723AB6C2A008ECC2B /* Gendris3.jpg in Resources */,
 				A760DDF723AB6CA300516A11 /* Kogan.jpg in Resources */,
 				A7DD908B2236E2AC00516584 /* HealingSurge.jpg in Resources */,
@@ -1377,7 +1378,6 @@
 				A76D2E1B237CA7A30098CA2B /* Haksa.jpg in Resources */,
 				A76D2E3B237CA8010098CA2B /* Loribela.jpg in Resources */,
 				A727A54122B50FA5009B10AA /* Svetlana.jpg in Resources */,
-				A725A03B23AB6B16008ECC2B /* Judgement_RuleBook_V1.9.pdf in Resources */,
 				294A1995245EF8D3001715E1 /* Cradol2.jpg in Resources */,
 				A725A05D23AB6C0D008ECC2B /* Bale.jpg in Resources */,
 				A7889AAB21555475002FD37C /* BloodSucker.jpg in Resources */,
