@@ -19,7 +19,13 @@
 		294A199B245EF8D3001715E1 /* Cradol5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 294A1990245EF8D3001715E1 /* Cradol5.jpg */; };
 		294A199C245EF8D3001715E1 /* Terra_Summoned3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 294A1991245EF8D3001715E1 /* Terra_Summoned3.jpg */; };
 		294A199D245EF8D3001715E1 /* Cradol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 294A1992245EF8D3001715E1 /* Cradol.jpg */; };
-		294A199F245EFE92001715E1 /* Judgement_RuleBook_V1.10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 294A199E245EFE92001715E1 /* Judgement_RuleBook_V1.10.pdf */; };
+		29A6899024AA891100647A6F /* Dorgokaan4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29A6898F24AA891100647A6F /* Dorgokaan4.jpg */; };
+		29A6899224AA894A00647A6F /* Vujasha3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29A6899124AA894A00647A6F /* Vujasha3.jpg */; };
+		29EB4C4024AA86040010B583 /* Judgement_RuleBook_V1.11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29EB4C3F24AA86030010B583 /* Judgement_RuleBook_V1.11.pdf */; };
+		29EB4C4524AA86310010B583 /* Grael.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EB4C4124AA86300010B583 /* Grael.jpg */; };
+		29EB4C4624AA86310010B583 /* Grael4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EB4C4224AA86300010B583 /* Grael4.jpg */; };
+		29EB4C4724AA86310010B583 /* Grael2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EB4C4324AA86300010B583 /* Grael2.jpg */; };
+		29EB4C4824AA86310010B583 /* Grael3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EB4C4424AA86310010B583 /* Grael3.jpg */; };
 		80F8C7AC011E26F5FAF9D1FF /* Pods_Judgement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAA99B97ECB4F9AEB3DF51A /* Pods_Judgement.framework */; };
 		A70D8329200A4AC50090B1CE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70D8328200A4AC50090B1CE /* UIView.swift */; };
 		A71AFD3E20055E10006B8051 /* J_only_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AFD3D20055E0F006B8051 /* J_only_logo.png */; };
@@ -293,8 +299,14 @@
 		294A1990245EF8D3001715E1 /* Cradol5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cradol5.jpg; sourceTree = "<group>"; };
 		294A1991245EF8D3001715E1 /* Terra_Summoned3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terra_Summoned3.jpg; sourceTree = "<group>"; };
 		294A1992245EF8D3001715E1 /* Cradol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cradol.jpg; sourceTree = "<group>"; };
-		294A199E245EFE92001715E1 /* Judgement_RuleBook_V1.10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_RuleBook_V1.10.pdf; sourceTree = "<group>"; };
+		29A6898F24AA891100647A6F /* Dorgokaan4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan4.jpg; sourceTree = "<group>"; };
+		29A6899124AA894A00647A6F /* Vujasha3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vujasha3.jpg; sourceTree = "<group>"; };
 		29E780CDDACB710A74531F2B /* Pods-Judgement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Judgement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Judgement/Pods-Judgement.debug.xcconfig"; sourceTree = "<group>"; };
+		29EB4C3F24AA86030010B583 /* Judgement_RuleBook_V1.11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_RuleBook_V1.11.pdf; sourceTree = "<group>"; };
+		29EB4C4124AA86300010B583 /* Grael.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grael.jpg; sourceTree = "<group>"; };
+		29EB4C4224AA86300010B583 /* Grael4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grael4.jpg; sourceTree = "<group>"; };
+		29EB4C4324AA86300010B583 /* Grael2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grael2.jpg; sourceTree = "<group>"; };
+		29EB4C4424AA86310010B583 /* Grael3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grael3.jpg; sourceTree = "<group>"; };
 		A70D8328200A4AC50090B1CE /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		A71AFD3D20055E0F006B8051 /* J_only_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = J_only_logo.png; sourceTree = "<group>"; };
 		A725A03C23AB6B68008ECC2B /* Dorgokaan_Summoned3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan_Summoned3.jpg; sourceTree = "<group>"; };
@@ -617,7 +629,7 @@
 		A74C67511FFFDC6A00CCE2F9 /* Rulebook */ = {
 			isa = PBXGroup;
 			children = (
-				294A199E245EFE92001715E1 /* Judgement_RuleBook_V1.10.pdf */,
+				29EB4C3F24AA86030010B583 /* Judgement_RuleBook_V1.11.pdf */,
 				A79D321B237D297600D73D07 /* Judgement_Rules_Reference_v1.6.pdf */,
 				A779BE8421C6A9A7008DCEEF /* Judgement_TournamentPack_v1.2.pdf */,
 			);
@@ -638,6 +650,10 @@
 		A74C67582000C9AD00CCE2F9 /* Characters */ = {
 			isa = PBXGroup;
 			children = (
+				29EB4C4124AA86300010B583 /* Grael.jpg */,
+				29EB4C4324AA86300010B583 /* Grael2.jpg */,
+				29EB4C4424AA86310010B583 /* Grael3.jpg */,
+				29EB4C4224AA86300010B583 /* Grael4.jpg */,
 				A727A4AB22B50E3B009B10AA /* Algarath.jpg */,
 				A727A4AC22B50E3B009B10AA /* Algarath2.jpg */,
 				A725A05223AB6C0D008ECC2B /* Allandir.jpg */,
@@ -812,6 +828,7 @@
 				A727A4B022B50E46009B10AA /* Dorgokaan.jpg */,
 				A727A4AF22B50E46009B10AA /* Dorgokaan2.jpg */,
 				A727A4B122B50E46009B10AA /* Dorgokaan3.jpg */,
+				29A6898F24AA891100647A6F /* Dorgokaan4.jpg */,
 				A7C98027233A9F120087998A /* Gloom.jpg */,
 				A7C98028233A9F120087998A /* Gloom2.jpg */,
 				A7DD907F2236E23600516584 /* Inferno.jpg */,
@@ -822,6 +839,7 @@
 				A725A04523AB6B8E008ECC2B /* Terra3.jpg */,
 				A7C9802B233A9F210087998A /* Vujasha.jpg */,
 				A7DD907C2236E23500516584 /* Vujasha2.jpg */,
+				29A6899124AA894A00647A6F /* Vujasha3.jpg */,
 			);
 			path = Monsters;
 			sourceTree = "<group>";
@@ -1193,6 +1211,7 @@
 				A76D2E54237CA8380098CA2B /* Rakkir3.jpg in Resources */,
 				A760DDF623AB6CA300516A11 /* Kogan3.jpg in Resources */,
 				A792A2111FF5108E0062A9D1 /* hb_logo.png in Resources */,
+				29EB4C4724AA86310010B583 /* Grael2.jpg in Resources */,
 				A76D2E24237CA7BA0098CA2B /* Istariel2.jpg in Resources */,
 				A76D2E02237CA7580098CA2B /* Brok4.jpg in Resources */,
 				A76D2E1D237CA7A30098CA2B /* Haksa4.jpg in Resources */,
@@ -1232,7 +1251,7 @@
 				A7889AB921555475002FD37C /* GlyphOfWarding.jpg in Resources */,
 				A727A4AA22B50DCA009B10AA /* NullStone.jpg in Resources */,
 				A725A05B23AB6C0D008ECC2B /* Bale3.jpg in Resources */,
-				294A199F245EFE92001715E1 /* Judgement_RuleBook_V1.10.pdf in Resources */,
+				29EB4C4024AA86040010B583 /* Judgement_RuleBook_V1.11.pdf in Resources */,
 				A725A06723AB6C2A008ECC2B /* Gendris3.jpg in Resources */,
 				A760DDF723AB6CA300516A11 /* Kogan.jpg in Resources */,
 				A7DD908B2236E2AC00516584 /* HealingSurge.jpg in Resources */,
@@ -1255,6 +1274,7 @@
 				A725A04023AB6B68008ECC2B /* Dorgokaan_Summoned3.jpg in Resources */,
 				A760DE1723AB6D0400516A11 /* Thrommel.jpg in Resources */,
 				A725A04C23AB6BA7008ECC2B /* Eldir.jpg in Resources */,
+				29EB4C4824AA86310010B583 /* Grael3.jpg in Resources */,
 				A760DE2D23AB6D1600516A11 /* Zhimgigrak2.jpg in Resources */,
 				A7889A912155540C002FD37C /* Wellin2.jpg in Resources */,
 				A760DE0423AB6CCE00516A11 /* Sarna.jpg in Resources */,
@@ -1271,6 +1291,7 @@
 				A76D2E35237CA7EB0098CA2B /* Kruul3.jpg in Resources */,
 				A76D2E56237CA8380098CA2B /* Rakkir4.jpg in Resources */,
 				A725A04823AB6B8E008ECC2B /* Terra3.jpg in Resources */,
+				29A6899024AA891100647A6F /* Dorgokaan4.jpg in Resources */,
 				A7C98029233A9F120087998A /* Gloom.jpg in Resources */,
 				A7DD90792236E1B100516584 /* Forin2.jpg in Resources */,
 				A76D2E5E237CA8550098CA2B /* Sharn4.jpg in Resources */,
@@ -1287,6 +1308,7 @@
 				A76D2E33237CA7EB0098CA2B /* Kruul4.jpg in Resources */,
 				A725A06F23AB6C2A008ECC2B /* Fazeal2.jpg in Resources */,
 				A76D2E49237CA81E0098CA2B /* Nephenee.jpg in Resources */,
+				29EB4C4524AA86310010B583 /* Grael.jpg in Resources */,
 				A7889AB721555475002FD37C /* ElixirOfLife.jpg in Resources */,
 				A7A77A961FF19541005579AF /* judgement.sqlite in Resources */,
 				A760DE2023AB6D0400516A11 /* Viktor4.jpg in Resources */,
@@ -1309,6 +1331,7 @@
 				294A1998245EF8D3001715E1 /* Inferno_Summoned.jpg in Resources */,
 				A792A21D1FF5134A0062A9D1 /* instagram.png in Resources */,
 				A727A4D122B50E91009B10AA /* Barnascus2.jpg in Resources */,
+				29A6899224AA894A00647A6F /* Vujasha3.jpg in Resources */,
 				A760DDF923AB6CA300516A11 /* Kogan4.jpg in Resources */,
 				A76D2E1C237CA7A30098CA2B /* Haksa2.jpg in Resources */,
 				A727A52822B50F63009B10AA /* Saiyin3.jpg in Resources */,
@@ -1330,6 +1353,7 @@
 				A7DD90782236E1B100516584 /* Forin.jpg in Resources */,
 				A727A54022B50FA5009B10AA /* Svetlana2.jpg in Resources */,
 				A725A06A23AB6C2A008ECC2B /* Fazeal5.jpg in Resources */,
+				29EB4C4624AA86310010B583 /* Grael4.jpg in Resources */,
 				A76D2DF9237CA7430098CA2B /* Bastian3.jpg in Resources */,
 				A760DE0123AB6CB900516A11 /* Marcus2.jpg in Resources */,
 				A745403120E9E4E700740C86 /* judgement_logo.jpg in Resources */,
