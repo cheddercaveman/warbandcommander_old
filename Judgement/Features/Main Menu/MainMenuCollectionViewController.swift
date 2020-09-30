@@ -48,38 +48,37 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let indexPath = sender as! IndexPath
-        if indexPath.section == 1 {
-            switch (indexPath.item) {
-            case 0:
-                let cardListController = segue.destination as! CardListViewController
-                cardListController.viewType = .characterPreview(headline: "Heroes", cardCellIdentifier: "characterCell", cardCellType: CharacterCardCell.self)
-                cardListController.cardData = DatabaseService.sharedInstance.Characters
-            case 1:
-                let cardListController = segue.destination as! CardListViewController
-                cardListController.viewType = .monsterPreview(headline: "Monsters", cardCellIdentifier: "monsterCell", cardCellType: MonsterCardCell.self)
-                cardListController.cardData = DatabaseService.sharedInstance.Monsters
-            case 2:
-                let cardListController = segue.destination as! CardListViewController
-                cardListController.viewType = .artefactPreview(headline: "Artefacts", cardCellIdentifier: "artefactCell", cardCellType: ArtefactCardCell.self)
-                cardListController.cardData = DatabaseService.sharedInstance.Artefacts
-            case 3:
-                let cardListController = segue.destination as! CardListViewController
-                cardListController.viewType = .shrinePreview(headline: "Shrines", cardCellIdentifier: "shrineCell", cardCellType: ShrineCardCell.self)
-                cardListController.cardData = DatabaseService.sharedInstance.Shrines
-            case 4:
-                let pdfViewController = segue.destination as! PDFReaderViewController
-                pdfViewController.pdfName = "Judgement_RuleBook_V1.11"
-                pdfViewController.scrollPositionKey = .rulebookScrollPosition
-                pdfViewController.title = "Rulebook"
-            case 5:
-                let pdfViewController = segue.destination as! PDFReaderViewController
-                pdfViewController.pdfName = "Judgement_TournamentPack_v1.2"
-                pdfViewController.scrollPositionKey = .tournamentPackScrollPosition
-                pdfViewController.title = "Tournament Pack"
-            default:
-                break
-            }
+        guard let indexPath = sender as? IndexPath, indexPath.section == 1 else { return }
+
+        switch indexPath.item {
+        case 0:
+            let cardListController = segue.destination as! CardListViewController
+            cardListController.viewType = .characterPreview(headline: "Heroes", cardCellIdentifier: "characterCell", cardCellType: CharacterCardCell.self)
+            cardListController.cardData = DatabaseService.sharedInstance.Characters
+        case 1:
+            let cardListController = segue.destination as! CardListViewController
+            cardListController.viewType = .monsterPreview(headline: "Monsters", cardCellIdentifier: "monsterCell", cardCellType: MonsterCardCell.self)
+            cardListController.cardData = DatabaseService.sharedInstance.Monsters
+        case 2:
+            let cardListController = segue.destination as! CardListViewController
+            cardListController.viewType = .artefactPreview(headline: "Artefacts", cardCellIdentifier: "artefactCell", cardCellType: ArtefactCardCell.self)
+            cardListController.cardData = DatabaseService.sharedInstance.Artefacts
+        case 3:
+            let cardListController = segue.destination as! CardListViewController
+            cardListController.viewType = .shrinePreview(headline: "Shrines", cardCellIdentifier: "shrineCell", cardCellType: ShrineCardCell.self)
+            cardListController.cardData = DatabaseService.sharedInstance.Shrines
+        case 4:
+            let pdfViewController = segue.destination as! PDFReaderViewController
+            pdfViewController.pdfName = "Judgement_RuleBook_V1.12"
+            pdfViewController.scrollPositionKey = .rulebookScrollPosition
+            pdfViewController.title = "Rulebook"
+        case 5:
+            let pdfViewController = segue.destination as! PDFReaderViewController
+            pdfViewController.pdfName = "Judgement_TournamentPack_v1.2"
+            pdfViewController.scrollPositionKey = .tournamentPackScrollPosition
+            pdfViewController.title = "Tournament Pack"
+        default:
+            break
         }
     }
 
@@ -97,7 +96,7 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
             
             cell.titleLabel!.text = "Current Game"
             cell.iconLabel!.text = ""
-            cell.layer.borderWidth = 1.0;
+            cell.layer.borderWidth = 1.0
             cell.layer.borderColor = UIColor.white.cgColor
             return cell
         }
@@ -106,7 +105,7 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
             
             cell.titleLabel!.text = self.menuTitles[indexPath.item]
             cell.iconLabel!.text = self.menuIcons[indexPath.item]
-            cell.layer.borderWidth = 1.0;
+            cell.layer.borderWidth = 1.0
             cell.layer.borderColor = UIColor.white.cgColor
             return cell
         }
@@ -115,23 +114,20 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
             
             cell.titleLabel!.text = "About"
             cell.iconLabel!.text = ""
-            cell.layer.borderWidth = 1.0;
+            cell.layer.borderWidth = 1.0
             cell.layer.borderColor = UIColor.white.cgColor
             return cell
         }
-
     }
     
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         
-        switch (kind) {
+        switch kind {
         case UICollectionView.elementKindSectionHeader:
             let supplementaryCell = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "mainMenuHeader", for: indexPath)
-            
             return supplementaryCell
         case UICollectionView.elementKindSectionFooter:
             let supplementaryCell = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "mainMenuFooter", for: indexPath)
-            
             return supplementaryCell
         default:
             return UICollectionReusableView()
@@ -139,7 +135,7 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
     }
 
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        switch (indexPath.section) {
+        switch indexPath.section {
         case 0:
             performSegue(withIdentifier: "currentGameSegue", sender: indexPath)
         case 1:
@@ -154,7 +150,7 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        if (indexPath.section != 1) {
+        if indexPath.section != 1 {
             return CGSize(width: collectionView.bounds.width, height: 80)
         }
         
