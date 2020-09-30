@@ -98,13 +98,12 @@ struct CharacterModel : CardBase, FetchableRecord, TableRecord, Hashable, Equata
             return ((a.cardRefType == .character) && (a.cardRefId == self.id))
         })
     }
-
-    public var hashValue: Int {
-        return id.hashValue;
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
     }
     
     static func == (lhs: CharacterModel, rhs: CharacterModel) -> Bool {
-        return
-            lhs.id.hashValue == rhs.id.hashValue
+        return lhs.id.hashValue == rhs.id.hashValue
     }
 }

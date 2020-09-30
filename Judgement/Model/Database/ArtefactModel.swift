@@ -49,8 +49,8 @@ struct ArtefactModel : CardBase, FetchableRecord, TableRecord, Hashable, Equatab
         self.cardAmount = row[Columns.cardAmount]
     }
     
-    public var hashValue: Int {
-        return id.hashValue;
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
     }
     
     static func == (lhs: ArtefactModel, rhs: ArtefactModel) -> Bool {

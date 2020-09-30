@@ -11,7 +11,7 @@ extension Database {
     // MARK: - Database Schema
     
     func withSchemaCache<T>(_ schemaCache: DatabaseSchemaCache, _ block: () throws -> T) rethrows -> T {
-        var oldCache = self.schemaCache
+        let oldCache = self.schemaCache
         defer { self.schemaCache = oldCache }
         self.schemaCache = schemaCache
         return try block()
