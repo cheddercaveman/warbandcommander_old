@@ -21,7 +21,7 @@
 		294A199D245EF8D3001715E1 /* Cradol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 294A1992245EF8D3001715E1 /* Cradol.jpg */; };
 		29A6899024AA891100647A6F /* Dorgokaan4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29A6898F24AA891100647A6F /* Dorgokaan4.jpg */; };
 		29A6899224AA894A00647A6F /* Vujasha3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29A6899124AA894A00647A6F /* Vujasha3.jpg */; };
-		29EB4C4024AA86040010B583 /* Judgement_RuleBook_V1.11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29EB4C3F24AA86030010B583 /* Judgement_RuleBook_V1.11.pdf */; };
+		29E09EAD25252A6300C2108E /* Judgement_RuleBook_V1.12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29E09EAC25252A6300C2108E /* Judgement_RuleBook_V1.12.pdf */; };
 		29EB4C4524AA86310010B583 /* Grael.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EB4C4124AA86300010B583 /* Grael.jpg */; };
 		29EB4C4624AA86310010B583 /* Grael4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EB4C4224AA86300010B583 /* Grael4.jpg */; };
 		29EB4C4724AA86310010B583 /* Grael2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EB4C4324AA86300010B583 /* Grael2.jpg */; };
@@ -301,8 +301,8 @@
 		294A1992245EF8D3001715E1 /* Cradol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cradol.jpg; sourceTree = "<group>"; };
 		29A6898F24AA891100647A6F /* Dorgokaan4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan4.jpg; sourceTree = "<group>"; };
 		29A6899124AA894A00647A6F /* Vujasha3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vujasha3.jpg; sourceTree = "<group>"; };
+		29E09EAC25252A6300C2108E /* Judgement_RuleBook_V1.12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_RuleBook_V1.12.pdf; sourceTree = "<group>"; };
 		29E780CDDACB710A74531F2B /* Pods-Judgement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Judgement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Judgement/Pods-Judgement.debug.xcconfig"; sourceTree = "<group>"; };
-		29EB4C3F24AA86030010B583 /* Judgement_RuleBook_V1.11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_RuleBook_V1.11.pdf; sourceTree = "<group>"; };
 		29EB4C4124AA86300010B583 /* Grael.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grael.jpg; sourceTree = "<group>"; };
 		29EB4C4224AA86300010B583 /* Grael4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grael4.jpg; sourceTree = "<group>"; };
 		29EB4C4324AA86300010B583 /* Grael2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grael2.jpg; sourceTree = "<group>"; };
@@ -629,7 +629,7 @@
 		A74C67511FFFDC6A00CCE2F9 /* Rulebook */ = {
 			isa = PBXGroup;
 			children = (
-				29EB4C3F24AA86030010B583 /* Judgement_RuleBook_V1.11.pdf */,
+				29E09EAC25252A6300C2108E /* Judgement_RuleBook_V1.12.pdf */,
 				A79D321B237D297600D73D07 /* Judgement_Rules_Reference_v1.6.pdf */,
 				A779BE8421C6A9A7008DCEEF /* Judgement_TournamentPack_v1.2.pdf */,
 			);
@@ -1155,7 +1155,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = nogoodname;
 				TargetAttributes = {
 					A7DB85701FED0FD60014D58F = {
@@ -1251,7 +1251,6 @@
 				A7889AB921555475002FD37C /* GlyphOfWarding.jpg in Resources */,
 				A727A4AA22B50DCA009B10AA /* NullStone.jpg in Resources */,
 				A725A05B23AB6C0D008ECC2B /* Bale3.jpg in Resources */,
-				29EB4C4024AA86040010B583 /* Judgement_RuleBook_V1.11.pdf in Resources */,
 				A725A06723AB6C2A008ECC2B /* Gendris3.jpg in Resources */,
 				A760DDF723AB6CA300516A11 /* Kogan.jpg in Resources */,
 				A7DD908B2236E2AC00516584 /* HealingSurge.jpg in Resources */,
@@ -1380,6 +1379,7 @@
 				A727A4D222B50E91009B10AA /* Barnascus3.jpg in Resources */,
 				A7A2469B1FF4FC850048923D /* rpgawesome-webfont.ttf in Resources */,
 				A725A05A23AB6C0D008ECC2B /* Allandir.jpg in Resources */,
+				29E09EAD25252A6300C2108E /* Judgement_RuleBook_V1.12.pdf in Resources */,
 				A760DDF023AB6C8800516A11 /* Isabel3.jpg in Resources */,
 				A76D2E4D237CA81E0098CA2B /* Nephenee2.jpg in Resources */,
 				A727A4AD22B50E3B009B10AA /* Algarath.jpg in Resources */,
@@ -1562,6 +1562,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1587,7 +1588,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1621,6 +1622,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1640,7 +1642,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1655,12 +1657,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = U3XWEZGFJ5;
 				INFOPLIST_FILE = Judgement/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.9;
+				MARKETING_VERSION = 2.12;
 				PRODUCT_BUNDLE_IDENTIFIER = game.judgement.warbandcommander;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1676,12 +1678,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = U3XWEZGFJ5;
 				INFOPLIST_FILE = Judgement/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.9;
+				MARKETING_VERSION = 2.12;
 				PRODUCT_BUNDLE_IDENTIFIER = game.judgement.warbandcommander;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
