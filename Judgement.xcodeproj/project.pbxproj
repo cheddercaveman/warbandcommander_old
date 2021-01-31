@@ -59,9 +59,9 @@
 		29678DB625C7402300CB4A96 /* Aria4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29678DAE25C7402300CB4A96 /* Aria4.jpg */; };
 		29678DB725C7402300CB4A96 /* Aria3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29678DAF25C7402300CB4A96 /* Aria3.jpg */; };
 		29678DB825C7402300CB4A96 /* Aschell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29678DB025C7402300CB4A96 /* Aschell.jpg */; };
+		29678DC025C7475900CB4A96 /* Judgement_Rulebook_Beta_v1.9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29678DBF25C7475900CB4A96 /* Judgement_Rulebook_Beta_v1.9.pdf */; };
 		29A6899024AA891100647A6F /* Dorgokaan4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29A6898F24AA891100647A6F /* Dorgokaan4.jpg */; };
 		29A6899224AA894A00647A6F /* Vujasha3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29A6899124AA894A00647A6F /* Vujasha3.jpg */; };
-		29E09EAD25252A6300C2108E /* Judgement_RuleBook_V1.12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29E09EAC25252A6300C2108E /* Judgement_RuleBook_V1.12.pdf */; };
 		80F8C7AC011E26F5FAF9D1FF /* Pods_Judgement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAA99B97ECB4F9AEB3DF51A /* Pods_Judgement.framework */; };
 		A70D8329200A4AC50090B1CE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70D8328200A4AC50090B1CE /* UIView.swift */; };
 		A71AFD3E20055E10006B8051 /* J_only_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AFD3D20055E0F006B8051 /* J_only_logo.png */; };
@@ -374,9 +374,9 @@
 		29678DAE25C7402300CB4A96 /* Aria4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aria4.jpg; sourceTree = "<group>"; };
 		29678DAF25C7402300CB4A96 /* Aria3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aria3.jpg; sourceTree = "<group>"; };
 		29678DB025C7402300CB4A96 /* Aschell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aschell.jpg; sourceTree = "<group>"; };
+		29678DBF25C7475900CB4A96 /* Judgement_Rulebook_Beta_v1.9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_Rulebook_Beta_v1.9.pdf; sourceTree = "<group>"; };
 		29A6898F24AA891100647A6F /* Dorgokaan4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan4.jpg; sourceTree = "<group>"; };
 		29A6899124AA894A00647A6F /* Vujasha3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vujasha3.jpg; sourceTree = "<group>"; };
-		29E09EAC25252A6300C2108E /* Judgement_RuleBook_V1.12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_RuleBook_V1.12.pdf; sourceTree = "<group>"; };
 		29E780CDDACB710A74531F2B /* Pods-Judgement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Judgement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Judgement/Pods-Judgement.debug.xcconfig"; sourceTree = "<group>"; };
 		A70D8328200A4AC50090B1CE /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		A71AFD3D20055E0F006B8051 /* J_only_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = J_only_logo.png; sourceTree = "<group>"; };
@@ -712,7 +712,7 @@
 		A74C67511FFFDC6A00CCE2F9 /* Rulebook */ = {
 			isa = PBXGroup;
 			children = (
-				29E09EAC25252A6300C2108E /* Judgement_RuleBook_V1.12.pdf */,
+				29678DBF25C7475900CB4A96 /* Judgement_Rulebook_Beta_v1.9.pdf */,
 				A79D321B237D297600D73D07 /* Judgement_Rules_Reference_v1.6.pdf */,
 				A779BE8421C6A9A7008DCEEF /* Judgement_TournamentPack_v1.2.pdf */,
 			);
@@ -1399,6 +1399,7 @@
 				A7889A912155540C002FD37C /* Wellin2.jpg in Resources */,
 				A760DE0423AB6CCE00516A11 /* Sarna.jpg in Resources */,
 				A760DDF123AB6C8800516A11 /* Isabel4.jpg in Resources */,
+				29678DC025C7475900CB4A96 /* Judgement_Rulebook_Beta_v1.9.pdf in Resources */,
 				A7D7B80D1FEE5D1F00BCC8D4 /* Podfile in Resources */,
 				A7DD90832236E23600516584 /* Vujasha2.jpg in Resources */,
 				A76D2DFB237CA7430098CA2B /* Bastian2.jpg in Resources */,
@@ -1518,7 +1519,6 @@
 				A725A05A23AB6C0D008ECC2B /* Allandir.jpg in Resources */,
 				29678DB425C7402300CB4A96 /* Aria.jpg in Resources */,
 				29678DA425C7400500CB4A96 /* Drelgoth4.jpg in Resources */,
-				29E09EAD25252A6300C2108E /* Judgement_RuleBook_V1.12.pdf in Resources */,
 				A760DDF023AB6C8800516A11 /* Isabel3.jpg in Resources */,
 				A76D2E4D237CA81E0098CA2B /* Nephenee2.jpg in Resources */,
 				A727A4AD22B50E3B009B10AA /* Algarath.jpg in Resources */,
