@@ -50,6 +50,7 @@ class DatabaseService {
         }
         catch
         {}
+        
         do {
             try self.MasterDataQueue?.inDatabase { (db) in
                 self.Characters = try CharacterModel
@@ -62,6 +63,7 @@ class DatabaseService {
         }
         catch
         {}
+        
         do {
             try self.MasterDataQueue?.inDatabase { (db) in
                 self.Monsters = try MonsterModel
@@ -74,6 +76,7 @@ class DatabaseService {
         }
         catch
         {}
+        
         do {
             try self.MasterDataQueue?.inDatabase { (db) in
                 self.Shrines = try ShrineModel
@@ -86,6 +89,7 @@ class DatabaseService {
         }
         catch
         {}
+        
         do {
             try self.MasterDataQueue?.inDatabase { (db) in
                 self.Artefacts = try ArtefactModel
