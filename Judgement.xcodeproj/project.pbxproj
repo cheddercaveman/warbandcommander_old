@@ -260,7 +260,6 @@
 		A792A21D1FF5134A0062A9D1 /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = A792A2181FF5134A0062A9D1 /* instagram.png */; };
 		A792A21E1FF5134A0062A9D1 /* link.png in Resources */ = {isa = PBXBuildFile; fileRef = A792A2191FF5134A0062A9D1 /* link.png */; };
 		A792A2201FF51C6A0062A9D1 /* SocialMediaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A792A21F1FF51C6A0062A9D1 /* SocialMediaEnum.swift */; };
-		A79D321C237D297600D73D07 /* Judgement_Rules_Reference_v1.6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A79D321B237D297600D73D07 /* Judgement_Rules_Reference_v1.6.pdf */; };
 		A7A246951FF4F00C0048923D /* ArtefactTraitEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A246941FF4F00C0048923D /* ArtefactTraitEnum.swift */; };
 		A7A246971FF4F1390048923D /* ArtefactCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A246961FF4F1390048923D /* ArtefactCardCell.swift */; };
 		A7A2469B1FF4FC850048923D /* rpgawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A2469A1FF4FC850048923D /* rpgawesome-webfont.ttf */; };
@@ -575,7 +574,6 @@
 		A792A2181FF5134A0062A9D1 /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
 		A792A2191FF5134A0062A9D1 /* link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = link.png; sourceTree = "<group>"; };
 		A792A21F1FF51C6A0062A9D1 /* SocialMediaEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaEnum.swift; sourceTree = "<group>"; };
-		A79D321B237D297600D73D07 /* Judgement_Rules_Reference_v1.6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_Rules_Reference_v1.6.pdf; sourceTree = "<group>"; };
 		A7A246941FF4F00C0048923D /* ArtefactTraitEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtefactTraitEnum.swift; sourceTree = "<group>"; };
 		A7A246961FF4F1390048923D /* ArtefactCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtefactCardCell.swift; sourceTree = "<group>"; };
 		A7A2469A1FF4FC850048923D /* rpgawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rpgawesome-webfont.ttf"; sourceTree = "<group>"; };
@@ -713,7 +711,6 @@
 			isa = PBXGroup;
 			children = (
 				29678DBF25C7475900CB4A96 /* Judgement_Rulebook_Beta_v1.9.pdf */,
-				A79D321B237D297600D73D07 /* Judgement_Rules_Reference_v1.6.pdf */,
 				A779BE8421C6A9A7008DCEEF /* Judgement_TournamentPack_v1.2.pdf */,
 			);
 			path = Rulebook;
@@ -1305,7 +1302,6 @@
 				294A199B245EF8D3001715E1 /* Cradol5.jpg in Resources */,
 				29678D7525C73FD400CB4A96 /* Onkura4.jpg in Resources */,
 				A76D2EA2237CA8CD0098CA2B /* Zaron2.jpg in Resources */,
-				A79D321C237D297600D73D07 /* Judgement_Rules_Reference_v1.6.pdf in Resources */,
 				29678DA725C7401600CB4A96 /* Cradol6.jpg in Resources */,
 				A76D2E5B237CA8550098CA2B /* Sharn3.jpg in Resources */,
 				A7DD90932236E30600516584 /* RingOfTeleportation.jpg in Resources */,

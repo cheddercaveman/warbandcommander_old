@@ -37,11 +37,6 @@ class GameStateTabBarViewController: UITabBarController {
         globalView.tabBarItem.image = #imageLiteral(resourceName: "gameGlobals")
 
         self.viewControllers = [ownWarbandView, enemyWarbandView, globalView]
-        
-        
-        let viewReference = UIBarButtonItem(title: "Reference", style: .plain, target: self, action: #selector(viewReferenceTapped))
-        
-        navigationItem.rightBarButtonItems = [viewReference]
     }
     
     @objc func viewReferenceTapped() {

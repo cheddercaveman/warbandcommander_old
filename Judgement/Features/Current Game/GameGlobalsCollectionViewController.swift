@@ -31,7 +31,6 @@ class GameGlobalsCollectionViewController: UICollectionViewController, UICollect
         return 1
     }
     
-    
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return GameState.sharedInstance.monster.count
     }
@@ -116,6 +115,4 @@ class GameGlobalsCollectionViewController: UICollectionViewController, UICollect
     func dismissButtonTouched(sender: UIButton, withType viewType: CardListType) {
         
     }
-
 }
-

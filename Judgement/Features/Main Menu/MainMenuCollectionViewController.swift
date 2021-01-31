@@ -52,28 +52,28 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
 
         switch indexPath.item {
         case 0:
-            let cardListController = segue.destination as! CardListViewController
+            guard let cardListController = segue.destination as? CardListViewController else { return }
             cardListController.viewType = .characterPreview(headline: "Heroes", cardCellIdentifier: "characterCell", cardCellType: CharacterCardCell.self)
             cardListController.cardData = DatabaseService.sharedInstance.Characters
         case 1:
-            let cardListController = segue.destination as! CardListViewController
+            guard let cardListController = segue.destination as? CardListViewController else { return }
             cardListController.viewType = .monsterPreview(headline: "Monsters", cardCellIdentifier: "monsterCell", cardCellType: MonsterCardCell.self)
             cardListController.cardData = DatabaseService.sharedInstance.Monsters
         case 2:
-            let cardListController = segue.destination as! CardListViewController
+            guard let cardListController = segue.destination as? CardListViewController else { return }
             cardListController.viewType = .artefactPreview(headline: "Artefacts", cardCellIdentifier: "artefactCell", cardCellType: ArtefactCardCell.self)
             cardListController.cardData = DatabaseService.sharedInstance.Artefacts
         case 3:
-            let cardListController = segue.destination as! CardListViewController
+            guard let cardListController = segue.destination as? CardListViewController else { return }
             cardListController.viewType = .shrinePreview(headline: "Shrines", cardCellIdentifier: "shrineCell", cardCellType: ShrineCardCell.self)
             cardListController.cardData = DatabaseService.sharedInstance.Shrines
         case 4:
-            let pdfViewController = segue.destination as! PDFReaderViewController
+            guard let pdfViewController = segue.destination as? PDFReaderViewController else { return }
             pdfViewController.pdfName = "Judgement_Rulebook_Beta_v1.9"
             pdfViewController.scrollPositionKey = .rulebookScrollPosition
             pdfViewController.title = "Rulebook"
         case 5:
-            let pdfViewController = segue.destination as! PDFReaderViewController
+            guard let pdfViewController = segue.destination as? PDFReaderViewController else { return }
             pdfViewController.pdfName = "Judgement_TournamentPack_v1.2"
             pdfViewController.scrollPositionKey = .tournamentPackScrollPosition
             pdfViewController.title = "Tournament Pack"
