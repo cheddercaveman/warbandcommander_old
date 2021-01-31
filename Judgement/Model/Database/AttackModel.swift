@@ -56,13 +56,12 @@ struct AttackModel : FetchableRecord, TableRecord, Hashable, Equatable {
         self.critDamage = row[Columns.critDamage]
     }
     
-    public var hashValue: Int {
-        return id.hashValue;
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
     }
     
     static func == (lhs: AttackModel, rhs: AttackModel) -> Bool {
-        return
-            lhs.id.hashValue == rhs.id.hashValue
+        return lhs.id.hashValue == rhs.id.hashValue
     }
 }
 

@@ -40,8 +40,8 @@ struct ShrineModel : CardBase, FetchableRecord, TableRecord, Hashable, Equatable
         self.cardAmount = row[Columns.cardAmount]
     }
     
-    public var hashValue: Int {
-        return id.hashValue;
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
     }
     
     static func == (lhs: ShrineModel, rhs: ShrineModel) -> Bool {

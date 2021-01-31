@@ -76,9 +76,8 @@ struct MonsterModel : CardBase, FetchableRecord, TableRecord, Hashable, Equatabl
             return ((a.cardRefType == .monster) && (a.cardRefId == self.id))
         })
     }
-    
-    public var hashValue: Int {
-        return id.hashValue;
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
     }
     
     static func == (lhs: MonsterModel, rhs: MonsterModel) -> Bool {
