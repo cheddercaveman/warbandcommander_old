@@ -69,12 +69,12 @@ class MainMenuCollectionViewController: UICollectionViewController, UICollection
             cardListController.cardData = DatabaseService.sharedInstance.Shrines
         case 4:
             guard let pdfViewController = segue.destination as? PDFReaderViewController else { return }
-            pdfViewController.pdfName = "Judgement_Rulebook_Beta_v1.9"
+            pdfViewController.pdfName = "Judgement_Rulebook_OpenBeta_v1.0.0"
             pdfViewController.scrollPositionKey = .rulebookScrollPosition
             pdfViewController.title = "Rulebook"
         case 5:
             guard let pdfViewController = segue.destination as? PDFReaderViewController else { return }
-            pdfViewController.pdfName = "Judgement_Gods_Beta_v1.9.2"
+            pdfViewController.pdfName = "Judgement_Gods_OpenBeta_v1.0.0"
             pdfViewController.scrollPositionKey = .tournamentPackScrollPosition
             pdfViewController.title = "Gods"
         default:
