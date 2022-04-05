@@ -8,182 +8,201 @@
 
 /* Begin PBXBuildFile section */
 		294A1987245E2184001715E1 /* DemonBlade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 294A1986245E2184001715E1 /* DemonBlade.jpg */; };
-		29678D6725C73EF400CB4A96 /* FactionKrognar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29678D6125C73EF400CB4A96 /* FactionKrognar.jpg */; };
-		29678D6825C73EF400CB4A96 /* FactionTorin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29678D6225C73EF400CB4A96 /* FactionTorin.jpg */; };
-		29678D6925C73EF400CB4A96 /* FactionIsta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29678D6325C73EF400CB4A96 /* FactionIsta.jpg */; };
-		29678D6A25C73EF400CB4A96 /* FactionTomas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29678D6425C73EF400CB4A96 /* FactionTomas.jpg */; };
-		29678D6C25C73EF400CB4A96 /* FactionGrul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29678D6625C73EF400CB4A96 /* FactionGrul.jpg */; };
-		2967D7282671B2DC00C8E146 /* Doenregar3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6A92671B2D600C8E146 /* Doenregar3.jpg */; };
-		2967D7292671B2DC00C8E146 /* Fazeal3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6AA2671B2D600C8E146 /* Fazeal3.jpg */; };
-		2967D72A2671B2DC00C8E146 /* Saiyin3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6AB2671B2D600C8E146 /* Saiyin3.jpg */; };
-		2967D72B2671B2DC00C8E146 /* Lugdrug2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6AC2671B2D600C8E146 /* Lugdrug2.jpg */; };
-		2967D72C2671B2DC00C8E146 /* Isabel4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6AD2671B2D600C8E146 /* Isabel4.jpg */; };
-		2967D72D2671B2DC00C8E146 /* Barnascus3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6AE2671B2D600C8E146 /* Barnascus3.jpg */; };
-		2967D72E2671B2DC00C8E146 /* Cradol2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6AF2671B2D600C8E146 /* Cradol2.jpg */; };
-		2967D72F2671B2DC00C8E146 /* Inferno_Summoned2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6B02671B2D600C8E146 /* Inferno_Summoned2.jpg */; };
-		2967D7302671B2DC00C8E146 /* Kvarto2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6B12671B2D600C8E146 /* Kvarto2.jpg */; };
-		2967D7312671B2DC00C8E146 /* Terra_Summoned.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6B22671B2D600C8E146 /* Terra_Summoned.jpg */; };
-		2967D7322671B2DC00C8E146 /* Skye3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6B32671B2D600C8E146 /* Skye3.jpg */; };
-		2967D7332671B2DC00C8E146 /* Isabel2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6B42671B2D600C8E146 /* Isabel2.jpg */; };
-		2967D7342671B2DC00C8E146 /* Grael.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6B52671B2D600C8E146 /* Grael.jpg */; };
-		2967D7352671B2DC00C8E146 /* Skoll3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6B62671B2D600C8E146 /* Skoll3.jpg */; };
-		2967D7362671B2DC00C8E146 /* Rakkir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6B72671B2D600C8E146 /* Rakkir.jpg */; };
-		2967D7372671B2DC00C8E146 /* Gendris2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6B82671B2D600C8E146 /* Gendris2.jpg */; };
-		2967D7382671B2DC00C8E146 /* Styx3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6B92671B2D700C8E146 /* Styx3.jpg */; };
-		2967D7392671B2DC00C8E146 /* Kvarto3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6BA2671B2D700C8E146 /* Kvarto3.jpg */; };
-		2967D73A2671B2DC00C8E146 /* Haksa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6BB2671B2D700C8E146 /* Haksa.jpg */; };
-		2967D73B2671B2DC00C8E146 /* Skoll2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6BC2671B2D700C8E146 /* Skoll2.jpg */; };
-		2967D73C2671B2DC00C8E146 /* Skeleton2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6BD2671B2D700C8E146 /* Skeleton2.jpg */; };
-		2967D73D2671B2DC00C8E146 /* Lugdrug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6BE2671B2D700C8E146 /* Lugdrug.jpg */; };
-		2967D73E2671B2DC00C8E146 /* Kogan3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6BF2671B2D700C8E146 /* Kogan3.jpg */; };
-		2967D73F2671B2DC00C8E146 /* Marcus2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6C02671B2D700C8E146 /* Marcus2.jpg */; };
-		2967D7402671B2DC00C8E146 /* Brok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6C12671B2D700C8E146 /* Brok.jpg */; };
-		2967D7412671B2DC00C8E146 /* Algarath.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6C22671B2D700C8E146 /* Algarath.jpg */; };
-		2967D7422671B2DC00C8E146 /* Isabel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6C32671B2D700C8E146 /* Isabel.jpg */; };
-		2967D7432671B2DC00C8E146 /* Kruul3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6C42671B2D700C8E146 /* Kruul3.jpg */; };
-		2967D7442671B2DC00C8E146 /* Istariel2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6C52671B2D700C8E146 /* Istariel2.jpg */; };
-		2967D7452671B2DC00C8E146 /* Bale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6C62671B2D700C8E146 /* Bale.jpg */; };
-		2967D7462671B2DC00C8E146 /* Gendris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6C72671B2D700C8E146 /* Gendris.jpg */; };
-		2967D7472671B2DC00C8E146 /* Terra_Summoned2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6C82671B2D700C8E146 /* Terra_Summoned2.jpg */; };
-		2967D7482671B2DC00C8E146 /* Jaegar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6C92671B2D800C8E146 /* Jaegar.jpg */; };
-		2967D7492671B2DC00C8E146 /* Doenregar2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6CA2671B2D800C8E146 /* Doenregar2.jpg */; };
-		2967D74A2671B2DC00C8E146 /* Gendris3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6CB2671B2D800C8E146 /* Gendris3.jpg */; };
-		2967D74B2671B2DC00C8E146 /* Drelgoth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6CC2671B2D800C8E146 /* Drelgoth.jpg */; };
-		2967D74C2671B2DC00C8E146 /* Masuzi3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6CD2671B2D800C8E146 /* Masuzi3.jpg */; };
-		2967D74D2671B2DC00C8E146 /* Lugdrug4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6CE2671B2D800C8E146 /* Lugdrug4.jpg */; };
-		2967D74E2671B2DC00C8E146 /* Kvarto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6CF2671B2D800C8E146 /* Kvarto.jpg */; };
-		2967D74F2671B2DC00C8E146 /* Styx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6D02671B2D800C8E146 /* Styx.jpg */; };
-		2967D7502671B2DC00C8E146 /* Allandir2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6D12671B2D800C8E146 /* Allandir2.jpg */; };
-		2967D7512671B2DC00C8E146 /* Nephenee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6D22671B2D800C8E146 /* Nephenee.jpg */; };
-		2967D7522671B2DC00C8E146 /* Onkura3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6D32671B2D800C8E146 /* Onkura3.jpg */; };
-		2967D7532671B2DC00C8E146 /* Haksa3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6D42671B2D800C8E146 /* Haksa3.jpg */; };
-		2967D7542671B2DC00C8E146 /* Bale2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6D52671B2D800C8E146 /* Bale2.jpg */; };
-		2967D7552671B2DC00C8E146 /* Loribela2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6D62671B2D800C8E146 /* Loribela2.jpg */; };
-		2967D7562671B2DC00C8E146 /* Allandir3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6D72671B2D800C8E146 /* Allandir3.jpg */; };
-		2967D7572671B2DC00C8E146 /* Jaegar2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6D82671B2D900C8E146 /* Jaegar2.jpg */; };
-		2967D7582671B2DC00C8E146 /* Rakkir3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6D92671B2D900C8E146 /* Rakkir3.jpg */; };
-		2967D7592671B2DC00C8E146 /* Barnascus2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6DA2671B2D900C8E146 /* Barnascus2.jpg */; };
-		2967D75A2671B2DC00C8E146 /* Piper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6DB2671B2D900C8E146 /* Piper.jpg */; };
-		2967D75B2671B2DC00C8E146 /* Aria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6DC2671B2D900C8E146 /* Aria.jpg */; };
-		2967D75C2671B2DC00C8E146 /* Sarna2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6DD2671B2D900C8E146 /* Sarna2.jpg */; };
-		2967D75D2671B2DC00C8E146 /* Barnascus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6DE2671B2D900C8E146 /* Barnascus.jpg */; };
-		2967D75E2671B2DC00C8E146 /* Piper2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6DF2671B2D900C8E146 /* Piper2.jpg */; };
-		2967D75F2671B2DC00C8E146 /* Marcus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6E02671B2D900C8E146 /* Marcus.jpg */; };
-		2967D7602671B2DC00C8E146 /* Kruul2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6E12671B2D900C8E146 /* Kruul2.jpg */; };
-		2967D7612671B2DC00C8E146 /* Aschell2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6E22671B2D900C8E146 /* Aschell2.jpg */; };
-		2967D7622671B2DC00C8E146 /* Lugdrug3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6E32671B2D900C8E146 /* Lugdrug3.jpg */; };
-		2967D7632671B2DC00C8E146 /* Skoll4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6E42671B2D900C8E146 /* Skoll4.jpg */; };
-		2967D7642671B2DC00C8E146 /* Aria3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6E52671B2D900C8E146 /* Aria3.jpg */; };
-		2967D7652671B2DC00C8E146 /* Aschell3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6E62671B2D900C8E146 /* Aschell3.jpg */; };
-		2967D7662671B2DC00C8E146 /* Naias2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6E72671B2D900C8E146 /* Naias2.jpg */; };
-		2967D7672671B2DC00C8E146 /* Skye2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6E82671B2D900C8E146 /* Skye2.jpg */; };
-		2967D7682671B2DC00C8E146 /* Brok2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6E92671B2D900C8E146 /* Brok2.jpg */; };
-		2967D7692671B2DC00C8E146 /* Marcus3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6EA2671B2D900C8E146 /* Marcus3.jpg */; };
-		2967D76A2671B2DC00C8E146 /* Cradol3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6EB2671B2D900C8E146 /* Cradol3.jpg */; };
-		2967D76B2671B2DC00C8E146 /* Masuzi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6EC2671B2D900C8E146 /* Masuzi.jpg */; };
-		2967D76C2671B2DC00C8E146 /* Loribela.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6ED2671B2DA00C8E146 /* Loribela.jpg */; };
-		2967D76D2671B2DC00C8E146 /* Istariel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6EE2671B2DA00C8E146 /* Istariel.jpg */; };
-		2967D76E2671B2DC00C8E146 /* Svetlana2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6EF2671B2DA00C8E146 /* Svetlana2.jpg */; };
-		2967D76F2671B2DC00C8E146 /* Bale3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6F02671B2DA00C8E146 /* Bale3.jpg */; };
-		2967D7702671B2DC00C8E146 /* Grael3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6F12671B2DA00C8E146 /* Grael3.jpg */; };
-		2967D7712671B2DC00C8E146 /* Bastian3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6F22671B2DA00C8E146 /* Bastian3.jpg */; };
-		2967D7722671B2DC00C8E146 /* Kain2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6F32671B2DA00C8E146 /* Kain2.jpg */; };
-		2967D7732671B2DC00C8E146 /* Allandir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6F42671B2DA00C8E146 /* Allandir.jpg */; };
-		2967D7742671B2DC00C8E146 /* Nephenee2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6F52671B2DA00C8E146 /* Nephenee2.jpg */; };
-		2967D7752671B2DC00C8E146 /* Bastian2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6F62671B2DA00C8E146 /* Bastian2.jpg */; };
-		2967D7762671B2DC00C8E146 /* Piper3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6F72671B2DA00C8E146 /* Piper3.jpg */; };
-		2967D7772671B2DC00C8E146 /* Kogan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6F82671B2DA00C8E146 /* Kogan.jpg */; };
-		2967D7782671B2DC00C8E146 /* Drelgoth3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6F92671B2DA00C8E146 /* Drelgoth3.jpg */; };
-		2967D7792671B2DC00C8E146 /* Jaegar3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6FA2671B2DA00C8E146 /* Jaegar3.jpg */; };
-		2967D77A2671B2DC00C8E146 /* Skye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6FB2671B2DA00C8E146 /* Skye.jpg */; };
-		2967D77B2671B2DC00C8E146 /* Svetlana3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6FC2671B2DA00C8E146 /* Svetlana3.jpg */; };
-		2967D77C2671B2DC00C8E146 /* Fazeal2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6FD2671B2DA00C8E146 /* Fazeal2.jpg */; };
-		2967D77D2671B2DC00C8E146 /* Sharn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6FE2671B2DA00C8E146 /* Sharn.jpg */; };
-		2967D77E2671B2DC00C8E146 /* Loribela3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6FF2671B2DA00C8E146 /* Loribela3.jpg */; };
-		2967D77F2671B2DC00C8E146 /* Dorgokaan_Summoned2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7002671B2DA00C8E146 /* Dorgokaan_Summoned2.jpg */; };
-		2967D7802671B2DC00C8E146 /* Naias3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7012671B2DA00C8E146 /* Naias3.jpg */; };
-		2967D7812671B2DC00C8E146 /* Cradol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7022671B2DA00C8E146 /* Cradol.jpg */; };
-		2967D7822671B2DC00C8E146 /* Algarath2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7032671B2DA00C8E146 /* Algarath2.jpg */; };
-		2967D7832671B2DC00C8E146 /* Kogan2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7042671B2DB00C8E146 /* Kogan2.jpg */; };
-		2967D7842671B2DC00C8E146 /* Bastian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7052671B2DB00C8E146 /* Bastian.jpg */; };
-		2967D7852671B2DC00C8E146 /* Styx2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7062671B2DB00C8E146 /* Styx2.jpg */; };
-		2967D7862671B2DC00C8E146 /* Inferno_Summoned.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7072671B2DB00C8E146 /* Inferno_Summoned.jpg */; };
-		2967D7872671B2DC00C8E146 /* Haksa2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7082671B2DB00C8E146 /* Haksa2.jpg */; };
-		2967D7882671B2DC00C8E146 /* Kruul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7092671B2DB00C8E146 /* Kruul.jpg */; };
-		2967D7892671B2DC00C8E146 /* Drelgoth2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D70A2671B2DB00C8E146 /* Drelgoth2.jpg */; };
-		2967D78A2671B2DC00C8E146 /* Skeleton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D70B2671B2DB00C8E146 /* Skeleton.jpg */; };
-		2967D78B2671B2DC00C8E146 /* Sharn2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D70C2671B2DB00C8E146 /* Sharn2.jpg */; };
-		2967D78C2671B2DC00C8E146 /* Skoll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D70D2671B2DB00C8E146 /* Skoll.jpg */; };
-		2967D78D2671B2DC00C8E146 /* Svetlana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D70E2671B2DB00C8E146 /* Svetlana.jpg */; };
-		2967D78E2671B2DC00C8E146 /* Saiyin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D70F2671B2DB00C8E146 /* Saiyin.jpg */; };
-		2967D78F2671B2DC00C8E146 /* Dorgokaan_Summoned3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7102671B2DB00C8E146 /* Dorgokaan_Summoned3.jpg */; };
-		2967D7902671B2DC00C8E146 /* Sarna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7112671B2DB00C8E146 /* Sarna.jpg */; };
-		2967D7912671B2DC00C8E146 /* Thorgar2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7122671B2DB00C8E146 /* Thorgar2.jpg */; };
-		2967D7922671B2DC00C8E146 /* Brok3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7132671B2DB00C8E146 /* Brok3.jpg */; };
-		2967D7932671B2DC00C8E146 /* Onkura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7142671B2DB00C8E146 /* Onkura.jpg */; };
-		2967D7942671B2DC00C8E146 /* Onkura2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7152671B2DB00C8E146 /* Onkura2.jpg */; };
-		2967D7952671B2DC00C8E146 /* Kain3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7162671B2DB00C8E146 /* Kain3.jpg */; };
-		2967D7962671B2DC00C8E146 /* Aria2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7172671B2DB00C8E146 /* Aria2.jpg */; };
-		2967D7972671B2DC00C8E146 /* Saiyin2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7182671B2DB00C8E146 /* Saiyin2.jpg */; };
-		2967D7982671B2DC00C8E146 /* Nephenee3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7192671B2DB00C8E146 /* Nephenee3.jpg */; };
-		2967D7992671B2DC00C8E146 /* Fazeal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D71A2671B2DB00C8E146 /* Fazeal.jpg */; };
-		2967D79A2671B2DC00C8E146 /* Aschell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D71B2671B2DB00C8E146 /* Aschell.jpg */; };
-		2967D79B2671B2DC00C8E146 /* Grael2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D71C2671B2DC00C8E146 /* Grael2.jpg */; };
-		2967D79C2671B2DC00C8E146 /* Thorgar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D71D2671B2DC00C8E146 /* Thorgar.jpg */; };
-		2967D79D2671B2DC00C8E146 /* Masuzi2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D71E2671B2DC00C8E146 /* Masuzi2.jpg */; };
-		2967D79E2671B2DC00C8E146 /* Terra_Summoned3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D71F2671B2DC00C8E146 /* Terra_Summoned3.jpg */; };
-		2967D79F2671B2DC00C8E146 /* Doenregar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7202671B2DC00C8E146 /* Doenregar.jpg */; };
-		2967D7A02671B2DC00C8E146 /* Kain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7212671B2DC00C8E146 /* Kain.jpg */; };
-		2967D7A12671B2DC00C8E146 /* Istariel3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7222671B2DC00C8E146 /* Istariel3.jpg */; };
-		2967D7A22671B2DC00C8E146 /* Isabel3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7232671B2DC00C8E146 /* Isabel3.jpg */; };
-		2967D7A32671B2DC00C8E146 /* Sharn3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7242671B2DC00C8E146 /* Sharn3.jpg */; };
-		2967D7A42671B2DC00C8E146 /* Naias.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7252671B2DC00C8E146 /* Naias.jpg */; };
-		2967D7A52671B2DC00C8E146 /* Dorgokaan_Summoned.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7262671B2DC00C8E146 /* Dorgokaan_Summoned.jpg */; };
-		2967D7A62671B2DC00C8E146 /* Rakkir2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7272671B2DC00C8E146 /* Rakkir2.jpg */; };
-		2967D7A92671B2EA00C8E146 /* FactionBruelin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7A82671B2EA00C8E146 /* FactionBruelin.jpg */; };
-		2967D7BC2671B2FB00C8E146 /* Canuckmera2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7AC2671B2FA00C8E146 /* Canuckmera2.jpg */; };
-		2967D7BD2671B2FB00C8E146 /* Terra_Monster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7AD2671B2FA00C8E146 /* Terra_Monster.jpg */; };
-		2967D7BE2671B2FB00C8E146 /* Inferno2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7AE2671B2FA00C8E146 /* Inferno2.jpg */; };
-		2967D7BF2671B2FB00C8E146 /* Gloom2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7AF2671B2FA00C8E146 /* Gloom2.jpg */; };
-		2967D7C02671B2FB00C8E146 /* Ashtooth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7B02671B2FB00C8E146 /* Ashtooth.jpg */; };
-		2967D7C12671B2FB00C8E146 /* Gloom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7B12671B2FB00C8E146 /* Gloom.jpg */; };
-		2967D7C22671B2FB00C8E146 /* Inferno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7B22671B2FB00C8E146 /* Inferno.jpg */; };
-		2967D7C32671B2FB00C8E146 /* Ashtooth2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7B32671B2FB00C8E146 /* Ashtooth2.jpg */; };
-		2967D7C42671B2FB00C8E146 /* Dorgokaan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7B42671B2FB00C8E146 /* Dorgokaan.jpg */; };
-		2967D7C52671B2FB00C8E146 /* Terra_Monster2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7B52671B2FB00C8E146 /* Terra_Monster2.jpg */; };
-		2967D7C62671B2FB00C8E146 /* Vujasha3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7B62671B2FB00C8E146 /* Vujasha3.jpg */; };
-		2967D7C72671B2FB00C8E146 /* Vujasha2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7B72671B2FB00C8E146 /* Vujasha2.jpg */; };
-		2967D7C82671B2FB00C8E146 /* Vujasha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7B82671B2FB00C8E146 /* Vujasha.jpg */; };
-		2967D7C92671B2FB00C8E146 /* Canuckmera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7B92671B2FB00C8E146 /* Canuckmera.jpg */; };
-		2967D7CA2671B2FB00C8E146 /* Dorgokaan2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7BA2671B2FB00C8E146 /* Dorgokaan2.jpg */; };
-		2967D7CB2671B2FB00C8E146 /* Dorgokaan3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7BB2671B2FB00C8E146 /* Dorgokaan3.jpg */; };
-		2967D7D22671B43D00C8E146 /* Judgement_Rule_Book_OpenBeta_v1.2.2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7D12671B43D00C8E146 /* Judgement_Rule_Book_OpenBeta_v1.2.2.pdf */; };
-		2967D7F02671B62000C8E146 /* Zaron.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7D72671B61E00C8E146 /* Zaron.jpg */; };
-		2967D7F12671B62000C8E146 /* Viktor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7D82671B61E00C8E146 /* Viktor.jpg */; };
-		2967D7F22671B62000C8E146 /* Yorgawth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7D92671B61E00C8E146 /* Yorgawth.jpg */; };
-		2967D7F32671B62000C8E146 /* Zaron3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7DA2671B61E00C8E146 /* Zaron3.jpg */; };
-		2967D7F42671B62000C8E146 /* Zhimgigrak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7DB2671B61F00C8E146 /* Zhimgigrak.jpg */; };
-		2967D7F52671B62000C8E146 /* Yorgawth3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7DC2671B61F00C8E146 /* Yorgawth3.jpg */; };
-		2967D7F62671B62000C8E146 /* Zhimgigrak3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7DD2671B61F00C8E146 /* Zhimgigrak3.jpg */; };
-		2967D7F72671B62000C8E146 /* Viktor2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7DE2671B61F00C8E146 /* Viktor2.jpg */; };
-		2967D7F82671B62000C8E146 /* Zaffen2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7DF2671B61F00C8E146 /* Zaffen2.jpg */; };
-		2967D7F92671B62000C8E146 /* Thrommel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7E02671B61F00C8E146 /* Thrommel.jpg */; };
-		2967D7FA2671B62000C8E146 /* Xyvera3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7E12671B61F00C8E146 /* Xyvera3.jpg */; };
-		2967D7FB2671B62000C8E146 /* Zhimgigrak2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7E22671B61F00C8E146 /* Zhimgigrak2.jpg */; };
-		2967D7FC2671B62000C8E146 /* Zhonyja3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7E32671B61F00C8E146 /* Zhonyja3.jpg */; };
-		2967D7FD2671B62000C8E146 /* Zaffen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7E42671B61F00C8E146 /* Zaffen.jpg */; };
-		2967D7FE2671B62000C8E146 /* Thorgar3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7E52671B61F00C8E146 /* Thorgar3.jpg */; };
-		2967D7FF2671B62000C8E146 /* Zhonyja2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7E62671B61F00C8E146 /* Zhonyja2.jpg */; };
-		2967D8002671B62000C8E146 /* Zaffen3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7E72671B61F00C8E146 /* Zaffen3.jpg */; };
-		2967D8012671B62000C8E146 /* Viktor3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7E82671B61F00C8E146 /* Viktor3.jpg */; };
-		2967D8022671B62000C8E146 /* Thrommel2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7E92671B62000C8E146 /* Thrommel2.jpg */; };
-		2967D8032671B62000C8E146 /* Xyvera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7EA2671B62000C8E146 /* Xyvera.jpg */; };
-		2967D8042671B62000C8E146 /* Zaron2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7EB2671B62000C8E146 /* Zaron2.jpg */; };
-		2967D8052671B62000C8E146 /* Yorgawth2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7EC2671B62000C8E146 /* Yorgawth2.jpg */; };
-		2967D8062671B62000C8E146 /* Xyvera2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7ED2671B62000C8E146 /* Xyvera2.jpg */; };
-		2967D8072671B62000C8E146 /* Zhonyja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7EE2671B62000C8E146 /* Zhonyja.jpg */; };
-		2967D8082671B62000C8E146 /* Thrommel3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2967D7EF2671B62000C8E146 /* Thrommel3.jpg */; };
-		2997FDD325CDEE4C001FFAED /* Judgement_Gods_OpenBeta_v1.0.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2997FDD125CDEE4C001FFAED /* Judgement_Gods_OpenBeta_v1.0.0.pdf */; };
+		29CA196727FCF9C300E0A70F /* Judgement_Rulebook_Version_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29CA196627FCF9C300E0A70F /* Judgement_Rulebook_Version_2.pdf */; };
+		29CA197527FCF9DC00E0A70F /* Canuckmera2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA196827FCF9DC00E0A70F /* Canuckmera2.jpg */; };
+		29CA197627FCF9DC00E0A70F /* Canuckmera3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA196927FCF9DC00E0A70F /* Canuckmera3.jpg */; };
+		29CA197727FCF9DC00E0A70F /* Terra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA196A27FCF9DC00E0A70F /* Terra.jpg */; };
+		29CA197827FCF9DC00E0A70F /* Terra3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA196B27FCF9DC00E0A70F /* Terra3.jpg */; };
+		29CA197927FCF9DC00E0A70F /* Canuckmera4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA196C27FCF9DC00E0A70F /* Canuckmera4.jpg */; };
+		29CA197A27FCF9DC00E0A70F /* Gloom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA196D27FCF9DC00E0A70F /* Gloom.jpg */; };
+		29CA197B27FCF9DC00E0A70F /* Inferno3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA196E27FCF9DC00E0A70F /* Inferno3.jpg */; };
+		29CA197C27FCF9DC00E0A70F /* Inferno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA196F27FCF9DC00E0A70F /* Inferno.jpg */; };
+		29CA197D27FCF9DC00E0A70F /* Terra2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA197027FCF9DC00E0A70F /* Terra2.jpg */; };
+		29CA197E27FCF9DC00E0A70F /* Inferno2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA197127FCF9DC00E0A70F /* Inferno2.jpg */; };
+		29CA197F27FCF9DC00E0A70F /* Canuckmera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA197227FCF9DC00E0A70F /* Canuckmera.jpg */; };
+		29CA198027FCF9DC00E0A70F /* Gloom2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA197327FCF9DC00E0A70F /* Gloom2.jpg */; };
+		29CA198127FCF9DC00E0A70F /* Gloom3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA197427FCF9DC00E0A70F /* Gloom3.jpg */; };
+		29CA19F827FCFDC400E0A70F /* Gendris5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA198227FCFDBB00E0A70F /* Gendris5.jpg */; };
+		29CA19F927FCFDC400E0A70F /* Cradol2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA198327FCFDBB00E0A70F /* Cradol2.jpg */; };
+		29CA19FA27FCFDC400E0A70F /* Brok4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA198427FCFDBB00E0A70F /* Brok4.jpg */; };
+		29CA19FB27FCFDC400E0A70F /* Onkura2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA198527FCFDBB00E0A70F /* Onkura2.jpg */; };
+		29CA19FC27FCFDC400E0A70F /* Isabel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA198627FCFDBB00E0A70F /* Isabel.jpg */; };
+		29CA19FD27FCFDC400E0A70F /* Piper5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA198727FCFDBB00E0A70F /* Piper5.jpg */; };
+		29CA19FE27FCFDC400E0A70F /* Inferno_Summoned2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA198827FCFDBB00E0A70F /* Inferno_Summoned2.jpg */; };
+		29CA19FF27FCFDC400E0A70F /* Cradol4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA198927FCFDBB00E0A70F /* Cradol4.jpg */; };
+		29CA1A0027FCFDC400E0A70F /* Isabel5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA198A27FCFDBB00E0A70F /* Isabel5.jpg */; };
+		29CA1A0127FCFDC400E0A70F /* Doenregar5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA198B27FCFDBB00E0A70F /* Doenregar5.jpg */; };
+		29CA1A0227FCFDC400E0A70F /* Kogan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA198C27FCFDBB00E0A70F /* Kogan.jpg */; };
+		29CA1A0327FCFDC400E0A70F /* Isabel3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA198D27FCFDBB00E0A70F /* Isabel3.jpg */; };
+		29CA1A0427FCFDC400E0A70F /* Marcus5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA198E27FCFDBB00E0A70F /* Marcus5.jpg */; };
+		29CA1A0527FCFDC400E0A70F /* Maltique3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA198F27FCFDBB00E0A70F /* Maltique3.jpg */; };
+		29CA1A0627FCFDC400E0A70F /* Allandir5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199027FCFDBB00E0A70F /* Allandir5.jpg */; };
+		29CA1A0727FCFDC400E0A70F /* Allandir2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199127FCFDBB00E0A70F /* Allandir2.jpg */; };
+		29CA1A0827FCFDC400E0A70F /* Doenregar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199227FCFDBB00E0A70F /* Doenregar.jpg */; };
+		29CA1A0927FCFDC400E0A70F /* Lugdrug2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199327FCFDBB00E0A70F /* Lugdrug2.jpg */; };
+		29CA1A0A27FCFDC400E0A70F /* Maltique2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199427FCFDBC00E0A70F /* Maltique2.jpg */; };
+		29CA1A0B27FCFDC400E0A70F /* Kruul5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199527FCFDBC00E0A70F /* Kruul5.jpg */; };
+		29CA1A0C27FCFDC400E0A70F /* Bastian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199627FCFDBC00E0A70F /* Bastian.jpg */; };
+		29CA1A0D27FCFDC400E0A70F /* Allandir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199727FCFDBC00E0A70F /* Allandir.jpg */; };
+		29CA1A0E27FCFDC400E0A70F /* Drelgoth4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199827FCFDBC00E0A70F /* Drelgoth4.jpg */; };
+		29CA1A0F27FCFDC400E0A70F /* Doenregar3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199927FCFDBC00E0A70F /* Doenregar3.jpg */; };
+		29CA1A1027FCFDC400E0A70F /* Kain4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199A27FCFDBC00E0A70F /* Kain4.jpg */; };
+		29CA1A1127FCFDC400E0A70F /* Marcus4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199B27FCFDBC00E0A70F /* Marcus4.jpg */; };
+		29CA1A1227FCFDC400E0A70F /* Fazeal5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199C27FCFDBC00E0A70F /* Fazeal5.jpg */; };
+		29CA1A1327FCFDC400E0A70F /* Fazeal4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199D27FCFDBC00E0A70F /* Fazeal4.jpg */; };
+		29CA1A1427FCFDC400E0A70F /* Kain2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199E27FCFDBC00E0A70F /* Kain2.jpg */; };
+		29CA1A1527FCFDC400E0A70F /* Naias.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA199F27FCFDBC00E0A70F /* Naias.jpg */; };
+		29CA1A1627FCFDC400E0A70F /* Onkura3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19A027FCFDBC00E0A70F /* Onkura3.jpg */; };
+		29CA1A1727FCFDC400E0A70F /* Cradol3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19A127FCFDBC00E0A70F /* Cradol3.jpg */; };
+		29CA1A1827FCFDC400E0A70F /* Drelgoth2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19A227FCFDBD00E0A70F /* Drelgoth2.jpg */; };
+		29CA1A1927FCFDC400E0A70F /* Istariel2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19A327FCFDBD00E0A70F /* Istariel2.jpg */; };
+		29CA1A1A27FCFDC400E0A70F /* Kain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19A427FCFDBD00E0A70F /* Kain.jpg */; };
+		29CA1A1B27FCFDC400E0A70F /* Gendris4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19A527FCFDBD00E0A70F /* Gendris4.jpg */; };
+		29CA1A1C27FCFDC400E0A70F /* Maltique.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19A627FCFDBD00E0A70F /* Maltique.jpg */; };
+		29CA1A1D27FCFDC400E0A70F /* Masuzi5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19A727FCFDBD00E0A70F /* Masuzi5.jpg */; };
+		29CA1A1E27FCFDC400E0A70F /* Naias3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19A827FCFDBD00E0A70F /* Naias3.jpg */; };
+		29CA1A1F27FCFDC400E0A70F /* Barnascus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19A927FCFDBD00E0A70F /* Barnascus.jpg */; };
+		29CA1A2027FCFDC400E0A70F /* Kruul4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19AA27FCFDBD00E0A70F /* Kruul4.jpg */; };
+		29CA1A2127FCFDC400E0A70F /* Lugdrug3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19AB27FCFDBD00E0A70F /* Lugdrug3.jpg */; };
+		29CA1A2227FCFDC400E0A70F /* Masuzi2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19AC27FCFDBD00E0A70F /* Masuzi2.jpg */; };
+		29CA1A2327FCFDC400E0A70F /* Kain3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19AD27FCFDBE00E0A70F /* Kain3.jpg */; };
+		29CA1A2427FCFDC400E0A70F /* Aschell5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19AE27FCFDBE00E0A70F /* Aschell5.jpg */; };
+		29CA1A2527FCFDC400E0A70F /* Kogan2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19AF27FCFDBE00E0A70F /* Kogan2.jpg */; };
+		29CA1A2627FCFDC400E0A70F /* Barnascus2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19B027FCFDBE00E0A70F /* Barnascus2.jpg */; };
+		29CA1A2727FCFDC400E0A70F /* Kruul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19B127FCFDBE00E0A70F /* Kruul.jpg */; };
+		29CA1A2827FCFDC400E0A70F /* Gendris3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19B227FCFDBE00E0A70F /* Gendris3.jpg */; };
+		29CA1A2927FCFDC400E0A70F /* Lugdrug5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19B327FCFDBE00E0A70F /* Lugdrug5.jpg */; };
+		29CA1A2A27FCFDC400E0A70F /* Doenregar2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19B427FCFDBE00E0A70F /* Doenregar2.jpg */; };
+		29CA1A2B27FCFDC400E0A70F /* Drelgoth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19B527FCFDBE00E0A70F /* Drelgoth.jpg */; };
+		29CA1A2C27FCFDC400E0A70F /* Onkura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19B627FCFDBE00E0A70F /* Onkura.jpg */; };
+		29CA1A2D27FCFDC400E0A70F /* Piper3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19B727FCFDBF00E0A70F /* Piper3.jpg */; };
+		29CA1A2E27FCFDC400E0A70F /* Brok3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19B827FCFDBF00E0A70F /* Brok3.jpg */; };
+		29CA1A2F27FCFDC400E0A70F /* Maltique4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19B927FCFDBF00E0A70F /* Maltique4.jpg */; };
+		29CA1A3027FCFDC400E0A70F /* Bastian5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19BA27FCFDBF00E0A70F /* Bastian5.jpg */; };
+		29CA1A3127FCFDC400E0A70F /* Drelgoth5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19BB27FCFDBF00E0A70F /* Drelgoth5.jpg */; };
+		29CA1A3227FCFDC400E0A70F /* Bastian3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19BC27FCFDBF00E0A70F /* Bastian3.jpg */; };
+		29CA1A3327FCFDC400E0A70F /* Lugdrug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19BD27FCFDBF00E0A70F /* Lugdrug.jpg */; };
+		29CA1A3427FCFDC400E0A70F /* Piper2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19BE27FCFDBF00E0A70F /* Piper2.jpg */; };
+		29CA1A3527FCFDC400E0A70F /* Brok5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19BF27FCFDBF00E0A70F /* Brok5.jpg */; };
+		29CA1A3627FCFDC400E0A70F /* Istariel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19C027FCFDBF00E0A70F /* Istariel.jpg */; };
+		29CA1A3727FCFDC400E0A70F /* Marcus3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19C127FCFDBF00E0A70F /* Marcus3.jpg */; };
+		29CA1A3827FCFDC400E0A70F /* Aria3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19C227FCFDC000E0A70F /* Aria3.jpg */; };
+		29CA1A3927FCFDC400E0A70F /* Kogan4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19C327FCFDC000E0A70F /* Kogan4.jpg */; };
+		29CA1A3A27FCFDC400E0A70F /* Allandir3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19C427FCFDC000E0A70F /* Allandir3.jpg */; };
+		29CA1A3B27FCFDC400E0A70F /* Marcus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19C527FCFDC000E0A70F /* Marcus.jpg */; };
+		29CA1A3C27FCFDC400E0A70F /* Gendris2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19C627FCFDC000E0A70F /* Gendris2.jpg */; };
+		29CA1A3D27FCFDC400E0A70F /* Istariel5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19C727FCFDC000E0A70F /* Istariel5.jpg */; };
+		29CA1A3E27FCFDC400E0A70F /* Kruul2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19C827FCFDC000E0A70F /* Kruul2.jpg */; };
+		29CA1A3F27FCFDC400E0A70F /* Kruul3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19C927FCFDC000E0A70F /* Kruul3.jpg */; };
+		29CA1A4027FCFDC400E0A70F /* Doenregar4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19CA27FCFDC000E0A70F /* Doenregar4.jpg */; };
+		29CA1A4127FCFDC400E0A70F /* Masuzi4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19CB27FCFDC000E0A70F /* Masuzi4.jpg */; };
+		29CA1A4227FCFDC400E0A70F /* Isabel2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19CC27FCFDC000E0A70F /* Isabel2.jpg */; };
+		29CA1A4327FCFDC400E0A70F /* Barnascus3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19CD27FCFDC100E0A70F /* Barnascus3.jpg */; };
+		29CA1A4427FCFDC400E0A70F /* Aria5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19CE27FCFDC100E0A70F /* Aria5.jpg */; };
+		29CA1A4527FCFDC400E0A70F /* Masuzi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19CF27FCFDC100E0A70F /* Masuzi.jpg */; };
+		29CA1A4627FCFDC400E0A70F /* Brok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19D027FCFDC100E0A70F /* Brok.jpg */; };
+		29CA1A4727FCFDC400E0A70F /* Bastian4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19D127FCFDC100E0A70F /* Bastian4.jpg */; };
+		29CA1A4827FCFDC400E0A70F /* Onkura5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19D227FCFDC100E0A70F /* Onkura5.jpg */; };
+		29CA1A4927FCFDC400E0A70F /* Barnascus5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19D327FCFDC100E0A70F /* Barnascus5.jpg */; };
+		29CA1A4A27FCFDC400E0A70F /* Aschell4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19D427FCFDC100E0A70F /* Aschell4.jpg */; };
+		29CA1A4B27FCFDC400E0A70F /* Lugdrug4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19D527FCFDC100E0A70F /* Lugdrug4.jpg */; };
+		29CA1A4C27FCFDC400E0A70F /* Barnascus4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19D627FCFDC100E0A70F /* Barnascus4.jpg */; };
+		29CA1A4D27FCFDC400E0A70F /* Cradol5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19D727FCFDC100E0A70F /* Cradol5.jpg */; };
+		29CA1A4E27FCFDC400E0A70F /* Isabel4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19D827FCFDC100E0A70F /* Isabel4.jpg */; };
+		29CA1A4F27FCFDC400E0A70F /* Naias2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19D927FCFDC200E0A70F /* Naias2.jpg */; };
+		29CA1A5027FCFDC400E0A70F /* Drelgoth3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19DA27FCFDC200E0A70F /* Drelgoth3.jpg */; };
+		29CA1A5127FCFDC400E0A70F /* Aschell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19DB27FCFDC200E0A70F /* Aschell.jpg */; };
+		29CA1A5227FCFDC400E0A70F /* Masuzi3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19DC27FCFDC200E0A70F /* Masuzi3.jpg */; };
+		29CA1A5327FCFDC400E0A70F /* Bastian2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19DD27FCFDC200E0A70F /* Bastian2.jpg */; };
+		29CA1A5427FCFDC400E0A70F /* Inferno_Summoned3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19DE27FCFDC200E0A70F /* Inferno_Summoned3.jpg */; };
+		29CA1A5527FCFDC400E0A70F /* Fazeal3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19DF27FCFDC200E0A70F /* Fazeal3.jpg */; };
+		29CA1A5627FCFDC400E0A70F /* Kogan5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19E027FCFDC200E0A70F /* Kogan5.jpg */; };
+		29CA1A5727FCFDC400E0A70F /* Marcus2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19E127FCFDC200E0A70F /* Marcus2.jpg */; };
+		29CA1A5827FCFDC400E0A70F /* Aria2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19E227FCFDC200E0A70F /* Aria2.jpg */; };
+		29CA1A5927FCFDC400E0A70F /* Piper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19E327FCFDC200E0A70F /* Piper.jpg */; };
+		29CA1A5A27FCFDC400E0A70F /* Brok2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19E427FCFDC200E0A70F /* Brok2.jpg */; };
+		29CA1A5B27FCFDC400E0A70F /* Kogan3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19E527FCFDC300E0A70F /* Kogan3.jpg */; };
+		29CA1A5C27FCFDC400E0A70F /* Onkura4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19E627FCFDC300E0A70F /* Onkura4.jpg */; };
+		29CA1A5D27FCFDC400E0A70F /* Inferno_Summoned.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19E727FCFDC300E0A70F /* Inferno_Summoned.jpg */; };
+		29CA1A5E27FCFDC400E0A70F /* Naias4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19E827FCFDC300E0A70F /* Naias4.jpg */; };
+		29CA1A5F27FCFDC400E0A70F /* Kain5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19E927FCFDC300E0A70F /* Kain5.jpg */; };
+		29CA1A6027FCFDC400E0A70F /* Fazeal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19EA27FCFDC300E0A70F /* Fazeal.jpg */; };
+		29CA1A6127FCFDC400E0A70F /* Aria4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19EB27FCFDC300E0A70F /* Aria4.jpg */; };
+		29CA1A6227FCFDC400E0A70F /* Naias5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19EC27FCFDC300E0A70F /* Naias5.jpg */; };
+		29CA1A6327FCFDC400E0A70F /* Aschell3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19ED27FCFDC300E0A70F /* Aschell3.jpg */; };
+		29CA1A6427FCFDC400E0A70F /* Gendris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19EE27FCFDC300E0A70F /* Gendris.jpg */; };
+		29CA1A6527FCFDC400E0A70F /* Aria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19EF27FCFDC300E0A70F /* Aria.jpg */; };
+		29CA1A6627FCFDC400E0A70F /* Istariel4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19F027FCFDC300E0A70F /* Istariel4.jpg */; };
+		29CA1A6727FCFDC400E0A70F /* Cradol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19F127FCFDC300E0A70F /* Cradol.jpg */; };
+		29CA1A6827FCFDC400E0A70F /* Fazeal2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19F227FCFDC400E0A70F /* Fazeal2.jpg */; };
+		29CA1A6927FCFDC400E0A70F /* Allandir4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19F327FCFDC400E0A70F /* Allandir4.jpg */; };
+		29CA1A6A27FCFDC400E0A70F /* Istariel3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19F427FCFDC400E0A70F /* Istariel3.jpg */; };
+		29CA1A6B27FCFDC400E0A70F /* Piper4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19F527FCFDC400E0A70F /* Piper4.jpg */; };
+		29CA1A6C27FCFDC400E0A70F /* Maltique5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19F627FCFDC400E0A70F /* Maltique5.jpg */; };
+		29CA1A6D27FCFDC400E0A70F /* Aschell2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19F727FCFDC400E0A70F /* Aschell2.jpg */; };
+		29CA1A7427FCFDDA00E0A70F /* FactionTorin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A6E27FCFDD900E0A70F /* FactionTorin.jpg */; };
+		29CA1A7527FCFDDA00E0A70F /* FactionBruelin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A6F27FCFDD900E0A70F /* FactionBruelin.jpg */; };
+		29CA1A7627FCFDDA00E0A70F /* FactionGrul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A7027FCFDD900E0A70F /* FactionGrul.jpg */; };
+		29CA1A7727FCFDDA00E0A70F /* FactionTomas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A7127FCFDDA00E0A70F /* FactionTomas.jpg */; };
+		29CA1A7827FCFDDA00E0A70F /* FactionKrognar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A7227FCFDDA00E0A70F /* FactionKrognar.jpg */; };
+		29CA1A7927FCFDDA00E0A70F /* FactionIsta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A7327FCFDDA00E0A70F /* FactionIsta.jpg */; };
+		29CA1AB327FCFF0700E0A70F /* Skye2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A7A27FCFF0300E0A70F /* Skye2.jpg */; };
+		29CA1AB427FCFF0700E0A70F /* Skoll4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A7B27FCFF0300E0A70F /* Skoll4.jpg */; };
+		29CA1AB527FCFF0700E0A70F /* Thorgar5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A7C27FCFF0300E0A70F /* Thorgar5.jpg */; };
+		29CA1AB627FCFF0700E0A70F /* Skoll3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A7D27FCFF0300E0A70F /* Skoll3.jpg */; };
+		29CA1AB727FCFF0700E0A70F /* Xyvera2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A7E27FCFF0300E0A70F /* Xyvera2.jpg */; };
+		29CA1AB827FCFF0700E0A70F /* Zhimgigrak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A7F27FCFF0300E0A70F /* Zhimgigrak.jpg */; };
+		29CA1AB927FCFF0700E0A70F /* Terra_Summoned2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8027FCFF0300E0A70F /* Terra_Summoned2.jpg */; };
+		29CA1ABA27FCFF0700E0A70F /* Skye5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8127FCFF0300E0A70F /* Skye5.jpg */; };
+		29CA1ABB27FCFF0700E0A70F /* Skeleton3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8227FCFF0400E0A70F /* Skeleton3.jpg */; };
+		29CA1ABC27FCFF0700E0A70F /* Thorgar2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8327FCFF0400E0A70F /* Thorgar2.jpg */; };
+		29CA1ABD27FCFF0700E0A70F /* Zaron5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8427FCFF0400E0A70F /* Zaron5.jpg */; };
+		29CA1ABE27FCFF0700E0A70F /* Saiyin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8527FCFF0400E0A70F /* Saiyin.jpg */; };
+		29CA1ABF27FCFF0700E0A70F /* Rakkir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8627FCFF0400E0A70F /* Rakkir.jpg */; };
+		29CA1AC027FCFF0700E0A70F /* Xyvera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8727FCFF0400E0A70F /* Xyvera.jpg */; };
+		29CA1AC127FCFF0700E0A70F /* Terra_Summoned.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8827FCFF0400E0A70F /* Terra_Summoned.jpg */; };
+		29CA1AC227FCFF0700E0A70F /* Thrommel2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8927FCFF0400E0A70F /* Thrommel2.jpg */; };
+		29CA1AC327FCFF0700E0A70F /* Thrommel5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8A27FCFF0400E0A70F /* Thrommel5.jpg */; };
+		29CA1AC427FCFF0700E0A70F /* Zhimgigrak2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8B27FCFF0400E0A70F /* Zhimgigrak2.jpg */; };
+		29CA1AC527FCFF0700E0A70F /* Saiyin2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8C27FCFF0400E0A70F /* Saiyin2.jpg */; };
+		29CA1AC627FCFF0700E0A70F /* Zaron3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8D27FCFF0400E0A70F /* Zaron3.jpg */; };
+		29CA1AC727FCFF0700E0A70F /* Thrommel4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8E27FCFF0400E0A70F /* Thrommel4.jpg */; };
+		29CA1AC827FCFF0700E0A70F /* Skye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A8F27FCFF0400E0A70F /* Skye.jpg */; };
+		29CA1AC927FCFF0700E0A70F /* Zaron.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9027FCFF0400E0A70F /* Zaron.jpg */; };
+		29CA1ACA27FCFF0700E0A70F /* Xyvera5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9127FCFF0400E0A70F /* Xyvera5.jpg */; };
+		29CA1ACB27FCFF0700E0A70F /* Thorgar3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9227FCFF0500E0A70F /* Thorgar3.jpg */; };
+		29CA1ACC27FCFF0700E0A70F /* Thrommel3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9327FCFF0500E0A70F /* Thrommel3.jpg */; };
+		29CA1ACD27FCFF0700E0A70F /* Zhimgigrak3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9427FCFF0500E0A70F /* Zhimgigrak3.jpg */; };
+		29CA1ACE27FCFF0700E0A70F /* Zhonyja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9527FCFF0500E0A70F /* Zhonyja.jpg */; };
+		29CA1ACF27FCFF0700E0A70F /* Zhimgigrak4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9627FCFF0500E0A70F /* Zhimgigrak4.jpg */; };
+		29CA1AD027FCFF0700E0A70F /* Zaron2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9727FCFF0500E0A70F /* Zaron2.jpg */; };
+		29CA1AD127FCFF0700E0A70F /* Thorgar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9827FCFF0500E0A70F /* Thorgar.jpg */; };
+		29CA1AD227FCFF0700E0A70F /* Rakkir4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9927FCFF0500E0A70F /* Rakkir4.jpg */; };
+		29CA1AD327FCFF0700E0A70F /* Saiyin5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9A27FCFF0500E0A70F /* Saiyin5.jpg */; };
+		29CA1AD427FCFF0700E0A70F /* Skye4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9B27FCFF0500E0A70F /* Skye4.jpg */; };
+		29CA1AD527FCFF0700E0A70F /* Terra_Summoned3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9C27FCFF0500E0A70F /* Terra_Summoned3.jpg */; };
+		29CA1AD627FCFF0700E0A70F /* Skeleton2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9D27FCFF0500E0A70F /* Skeleton2.jpg */; };
+		29CA1AD727FCFF0700E0A70F /* Xyvera4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9E27FCFF0500E0A70F /* Xyvera4.jpg */; };
+		29CA1AD827FCFF0700E0A70F /* Zhonyja4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1A9F27FCFF0500E0A70F /* Zhonyja4.jpg */; };
+		29CA1AD927FCFF0700E0A70F /* Thorgar4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AA027FCFF0500E0A70F /* Thorgar4.jpg */; };
+		29CA1ADA27FCFF0700E0A70F /* Skeleton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AA127FCFF0600E0A70F /* Skeleton.jpg */; };
+		29CA1ADB27FCFF0700E0A70F /* Skye3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AA227FCFF0600E0A70F /* Skye3.jpg */; };
+		29CA1ADC27FCFF0700E0A70F /* Skoll6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AA327FCFF0600E0A70F /* Skoll6.jpg */; };
+		29CA1ADD27FCFF0700E0A70F /* Rakkir3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AA427FCFF0600E0A70F /* Rakkir3.jpg */; };
+		29CA1ADE27FCFF0700E0A70F /* Xyvera3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AA527FCFF0600E0A70F /* Xyvera3.jpg */; };
+		29CA1ADF27FCFF0700E0A70F /* Rakkir5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AA627FCFF0600E0A70F /* Rakkir5.jpg */; };
+		29CA1AE027FCFF0700E0A70F /* Zaron4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AA727FCFF0600E0A70F /* Zaron4.jpg */; };
+		29CA1AE127FCFF0700E0A70F /* Thrommel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AA827FCFF0600E0A70F /* Thrommel.jpg */; };
+		29CA1AE227FCFF0700E0A70F /* Saiyin4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AA927FCFF0600E0A70F /* Saiyin4.jpg */; };
+		29CA1AE327FCFF0700E0A70F /* Skoll2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AAA27FCFF0600E0A70F /* Skoll2.jpg */; };
+		29CA1AE427FCFF0700E0A70F /* Zhonyja2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AAB27FCFF0600E0A70F /* Zhonyja2.jpg */; };
+		29CA1AE527FCFF0700E0A70F /* Rakkir2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AAC27FCFF0600E0A70F /* Rakkir2.jpg */; };
+		29CA1AE627FCFF0700E0A70F /* Zhonyja5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AAD27FCFF0600E0A70F /* Zhonyja5.jpg */; };
+		29CA1AE727FCFF0700E0A70F /* Zhimgigrak5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AAE27FCFF0600E0A70F /* Zhimgigrak5.jpg */; };
+		29CA1AE827FCFF0700E0A70F /* Saiyin3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AAF27FCFF0600E0A70F /* Saiyin3.jpg */; };
+		29CA1AE927FCFF0700E0A70F /* Skoll5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AB027FCFF0600E0A70F /* Skoll5.jpg */; };
+		29CA1AEA27FCFF0700E0A70F /* Skoll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AB127FCFF0600E0A70F /* Skoll.jpg */; };
+		29CA1AEB27FCFF0700E0A70F /* Zhonyja3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29CA1AB227FCFF0700E0A70F /* Zhonyja3.jpg */; };
 		80F8C7AC011E26F5FAF9D1FF /* Pods_Judgement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAA99B97ECB4F9AEB3DF51A /* Pods_Judgement.framework */; };
 		A70D8329200A4AC50090B1CE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70D8328200A4AC50090B1CE /* UIView.swift */; };
 		A71AFD3E20055E10006B8051 /* J_only_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AFD3D20055E0F006B8051 /* J_only_logo.png */; };
@@ -277,182 +296,201 @@
 
 /* Begin PBXFileReference section */
 		294A1986245E2184001715E1 /* DemonBlade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DemonBlade.jpg; sourceTree = "<group>"; };
-		29678D6125C73EF400CB4A96 /* FactionKrognar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FactionKrognar.jpg; sourceTree = "<group>"; };
-		29678D6225C73EF400CB4A96 /* FactionTorin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FactionTorin.jpg; sourceTree = "<group>"; };
-		29678D6325C73EF400CB4A96 /* FactionIsta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FactionIsta.jpg; sourceTree = "<group>"; };
-		29678D6425C73EF400CB4A96 /* FactionTomas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FactionTomas.jpg; sourceTree = "<group>"; };
-		29678D6625C73EF400CB4A96 /* FactionGrul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FactionGrul.jpg; sourceTree = "<group>"; };
-		2967D6A92671B2D600C8E146 /* Doenregar3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Doenregar3.jpg; sourceTree = "<group>"; };
-		2967D6AA2671B2D600C8E146 /* Fazeal3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fazeal3.jpg; sourceTree = "<group>"; };
-		2967D6AB2671B2D600C8E146 /* Saiyin3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saiyin3.jpg; sourceTree = "<group>"; };
-		2967D6AC2671B2D600C8E146 /* Lugdrug2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lugdrug2.jpg; sourceTree = "<group>"; };
-		2967D6AD2671B2D600C8E146 /* Isabel4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isabel4.jpg; sourceTree = "<group>"; };
-		2967D6AE2671B2D600C8E146 /* Barnascus3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barnascus3.jpg; sourceTree = "<group>"; };
-		2967D6AF2671B2D600C8E146 /* Cradol2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cradol2.jpg; sourceTree = "<group>"; };
-		2967D6B02671B2D600C8E146 /* Inferno_Summoned2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Inferno_Summoned2.jpg; sourceTree = "<group>"; };
-		2967D6B12671B2D600C8E146 /* Kvarto2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kvarto2.jpg; sourceTree = "<group>"; };
-		2967D6B22671B2D600C8E146 /* Terra_Summoned.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terra_Summoned.jpg; sourceTree = "<group>"; };
-		2967D6B32671B2D600C8E146 /* Skye3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skye3.jpg; sourceTree = "<group>"; };
-		2967D6B42671B2D600C8E146 /* Isabel2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isabel2.jpg; sourceTree = "<group>"; };
-		2967D6B52671B2D600C8E146 /* Grael.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grael.jpg; sourceTree = "<group>"; };
-		2967D6B62671B2D600C8E146 /* Skoll3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skoll3.jpg; sourceTree = "<group>"; };
-		2967D6B72671B2D600C8E146 /* Rakkir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rakkir.jpg; sourceTree = "<group>"; };
-		2967D6B82671B2D600C8E146 /* Gendris2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gendris2.jpg; sourceTree = "<group>"; };
-		2967D6B92671B2D700C8E146 /* Styx3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Styx3.jpg; sourceTree = "<group>"; };
-		2967D6BA2671B2D700C8E146 /* Kvarto3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kvarto3.jpg; sourceTree = "<group>"; };
-		2967D6BB2671B2D700C8E146 /* Haksa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Haksa.jpg; sourceTree = "<group>"; };
-		2967D6BC2671B2D700C8E146 /* Skoll2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skoll2.jpg; sourceTree = "<group>"; };
-		2967D6BD2671B2D700C8E146 /* Skeleton2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skeleton2.jpg; sourceTree = "<group>"; };
-		2967D6BE2671B2D700C8E146 /* Lugdrug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lugdrug.jpg; sourceTree = "<group>"; };
-		2967D6BF2671B2D700C8E146 /* Kogan3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kogan3.jpg; sourceTree = "<group>"; };
-		2967D6C02671B2D700C8E146 /* Marcus2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marcus2.jpg; sourceTree = "<group>"; };
-		2967D6C12671B2D700C8E146 /* Brok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brok.jpg; sourceTree = "<group>"; };
-		2967D6C22671B2D700C8E146 /* Algarath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Algarath.jpg; sourceTree = "<group>"; };
-		2967D6C32671B2D700C8E146 /* Isabel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isabel.jpg; sourceTree = "<group>"; };
-		2967D6C42671B2D700C8E146 /* Kruul3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kruul3.jpg; sourceTree = "<group>"; };
-		2967D6C52671B2D700C8E146 /* Istariel2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Istariel2.jpg; sourceTree = "<group>"; };
-		2967D6C62671B2D700C8E146 /* Bale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bale.jpg; sourceTree = "<group>"; };
-		2967D6C72671B2D700C8E146 /* Gendris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gendris.jpg; sourceTree = "<group>"; };
-		2967D6C82671B2D700C8E146 /* Terra_Summoned2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terra_Summoned2.jpg; sourceTree = "<group>"; };
-		2967D6C92671B2D800C8E146 /* Jaegar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jaegar.jpg; sourceTree = "<group>"; };
-		2967D6CA2671B2D800C8E146 /* Doenregar2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Doenregar2.jpg; sourceTree = "<group>"; };
-		2967D6CB2671B2D800C8E146 /* Gendris3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gendris3.jpg; sourceTree = "<group>"; };
-		2967D6CC2671B2D800C8E146 /* Drelgoth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Drelgoth.jpg; sourceTree = "<group>"; };
-		2967D6CD2671B2D800C8E146 /* Masuzi3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Masuzi3.jpg; sourceTree = "<group>"; };
-		2967D6CE2671B2D800C8E146 /* Lugdrug4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lugdrug4.jpg; sourceTree = "<group>"; };
-		2967D6CF2671B2D800C8E146 /* Kvarto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kvarto.jpg; sourceTree = "<group>"; };
-		2967D6D02671B2D800C8E146 /* Styx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Styx.jpg; sourceTree = "<group>"; };
-		2967D6D12671B2D800C8E146 /* Allandir2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Allandir2.jpg; sourceTree = "<group>"; };
-		2967D6D22671B2D800C8E146 /* Nephenee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nephenee.jpg; sourceTree = "<group>"; };
-		2967D6D32671B2D800C8E146 /* Onkura3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Onkura3.jpg; sourceTree = "<group>"; };
-		2967D6D42671B2D800C8E146 /* Haksa3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Haksa3.jpg; sourceTree = "<group>"; };
-		2967D6D52671B2D800C8E146 /* Bale2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bale2.jpg; sourceTree = "<group>"; };
-		2967D6D62671B2D800C8E146 /* Loribela2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Loribela2.jpg; sourceTree = "<group>"; };
-		2967D6D72671B2D800C8E146 /* Allandir3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Allandir3.jpg; sourceTree = "<group>"; };
-		2967D6D82671B2D900C8E146 /* Jaegar2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jaegar2.jpg; sourceTree = "<group>"; };
-		2967D6D92671B2D900C8E146 /* Rakkir3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rakkir3.jpg; sourceTree = "<group>"; };
-		2967D6DA2671B2D900C8E146 /* Barnascus2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barnascus2.jpg; sourceTree = "<group>"; };
-		2967D6DB2671B2D900C8E146 /* Piper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Piper.jpg; sourceTree = "<group>"; };
-		2967D6DC2671B2D900C8E146 /* Aria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aria.jpg; sourceTree = "<group>"; };
-		2967D6DD2671B2D900C8E146 /* Sarna2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sarna2.jpg; sourceTree = "<group>"; };
-		2967D6DE2671B2D900C8E146 /* Barnascus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barnascus.jpg; sourceTree = "<group>"; };
-		2967D6DF2671B2D900C8E146 /* Piper2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Piper2.jpg; sourceTree = "<group>"; };
-		2967D6E02671B2D900C8E146 /* Marcus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marcus.jpg; sourceTree = "<group>"; };
-		2967D6E12671B2D900C8E146 /* Kruul2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kruul2.jpg; sourceTree = "<group>"; };
-		2967D6E22671B2D900C8E146 /* Aschell2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aschell2.jpg; sourceTree = "<group>"; };
-		2967D6E32671B2D900C8E146 /* Lugdrug3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lugdrug3.jpg; sourceTree = "<group>"; };
-		2967D6E42671B2D900C8E146 /* Skoll4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skoll4.jpg; sourceTree = "<group>"; };
-		2967D6E52671B2D900C8E146 /* Aria3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aria3.jpg; sourceTree = "<group>"; };
-		2967D6E62671B2D900C8E146 /* Aschell3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aschell3.jpg; sourceTree = "<group>"; };
-		2967D6E72671B2D900C8E146 /* Naias2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Naias2.jpg; sourceTree = "<group>"; };
-		2967D6E82671B2D900C8E146 /* Skye2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skye2.jpg; sourceTree = "<group>"; };
-		2967D6E92671B2D900C8E146 /* Brok2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brok2.jpg; sourceTree = "<group>"; };
-		2967D6EA2671B2D900C8E146 /* Marcus3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marcus3.jpg; sourceTree = "<group>"; };
-		2967D6EB2671B2D900C8E146 /* Cradol3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cradol3.jpg; sourceTree = "<group>"; };
-		2967D6EC2671B2D900C8E146 /* Masuzi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Masuzi.jpg; sourceTree = "<group>"; };
-		2967D6ED2671B2DA00C8E146 /* Loribela.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Loribela.jpg; sourceTree = "<group>"; };
-		2967D6EE2671B2DA00C8E146 /* Istariel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Istariel.jpg; sourceTree = "<group>"; };
-		2967D6EF2671B2DA00C8E146 /* Svetlana2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Svetlana2.jpg; sourceTree = "<group>"; };
-		2967D6F02671B2DA00C8E146 /* Bale3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bale3.jpg; sourceTree = "<group>"; };
-		2967D6F12671B2DA00C8E146 /* Grael3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grael3.jpg; sourceTree = "<group>"; };
-		2967D6F22671B2DA00C8E146 /* Bastian3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bastian3.jpg; sourceTree = "<group>"; };
-		2967D6F32671B2DA00C8E146 /* Kain2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kain2.jpg; sourceTree = "<group>"; };
-		2967D6F42671B2DA00C8E146 /* Allandir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Allandir.jpg; sourceTree = "<group>"; };
-		2967D6F52671B2DA00C8E146 /* Nephenee2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nephenee2.jpg; sourceTree = "<group>"; };
-		2967D6F62671B2DA00C8E146 /* Bastian2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bastian2.jpg; sourceTree = "<group>"; };
-		2967D6F72671B2DA00C8E146 /* Piper3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Piper3.jpg; sourceTree = "<group>"; };
-		2967D6F82671B2DA00C8E146 /* Kogan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kogan.jpg; sourceTree = "<group>"; };
-		2967D6F92671B2DA00C8E146 /* Drelgoth3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Drelgoth3.jpg; sourceTree = "<group>"; };
-		2967D6FA2671B2DA00C8E146 /* Jaegar3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jaegar3.jpg; sourceTree = "<group>"; };
-		2967D6FB2671B2DA00C8E146 /* Skye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skye.jpg; sourceTree = "<group>"; };
-		2967D6FC2671B2DA00C8E146 /* Svetlana3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Svetlana3.jpg; sourceTree = "<group>"; };
-		2967D6FD2671B2DA00C8E146 /* Fazeal2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fazeal2.jpg; sourceTree = "<group>"; };
-		2967D6FE2671B2DA00C8E146 /* Sharn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sharn.jpg; sourceTree = "<group>"; };
-		2967D6FF2671B2DA00C8E146 /* Loribela3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Loribela3.jpg; sourceTree = "<group>"; };
-		2967D7002671B2DA00C8E146 /* Dorgokaan_Summoned2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan_Summoned2.jpg; sourceTree = "<group>"; };
-		2967D7012671B2DA00C8E146 /* Naias3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Naias3.jpg; sourceTree = "<group>"; };
-		2967D7022671B2DA00C8E146 /* Cradol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cradol.jpg; sourceTree = "<group>"; };
-		2967D7032671B2DA00C8E146 /* Algarath2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Algarath2.jpg; sourceTree = "<group>"; };
-		2967D7042671B2DB00C8E146 /* Kogan2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kogan2.jpg; sourceTree = "<group>"; };
-		2967D7052671B2DB00C8E146 /* Bastian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bastian.jpg; sourceTree = "<group>"; };
-		2967D7062671B2DB00C8E146 /* Styx2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Styx2.jpg; sourceTree = "<group>"; };
-		2967D7072671B2DB00C8E146 /* Inferno_Summoned.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Inferno_Summoned.jpg; sourceTree = "<group>"; };
-		2967D7082671B2DB00C8E146 /* Haksa2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Haksa2.jpg; sourceTree = "<group>"; };
-		2967D7092671B2DB00C8E146 /* Kruul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kruul.jpg; sourceTree = "<group>"; };
-		2967D70A2671B2DB00C8E146 /* Drelgoth2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Drelgoth2.jpg; sourceTree = "<group>"; };
-		2967D70B2671B2DB00C8E146 /* Skeleton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skeleton.jpg; sourceTree = "<group>"; };
-		2967D70C2671B2DB00C8E146 /* Sharn2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sharn2.jpg; sourceTree = "<group>"; };
-		2967D70D2671B2DB00C8E146 /* Skoll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skoll.jpg; sourceTree = "<group>"; };
-		2967D70E2671B2DB00C8E146 /* Svetlana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Svetlana.jpg; sourceTree = "<group>"; };
-		2967D70F2671B2DB00C8E146 /* Saiyin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saiyin.jpg; sourceTree = "<group>"; };
-		2967D7102671B2DB00C8E146 /* Dorgokaan_Summoned3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan_Summoned3.jpg; sourceTree = "<group>"; };
-		2967D7112671B2DB00C8E146 /* Sarna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sarna.jpg; sourceTree = "<group>"; };
-		2967D7122671B2DB00C8E146 /* Thorgar2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thorgar2.jpg; sourceTree = "<group>"; };
-		2967D7132671B2DB00C8E146 /* Brok3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brok3.jpg; sourceTree = "<group>"; };
-		2967D7142671B2DB00C8E146 /* Onkura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Onkura.jpg; sourceTree = "<group>"; };
-		2967D7152671B2DB00C8E146 /* Onkura2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Onkura2.jpg; sourceTree = "<group>"; };
-		2967D7162671B2DB00C8E146 /* Kain3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kain3.jpg; sourceTree = "<group>"; };
-		2967D7172671B2DB00C8E146 /* Aria2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aria2.jpg; sourceTree = "<group>"; };
-		2967D7182671B2DB00C8E146 /* Saiyin2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saiyin2.jpg; sourceTree = "<group>"; };
-		2967D7192671B2DB00C8E146 /* Nephenee3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nephenee3.jpg; sourceTree = "<group>"; };
-		2967D71A2671B2DB00C8E146 /* Fazeal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fazeal.jpg; sourceTree = "<group>"; };
-		2967D71B2671B2DB00C8E146 /* Aschell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aschell.jpg; sourceTree = "<group>"; };
-		2967D71C2671B2DC00C8E146 /* Grael2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grael2.jpg; sourceTree = "<group>"; };
-		2967D71D2671B2DC00C8E146 /* Thorgar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thorgar.jpg; sourceTree = "<group>"; };
-		2967D71E2671B2DC00C8E146 /* Masuzi2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Masuzi2.jpg; sourceTree = "<group>"; };
-		2967D71F2671B2DC00C8E146 /* Terra_Summoned3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terra_Summoned3.jpg; sourceTree = "<group>"; };
-		2967D7202671B2DC00C8E146 /* Doenregar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Doenregar.jpg; sourceTree = "<group>"; };
-		2967D7212671B2DC00C8E146 /* Kain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kain.jpg; sourceTree = "<group>"; };
-		2967D7222671B2DC00C8E146 /* Istariel3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Istariel3.jpg; sourceTree = "<group>"; };
-		2967D7232671B2DC00C8E146 /* Isabel3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isabel3.jpg; sourceTree = "<group>"; };
-		2967D7242671B2DC00C8E146 /* Sharn3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sharn3.jpg; sourceTree = "<group>"; };
-		2967D7252671B2DC00C8E146 /* Naias.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Naias.jpg; sourceTree = "<group>"; };
-		2967D7262671B2DC00C8E146 /* Dorgokaan_Summoned.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan_Summoned.jpg; sourceTree = "<group>"; };
-		2967D7272671B2DC00C8E146 /* Rakkir2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rakkir2.jpg; sourceTree = "<group>"; };
-		2967D7A82671B2EA00C8E146 /* FactionBruelin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FactionBruelin.jpg; sourceTree = "<group>"; };
-		2967D7AC2671B2FA00C8E146 /* Canuckmera2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Canuckmera2.jpg; sourceTree = "<group>"; };
-		2967D7AD2671B2FA00C8E146 /* Terra_Monster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terra_Monster.jpg; sourceTree = "<group>"; };
-		2967D7AE2671B2FA00C8E146 /* Inferno2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Inferno2.jpg; sourceTree = "<group>"; };
-		2967D7AF2671B2FA00C8E146 /* Gloom2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloom2.jpg; sourceTree = "<group>"; };
-		2967D7B02671B2FB00C8E146 /* Ashtooth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ashtooth.jpg; sourceTree = "<group>"; };
-		2967D7B12671B2FB00C8E146 /* Gloom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloom.jpg; sourceTree = "<group>"; };
-		2967D7B22671B2FB00C8E146 /* Inferno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Inferno.jpg; sourceTree = "<group>"; };
-		2967D7B32671B2FB00C8E146 /* Ashtooth2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ashtooth2.jpg; sourceTree = "<group>"; };
-		2967D7B42671B2FB00C8E146 /* Dorgokaan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan.jpg; sourceTree = "<group>"; };
-		2967D7B52671B2FB00C8E146 /* Terra_Monster2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terra_Monster2.jpg; sourceTree = "<group>"; };
-		2967D7B62671B2FB00C8E146 /* Vujasha3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vujasha3.jpg; sourceTree = "<group>"; };
-		2967D7B72671B2FB00C8E146 /* Vujasha2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vujasha2.jpg; sourceTree = "<group>"; };
-		2967D7B82671B2FB00C8E146 /* Vujasha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vujasha.jpg; sourceTree = "<group>"; };
-		2967D7B92671B2FB00C8E146 /* Canuckmera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Canuckmera.jpg; sourceTree = "<group>"; };
-		2967D7BA2671B2FB00C8E146 /* Dorgokaan2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan2.jpg; sourceTree = "<group>"; };
-		2967D7BB2671B2FB00C8E146 /* Dorgokaan3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dorgokaan3.jpg; sourceTree = "<group>"; };
-		2967D7D12671B43D00C8E146 /* Judgement_Rule_Book_OpenBeta_v1.2.2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_Rule_Book_OpenBeta_v1.2.2.pdf; sourceTree = "<group>"; };
-		2967D7D72671B61E00C8E146 /* Zaron.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zaron.jpg; sourceTree = "<group>"; };
-		2967D7D82671B61E00C8E146 /* Viktor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Viktor.jpg; sourceTree = "<group>"; };
-		2967D7D92671B61E00C8E146 /* Yorgawth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yorgawth.jpg; sourceTree = "<group>"; };
-		2967D7DA2671B61E00C8E146 /* Zaron3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zaron3.jpg; sourceTree = "<group>"; };
-		2967D7DB2671B61F00C8E146 /* Zhimgigrak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhimgigrak.jpg; sourceTree = "<group>"; };
-		2967D7DC2671B61F00C8E146 /* Yorgawth3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yorgawth3.jpg; sourceTree = "<group>"; };
-		2967D7DD2671B61F00C8E146 /* Zhimgigrak3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhimgigrak3.jpg; sourceTree = "<group>"; };
-		2967D7DE2671B61F00C8E146 /* Viktor2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Viktor2.jpg; sourceTree = "<group>"; };
-		2967D7DF2671B61F00C8E146 /* Zaffen2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zaffen2.jpg; sourceTree = "<group>"; };
-		2967D7E02671B61F00C8E146 /* Thrommel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thrommel.jpg; sourceTree = "<group>"; };
-		2967D7E12671B61F00C8E146 /* Xyvera3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xyvera3.jpg; sourceTree = "<group>"; };
-		2967D7E22671B61F00C8E146 /* Zhimgigrak2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhimgigrak2.jpg; sourceTree = "<group>"; };
-		2967D7E32671B61F00C8E146 /* Zhonyja3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhonyja3.jpg; sourceTree = "<group>"; };
-		2967D7E42671B61F00C8E146 /* Zaffen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zaffen.jpg; sourceTree = "<group>"; };
-		2967D7E52671B61F00C8E146 /* Thorgar3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thorgar3.jpg; sourceTree = "<group>"; };
-		2967D7E62671B61F00C8E146 /* Zhonyja2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhonyja2.jpg; sourceTree = "<group>"; };
-		2967D7E72671B61F00C8E146 /* Zaffen3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zaffen3.jpg; sourceTree = "<group>"; };
-		2967D7E82671B61F00C8E146 /* Viktor3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Viktor3.jpg; sourceTree = "<group>"; };
-		2967D7E92671B62000C8E146 /* Thrommel2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thrommel2.jpg; sourceTree = "<group>"; };
-		2967D7EA2671B62000C8E146 /* Xyvera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xyvera.jpg; sourceTree = "<group>"; };
-		2967D7EB2671B62000C8E146 /* Zaron2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zaron2.jpg; sourceTree = "<group>"; };
-		2967D7EC2671B62000C8E146 /* Yorgawth2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yorgawth2.jpg; sourceTree = "<group>"; };
-		2967D7ED2671B62000C8E146 /* Xyvera2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xyvera2.jpg; sourceTree = "<group>"; };
-		2967D7EE2671B62000C8E146 /* Zhonyja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhonyja.jpg; sourceTree = "<group>"; };
-		2967D7EF2671B62000C8E146 /* Thrommel3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thrommel3.jpg; sourceTree = "<group>"; };
-		2997FDD125CDEE4C001FFAED /* Judgement_Gods_OpenBeta_v1.0.0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_Gods_OpenBeta_v1.0.0.pdf; sourceTree = "<group>"; };
+		29CA196627FCF9C300E0A70F /* Judgement_Rulebook_Version_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Judgement_Rulebook_Version_2.pdf; sourceTree = "<group>"; };
+		29CA196827FCF9DC00E0A70F /* Canuckmera2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Canuckmera2.jpg; sourceTree = "<group>"; };
+		29CA196927FCF9DC00E0A70F /* Canuckmera3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Canuckmera3.jpg; sourceTree = "<group>"; };
+		29CA196A27FCF9DC00E0A70F /* Terra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terra.jpg; sourceTree = "<group>"; };
+		29CA196B27FCF9DC00E0A70F /* Terra3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terra3.jpg; sourceTree = "<group>"; };
+		29CA196C27FCF9DC00E0A70F /* Canuckmera4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Canuckmera4.jpg; sourceTree = "<group>"; };
+		29CA196D27FCF9DC00E0A70F /* Gloom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloom.jpg; sourceTree = "<group>"; };
+		29CA196E27FCF9DC00E0A70F /* Inferno3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Inferno3.jpg; sourceTree = "<group>"; };
+		29CA196F27FCF9DC00E0A70F /* Inferno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Inferno.jpg; sourceTree = "<group>"; };
+		29CA197027FCF9DC00E0A70F /* Terra2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terra2.jpg; sourceTree = "<group>"; };
+		29CA197127FCF9DC00E0A70F /* Inferno2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Inferno2.jpg; sourceTree = "<group>"; };
+		29CA197227FCF9DC00E0A70F /* Canuckmera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Canuckmera.jpg; sourceTree = "<group>"; };
+		29CA197327FCF9DC00E0A70F /* Gloom2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloom2.jpg; sourceTree = "<group>"; };
+		29CA197427FCF9DC00E0A70F /* Gloom3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloom3.jpg; sourceTree = "<group>"; };
+		29CA198227FCFDBB00E0A70F /* Gendris5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gendris5.jpg; sourceTree = "<group>"; };
+		29CA198327FCFDBB00E0A70F /* Cradol2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cradol2.jpg; sourceTree = "<group>"; };
+		29CA198427FCFDBB00E0A70F /* Brok4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brok4.jpg; sourceTree = "<group>"; };
+		29CA198527FCFDBB00E0A70F /* Onkura2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Onkura2.jpg; sourceTree = "<group>"; };
+		29CA198627FCFDBB00E0A70F /* Isabel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isabel.jpg; sourceTree = "<group>"; };
+		29CA198727FCFDBB00E0A70F /* Piper5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Piper5.jpg; sourceTree = "<group>"; };
+		29CA198827FCFDBB00E0A70F /* Inferno_Summoned2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Inferno_Summoned2.jpg; sourceTree = "<group>"; };
+		29CA198927FCFDBB00E0A70F /* Cradol4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cradol4.jpg; sourceTree = "<group>"; };
+		29CA198A27FCFDBB00E0A70F /* Isabel5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isabel5.jpg; sourceTree = "<group>"; };
+		29CA198B27FCFDBB00E0A70F /* Doenregar5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Doenregar5.jpg; sourceTree = "<group>"; };
+		29CA198C27FCFDBB00E0A70F /* Kogan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kogan.jpg; sourceTree = "<group>"; };
+		29CA198D27FCFDBB00E0A70F /* Isabel3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isabel3.jpg; sourceTree = "<group>"; };
+		29CA198E27FCFDBB00E0A70F /* Marcus5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marcus5.jpg; sourceTree = "<group>"; };
+		29CA198F27FCFDBB00E0A70F /* Maltique3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Maltique3.jpg; sourceTree = "<group>"; };
+		29CA199027FCFDBB00E0A70F /* Allandir5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Allandir5.jpg; sourceTree = "<group>"; };
+		29CA199127FCFDBB00E0A70F /* Allandir2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Allandir2.jpg; sourceTree = "<group>"; };
+		29CA199227FCFDBB00E0A70F /* Doenregar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Doenregar.jpg; sourceTree = "<group>"; };
+		29CA199327FCFDBB00E0A70F /* Lugdrug2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lugdrug2.jpg; sourceTree = "<group>"; };
+		29CA199427FCFDBC00E0A70F /* Maltique2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Maltique2.jpg; sourceTree = "<group>"; };
+		29CA199527FCFDBC00E0A70F /* Kruul5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kruul5.jpg; sourceTree = "<group>"; };
+		29CA199627FCFDBC00E0A70F /* Bastian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bastian.jpg; sourceTree = "<group>"; };
+		29CA199727FCFDBC00E0A70F /* Allandir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Allandir.jpg; sourceTree = "<group>"; };
+		29CA199827FCFDBC00E0A70F /* Drelgoth4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Drelgoth4.jpg; sourceTree = "<group>"; };
+		29CA199927FCFDBC00E0A70F /* Doenregar3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Doenregar3.jpg; sourceTree = "<group>"; };
+		29CA199A27FCFDBC00E0A70F /* Kain4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kain4.jpg; sourceTree = "<group>"; };
+		29CA199B27FCFDBC00E0A70F /* Marcus4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marcus4.jpg; sourceTree = "<group>"; };
+		29CA199C27FCFDBC00E0A70F /* Fazeal5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fazeal5.jpg; sourceTree = "<group>"; };
+		29CA199D27FCFDBC00E0A70F /* Fazeal4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fazeal4.jpg; sourceTree = "<group>"; };
+		29CA199E27FCFDBC00E0A70F /* Kain2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kain2.jpg; sourceTree = "<group>"; };
+		29CA199F27FCFDBC00E0A70F /* Naias.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Naias.jpg; sourceTree = "<group>"; };
+		29CA19A027FCFDBC00E0A70F /* Onkura3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Onkura3.jpg; sourceTree = "<group>"; };
+		29CA19A127FCFDBC00E0A70F /* Cradol3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cradol3.jpg; sourceTree = "<group>"; };
+		29CA19A227FCFDBD00E0A70F /* Drelgoth2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Drelgoth2.jpg; sourceTree = "<group>"; };
+		29CA19A327FCFDBD00E0A70F /* Istariel2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Istariel2.jpg; sourceTree = "<group>"; };
+		29CA19A427FCFDBD00E0A70F /* Kain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kain.jpg; sourceTree = "<group>"; };
+		29CA19A527FCFDBD00E0A70F /* Gendris4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gendris4.jpg; sourceTree = "<group>"; };
+		29CA19A627FCFDBD00E0A70F /* Maltique.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Maltique.jpg; sourceTree = "<group>"; };
+		29CA19A727FCFDBD00E0A70F /* Masuzi5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Masuzi5.jpg; sourceTree = "<group>"; };
+		29CA19A827FCFDBD00E0A70F /* Naias3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Naias3.jpg; sourceTree = "<group>"; };
+		29CA19A927FCFDBD00E0A70F /* Barnascus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barnascus.jpg; sourceTree = "<group>"; };
+		29CA19AA27FCFDBD00E0A70F /* Kruul4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kruul4.jpg; sourceTree = "<group>"; };
+		29CA19AB27FCFDBD00E0A70F /* Lugdrug3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lugdrug3.jpg; sourceTree = "<group>"; };
+		29CA19AC27FCFDBD00E0A70F /* Masuzi2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Masuzi2.jpg; sourceTree = "<group>"; };
+		29CA19AD27FCFDBE00E0A70F /* Kain3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kain3.jpg; sourceTree = "<group>"; };
+		29CA19AE27FCFDBE00E0A70F /* Aschell5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aschell5.jpg; sourceTree = "<group>"; };
+		29CA19AF27FCFDBE00E0A70F /* Kogan2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kogan2.jpg; sourceTree = "<group>"; };
+		29CA19B027FCFDBE00E0A70F /* Barnascus2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barnascus2.jpg; sourceTree = "<group>"; };
+		29CA19B127FCFDBE00E0A70F /* Kruul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kruul.jpg; sourceTree = "<group>"; };
+		29CA19B227FCFDBE00E0A70F /* Gendris3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gendris3.jpg; sourceTree = "<group>"; };
+		29CA19B327FCFDBE00E0A70F /* Lugdrug5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lugdrug5.jpg; sourceTree = "<group>"; };
+		29CA19B427FCFDBE00E0A70F /* Doenregar2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Doenregar2.jpg; sourceTree = "<group>"; };
+		29CA19B527FCFDBE00E0A70F /* Drelgoth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Drelgoth.jpg; sourceTree = "<group>"; };
+		29CA19B627FCFDBE00E0A70F /* Onkura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Onkura.jpg; sourceTree = "<group>"; };
+		29CA19B727FCFDBF00E0A70F /* Piper3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Piper3.jpg; sourceTree = "<group>"; };
+		29CA19B827FCFDBF00E0A70F /* Brok3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brok3.jpg; sourceTree = "<group>"; };
+		29CA19B927FCFDBF00E0A70F /* Maltique4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Maltique4.jpg; sourceTree = "<group>"; };
+		29CA19BA27FCFDBF00E0A70F /* Bastian5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bastian5.jpg; sourceTree = "<group>"; };
+		29CA19BB27FCFDBF00E0A70F /* Drelgoth5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Drelgoth5.jpg; sourceTree = "<group>"; };
+		29CA19BC27FCFDBF00E0A70F /* Bastian3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bastian3.jpg; sourceTree = "<group>"; };
+		29CA19BD27FCFDBF00E0A70F /* Lugdrug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lugdrug.jpg; sourceTree = "<group>"; };
+		29CA19BE27FCFDBF00E0A70F /* Piper2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Piper2.jpg; sourceTree = "<group>"; };
+		29CA19BF27FCFDBF00E0A70F /* Brok5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brok5.jpg; sourceTree = "<group>"; };
+		29CA19C027FCFDBF00E0A70F /* Istariel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Istariel.jpg; sourceTree = "<group>"; };
+		29CA19C127FCFDBF00E0A70F /* Marcus3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marcus3.jpg; sourceTree = "<group>"; };
+		29CA19C227FCFDC000E0A70F /* Aria3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aria3.jpg; sourceTree = "<group>"; };
+		29CA19C327FCFDC000E0A70F /* Kogan4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kogan4.jpg; sourceTree = "<group>"; };
+		29CA19C427FCFDC000E0A70F /* Allandir3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Allandir3.jpg; sourceTree = "<group>"; };
+		29CA19C527FCFDC000E0A70F /* Marcus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marcus.jpg; sourceTree = "<group>"; };
+		29CA19C627FCFDC000E0A70F /* Gendris2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gendris2.jpg; sourceTree = "<group>"; };
+		29CA19C727FCFDC000E0A70F /* Istariel5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Istariel5.jpg; sourceTree = "<group>"; };
+		29CA19C827FCFDC000E0A70F /* Kruul2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kruul2.jpg; sourceTree = "<group>"; };
+		29CA19C927FCFDC000E0A70F /* Kruul3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kruul3.jpg; sourceTree = "<group>"; };
+		29CA19CA27FCFDC000E0A70F /* Doenregar4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Doenregar4.jpg; sourceTree = "<group>"; };
+		29CA19CB27FCFDC000E0A70F /* Masuzi4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Masuzi4.jpg; sourceTree = "<group>"; };
+		29CA19CC27FCFDC000E0A70F /* Isabel2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isabel2.jpg; sourceTree = "<group>"; };
+		29CA19CD27FCFDC100E0A70F /* Barnascus3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barnascus3.jpg; sourceTree = "<group>"; };
+		29CA19CE27FCFDC100E0A70F /* Aria5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aria5.jpg; sourceTree = "<group>"; };
+		29CA19CF27FCFDC100E0A70F /* Masuzi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Masuzi.jpg; sourceTree = "<group>"; };
+		29CA19D027FCFDC100E0A70F /* Brok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brok.jpg; sourceTree = "<group>"; };
+		29CA19D127FCFDC100E0A70F /* Bastian4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bastian4.jpg; sourceTree = "<group>"; };
+		29CA19D227FCFDC100E0A70F /* Onkura5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Onkura5.jpg; sourceTree = "<group>"; };
+		29CA19D327FCFDC100E0A70F /* Barnascus5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barnascus5.jpg; sourceTree = "<group>"; };
+		29CA19D427FCFDC100E0A70F /* Aschell4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aschell4.jpg; sourceTree = "<group>"; };
+		29CA19D527FCFDC100E0A70F /* Lugdrug4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lugdrug4.jpg; sourceTree = "<group>"; };
+		29CA19D627FCFDC100E0A70F /* Barnascus4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barnascus4.jpg; sourceTree = "<group>"; };
+		29CA19D727FCFDC100E0A70F /* Cradol5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cradol5.jpg; sourceTree = "<group>"; };
+		29CA19D827FCFDC100E0A70F /* Isabel4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isabel4.jpg; sourceTree = "<group>"; };
+		29CA19D927FCFDC200E0A70F /* Naias2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Naias2.jpg; sourceTree = "<group>"; };
+		29CA19DA27FCFDC200E0A70F /* Drelgoth3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Drelgoth3.jpg; sourceTree = "<group>"; };
+		29CA19DB27FCFDC200E0A70F /* Aschell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aschell.jpg; sourceTree = "<group>"; };
+		29CA19DC27FCFDC200E0A70F /* Masuzi3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Masuzi3.jpg; sourceTree = "<group>"; };
+		29CA19DD27FCFDC200E0A70F /* Bastian2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bastian2.jpg; sourceTree = "<group>"; };
+		29CA19DE27FCFDC200E0A70F /* Inferno_Summoned3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Inferno_Summoned3.jpg; sourceTree = "<group>"; };
+		29CA19DF27FCFDC200E0A70F /* Fazeal3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fazeal3.jpg; sourceTree = "<group>"; };
+		29CA19E027FCFDC200E0A70F /* Kogan5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kogan5.jpg; sourceTree = "<group>"; };
+		29CA19E127FCFDC200E0A70F /* Marcus2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marcus2.jpg; sourceTree = "<group>"; };
+		29CA19E227FCFDC200E0A70F /* Aria2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aria2.jpg; sourceTree = "<group>"; };
+		29CA19E327FCFDC200E0A70F /* Piper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Piper.jpg; sourceTree = "<group>"; };
+		29CA19E427FCFDC200E0A70F /* Brok2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brok2.jpg; sourceTree = "<group>"; };
+		29CA19E527FCFDC300E0A70F /* Kogan3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kogan3.jpg; sourceTree = "<group>"; };
+		29CA19E627FCFDC300E0A70F /* Onkura4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Onkura4.jpg; sourceTree = "<group>"; };
+		29CA19E727FCFDC300E0A70F /* Inferno_Summoned.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Inferno_Summoned.jpg; sourceTree = "<group>"; };
+		29CA19E827FCFDC300E0A70F /* Naias4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Naias4.jpg; sourceTree = "<group>"; };
+		29CA19E927FCFDC300E0A70F /* Kain5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kain5.jpg; sourceTree = "<group>"; };
+		29CA19EA27FCFDC300E0A70F /* Fazeal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fazeal.jpg; sourceTree = "<group>"; };
+		29CA19EB27FCFDC300E0A70F /* Aria4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aria4.jpg; sourceTree = "<group>"; };
+		29CA19EC27FCFDC300E0A70F /* Naias5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Naias5.jpg; sourceTree = "<group>"; };
+		29CA19ED27FCFDC300E0A70F /* Aschell3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aschell3.jpg; sourceTree = "<group>"; };
+		29CA19EE27FCFDC300E0A70F /* Gendris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gendris.jpg; sourceTree = "<group>"; };
+		29CA19EF27FCFDC300E0A70F /* Aria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aria.jpg; sourceTree = "<group>"; };
+		29CA19F027FCFDC300E0A70F /* Istariel4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Istariel4.jpg; sourceTree = "<group>"; };
+		29CA19F127FCFDC300E0A70F /* Cradol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cradol.jpg; sourceTree = "<group>"; };
+		29CA19F227FCFDC400E0A70F /* Fazeal2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fazeal2.jpg; sourceTree = "<group>"; };
+		29CA19F327FCFDC400E0A70F /* Allandir4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Allandir4.jpg; sourceTree = "<group>"; };
+		29CA19F427FCFDC400E0A70F /* Istariel3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Istariel3.jpg; sourceTree = "<group>"; };
+		29CA19F527FCFDC400E0A70F /* Piper4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Piper4.jpg; sourceTree = "<group>"; };
+		29CA19F627FCFDC400E0A70F /* Maltique5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Maltique5.jpg; sourceTree = "<group>"; };
+		29CA19F727FCFDC400E0A70F /* Aschell2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aschell2.jpg; sourceTree = "<group>"; };
+		29CA1A6E27FCFDD900E0A70F /* FactionTorin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FactionTorin.jpg; sourceTree = "<group>"; };
+		29CA1A6F27FCFDD900E0A70F /* FactionBruelin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FactionBruelin.jpg; sourceTree = "<group>"; };
+		29CA1A7027FCFDD900E0A70F /* FactionGrul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FactionGrul.jpg; sourceTree = "<group>"; };
+		29CA1A7127FCFDDA00E0A70F /* FactionTomas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FactionTomas.jpg; sourceTree = "<group>"; };
+		29CA1A7227FCFDDA00E0A70F /* FactionKrognar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FactionKrognar.jpg; sourceTree = "<group>"; };
+		29CA1A7327FCFDDA00E0A70F /* FactionIsta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FactionIsta.jpg; sourceTree = "<group>"; };
+		29CA1A7A27FCFF0300E0A70F /* Skye2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skye2.jpg; sourceTree = "<group>"; };
+		29CA1A7B27FCFF0300E0A70F /* Skoll4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skoll4.jpg; sourceTree = "<group>"; };
+		29CA1A7C27FCFF0300E0A70F /* Thorgar5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thorgar5.jpg; sourceTree = "<group>"; };
+		29CA1A7D27FCFF0300E0A70F /* Skoll3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skoll3.jpg; sourceTree = "<group>"; };
+		29CA1A7E27FCFF0300E0A70F /* Xyvera2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xyvera2.jpg; sourceTree = "<group>"; };
+		29CA1A7F27FCFF0300E0A70F /* Zhimgigrak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhimgigrak.jpg; sourceTree = "<group>"; };
+		29CA1A8027FCFF0300E0A70F /* Terra_Summoned2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terra_Summoned2.jpg; sourceTree = "<group>"; };
+		29CA1A8127FCFF0300E0A70F /* Skye5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skye5.jpg; sourceTree = "<group>"; };
+		29CA1A8227FCFF0400E0A70F /* Skeleton3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skeleton3.jpg; sourceTree = "<group>"; };
+		29CA1A8327FCFF0400E0A70F /* Thorgar2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thorgar2.jpg; sourceTree = "<group>"; };
+		29CA1A8427FCFF0400E0A70F /* Zaron5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zaron5.jpg; sourceTree = "<group>"; };
+		29CA1A8527FCFF0400E0A70F /* Saiyin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saiyin.jpg; sourceTree = "<group>"; };
+		29CA1A8627FCFF0400E0A70F /* Rakkir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rakkir.jpg; sourceTree = "<group>"; };
+		29CA1A8727FCFF0400E0A70F /* Xyvera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xyvera.jpg; sourceTree = "<group>"; };
+		29CA1A8827FCFF0400E0A70F /* Terra_Summoned.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terra_Summoned.jpg; sourceTree = "<group>"; };
+		29CA1A8927FCFF0400E0A70F /* Thrommel2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thrommel2.jpg; sourceTree = "<group>"; };
+		29CA1A8A27FCFF0400E0A70F /* Thrommel5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thrommel5.jpg; sourceTree = "<group>"; };
+		29CA1A8B27FCFF0400E0A70F /* Zhimgigrak2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhimgigrak2.jpg; sourceTree = "<group>"; };
+		29CA1A8C27FCFF0400E0A70F /* Saiyin2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saiyin2.jpg; sourceTree = "<group>"; };
+		29CA1A8D27FCFF0400E0A70F /* Zaron3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zaron3.jpg; sourceTree = "<group>"; };
+		29CA1A8E27FCFF0400E0A70F /* Thrommel4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thrommel4.jpg; sourceTree = "<group>"; };
+		29CA1A8F27FCFF0400E0A70F /* Skye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skye.jpg; sourceTree = "<group>"; };
+		29CA1A9027FCFF0400E0A70F /* Zaron.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zaron.jpg; sourceTree = "<group>"; };
+		29CA1A9127FCFF0400E0A70F /* Xyvera5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xyvera5.jpg; sourceTree = "<group>"; };
+		29CA1A9227FCFF0500E0A70F /* Thorgar3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thorgar3.jpg; sourceTree = "<group>"; };
+		29CA1A9327FCFF0500E0A70F /* Thrommel3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thrommel3.jpg; sourceTree = "<group>"; };
+		29CA1A9427FCFF0500E0A70F /* Zhimgigrak3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhimgigrak3.jpg; sourceTree = "<group>"; };
+		29CA1A9527FCFF0500E0A70F /* Zhonyja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhonyja.jpg; sourceTree = "<group>"; };
+		29CA1A9627FCFF0500E0A70F /* Zhimgigrak4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhimgigrak4.jpg; sourceTree = "<group>"; };
+		29CA1A9727FCFF0500E0A70F /* Zaron2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zaron2.jpg; sourceTree = "<group>"; };
+		29CA1A9827FCFF0500E0A70F /* Thorgar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thorgar.jpg; sourceTree = "<group>"; };
+		29CA1A9927FCFF0500E0A70F /* Rakkir4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rakkir4.jpg; sourceTree = "<group>"; };
+		29CA1A9A27FCFF0500E0A70F /* Saiyin5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saiyin5.jpg; sourceTree = "<group>"; };
+		29CA1A9B27FCFF0500E0A70F /* Skye4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skye4.jpg; sourceTree = "<group>"; };
+		29CA1A9C27FCFF0500E0A70F /* Terra_Summoned3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terra_Summoned3.jpg; sourceTree = "<group>"; };
+		29CA1A9D27FCFF0500E0A70F /* Skeleton2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skeleton2.jpg; sourceTree = "<group>"; };
+		29CA1A9E27FCFF0500E0A70F /* Xyvera4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xyvera4.jpg; sourceTree = "<group>"; };
+		29CA1A9F27FCFF0500E0A70F /* Zhonyja4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhonyja4.jpg; sourceTree = "<group>"; };
+		29CA1AA027FCFF0500E0A70F /* Thorgar4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thorgar4.jpg; sourceTree = "<group>"; };
+		29CA1AA127FCFF0600E0A70F /* Skeleton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skeleton.jpg; sourceTree = "<group>"; };
+		29CA1AA227FCFF0600E0A70F /* Skye3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skye3.jpg; sourceTree = "<group>"; };
+		29CA1AA327FCFF0600E0A70F /* Skoll6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skoll6.jpg; sourceTree = "<group>"; };
+		29CA1AA427FCFF0600E0A70F /* Rakkir3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rakkir3.jpg; sourceTree = "<group>"; };
+		29CA1AA527FCFF0600E0A70F /* Xyvera3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xyvera3.jpg; sourceTree = "<group>"; };
+		29CA1AA627FCFF0600E0A70F /* Rakkir5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rakkir5.jpg; sourceTree = "<group>"; };
+		29CA1AA727FCFF0600E0A70F /* Zaron4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zaron4.jpg; sourceTree = "<group>"; };
+		29CA1AA827FCFF0600E0A70F /* Thrommel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thrommel.jpg; sourceTree = "<group>"; };
+		29CA1AA927FCFF0600E0A70F /* Saiyin4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saiyin4.jpg; sourceTree = "<group>"; };
+		29CA1AAA27FCFF0600E0A70F /* Skoll2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skoll2.jpg; sourceTree = "<group>"; };
+		29CA1AAB27FCFF0600E0A70F /* Zhonyja2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhonyja2.jpg; sourceTree = "<group>"; };
+		29CA1AAC27FCFF0600E0A70F /* Rakkir2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rakkir2.jpg; sourceTree = "<group>"; };
+		29CA1AAD27FCFF0600E0A70F /* Zhonyja5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhonyja5.jpg; sourceTree = "<group>"; };
+		29CA1AAE27FCFF0600E0A70F /* Zhimgigrak5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhimgigrak5.jpg; sourceTree = "<group>"; };
+		29CA1AAF27FCFF0600E0A70F /* Saiyin3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saiyin3.jpg; sourceTree = "<group>"; };
+		29CA1AB027FCFF0600E0A70F /* Skoll5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skoll5.jpg; sourceTree = "<group>"; };
+		29CA1AB127FCFF0600E0A70F /* Skoll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skoll.jpg; sourceTree = "<group>"; };
+		29CA1AB227FCFF0700E0A70F /* Zhonyja3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zhonyja3.jpg; sourceTree = "<group>"; };
 		29E780CDDACB710A74531F2B /* Pods-Judgement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Judgement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Judgement/Pods-Judgement.debug.xcconfig"; sourceTree = "<group>"; };
 		A70D8328200A4AC50090B1CE /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		A71AFD3D20055E0F006B8051 /* J_only_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = J_only_logo.png; sourceTree = "<group>"; };
@@ -573,12 +611,12 @@
 		29678D6025C73E4C00CB4A96 /* Gods */ = {
 			isa = PBXGroup;
 			children = (
-				2967D7A82671B2EA00C8E146 /* FactionBruelin.jpg */,
-				29678D6625C73EF400CB4A96 /* FactionGrul.jpg */,
-				29678D6325C73EF400CB4A96 /* FactionIsta.jpg */,
-				29678D6125C73EF400CB4A96 /* FactionKrognar.jpg */,
-				29678D6425C73EF400CB4A96 /* FactionTomas.jpg */,
-				29678D6225C73EF400CB4A96 /* FactionTorin.jpg */,
+				29CA1A6F27FCFDD900E0A70F /* FactionBruelin.jpg */,
+				29CA1A7027FCFDD900E0A70F /* FactionGrul.jpg */,
+				29CA1A7327FCFDDA00E0A70F /* FactionIsta.jpg */,
+				29CA1A7227FCFDDA00E0A70F /* FactionKrognar.jpg */,
+				29CA1A7127FCFDDA00E0A70F /* FactionTomas.jpg */,
+				29CA1A6E27FCFDD900E0A70F /* FactionTorin.jpg */,
 			);
 			path = Gods;
 			sourceTree = "<group>";
@@ -620,8 +658,7 @@
 		A74C67511FFFDC6A00CCE2F9 /* Rulebook */ = {
 			isa = PBXGroup;
 			children = (
-				2997FDD125CDEE4C001FFAED /* Judgement_Gods_OpenBeta_v1.0.0.pdf */,
-				2967D7D12671B43D00C8E146 /* Judgement_Rule_Book_OpenBeta_v1.2.2.pdf */,
+				29CA196627FCF9C300E0A70F /* Judgement_Rulebook_Version_2.pdf */,
 			);
 			path = Rulebook;
 			sourceTree = "<group>";
@@ -641,158 +678,181 @@
 		A74C67582000C9AD00CCE2F9 /* Characters */ = {
 			isa = PBXGroup;
 			children = (
-				2967D7E52671B61F00C8E146 /* Thorgar3.jpg */,
-				2967D7E02671B61F00C8E146 /* Thrommel.jpg */,
-				2967D7E92671B62000C8E146 /* Thrommel2.jpg */,
-				2967D7EF2671B62000C8E146 /* Thrommel3.jpg */,
-				2967D7D82671B61E00C8E146 /* Viktor.jpg */,
-				2967D7DE2671B61F00C8E146 /* Viktor2.jpg */,
-				2967D7E82671B61F00C8E146 /* Viktor3.jpg */,
-				2967D7EA2671B62000C8E146 /* Xyvera.jpg */,
-				2967D7ED2671B62000C8E146 /* Xyvera2.jpg */,
-				2967D7E12671B61F00C8E146 /* Xyvera3.jpg */,
-				2967D7D92671B61E00C8E146 /* Yorgawth.jpg */,
-				2967D7EC2671B62000C8E146 /* Yorgawth2.jpg */,
-				2967D7DC2671B61F00C8E146 /* Yorgawth3.jpg */,
-				2967D7E42671B61F00C8E146 /* Zaffen.jpg */,
-				2967D7DF2671B61F00C8E146 /* Zaffen2.jpg */,
-				2967D7E72671B61F00C8E146 /* Zaffen3.jpg */,
-				2967D7D72671B61E00C8E146 /* Zaron.jpg */,
-				2967D7EB2671B62000C8E146 /* Zaron2.jpg */,
-				2967D7DA2671B61E00C8E146 /* Zaron3.jpg */,
-				2967D7DB2671B61F00C8E146 /* Zhimgigrak.jpg */,
-				2967D7E22671B61F00C8E146 /* Zhimgigrak2.jpg */,
-				2967D7DD2671B61F00C8E146 /* Zhimgigrak3.jpg */,
-				2967D7EE2671B62000C8E146 /* Zhonyja.jpg */,
-				2967D7E62671B61F00C8E146 /* Zhonyja2.jpg */,
-				2967D7E32671B61F00C8E146 /* Zhonyja3.jpg */,
-				2967D6C22671B2D700C8E146 /* Algarath.jpg */,
-				2967D7032671B2DA00C8E146 /* Algarath2.jpg */,
-				2967D6F42671B2DA00C8E146 /* Allandir.jpg */,
-				2967D6D12671B2D800C8E146 /* Allandir2.jpg */,
-				2967D6D72671B2D800C8E146 /* Allandir3.jpg */,
-				2967D6DC2671B2D900C8E146 /* Aria.jpg */,
-				2967D7172671B2DB00C8E146 /* Aria2.jpg */,
-				2967D6E52671B2D900C8E146 /* Aria3.jpg */,
-				2967D71B2671B2DB00C8E146 /* Aschell.jpg */,
-				2967D6E22671B2D900C8E146 /* Aschell2.jpg */,
-				2967D6E62671B2D900C8E146 /* Aschell3.jpg */,
-				2967D6C62671B2D700C8E146 /* Bale.jpg */,
-				2967D6D52671B2D800C8E146 /* Bale2.jpg */,
-				2967D6F02671B2DA00C8E146 /* Bale3.jpg */,
-				2967D6DE2671B2D900C8E146 /* Barnascus.jpg */,
-				2967D6DA2671B2D900C8E146 /* Barnascus2.jpg */,
-				2967D6AE2671B2D600C8E146 /* Barnascus3.jpg */,
-				2967D7052671B2DB00C8E146 /* Bastian.jpg */,
-				2967D6F62671B2DA00C8E146 /* Bastian2.jpg */,
-				2967D6F22671B2DA00C8E146 /* Bastian3.jpg */,
-				2967D6C12671B2D700C8E146 /* Brok.jpg */,
-				2967D6E92671B2D900C8E146 /* Brok2.jpg */,
-				2967D7132671B2DB00C8E146 /* Brok3.jpg */,
-				2967D7022671B2DA00C8E146 /* Cradol.jpg */,
-				2967D6AF2671B2D600C8E146 /* Cradol2.jpg */,
-				2967D6EB2671B2D900C8E146 /* Cradol3.jpg */,
-				2967D7202671B2DC00C8E146 /* Doenregar.jpg */,
-				2967D6CA2671B2D800C8E146 /* Doenregar2.jpg */,
-				2967D6A92671B2D600C8E146 /* Doenregar3.jpg */,
-				2967D7262671B2DC00C8E146 /* Dorgokaan_Summoned.jpg */,
-				2967D7002671B2DA00C8E146 /* Dorgokaan_Summoned2.jpg */,
-				2967D7102671B2DB00C8E146 /* Dorgokaan_Summoned3.jpg */,
-				2967D6CC2671B2D800C8E146 /* Drelgoth.jpg */,
-				2967D70A2671B2DB00C8E146 /* Drelgoth2.jpg */,
-				2967D6F92671B2DA00C8E146 /* Drelgoth3.jpg */,
-				2967D71A2671B2DB00C8E146 /* Fazeal.jpg */,
-				2967D6FD2671B2DA00C8E146 /* Fazeal2.jpg */,
-				2967D6AA2671B2D600C8E146 /* Fazeal3.jpg */,
-				2967D6C72671B2D700C8E146 /* Gendris.jpg */,
-				2967D6B82671B2D600C8E146 /* Gendris2.jpg */,
-				2967D6CB2671B2D800C8E146 /* Gendris3.jpg */,
-				2967D6B52671B2D600C8E146 /* Grael.jpg */,
-				2967D71C2671B2DC00C8E146 /* Grael2.jpg */,
-				2967D6F12671B2DA00C8E146 /* Grael3.jpg */,
-				2967D6BB2671B2D700C8E146 /* Haksa.jpg */,
-				2967D7082671B2DB00C8E146 /* Haksa2.jpg */,
-				2967D6D42671B2D800C8E146 /* Haksa3.jpg */,
-				2967D7072671B2DB00C8E146 /* Inferno_Summoned.jpg */,
-				2967D6B02671B2D600C8E146 /* Inferno_Summoned2.jpg */,
-				2967D6C32671B2D700C8E146 /* Isabel.jpg */,
-				2967D6B42671B2D600C8E146 /* Isabel2.jpg */,
-				2967D7232671B2DC00C8E146 /* Isabel3.jpg */,
-				2967D6AD2671B2D600C8E146 /* Isabel4.jpg */,
-				2967D6EE2671B2DA00C8E146 /* Istariel.jpg */,
-				2967D6C52671B2D700C8E146 /* Istariel2.jpg */,
-				2967D7222671B2DC00C8E146 /* Istariel3.jpg */,
-				2967D6C92671B2D800C8E146 /* Jaegar.jpg */,
-				2967D6D82671B2D900C8E146 /* Jaegar2.jpg */,
-				2967D6FA2671B2DA00C8E146 /* Jaegar3.jpg */,
-				2967D7212671B2DC00C8E146 /* Kain.jpg */,
-				2967D6F32671B2DA00C8E146 /* Kain2.jpg */,
-				2967D7162671B2DB00C8E146 /* Kain3.jpg */,
-				2967D6F82671B2DA00C8E146 /* Kogan.jpg */,
-				2967D7042671B2DB00C8E146 /* Kogan2.jpg */,
-				2967D6BF2671B2D700C8E146 /* Kogan3.jpg */,
-				2967D7092671B2DB00C8E146 /* Kruul.jpg */,
-				2967D6E12671B2D900C8E146 /* Kruul2.jpg */,
-				2967D6C42671B2D700C8E146 /* Kruul3.jpg */,
-				2967D6CF2671B2D800C8E146 /* Kvarto.jpg */,
-				2967D6B12671B2D600C8E146 /* Kvarto2.jpg */,
-				2967D6BA2671B2D700C8E146 /* Kvarto3.jpg */,
-				2967D6ED2671B2DA00C8E146 /* Loribela.jpg */,
-				2967D6D62671B2D800C8E146 /* Loribela2.jpg */,
-				2967D6FF2671B2DA00C8E146 /* Loribela3.jpg */,
-				2967D6BE2671B2D700C8E146 /* Lugdrug.jpg */,
-				2967D6AC2671B2D600C8E146 /* Lugdrug2.jpg */,
-				2967D6E32671B2D900C8E146 /* Lugdrug3.jpg */,
-				2967D6CE2671B2D800C8E146 /* Lugdrug4.jpg */,
-				2967D6E02671B2D900C8E146 /* Marcus.jpg */,
-				2967D6C02671B2D700C8E146 /* Marcus2.jpg */,
-				2967D6EA2671B2D900C8E146 /* Marcus3.jpg */,
-				2967D6EC2671B2D900C8E146 /* Masuzi.jpg */,
-				2967D71E2671B2DC00C8E146 /* Masuzi2.jpg */,
-				2967D6CD2671B2D800C8E146 /* Masuzi3.jpg */,
-				2967D7252671B2DC00C8E146 /* Naias.jpg */,
-				2967D6E72671B2D900C8E146 /* Naias2.jpg */,
-				2967D7012671B2DA00C8E146 /* Naias3.jpg */,
-				2967D6D22671B2D800C8E146 /* Nephenee.jpg */,
-				2967D6F52671B2DA00C8E146 /* Nephenee2.jpg */,
-				2967D7192671B2DB00C8E146 /* Nephenee3.jpg */,
-				2967D7142671B2DB00C8E146 /* Onkura.jpg */,
-				2967D7152671B2DB00C8E146 /* Onkura2.jpg */,
-				2967D6D32671B2D800C8E146 /* Onkura3.jpg */,
-				2967D6DB2671B2D900C8E146 /* Piper.jpg */,
-				2967D6DF2671B2D900C8E146 /* Piper2.jpg */,
-				2967D6F72671B2DA00C8E146 /* Piper3.jpg */,
-				2967D6B72671B2D600C8E146 /* Rakkir.jpg */,
-				2967D7272671B2DC00C8E146 /* Rakkir2.jpg */,
-				2967D6D92671B2D900C8E146 /* Rakkir3.jpg */,
-				2967D70F2671B2DB00C8E146 /* Saiyin.jpg */,
-				2967D7182671B2DB00C8E146 /* Saiyin2.jpg */,
-				2967D6AB2671B2D600C8E146 /* Saiyin3.jpg */,
-				2967D7112671B2DB00C8E146 /* Sarna.jpg */,
-				2967D6DD2671B2D900C8E146 /* Sarna2.jpg */,
-				2967D6FE2671B2DA00C8E146 /* Sharn.jpg */,
-				2967D70C2671B2DB00C8E146 /* Sharn2.jpg */,
-				2967D7242671B2DC00C8E146 /* Sharn3.jpg */,
-				2967D70B2671B2DB00C8E146 /* Skeleton.jpg */,
-				2967D6BD2671B2D700C8E146 /* Skeleton2.jpg */,
-				2967D70D2671B2DB00C8E146 /* Skoll.jpg */,
-				2967D6BC2671B2D700C8E146 /* Skoll2.jpg */,
-				2967D6B62671B2D600C8E146 /* Skoll3.jpg */,
-				2967D6E42671B2D900C8E146 /* Skoll4.jpg */,
-				2967D6FB2671B2DA00C8E146 /* Skye.jpg */,
-				2967D6E82671B2D900C8E146 /* Skye2.jpg */,
-				2967D6B32671B2D600C8E146 /* Skye3.jpg */,
-				2967D6D02671B2D800C8E146 /* Styx.jpg */,
-				2967D7062671B2DB00C8E146 /* Styx2.jpg */,
-				2967D6B92671B2D700C8E146 /* Styx3.jpg */,
-				2967D70E2671B2DB00C8E146 /* Svetlana.jpg */,
-				2967D6EF2671B2DA00C8E146 /* Svetlana2.jpg */,
-				2967D6FC2671B2DA00C8E146 /* Svetlana3.jpg */,
-				2967D6B22671B2D600C8E146 /* Terra_Summoned.jpg */,
-				2967D6C82671B2D700C8E146 /* Terra_Summoned2.jpg */,
-				2967D71F2671B2DC00C8E146 /* Terra_Summoned3.jpg */,
-				2967D71D2671B2DC00C8E146 /* Thorgar.jpg */,
-				2967D7122671B2DB00C8E146 /* Thorgar2.jpg */,
+				29CA199727FCFDBC00E0A70F /* Allandir.jpg */,
+				29CA199127FCFDBB00E0A70F /* Allandir2.jpg */,
+				29CA19C427FCFDC000E0A70F /* Allandir3.jpg */,
+				29CA19F327FCFDC400E0A70F /* Allandir4.jpg */,
+				29CA199027FCFDBB00E0A70F /* Allandir5.jpg */,
+				29CA19EF27FCFDC300E0A70F /* Aria.jpg */,
+				29CA19E227FCFDC200E0A70F /* Aria2.jpg */,
+				29CA19C227FCFDC000E0A70F /* Aria3.jpg */,
+				29CA19EB27FCFDC300E0A70F /* Aria4.jpg */,
+				29CA19CE27FCFDC100E0A70F /* Aria5.jpg */,
+				29CA19DB27FCFDC200E0A70F /* Aschell.jpg */,
+				29CA19F727FCFDC400E0A70F /* Aschell2.jpg */,
+				29CA19ED27FCFDC300E0A70F /* Aschell3.jpg */,
+				29CA19D427FCFDC100E0A70F /* Aschell4.jpg */,
+				29CA19AE27FCFDBE00E0A70F /* Aschell5.jpg */,
+				29CA19A927FCFDBD00E0A70F /* Barnascus.jpg */,
+				29CA19B027FCFDBE00E0A70F /* Barnascus2.jpg */,
+				29CA19CD27FCFDC100E0A70F /* Barnascus3.jpg */,
+				29CA19D627FCFDC100E0A70F /* Barnascus4.jpg */,
+				29CA19D327FCFDC100E0A70F /* Barnascus5.jpg */,
+				29CA199627FCFDBC00E0A70F /* Bastian.jpg */,
+				29CA19DD27FCFDC200E0A70F /* Bastian2.jpg */,
+				29CA19BC27FCFDBF00E0A70F /* Bastian3.jpg */,
+				29CA19D127FCFDC100E0A70F /* Bastian4.jpg */,
+				29CA19BA27FCFDBF00E0A70F /* Bastian5.jpg */,
+				29CA19D027FCFDC100E0A70F /* Brok.jpg */,
+				29CA19E427FCFDC200E0A70F /* Brok2.jpg */,
+				29CA19B827FCFDBF00E0A70F /* Brok3.jpg */,
+				29CA198427FCFDBB00E0A70F /* Brok4.jpg */,
+				29CA19BF27FCFDBF00E0A70F /* Brok5.jpg */,
+				29CA19F127FCFDC300E0A70F /* Cradol.jpg */,
+				29CA198327FCFDBB00E0A70F /* Cradol2.jpg */,
+				29CA19A127FCFDBC00E0A70F /* Cradol3.jpg */,
+				29CA198927FCFDBB00E0A70F /* Cradol4.jpg */,
+				29CA19D727FCFDC100E0A70F /* Cradol5.jpg */,
+				29CA199227FCFDBB00E0A70F /* Doenregar.jpg */,
+				29CA19B427FCFDBE00E0A70F /* Doenregar2.jpg */,
+				29CA199927FCFDBC00E0A70F /* Doenregar3.jpg */,
+				29CA19CA27FCFDC000E0A70F /* Doenregar4.jpg */,
+				29CA198B27FCFDBB00E0A70F /* Doenregar5.jpg */,
+				29CA19B527FCFDBE00E0A70F /* Drelgoth.jpg */,
+				29CA19A227FCFDBD00E0A70F /* Drelgoth2.jpg */,
+				29CA19DA27FCFDC200E0A70F /* Drelgoth3.jpg */,
+				29CA199827FCFDBC00E0A70F /* Drelgoth4.jpg */,
+				29CA19BB27FCFDBF00E0A70F /* Drelgoth5.jpg */,
+				29CA19EA27FCFDC300E0A70F /* Fazeal.jpg */,
+				29CA19F227FCFDC400E0A70F /* Fazeal2.jpg */,
+				29CA19DF27FCFDC200E0A70F /* Fazeal3.jpg */,
+				29CA199D27FCFDBC00E0A70F /* Fazeal4.jpg */,
+				29CA199C27FCFDBC00E0A70F /* Fazeal5.jpg */,
+				29CA19EE27FCFDC300E0A70F /* Gendris.jpg */,
+				29CA19C627FCFDC000E0A70F /* Gendris2.jpg */,
+				29CA19B227FCFDBE00E0A70F /* Gendris3.jpg */,
+				29CA19A527FCFDBD00E0A70F /* Gendris4.jpg */,
+				29CA198227FCFDBB00E0A70F /* Gendris5.jpg */,
+				29CA19E727FCFDC300E0A70F /* Inferno_Summoned.jpg */,
+				29CA198827FCFDBB00E0A70F /* Inferno_Summoned2.jpg */,
+				29CA19DE27FCFDC200E0A70F /* Inferno_Summoned3.jpg */,
+				29CA198627FCFDBB00E0A70F /* Isabel.jpg */,
+				29CA19CC27FCFDC000E0A70F /* Isabel2.jpg */,
+				29CA198D27FCFDBB00E0A70F /* Isabel3.jpg */,
+				29CA19D827FCFDC100E0A70F /* Isabel4.jpg */,
+				29CA198A27FCFDBB00E0A70F /* Isabel5.jpg */,
+				29CA19C027FCFDBF00E0A70F /* Istariel.jpg */,
+				29CA19A327FCFDBD00E0A70F /* Istariel2.jpg */,
+				29CA19F427FCFDC400E0A70F /* Istariel3.jpg */,
+				29CA19F027FCFDC300E0A70F /* Istariel4.jpg */,
+				29CA19C727FCFDC000E0A70F /* Istariel5.jpg */,
+				29CA19A427FCFDBD00E0A70F /* Kain.jpg */,
+				29CA199E27FCFDBC00E0A70F /* Kain2.jpg */,
+				29CA19AD27FCFDBE00E0A70F /* Kain3.jpg */,
+				29CA199A27FCFDBC00E0A70F /* Kain4.jpg */,
+				29CA19E927FCFDC300E0A70F /* Kain5.jpg */,
+				29CA198C27FCFDBB00E0A70F /* Kogan.jpg */,
+				29CA19AF27FCFDBE00E0A70F /* Kogan2.jpg */,
+				29CA19E527FCFDC300E0A70F /* Kogan3.jpg */,
+				29CA19C327FCFDC000E0A70F /* Kogan4.jpg */,
+				29CA19E027FCFDC200E0A70F /* Kogan5.jpg */,
+				29CA19B127FCFDBE00E0A70F /* Kruul.jpg */,
+				29CA19C827FCFDC000E0A70F /* Kruul2.jpg */,
+				29CA19C927FCFDC000E0A70F /* Kruul3.jpg */,
+				29CA19AA27FCFDBD00E0A70F /* Kruul4.jpg */,
+				29CA199527FCFDBC00E0A70F /* Kruul5.jpg */,
+				29CA19BD27FCFDBF00E0A70F /* Lugdrug.jpg */,
+				29CA199327FCFDBB00E0A70F /* Lugdrug2.jpg */,
+				29CA19AB27FCFDBD00E0A70F /* Lugdrug3.jpg */,
+				29CA19D527FCFDC100E0A70F /* Lugdrug4.jpg */,
+				29CA19B327FCFDBE00E0A70F /* Lugdrug5.jpg */,
+				29CA19A627FCFDBD00E0A70F /* Maltique.jpg */,
+				29CA199427FCFDBC00E0A70F /* Maltique2.jpg */,
+				29CA198F27FCFDBB00E0A70F /* Maltique3.jpg */,
+				29CA19B927FCFDBF00E0A70F /* Maltique4.jpg */,
+				29CA19F627FCFDC400E0A70F /* Maltique5.jpg */,
+				29CA19C527FCFDC000E0A70F /* Marcus.jpg */,
+				29CA19E127FCFDC200E0A70F /* Marcus2.jpg */,
+				29CA19C127FCFDBF00E0A70F /* Marcus3.jpg */,
+				29CA199B27FCFDBC00E0A70F /* Marcus4.jpg */,
+				29CA198E27FCFDBB00E0A70F /* Marcus5.jpg */,
+				29CA19CF27FCFDC100E0A70F /* Masuzi.jpg */,
+				29CA19AC27FCFDBD00E0A70F /* Masuzi2.jpg */,
+				29CA19DC27FCFDC200E0A70F /* Masuzi3.jpg */,
+				29CA19CB27FCFDC000E0A70F /* Masuzi4.jpg */,
+				29CA19A727FCFDBD00E0A70F /* Masuzi5.jpg */,
+				29CA199F27FCFDBC00E0A70F /* Naias.jpg */,
+				29CA19D927FCFDC200E0A70F /* Naias2.jpg */,
+				29CA19A827FCFDBD00E0A70F /* Naias3.jpg */,
+				29CA19E827FCFDC300E0A70F /* Naias4.jpg */,
+				29CA19EC27FCFDC300E0A70F /* Naias5.jpg */,
+				29CA19B627FCFDBE00E0A70F /* Onkura.jpg */,
+				29CA198527FCFDBB00E0A70F /* Onkura2.jpg */,
+				29CA19A027FCFDBC00E0A70F /* Onkura3.jpg */,
+				29CA19E627FCFDC300E0A70F /* Onkura4.jpg */,
+				29CA19D227FCFDC100E0A70F /* Onkura5.jpg */,
+				29CA19E327FCFDC200E0A70F /* Piper.jpg */,
+				29CA19BE27FCFDBF00E0A70F /* Piper2.jpg */,
+				29CA19B727FCFDBF00E0A70F /* Piper3.jpg */,
+				29CA19F527FCFDC400E0A70F /* Piper4.jpg */,
+				29CA198727FCFDBB00E0A70F /* Piper5.jpg */,
+				29CA1A8627FCFF0400E0A70F /* Rakkir.jpg */,
+				29CA1AAC27FCFF0600E0A70F /* Rakkir2.jpg */,
+				29CA1AA427FCFF0600E0A70F /* Rakkir3.jpg */,
+				29CA1A9927FCFF0500E0A70F /* Rakkir4.jpg */,
+				29CA1AA627FCFF0600E0A70F /* Rakkir5.jpg */,
+				29CA1A8527FCFF0400E0A70F /* Saiyin.jpg */,
+				29CA1A8C27FCFF0400E0A70F /* Saiyin2.jpg */,
+				29CA1AAF27FCFF0600E0A70F /* Saiyin3.jpg */,
+				29CA1AA927FCFF0600E0A70F /* Saiyin4.jpg */,
+				29CA1A9A27FCFF0500E0A70F /* Saiyin5.jpg */,
+				29CA1AA127FCFF0600E0A70F /* Skeleton.jpg */,
+				29CA1A9D27FCFF0500E0A70F /* Skeleton2.jpg */,
+				29CA1A8227FCFF0400E0A70F /* Skeleton3.jpg */,
+				29CA1AB127FCFF0600E0A70F /* Skoll.jpg */,
+				29CA1AAA27FCFF0600E0A70F /* Skoll2.jpg */,
+				29CA1A7D27FCFF0300E0A70F /* Skoll3.jpg */,
+				29CA1A7B27FCFF0300E0A70F /* Skoll4.jpg */,
+				29CA1AB027FCFF0600E0A70F /* Skoll5.jpg */,
+				29CA1AA327FCFF0600E0A70F /* Skoll6.jpg */,
+				29CA1A8F27FCFF0400E0A70F /* Skye.jpg */,
+				29CA1A7A27FCFF0300E0A70F /* Skye2.jpg */,
+				29CA1AA227FCFF0600E0A70F /* Skye3.jpg */,
+				29CA1A9B27FCFF0500E0A70F /* Skye4.jpg */,
+				29CA1A8127FCFF0300E0A70F /* Skye5.jpg */,
+				29CA1A8827FCFF0400E0A70F /* Terra_Summoned.jpg */,
+				29CA1A8027FCFF0300E0A70F /* Terra_Summoned2.jpg */,
+				29CA1A9C27FCFF0500E0A70F /* Terra_Summoned3.jpg */,
+				29CA1A9827FCFF0500E0A70F /* Thorgar.jpg */,
+				29CA1A8327FCFF0400E0A70F /* Thorgar2.jpg */,
+				29CA1A9227FCFF0500E0A70F /* Thorgar3.jpg */,
+				29CA1AA027FCFF0500E0A70F /* Thorgar4.jpg */,
+				29CA1A7C27FCFF0300E0A70F /* Thorgar5.jpg */,
+				29CA1AA827FCFF0600E0A70F /* Thrommel.jpg */,
+				29CA1A8927FCFF0400E0A70F /* Thrommel2.jpg */,
+				29CA1A9327FCFF0500E0A70F /* Thrommel3.jpg */,
+				29CA1A8E27FCFF0400E0A70F /* Thrommel4.jpg */,
+				29CA1A8A27FCFF0400E0A70F /* Thrommel5.jpg */,
+				29CA1A8727FCFF0400E0A70F /* Xyvera.jpg */,
+				29CA1A7E27FCFF0300E0A70F /* Xyvera2.jpg */,
+				29CA1AA527FCFF0600E0A70F /* Xyvera3.jpg */,
+				29CA1A9E27FCFF0500E0A70F /* Xyvera4.jpg */,
+				29CA1A9127FCFF0400E0A70F /* Xyvera5.jpg */,
+				29CA1A9027FCFF0400E0A70F /* Zaron.jpg */,
+				29CA1A9727FCFF0500E0A70F /* Zaron2.jpg */,
+				29CA1A8D27FCFF0400E0A70F /* Zaron3.jpg */,
+				29CA1AA727FCFF0600E0A70F /* Zaron4.jpg */,
+				29CA1A8427FCFF0400E0A70F /* Zaron5.jpg */,
+				29CA1A7F27FCFF0300E0A70F /* Zhimgigrak.jpg */,
+				29CA1A8B27FCFF0400E0A70F /* Zhimgigrak2.jpg */,
+				29CA1A9427FCFF0500E0A70F /* Zhimgigrak3.jpg */,
+				29CA1A9627FCFF0500E0A70F /* Zhimgigrak4.jpg */,
+				29CA1AAE27FCFF0600E0A70F /* Zhimgigrak5.jpg */,
+				29CA1A9527FCFF0500E0A70F /* Zhonyja.jpg */,
+				29CA1AAB27FCFF0600E0A70F /* Zhonyja2.jpg */,
+				29CA1AB227FCFF0700E0A70F /* Zhonyja3.jpg */,
+				29CA1A9F27FCFF0500E0A70F /* Zhonyja4.jpg */,
+				29CA1AAD27FCFF0600E0A70F /* Zhonyja5.jpg */,
 			);
 			path = Characters;
 			sourceTree = "<group>";
@@ -800,22 +860,19 @@
 		A74C67592000C9BA00CCE2F9 /* Monsters */ = {
 			isa = PBXGroup;
 			children = (
-				2967D7B02671B2FB00C8E146 /* Ashtooth.jpg */,
-				2967D7B32671B2FB00C8E146 /* Ashtooth2.jpg */,
-				2967D7B92671B2FB00C8E146 /* Canuckmera.jpg */,
-				2967D7AC2671B2FA00C8E146 /* Canuckmera2.jpg */,
-				2967D7B42671B2FB00C8E146 /* Dorgokaan.jpg */,
-				2967D7BA2671B2FB00C8E146 /* Dorgokaan2.jpg */,
-				2967D7BB2671B2FB00C8E146 /* Dorgokaan3.jpg */,
-				2967D7B12671B2FB00C8E146 /* Gloom.jpg */,
-				2967D7AF2671B2FA00C8E146 /* Gloom2.jpg */,
-				2967D7B22671B2FB00C8E146 /* Inferno.jpg */,
-				2967D7AE2671B2FA00C8E146 /* Inferno2.jpg */,
-				2967D7AD2671B2FA00C8E146 /* Terra_Monster.jpg */,
-				2967D7B52671B2FB00C8E146 /* Terra_Monster2.jpg */,
-				2967D7B82671B2FB00C8E146 /* Vujasha.jpg */,
-				2967D7B72671B2FB00C8E146 /* Vujasha2.jpg */,
-				2967D7B62671B2FB00C8E146 /* Vujasha3.jpg */,
+				29CA197227FCF9DC00E0A70F /* Canuckmera.jpg */,
+				29CA196827FCF9DC00E0A70F /* Canuckmera2.jpg */,
+				29CA196927FCF9DC00E0A70F /* Canuckmera3.jpg */,
+				29CA196C27FCF9DC00E0A70F /* Canuckmera4.jpg */,
+				29CA196D27FCF9DC00E0A70F /* Gloom.jpg */,
+				29CA197327FCF9DC00E0A70F /* Gloom2.jpg */,
+				29CA197427FCF9DC00E0A70F /* Gloom3.jpg */,
+				29CA196F27FCF9DC00E0A70F /* Inferno.jpg */,
+				29CA197127FCF9DC00E0A70F /* Inferno2.jpg */,
+				29CA196E27FCF9DC00E0A70F /* Inferno3.jpg */,
+				29CA196A27FCF9DC00E0A70F /* Terra.jpg */,
+				29CA197027FCF9DC00E0A70F /* Terra2.jpg */,
+				29CA196B27FCF9DC00E0A70F /* Terra3.jpg */,
 			);
 			path = Monsters;
 			sourceTree = "<group>";
@@ -1163,224 +1220,243 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29CA1A4327FCFDC400E0A70F /* Barnascus3.jpg in Resources */,
+				29CA197527FCF9DC00E0A70F /* Canuckmera2.jpg in Resources */,
+				29CA1A7527FCFDDA00E0A70F /* FactionBruelin.jpg in Resources */,
+				29CA1AD627FCFF0700E0A70F /* Skeleton2.jpg in Resources */,
+				29CA1ADA27FCFF0700E0A70F /* Skeleton.jpg in Resources */,
+				29CA19F927FCFDC400E0A70F /* Cradol2.jpg in Resources */,
+				29CA1A3127FCFDC400E0A70F /* Drelgoth5.jpg in Resources */,
+				29CA1A4927FCFDC400E0A70F /* Barnascus5.jpg in Resources */,
+				29CA1AC727FCFF0700E0A70F /* Thrommel4.jpg in Resources */,
 				A7DD90932236E30600516584 /* RingOfTeleportation.jpg in Resources */,
 				A7C98044233A9FF10087998A /* GiftOfTheGods.jpg in Resources */,
-				2967D7342671B2DC00C8E146 /* Grael.jpg in Resources */,
-				2967D7462671B2DC00C8E146 /* Gendris.jpg in Resources */,
-				2967D78C2671B2DC00C8E146 /* Skoll.jpg in Resources */,
-				2967D7502671B2DC00C8E146 /* Allandir2.jpg in Resources */,
-				2967D78E2671B2DC00C8E146 /* Saiyin.jpg in Resources */,
+				29CA1AE227FCFF0700E0A70F /* Saiyin4.jpg in Resources */,
 				A792A2111FF5108E0062A9D1 /* hb_logo.png in Resources */,
+				29CA1ABA27FCFF0700E0A70F /* Skye5.jpg in Resources */,
+				29CA1A6427FCFDC400E0A70F /* Gendris.jpg in Resources */,
+				29CA1A7427FCFDDA00E0A70F /* FactionTorin.jpg in Resources */,
+				29CA1A6D27FCFDC400E0A70F /* Aschell2.jpg in Resources */,
+				29CA197C27FCF9DC00E0A70F /* Inferno.jpg in Resources */,
+				29CA1ACD27FCFF0700E0A70F /* Zhimgigrak3.jpg in Resources */,
+				29CA1A4627FCFDC400E0A70F /* Brok.jpg in Resources */,
+				29CA1AC427FCFF0700E0A70F /* Zhimgigrak2.jpg in Resources */,
+				29CA19FE27FCFDC400E0A70F /* Inferno_Summoned2.jpg in Resources */,
+				29CA1A0927FCFDC400E0A70F /* Lugdrug2.jpg in Resources */,
+				29CA1A4027FCFDC400E0A70F /* Doenregar4.jpg in Resources */,
+				29CA1A2827FCFDC400E0A70F /* Gendris3.jpg in Resources */,
+				29CA1A1D27FCFDC400E0A70F /* Masuzi5.jpg in Resources */,
+				29CA1A3527FCFDC400E0A70F /* Brok5.jpg in Resources */,
+				29CA1A7827FCFDDA00E0A70F /* FactionKrognar.jpg in Resources */,
+				29CA1A5527FCFDC400E0A70F /* Fazeal3.jpg in Resources */,
+				29CA1AC527FCFF0700E0A70F /* Saiyin2.jpg in Resources */,
+				29CA1A6127FCFDC400E0A70F /* Aria4.jpg in Resources */,
+				29CA1A4527FCFDC400E0A70F /* Masuzi.jpg in Resources */,
+				29CA1A0627FCFDC400E0A70F /* Allandir5.jpg in Resources */,
+				29CA1AEA27FCFF0700E0A70F /* Skoll.jpg in Resources */,
+				29CA1ABC27FCFF0700E0A70F /* Thorgar2.jpg in Resources */,
+				29CA1A3F27FCFDC400E0A70F /* Kruul3.jpg in Resources */,
+				29CA1ADF27FCFF0700E0A70F /* Rakkir5.jpg in Resources */,
+				29CA1A0B27FCFDC400E0A70F /* Kruul5.jpg in Resources */,
+				29CA1A3E27FCFDC400E0A70F /* Kruul2.jpg in Resources */,
+				29CA1A5427FCFDC400E0A70F /* Inferno_Summoned3.jpg in Resources */,
+				29CA1A5D27FCFDC400E0A70F /* Inferno_Summoned.jpg in Resources */,
+				29CA1A1727FCFDC400E0A70F /* Cradol3.jpg in Resources */,
+				29CA1AB927FCFF0700E0A70F /* Terra_Summoned2.jpg in Resources */,
+				29CA1AD427FCFF0700E0A70F /* Skye4.jpg in Resources */,
+				29CA1A2027FCFDC400E0A70F /* Kruul4.jpg in Resources */,
+				29CA1A3C27FCFDC400E0A70F /* Gendris2.jpg in Resources */,
+				29CA1A3727FCFDC400E0A70F /* Marcus3.jpg in Resources */,
+				29CA1ADE27FCFF0700E0A70F /* Xyvera3.jpg in Resources */,
+				29CA1ADC27FCFF0700E0A70F /* Skoll6.jpg in Resources */,
+				29CA197E27FCF9DC00E0A70F /* Inferno2.jpg in Resources */,
+				29CA1ADD27FCFF0700E0A70F /* Rakkir3.jpg in Resources */,
+				29CA1ABE27FCFF0700E0A70F /* Saiyin.jpg in Resources */,
+				29CA1AD527FCFF0700E0A70F /* Terra_Summoned3.jpg in Resources */,
+				29CA1A1A27FCFDC400E0A70F /* Kain.jpg in Resources */,
+				29CA1A5F27FCFDC400E0A70F /* Kain5.jpg in Resources */,
+				29CA1AE927FCFF0700E0A70F /* Skoll5.jpg in Resources */,
+				29CA1A6B27FCFDC400E0A70F /* Piper4.jpg in Resources */,
+				29CA1AC127FCFF0700E0A70F /* Terra_Summoned.jpg in Resources */,
+				29CA1A1027FCFDC400E0A70F /* Kain4.jpg in Resources */,
+				29CA1A6227FCFDC400E0A70F /* Naias5.jpg in Resources */,
 				A7889AB521555475002FD37C /* BootsOfElvenkind.jpg in Resources */,
-				2967D79D2671B2DC00C8E146 /* Masuzi2.jpg in Resources */,
-				2967D7A12671B2DC00C8E146 /* Istariel3.jpg in Resources */,
+				29CA19FC27FCFDC400E0A70F /* Isabel.jpg in Resources */,
+				29CA1AD027FCFF0700E0A70F /* Zaron2.jpg in Resources */,
+				29CA1A5827FCFDC400E0A70F /* Aria2.jpg in Resources */,
 				A7889AB421555475002FD37C /* HeartSeeker.jpg in Resources */,
+				29CA1A3A27FCFDC400E0A70F /* Allandir3.jpg in Resources */,
+				29CA1A5027FCFDC400E0A70F /* Drelgoth3.jpg in Resources */,
+				29CA1A0027FCFDC400E0A70F /* Isabel5.jpg in Resources */,
+				29CA1A1527FCFDC400E0A70F /* Naias.jpg in Resources */,
+				29CA1A5E27FCFDC400E0A70F /* Naias4.jpg in Resources */,
+				29CA1AE827FCFF0700E0A70F /* Saiyin3.jpg in Resources */,
+				29CA1A5727FCFDC400E0A70F /* Marcus2.jpg in Resources */,
+				29CA19FD27FCFDC400E0A70F /* Piper5.jpg in Resources */,
+				29CA1AE327FCFF0700E0A70F /* Skoll2.jpg in Resources */,
+				29CA1A4C27FCFDC400E0A70F /* Barnascus4.jpg in Resources */,
+				29CA1ABD27FCFF0700E0A70F /* Zaron5.jpg in Resources */,
 				A7DB857F1FED0FD60014D58F /* LaunchScreen.storyboard in Resources */,
-				2967D7532671B2DC00C8E146 /* Haksa3.jpg in Resources */,
-				2967D7F02671B62000C8E146 /* Zaron.jpg in Resources */,
-				2967D7982671B2DC00C8E146 /* Nephenee3.jpg in Resources */,
-				2967D7F32671B62000C8E146 /* Zaron3.jpg in Resources */,
 				A792A21B1FF5134A0062A9D1 /* twitter.png in Resources */,
-				2967D7A22671B2DC00C8E146 /* Isabel3.jpg in Resources */,
-				2967D7562671B2DC00C8E146 /* Allandir3.jpg in Resources */,
-				2967D77C2671B2DC00C8E146 /* Fazeal2.jpg in Resources */,
-				2967D74D2671B2DC00C8E146 /* Lugdrug4.jpg in Resources */,
-				2967D7592671B2DC00C8E146 /* Barnascus2.jpg in Resources */,
-				2967D7352671B2DC00C8E146 /* Skoll3.jpg in Resources */,
 				A7889AB921555475002FD37C /* GlyphOfWarding.jpg in Resources */,
-				2967D8012671B62000C8E146 /* Viktor3.jpg in Resources */,
+				29CA1AD227FCFF0700E0A70F /* Rakkir4.jpg in Resources */,
+				29CA1A7927FCFDDA00E0A70F /* FactionIsta.jpg in Resources */,
+				29CA1A3927FCFDC400E0A70F /* Kogan4.jpg in Resources */,
 				A727A4AA22B50DCA009B10AA /* NullStone.jpg in Resources */,
-				2967D8042671B62000C8E146 /* Zaron2.jpg in Resources */,
-				2967D7552671B2DC00C8E146 /* Loribela2.jpg in Resources */,
 				A7DD908B2236E2AC00516584 /* HealingSurge.jpg in Resources */,
-				2967D7FB2671B62000C8E146 /* Zhimgigrak2.jpg in Resources */,
-				2967D79E2671B2DC00C8E146 /* Terra_Summoned3.jpg in Resources */,
+				29CA1A5627FCFDC400E0A70F /* Kogan5.jpg in Resources */,
+				29CA19FB27FCFDC400E0A70F /* Onkura2.jpg in Resources */,
+				29CA1A6327FCFDC400E0A70F /* Aschell3.jpg in Resources */,
+				29CA1A6527FCFDC400E0A70F /* Aria.jpg in Resources */,
+				29CA1A6827FCFDC400E0A70F /* Fazeal2.jpg in Resources */,
+				29CA197827FCF9DC00E0A70F /* Terra3.jpg in Resources */,
 				A792A21E1FF5134A0062A9D1 /* link.png in Resources */,
+				29CA1A1327FCFDC400E0A70F /* Fazeal4.jpg in Resources */,
+				29CA1A6727FCFDC400E0A70F /* Cradol.jpg in Resources */,
+				29CA1A3027FCFDC400E0A70F /* Bastian5.jpg in Resources */,
+				29CA1A4427FCFDC400E0A70F /* Aria5.jpg in Resources */,
 				A7889AB321555475002FD37C /* VorpalBlade.jpg in Resources */,
-				2967D76F2671B2DC00C8E146 /* Bale3.jpg in Resources */,
 				A792A21A1FF5134A0062A9D1 /* facebook.png in Resources */,
-				2967D7A62671B2DC00C8E146 /* Rakkir2.jpg in Resources */,
-				2967D7962671B2DC00C8E146 /* Aria2.jpg in Resources */,
-				2967D7BF2671B2FB00C8E146 /* Gloom2.jpg in Resources */,
-				2967D79C2671B2DC00C8E146 /* Thorgar.jpg in Resources */,
-				2967D77F2671B2DC00C8E146 /* Dorgokaan_Summoned2.jpg in Resources */,
-				2967D7952671B2DC00C8E146 /* Kain3.jpg in Resources */,
 				A7DB857C1FED0FD60014D58F /* Assets.xcassets in Resources */,
-				2967D7FC2671B62000C8E146 /* Zhonyja3.jpg in Resources */,
-				29678D6A25C73EF400CB4A96 /* FactionTomas.jpg in Resources */,
-				2967D7C32671B2FB00C8E146 /* Ashtooth2.jpg in Resources */,
-				2967D74B2671B2DC00C8E146 /* Drelgoth.jpg in Resources */,
-				2967D7C12671B2FB00C8E146 /* Gloom.jpg in Resources */,
-				2967D7622671B2DC00C8E146 /* Lugdrug3.jpg in Resources */,
-				2967D7452671B2DC00C8E146 /* Bale.jpg in Resources */,
-				2967D7A92671B2EA00C8E146 /* FactionBruelin.jpg in Resources */,
-				2967D75F2671B2DC00C8E146 /* Marcus.jpg in Resources */,
+				29CA1A6627FCFDC400E0A70F /* Istariel4.jpg in Resources */,
+				29CA196727FCF9C300E0A70F /* Judgement_Rulebook_Version_2.pdf in Resources */,
+				29CA1AE027FCFF0700E0A70F /* Zaron4.jpg in Resources */,
+				29CA1A0F27FCFDC400E0A70F /* Doenregar3.jpg in Resources */,
+				29CA1A4827FCFDC400E0A70F /* Onkura5.jpg in Resources */,
+				29CA1AC027FCFF0700E0A70F /* Xyvera.jpg in Resources */,
+				29CA19FA27FCFDC400E0A70F /* Brok4.jpg in Resources */,
+				29CA1A1427FCFDC400E0A70F /* Kain2.jpg in Resources */,
+				29CA1A0C27FCFDC400E0A70F /* Bastian.jpg in Resources */,
+				29CA1A2227FCFDC400E0A70F /* Masuzi2.jpg in Resources */,
+				29CA1AC327FCFF0700E0A70F /* Thrommel5.jpg in Resources */,
+				29CA1AB627FCFF0700E0A70F /* Skoll3.jpg in Resources */,
 				A725A04C23AB6BA7008ECC2B /* Eldir.jpg in Resources */,
-				2967D7F22671B62000C8E146 /* Yorgawth.jpg in Resources */,
-				2967D75C2671B2DC00C8E146 /* Sarna2.jpg in Resources */,
+				29CA1AB427FCFF0700E0A70F /* Skoll4.jpg in Resources */,
+				29CA1A0527FCFDC400E0A70F /* Maltique3.jpg in Resources */,
+				29CA1A4727FCFDC400E0A70F /* Bastian4.jpg in Resources */,
+				29CA1A0327FCFDC400E0A70F /* Isabel3.jpg in Resources */,
+				29CA1AC227FCFF0700E0A70F /* Thrommel2.jpg in Resources */,
 				A7889A912155540C002FD37C /* Wellin2.jpg in Resources */,
+				29CA1A3D27FCFDC400E0A70F /* Istariel5.jpg in Resources */,
+				29CA1A4B27FCFDC400E0A70F /* Lugdrug4.jpg in Resources */,
+				29CA1ACF27FCFF0700E0A70F /* Zhimgigrak4.jpg in Resources */,
 				A7D7B80D1FEE5D1F00BCC8D4 /* Podfile in Resources */,
-				2967D74C2671B2DC00C8E146 /* Masuzi3.jpg in Resources */,
-				2967D7642671B2DC00C8E146 /* Aria3.jpg in Resources */,
-				2967D72B2671B2DC00C8E146 /* Lugdrug2.jpg in Resources */,
-				2967D77D2671B2DC00C8E146 /* Sharn.jpg in Resources */,
-				2967D7302671B2DC00C8E146 /* Kvarto2.jpg in Resources */,
-				2967D7282671B2DC00C8E146 /* Doenregar3.jpg in Resources */,
-				2967D77A2671B2DC00C8E146 /* Skye.jpg in Resources */,
-				2967D75B2671B2DC00C8E146 /* Aria.jpg in Resources */,
-				2967D7892671B2DC00C8E146 /* Drelgoth2.jpg in Resources */,
-				2967D7852671B2DC00C8E146 /* Styx2.jpg in Resources */,
+				29CA197B27FCF9DC00E0A70F /* Inferno3.jpg in Resources */,
 				A7DD90792236E1B100516584 /* Forin2.jpg in Resources */,
-				2967D7A52671B2DC00C8E146 /* Dorgokaan_Summoned.jpg in Resources */,
-				2967D7A32671B2DC00C8E146 /* Sharn3.jpg in Resources */,
-				2967D7862671B2DC00C8E146 /* Inferno_Summoned.jpg in Resources */,
+				29CA1ABF27FCFF0700E0A70F /* Rakkir.jpg in Resources */,
+				29CA1AB327FCFF0700E0A70F /* Skye2.jpg in Resources */,
+				29CA1A0E27FCFDC400E0A70F /* Drelgoth4.jpg in Resources */,
+				29CA1ACE27FCFF0700E0A70F /* Zhonyja.jpg in Resources */,
 				A7889ABA21555475002FD37C /* ArmourShredder.jpg in Resources */,
+				29CA1A3427FCFDC400E0A70F /* Piper2.jpg in Resources */,
+				29CA1A2D27FCFDC400E0A70F /* Piper3.jpg in Resources */,
+				29CA1A2727FCFDC400E0A70F /* Kruul.jpg in Resources */,
 				A7889A922155540C002FD37C /* Wellin.jpg in Resources */,
-				29678D6C25C73EF400CB4A96 /* FactionGrul.jpg in Resources */,
-				2967D7572671B2DC00C8E146 /* Jaegar2.jpg in Resources */,
-				2967D76C2671B2DC00C8E146 /* Loribela.jpg in Resources */,
-				2967D7CA2671B2FB00C8E146 /* Dorgokaan2.jpg in Resources */,
+				29CA1A1627FCFDC400E0A70F /* Onkura3.jpg in Resources */,
+				29CA1ACA27FCFF0700E0A70F /* Xyvera5.jpg in Resources */,
+				29CA1A5C27FCFDC400E0A70F /* Onkura4.jpg in Resources */,
+				29CA1AE427FCFF0700E0A70F /* Zhonyja2.jpg in Resources */,
+				29CA1AE527FCFF0700E0A70F /* Rakkir2.jpg in Resources */,
 				A7DB857A1FED0FD60014D58F /* Main.storyboard in Resources */,
-				2967D8072671B62000C8E146 /* Zhonyja.jpg in Resources */,
-				2967D77B2671B2DC00C8E146 /* Svetlana3.jpg in Resources */,
-				2967D7792671B2DC00C8E146 /* Jaegar3.jpg in Resources */,
-				2967D7FD2671B62000C8E146 /* Zaffen.jpg in Resources */,
+				29CA1ABB27FCFF0700E0A70F /* Skeleton3.jpg in Resources */,
 				A71AFD3E20055E10006B8051 /* J_only_logo.png in Resources */,
 				A7889AB721555475002FD37C /* ElixirOfLife.jpg in Resources */,
+				29CA1AD127FCFF0700E0A70F /* Thorgar.jpg in Resources */,
+				29CA19F827FCFDC400E0A70F /* Gendris5.jpg in Resources */,
+				29CA1A5927FCFDC400E0A70F /* Piper.jpg in Resources */,
 				A7A77A961FF19541005579AF /* judgement.sqlite in Resources */,
-				2967D7BC2671B2FB00C8E146 /* Canuckmera2.jpg in Resources */,
-				2967D7702671B2DC00C8E146 /* Grael3.jpg in Resources */,
-				2967D7652671B2DC00C8E146 /* Aschell3.jpg in Resources */,
-				2967D7FE2671B62000C8E146 /* Thorgar3.jpg in Resources */,
-				2967D7512671B2DC00C8E146 /* Nephenee.jpg in Resources */,
-				2967D7422671B2DC00C8E146 /* Isabel.jpg in Resources */,
-				2967D72C2671B2DC00C8E146 /* Isabel4.jpg in Resources */,
-				2967D7812671B2DC00C8E146 /* Cradol.jpg in Resources */,
-				2967D73C2671B2DC00C8E146 /* Skeleton2.jpg in Resources */,
+				29CA1AC927FCFF0700E0A70F /* Zaron.jpg in Resources */,
+				29CA1A2C27FCFDC400E0A70F /* Onkura.jpg in Resources */,
+				29CA1AC827FCFF0700E0A70F /* Skye.jpg in Resources */,
+				29CA1ACB27FCFF0700E0A70F /* Thorgar3.jpg in Resources */,
+				29CA197927FCF9DC00E0A70F /* Canuckmera4.jpg in Resources */,
+				29CA1A5127FCFDC400E0A70F /* Aschell.jpg in Resources */,
+				29CA1A0427FCFDC400E0A70F /* Marcus5.jpg in Resources */,
 				A7C98042233A9FE50087998A /* BracersOfDisruption.jpg in Resources */,
-				2967D7432671B2DC00C8E146 /* Kruul3.jpg in Resources */,
-				2967D7602671B2DC00C8E146 /* Kruul2.jpg in Resources */,
-				2967D74E2671B2DC00C8E146 /* Kvarto.jpg in Resources */,
-				2967D79B2671B2DC00C8E146 /* Grael2.jpg in Resources */,
-				2967D7992671B2DC00C8E146 /* Fazeal.jpg in Resources */,
+				29CA1A2327FCFDC400E0A70F /* Kain3.jpg in Resources */,
+				29CA1A6027FCFDC400E0A70F /* Fazeal.jpg in Resources */,
+				29CA1A3B27FCFDC400E0A70F /* Marcus.jpg in Resources */,
+				29CA1A0A27FCFDC400E0A70F /* Maltique2.jpg in Resources */,
+				29CA1A6C27FCFDC400E0A70F /* Maltique5.jpg in Resources */,
+				29CA1AD727FCFF0700E0A70F /* Xyvera4.jpg in Resources */,
 				A7C98046233A9FFE0087998A /* RingOfInvisibility.jpg in Resources */,
 				A792A21D1FF5134A0062A9D1 /* instagram.png in Resources */,
-				2967D7672671B2DC00C8E146 /* Skye2.jpg in Resources */,
-				2967D8052671B62000C8E146 /* Yorgawth2.jpg in Resources */,
-				2967D7C22671B2FB00C8E146 /* Inferno.jpg in Resources */,
-				2967D7972671B2DC00C8E146 /* Saiyin2.jpg in Resources */,
-				2967D7482671B2DC00C8E146 /* Jaegar.jpg in Resources */,
-				2967D78A2671B2DC00C8E146 /* Skeleton.jpg in Resources */,
-				2967D75D2671B2DC00C8E146 /* Barnascus.jpg in Resources */,
-				2967D73F2671B2DC00C8E146 /* Marcus2.jpg in Resources */,
-				29678D6825C73EF400CB4A96 /* FactionTorin.jpg in Resources */,
-				2967D76E2671B2DC00C8E146 /* Svetlana2.jpg in Resources */,
+				29CA1A3627FCFDC400E0A70F /* Istariel.jpg in Resources */,
+				29CA1A2427FCFDC400E0A70F /* Aschell5.jpg in Resources */,
 				A792A20F1FF50FAF0062A9D1 /* oliver.jpg in Resources */,
-				2967D72D2671B2DC00C8E146 /* Barnascus3.jpg in Resources */,
+				29CA1A7627FCFDDA00E0A70F /* FactionGrul.jpg in Resources */,
+				29CA1AD927FCFF0700E0A70F /* Thorgar4.jpg in Resources */,
+				29CA1AE627FCFF0700E0A70F /* Zhonyja5.jpg in Resources */,
+				29CA1A4127FCFDC400E0A70F /* Masuzi4.jpg in Resources */,
+				29CA1AD327FCFF0700E0A70F /* Saiyin5.jpg in Resources */,
+				29CA1ACC27FCFF0700E0A70F /* Thrommel3.jpg in Resources */,
+				29CA1A4E27FCFDC400E0A70F /* Isabel4.jpg in Resources */,
 				294A1987245E2184001715E1 /* DemonBlade.jpg in Resources */,
-				2997FDD325CDEE4C001FFAED /* Judgement_Gods_OpenBeta_v1.0.0.pdf in Resources */,
-				2967D7F82671B62000C8E146 /* Zaffen2.jpg in Resources */,
-				2967D78F2671B2DC00C8E146 /* Dorgokaan_Summoned3.jpg in Resources */,
-				2967D7522671B2DC00C8E146 /* Onkura3.jpg in Resources */,
+				29CA1A1C27FCFDC400E0A70F /* Maltique.jpg in Resources */,
 				A7889A902155540C002FD37C /* Arden2.jpg in Resources */,
-				2967D7C02671B2FB00C8E146 /* Ashtooth.jpg in Resources */,
-				2967D7F92671B62000C8E146 /* Thrommel.jpg in Resources */,
-				2967D73E2671B2DC00C8E146 /* Kogan3.jpg in Resources */,
-				2967D7632671B2DC00C8E146 /* Skoll4.jpg in Resources */,
-				2967D7BE2671B2FB00C8E146 /* Inferno2.jpg in Resources */,
 				A7889AB021555475002FD37C /* HuntersKnife.jpg in Resources */,
-				2967D7372671B2DC00C8E146 /* Gendris2.jpg in Resources */,
-				2967D7922671B2DC00C8E146 /* Brok3.jpg in Resources */,
-				2967D7472671B2DC00C8E146 /* Terra_Summoned2.jpg in Resources */,
-				2967D72A2671B2DC00C8E146 /* Saiyin3.jpg in Resources */,
-				2967D7612671B2DC00C8E146 /* Aschell2.jpg in Resources */,
+				29CA1A4A27FCFDC400E0A70F /* Aschell4.jpg in Resources */,
+				29CA1AB727FCFF0700E0A70F /* Xyvera2.jpg in Resources */,
+				29CA1A3827FCFDC400E0A70F /* Aria3.jpg in Resources */,
+				29CA1AB527FCFF0700E0A70F /* Thorgar5.jpg in Resources */,
+				29CA19FF27FCFDC400E0A70F /* Cradol4.jpg in Resources */,
+				29CA197D27FCF9DC00E0A70F /* Terra2.jpg in Resources */,
+				29CA1A4227FCFDC400E0A70F /* Isabel2.jpg in Resources */,
 				A7DD90782236E1B100516584 /* Forin.jpg in Resources */,
-				2967D75E2671B2DC00C8E146 /* Piper2.jpg in Resources */,
-				2967D7932671B2DC00C8E146 /* Onkura.jpg in Resources */,
-				2967D7C72671B2FB00C8E146 /* Vujasha2.jpg in Resources */,
 				A745403120E9E4E700740C86 /* judgement_logo.jpg in Resources */,
-				2967D78D2671B2DC00C8E146 /* Svetlana.jpg in Resources */,
-				2967D8082671B62000C8E146 /* Thrommel3.jpg in Resources */,
+				29CA1A4D27FCFDC400E0A70F /* Cradol5.jpg in Resources */,
+				29CA1A2E27FCFDC400E0A70F /* Brok3.jpg in Resources */,
+				29CA1A5227FCFDC400E0A70F /* Masuzi3.jpg in Resources */,
+				29CA1A1127FCFDC400E0A70F /* Marcus4.jpg in Resources */,
+				29CA1A0D27FCFDC400E0A70F /* Allandir.jpg in Resources */,
 				A7DD90922236E30600516584 /* TomeOfExperience.jpg in Resources */,
-				2967D77E2671B2DC00C8E146 /* Loribela3.jpg in Resources */,
-				2967D7752671B2DC00C8E146 /* Bastian2.jpg in Resources */,
-				2967D7FA2671B62000C8E146 /* Xyvera3.jpg in Resources */,
-				2967D7712671B2DC00C8E146 /* Bastian3.jpg in Resources */,
-				2967D76A2671B2DC00C8E146 /* Cradol3.jpg in Resources */,
-				2967D7CB2671B2FB00C8E146 /* Dorgokaan3.jpg in Resources */,
-				2967D7542671B2DC00C8E146 /* Bale2.jpg in Resources */,
-				2967D7822671B2DC00C8E146 /* Algarath2.jpg in Resources */,
-				2967D7742671B2DC00C8E146 /* Nephenee2.jpg in Resources */,
-				2967D7782671B2DC00C8E146 /* Drelgoth3.jpg in Resources */,
-				2967D7C92671B2FB00C8E146 /* Canuckmera.jpg in Resources */,
-				2967D7C52671B2FB00C8E146 /* Terra_Monster2.jpg in Resources */,
-				2967D7942671B2DC00C8E146 /* Onkura2.jpg in Resources */,
-				2967D7A02671B2DC00C8E146 /* Kain.jpg in Resources */,
-				2967D7362671B2DC00C8E146 /* Rakkir.jpg in Resources */,
-				2967D7F62671B62000C8E146 /* Zhimgigrak3.jpg in Resources */,
 				A7889AB621555475002FD37C /* BootsOfStability.jpg in Resources */,
-				2967D7292671B2DC00C8E146 /* Fazeal3.jpg in Resources */,
-				2967D73B2671B2DC00C8E146 /* Skoll2.jpg in Resources */,
-				2967D7722671B2DC00C8E146 /* Kain2.jpg in Resources */,
-				2967D7832671B2DC00C8E146 /* Kogan2.jpg in Resources */,
-				2967D7762671B2DC00C8E146 /* Piper3.jpg in Resources */,
-				2967D73D2671B2DC00C8E146 /* Lugdrug.jpg in Resources */,
-				2967D7F52671B62000C8E146 /* Yorgawth3.jpg in Resources */,
-				2967D7842671B2DC00C8E146 /* Bastian.jpg in Resources */,
-				2967D7F42671B62000C8E146 /* Zhimgigrak.jpg in Resources */,
+				29CA1A0827FCFDC400E0A70F /* Doenregar.jpg in Resources */,
+				29CA1A1E27FCFDC400E0A70F /* Naias3.jpg in Resources */,
+				29CA1A1927FCFDC400E0A70F /* Istariel2.jpg in Resources */,
+				29CA1A5327FCFDC400E0A70F /* Bastian2.jpg in Resources */,
+				29CA1AB827FCFF0700E0A70F /* Zhimgigrak.jpg in Resources */,
+				29CA1A6A27FCFDC400E0A70F /* Istariel3.jpg in Resources */,
+				29CA198027FCF9DC00E0A70F /* Gloom2.jpg in Resources */,
+				29CA1AE127FCFF0700E0A70F /* Thrommel.jpg in Resources */,
+				29CA1AC627FCFF0700E0A70F /* Zaron3.jpg in Resources */,
+				29CA1A1227FCFDC400E0A70F /* Fazeal5.jpg in Resources */,
+				29CA1AE727FCFF0700E0A70F /* Zhimgigrak5.jpg in Resources */,
 				A725A04D23AB6BA7008ECC2B /* Eldir2.jpg in Resources */,
-				2967D7442671B2DC00C8E146 /* Istariel2.jpg in Resources */,
-				2967D7912671B2DC00C8E146 /* Thorgar2.jpg in Resources */,
-				2967D7C42671B2FB00C8E146 /* Dorgokaan.jpg in Resources */,
-				2967D74A2671B2DC00C8E146 /* Gendris3.jpg in Resources */,
-				2967D73A2671B2DC00C8E146 /* Haksa.jpg in Resources */,
-				2967D7332671B2DC00C8E146 /* Isabel2.jpg in Resources */,
-				2967D7682671B2DC00C8E146 /* Brok2.jpg in Resources */,
-				2967D72F2671B2DC00C8E146 /* Inferno_Summoned2.jpg in Resources */,
-				2967D7872671B2DC00C8E146 /* Haksa2.jpg in Resources */,
-				2967D7312671B2DC00C8E146 /* Terra_Summoned.jpg in Resources */,
-				2967D75A2671B2DC00C8E146 /* Piper.jpg in Resources */,
-				2967D7C62671B2FB00C8E146 /* Vujasha3.jpg in Resources */,
-				2967D8032671B62000C8E146 /* Xyvera.jpg in Resources */,
-				2967D7F72671B62000C8E146 /* Viktor2.jpg in Resources */,
-				2967D7492671B2DC00C8E146 /* Doenregar2.jpg in Resources */,
-				2967D7402671B2DC00C8E146 /* Brok.jpg in Resources */,
-				2967D7382671B2DC00C8E146 /* Styx3.jpg in Resources */,
+				29CA1A3227FCFDC400E0A70F /* Bastian3.jpg in Resources */,
+				29CA1A2F27FCFDC400E0A70F /* Maltique4.jpg in Resources */,
+				29CA1A2527FCFDC400E0A70F /* Kogan2.jpg in Resources */,
 				A792A21C1FF5134A0062A9D1 /* email.png in Resources */,
-				2967D7A42671B2DC00C8E146 /* Naias.jpg in Resources */,
-				2967D7F12671B62000C8E146 /* Viktor.jpg in Resources */,
-				2967D7582671B2DC00C8E146 /* Rakkir3.jpg in Resources */,
-				29678D6725C73EF400CB4A96 /* FactionKrognar.jpg in Resources */,
-				2967D7802671B2DC00C8E146 /* Naias3.jpg in Resources */,
-				2967D72E2671B2DC00C8E146 /* Cradol2.jpg in Resources */,
-				2967D79F2671B2DC00C8E146 /* Doenregar.jpg in Resources */,
-				2967D7732671B2DC00C8E146 /* Allandir.jpg in Resources */,
+				29CA197727FCF9DC00E0A70F /* Terra.jpg in Resources */,
+				29CA1A3327FCFDC400E0A70F /* Lugdrug.jpg in Resources */,
 				A7A2469B1FF4FC850048923D /* rpgawesome-webfont.ttf in Resources */,
-				2967D7882671B2DC00C8E146 /* Kruul.jpg in Resources */,
-				2967D76D2671B2DC00C8E146 /* Istariel.jpg in Resources */,
-				2967D7392671B2DC00C8E146 /* Kvarto3.jpg in Resources */,
-				2967D7322671B2DC00C8E146 /* Skye3.jpg in Resources */,
-				2967D8062671B62000C8E146 /* Xyvera2.jpg in Resources */,
-				2967D7FF2671B62000C8E146 /* Zhonyja2.jpg in Resources */,
-				2967D76B2671B2DC00C8E146 /* Masuzi.jpg in Resources */,
-				29678D6925C73EF400CB4A96 /* FactionIsta.jpg in Resources */,
-				2967D74F2671B2DC00C8E146 /* Styx.jpg in Resources */,
+				29CA1A7727FCFDDA00E0A70F /* FactionTomas.jpg in Resources */,
+				29CA198127FCF9DC00E0A70F /* Gloom3.jpg in Resources */,
+				29CA1A1B27FCFDC400E0A70F /* Gendris4.jpg in Resources */,
+				29CA1A1827FCFDC400E0A70F /* Drelgoth2.jpg in Resources */,
+				29CA1A2627FCFDC400E0A70F /* Barnascus2.jpg in Resources */,
 				A7889A8F2155540C002FD37C /* Arden.jpg in Resources */,
+				29CA1ADB27FCFF0700E0A70F /* Skye3.jpg in Resources */,
+				29CA1A0127FCFDC400E0A70F /* Doenregar5.jpg in Resources */,
+				29CA1A5B27FCFDC400E0A70F /* Kogan3.jpg in Resources */,
 				A7889AB221555475002FD37C /* RingOfPower.jpg in Resources */,
-				2967D7692671B2DC00C8E146 /* Marcus3.jpg in Resources */,
-				2967D7D22671B43D00C8E146 /* Judgement_Rule_Book_OpenBeta_v1.2.2.pdf in Resources */,
-				2967D8002671B62000C8E146 /* Zaffen3.jpg in Resources */,
-				2967D7C82671B2FB00C8E146 /* Vujasha.jpg in Resources */,
-				2967D8022671B62000C8E146 /* Thrommel2.jpg in Resources */,
-				2967D7902671B2DC00C8E146 /* Sarna.jpg in Resources */,
-				2967D7412671B2DC00C8E146 /* Algarath.jpg in Resources */,
-				2967D79A2671B2DC00C8E146 /* Aschell.jpg in Resources */,
+				29CA1A0727FCFDC400E0A70F /* Allandir2.jpg in Resources */,
+				29CA1A2127FCFDC400E0A70F /* Lugdrug3.jpg in Resources */,
+				29CA1A0227FCFDC400E0A70F /* Kogan.jpg in Resources */,
+				29CA197A27FCF9DC00E0A70F /* Gloom.jpg in Resources */,
+				29CA1AD827FCFF0700E0A70F /* Zhonyja4.jpg in Resources */,
+				29CA1A5A27FCFDC400E0A70F /* Brok2.jpg in Resources */,
+				29CA1A2927FCFDC400E0A70F /* Lugdrug5.jpg in Resources */,
+				29CA1A6927FCFDC400E0A70F /* Allandir4.jpg in Resources */,
 				A7889AAB21555475002FD37C /* BloodSucker.jpg in Resources */,
+				29CA1A2B27FCFDC400E0A70F /* Drelgoth.jpg in Resources */,
+				29CA1A1F27FCFDC400E0A70F /* Barnascus.jpg in Resources */,
+				29CA197627FCF9DC00E0A70F /* Canuckmera3.jpg in Resources */,
 				A7889AAE21555475002FD37C /* BootsOfAgility.jpg in Resources */,
-				2967D7662671B2DC00C8E146 /* Naias2.jpg in Resources */,
-				2967D78B2671B2DC00C8E146 /* Sharn2.jpg in Resources */,
-				2967D7BD2671B2FB00C8E146 /* Terra_Monster.jpg in Resources */,
-				2967D7772671B2DC00C8E146 /* Kogan.jpg in Resources */,
+				29CA1AEB27FCFF0700E0A70F /* Zhonyja3.jpg in Resources */,
+				29CA197F27FCF9DC00E0A70F /* Canuckmera.jpg in Resources */,
+				29CA1A2A27FCFDC400E0A70F /* Doenregar2.jpg in Resources */,
+				29CA1A4F27FCFDC400E0A70F /* Naias2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
